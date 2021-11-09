@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Report xmlns="http://soap.sforce.com/2006/04/metadata">
+    <columns>
+        <field>Contact.Cases$CCR_SubType__c</field>
+    </columns>
+    <columns>
+        <field>Contact.Cases$KDCE_OB_Stage__c</field>
+    </columns>
+    <filter>
+        <booleanFilter>1 AND 2</booleanFilter>
+        <criteriaItems>
+            <column>Contact.Cases$CCR_SubType__c</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>true</isUnlocked>
+            <operator>equals</operator>
+            <value>E-commerce</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>Contact.Cases$KDCE_OB_Stage__c</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>true</isUnlocked>
+            <operator>equals</operator>
+            <value>FD약속</value>
+        </criteriaItems>
+        <language>ko</language>
+    </filter>
+    <format>Summary</format>
+    <groupingsDown>
+        <dateGranularity>Day</dateGranularity>
+        <field>Contact$Id</field>
+        <sortOrder>Asc</sortOrder>
+    </groupingsDown>
+    <groupingsDown>
+        <dateGranularity>Day</dateGranularity>
+        <field>Contact$Phone</field>
+        <sortOrder>Asc</sortOrder>
+    </groupingsDown>
+    <name>[OB] Remote Coach_1st Call FD약속</name>
+    <params>
+        <name>co</name>
+        <value>1</value>
+    </params>
+    <reportType>Contacts_with_Case_Survey_Taken_Response__c</reportType>
+    <scope>organization</scope>
+    <showDetails>true</showDetails>
+    <showGrandTotal>true</showGrandTotal>
+    <showSubTotals>true</showSubTotals>
+    <timeFrameFilter>
+        <dateColumn>Contact.Cases$ClosedDate</dateColumn>
+        <endDate>2021-08-27</endDate>
+        <interval>INTERVAL_CUSTOM</interval>
+        <startDate>2021-08-01</startDate>
+    </timeFrameFilter>
+</Report>

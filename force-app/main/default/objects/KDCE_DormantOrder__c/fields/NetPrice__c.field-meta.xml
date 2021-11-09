@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>NetPrice__c</fullName>
+    <description>[KDCE] 고객결제금액(VAT포함, 할인후)(배송비제외) 계
+Mapping Column : net_price</description>
+    <externalId>false</externalId>
+    <inlineHelpText>고객결제금액(VAT포함, 할인후)(배송비제외) 계</inlineHelpText>
+    <label>Net Price</label>
+    <precision>16</precision>
+    <required>false</required>
+    <scale>2</scale>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Number</type>
+    <unique>false</unique>
+</CustomField>

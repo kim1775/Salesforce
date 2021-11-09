@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>CCR_QureHistoryReplacementChannel__c</fullName>
+    <description>This field is to store the Replacement channel value for Qure History Replacement Channel field</description>
+    <externalId>false</externalId>
+    <fieldManageability>DeveloperControlled</fieldManageability>
+    <label>Qure History Replacement Channel</label>
+    <required>false</required>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>CourierDelivery</fullName>
+                <default>true</default>
+                <label>Courier Delivery</label>
+            </value>
+            <value>
+                <fullName>CVSStore</fullName>
+                <default>false</default>
+                <label>CVS Store</label>
+            </value>
+            <value>
+                <fullName>FaceToFace</fullName>
+                <default>false</default>
+                <label>Face To Face</label>
+            </value>
+            <value>
+                <fullName>Corner_Shop</fullName>
+                <default>false</default>
+                <label>Corner Shop</label>
+            </value>
+            <value>
+                <fullName>Local_Market</fullName>
+                <default>false</default>
+                <label>Local Market</label>
+            </value>
+            <value>
+                <fullName>iSWAP</fullName>
+                <default>false</default>
+                <label>iSWAP</label>
+            </value>
+            <value>
+                <fullName>Iqos_coach</fullName>
+                <default>false</default>
+                <label>Iqos coach</label>
+            </value>
+            <value>
+                <fullName>IQOS_Flagship_Store</fullName>
+                <default>false</default>
+                <label>IQOS Flagship Store</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

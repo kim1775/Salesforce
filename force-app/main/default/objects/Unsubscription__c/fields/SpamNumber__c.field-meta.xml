@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>SpamNumber__c</fullName>
+    <description>차단 요청을 받는 080 전화번호 정보</description>
+    <externalId>false</externalId>
+    <label>Spam Number</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Phone</type>
+</CustomField>

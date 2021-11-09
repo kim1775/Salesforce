@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Validate_KDCE_LASLAU_Value</fullName>
+    <active>false</active>
+    <description>Value for KDCE_LASLAU__c field cannot be converted from LAU to LAS or None.</description>
+    <errorConditionFormula>AND(
+				ISPICKVAL(PRIORVALUE(KDCE_LASLAU__c), &quot;LAU&quot;), 
+				OR (
+								ISPICKVAL(KDCE_LASLAU__c, &quot;LAS&quot;), 
+								ISPICKVAL(KDCE_LASLAU__c, &quot;&quot;)
+				)
+)</errorConditionFormula>
+    <errorMessage>Value for Consumer Sub Type cannot be converted from LAU to LAS or None.</errorMessage>
+</ValidationRule>

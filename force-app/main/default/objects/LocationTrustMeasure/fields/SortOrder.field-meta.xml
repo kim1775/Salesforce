@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>SortOrder</fullName>
+    <inlineHelpText>레이아웃에서 이 신뢰 조치의 위치를 나타냅니다. 예를 들어 배너 레이아웃에서는 표시 순서가 1인 경우 신뢰 카드가 왼쪽에 배치되고, 표시 순서가 2인 경우 신뢰 조치는 1의 오른쪽에 배치됩니다.</inlineHelpText>
+</CustomField>

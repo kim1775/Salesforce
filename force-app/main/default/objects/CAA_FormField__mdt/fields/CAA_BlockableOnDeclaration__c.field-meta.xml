@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>CAA_BlockableOnDeclaration__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>Indicates that the field is a picklist providing Yes/No/Not Declared functionality which is blocked upon choosing Yes/No</description>
+    <externalId>false</externalId>
+    <fieldManageability>DeveloperControlled</fieldManageability>
+    <label>Blockable On Declaration</label>
+    <type>Checkbox</type>
+</CustomField>

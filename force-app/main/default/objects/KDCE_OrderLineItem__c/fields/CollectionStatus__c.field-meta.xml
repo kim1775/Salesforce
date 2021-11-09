@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>CollectionStatus__c</fullName>
+    <description>Order Collection Status</description>
+    <externalId>false</externalId>
+    <label>Collection Status</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>collection_success</fullName>
+                <default>false</default>
+                <label>collection_success</label>
+            </value>
+            <value>
+                <fullName>external_success</fullName>
+                <default>false</default>
+                <label>external_success</label>
+            </value>
+            <value>
+                <fullName>collection</fullName>
+                <default>false</default>
+                <label>collection</label>
+            </value>
+            <value>
+                <fullName>collection_failed</fullName>
+                <default>false</default>
+                <label>collection_failed</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

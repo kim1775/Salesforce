@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>CCR_ReplacementSponsoredBy__c</fullName>
+    <description>Used by: CCR
+Description: Value populate on Replacements Sponsored By field on Asset</description>
+    <externalId>false</externalId>
+    <label>Replacement Sponsored By</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Always Warranty</fullName>
+                <default>false</default>
+                <label>Always Warranty</label>
+            </value>
+            <value>
+                <fullName>Always Goodwill</fullName>
+                <default>false</default>
+                <label>Always Goodwill</label>
+            </value>
+            <value>
+                <fullName>Goodwill for C Codes Warranty for B Codes</fullName>
+                <default>false</default>
+                <label>Goodwill for C Codes Warranty for B Codes</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

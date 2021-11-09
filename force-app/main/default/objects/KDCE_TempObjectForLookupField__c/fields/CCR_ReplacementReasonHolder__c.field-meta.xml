@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>CCR_ReplacementReasonHolder__c</fullName>
+    <externalId>false</externalId>
+    <label>Replacement Reason (Holder)</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <controllingField>AssetVersion__c</controllingField>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Blinking red bottom light</fullName>
+                <default>false</default>
+                <label>Blinking red bottom light</label>
+            </value>
+            <value>
+                <fullName>Blinking Red Light</fullName>
+                <default>false</default>
+                <label>Blinking Red Light</label>
+            </value>
+            <value>
+                <fullName>Bluetooth Malfunction</fullName>
+                <default>false</default>
+                <label>Bluetooth Malfunction</label>
+            </value>
+            <value>
+                <fullName>Broken Heating Blade</fullName>
+                <default>false</default>
+                <label>Broken Heating Blade</label>
+            </value>
+            <value>
+                <fullName>Cap start error</fullName>
+                <default>false</default>
+                <label>Cap start error</label>
+            </value>
+            <value>
+                <fullName>Charger capacity less than 20 holder charges</fullName>
+                <default>false</default>
+                <label>Charger capacity less than 20 holder charges</label>
+            </value>
+            <value>
+                <fullName>Customer returns device for upgrade</fullName>
+                <default>false</default>
+                <label>Customer returns device for upgrade</label>
+            </value>
+            <value>
+                <fullName>Device start error</fullName>
+                <default>false</default>
+                <label>Device start error</label>
+            </value>
+            <value>
+                <fullName>Fixed Red Light or No Light</fullName>
+                <default>false</default>
+                <label>Fixed Red Light or No Light</label>
+            </value>
+            <value>
+                <fullName>Functioning</fullName>
+                <default>false</default>
+                <label>Functioning</label>
+            </value>
+            <value>
+                <fullName>Functioning Device replacement due to out of stock</fullName>
+                <default>false</default>
+                <label>Functioning Device replacement due to out of stock</label>
+            </value>
+            <value>
+                <fullName>Functioning Device returned for Recycling</fullName>
+                <default>false</default>
+                <label>Functioning Device returned for Recycling</label>
+            </value>
+            <value>
+                <fullName>Holder Battery Capacity Low</fullName>
+                <default>false</default>
+                <label>Holder Battery Capacity Low</label>
+            </value>
+            <value>
+                <fullName>Other Software Malfunction</fullName>
+                <default>false</default>
+                <label>Other Software Malfunction</label>
+            </value>
+            <value>
+                <fullName>P.Charger not charging</fullName>
+                <default>false</default>
+                <label>P.Charger not charging</label>
+            </value>
+            <value>
+                <fullName>Physical Damages</fullName>
+                <default>false</default>
+                <label>Physical Damages</label>
+            </value>
+            <value>
+                <fullName>Short Experience Duration</fullName>
+                <default>false</default>
+                <label>Short Experience Duration</label>
+            </value>
+            <value>
+                <fullName>Top Light not Turning On</fullName>
+                <default>false</default>
+                <label>Top Light not Turning On</label>
+            </value>
+        </valueSetDefinition>
+        <valueSettings>
+            <controllingFieldValue>2.4 PLUS</controllingFieldValue>
+            <controllingFieldValue>3.0M</controllingFieldValue>
+            <controllingFieldValue>3.0</controllingFieldValue>
+            <controllingFieldValue>3.1</controllingFieldValue>
+            <valueName>Blinking Red Light</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>2.4 PLUS</controllingFieldValue>
+            <controllingFieldValue>3.0M</controllingFieldValue>
+            <controllingFieldValue>3.0</controllingFieldValue>
+            <controllingFieldValue>3.1</controllingFieldValue>
+            <valueName>Broken Heating Blade</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>2.4 PLUS</controllingFieldValue>
+            <controllingFieldValue>3.0M</controllingFieldValue>
+            <controllingFieldValue>3.0</controllingFieldValue>
+            <controllingFieldValue>3.1</controllingFieldValue>
+            <valueName>Customer returns device for upgrade</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>2.4 PLUS</controllingFieldValue>
+            <controllingFieldValue>3.0M</controllingFieldValue>
+            <controllingFieldValue>3.0</controllingFieldValue>
+            <controllingFieldValue>3.1</controllingFieldValue>
+            <valueName>Fixed Red Light or No Light</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>2.4 PLUS</controllingFieldValue>
+            <controllingFieldValue>3.0M</controllingFieldValue>
+            <controllingFieldValue>3.0</controllingFieldValue>
+            <controllingFieldValue>3.1</controllingFieldValue>
+            <valueName>Functioning</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>2.4 PLUS</controllingFieldValue>
+            <controllingFieldValue>3.0M</controllingFieldValue>
+            <controllingFieldValue>3.0</controllingFieldValue>
+            <controllingFieldValue>3.1</controllingFieldValue>
+            <valueName>Functioning Device replacement due to out of stock</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>2.4 PLUS</controllingFieldValue>
+            <controllingFieldValue>3.0M</controllingFieldValue>
+            <controllingFieldValue>3.0</controllingFieldValue>
+            <controllingFieldValue>3.1</controllingFieldValue>
+            <valueName>Functioning Device returned for Recycling</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>2.4 PLUS</controllingFieldValue>
+            <controllingFieldValue>3.0</controllingFieldValue>
+            <controllingFieldValue>3.1</controllingFieldValue>
+            <valueName>Holder Battery Capacity Low</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>2.4 PLUS</controllingFieldValue>
+            <controllingFieldValue>3.0M</controllingFieldValue>
+            <controllingFieldValue>3.0</controllingFieldValue>
+            <controllingFieldValue>3.1</controllingFieldValue>
+            <valueName>Other Software Malfunction</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>2.4 PLUS</controllingFieldValue>
+            <controllingFieldValue>3.0M</controllingFieldValue>
+            <controllingFieldValue>3.0</controllingFieldValue>
+            <controllingFieldValue>3.1</controllingFieldValue>
+            <valueName>Physical Damages</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>2.4 PLUS</controllingFieldValue>
+            <controllingFieldValue>3.0M</controllingFieldValue>
+            <controllingFieldValue>3.0</controllingFieldValue>
+            <controllingFieldValue>3.1</controllingFieldValue>
+            <valueName>Short Experience Duration</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>3.0M</controllingFieldValue>
+            <valueName>Bluetooth Malfunction</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>3.0M</controllingFieldValue>
+            <valueName>Cap start error</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>3.0M</controllingFieldValue>
+            <valueName>Device start error</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>3.0M</controllingFieldValue>
+            <valueName>P.Charger not charging</valueName>
+        </valueSettings>
+    </valueSet>
+</CustomField>

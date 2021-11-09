@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>CCR_EligibilityDueDate__c</fullName>
+    <description>Used by: CCR. 
+Description: It&apos;s to store information till when consumer is eligible for replace the device (Qure process).</description>
+    <externalId>false</externalId>
+    <label>Replacement Eligibility Due Date</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Date</type>
+</CustomField>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>ReservationMInTime__c</fullName>
+    <defaultValue>30</defaultValue>
+    <description>예약발송 최소 시간 당일 발송 불가 
+deprecated</description>
+    <externalId>false</externalId>
+    <inlineHelpText>예약발송 최소 시간 당일 발송 불가 
+deprecated</inlineHelpText>
+    <label>Reservation MIn Time(Min)</label>
+    <precision>2</precision>
+    <required>false</required>
+    <scale>0</scale>
+    <trackTrending>false</trackTrending>
+    <type>Number</type>
+    <unique>false</unique>
+</CustomField>

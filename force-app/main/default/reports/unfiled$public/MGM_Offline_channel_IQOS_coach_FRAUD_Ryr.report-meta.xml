@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Report xmlns="http://soap.sforce.com/2006/04/metadata">
+    <columns>
+        <field>PHONE1</field>
+    </columns>
+    <columns>
+        <field>LAST_NAME</field>
+    </columns>
+    <columns>
+        <field>Contact.KDCE_RegistrationDate__c</field>
+    </columns>
+    <columns>
+        <field>Contact.KDCE_MGMCode__c</field>
+    </columns>
+    <columns>
+        <aggregateTypes>Sum</aggregateTypes>
+        <field>Contact.KDCE_MGMUseCount__c</field>
+    </columns>
+    <filter>
+        <booleanFilter>1 AND 2</booleanFilter>
+        <criteriaItems>
+            <column>PHONE1</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>true</isUnlocked>
+            <operator>equals</operator>
+            <value>01047258828,01055991987,01090220052,01033377254,01074981088,01087313252,01077566659,01025973997,01048265481,01056468602,01075502183,01084958285,01039363581,01071685157,01026022724,01027106572,01057872170,01066659858,01085757290,01087084896,01036293764,01080046871,01050194681,01084881678,01037961636,01098387060,01090896303,01044968945,01099617678,01025205365,01071921830,01067701647,01089937758,01041912499,01072807955,01075381538,01058796217,01036704074,01035534481,01031868788,01045310287,01033504005,01045893511,01081205766,01038762928,01095131825,01094926829,01039939990,01089312403,01031908668,01099894734,01021621204,01090614941,01024626520,01063673973,01074105942,01085684450,01077311528,01055796873,01025281172,01071235397,01064811009,01057629513,01082093932,01049476976,01071957349,01094613532,01072419026,01093761874,01034097270,01057806170,01022365544,01087062405,01065185313,01036470670,01048792480,01055929571,01058012525,01043129912,01024939303,01071079872,01076737668,01031003846,01094807255,01071810520,01091767026,01041905294,01082184063,01035597325,01089498407,01083991484,01098933932,01040891412,01043052704,01058579215,01039173227,01041828541,01089603426,01096329438,01043153824,01025124369</value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>PHONE1</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>true</isUnlocked>
+            <operator>equals</operator>
+            <value>01025124369,01045871215,01077053264,01082064023,01059187868,01031646829,01040246484</value>
+        </criteriaItems>
+        <language>ko</language>
+    </filter>
+    <format>Tabular</format>
+    <name>MGM - Offline channel IQOS coach FRAUD</name>
+    <params>
+        <name>co</name>
+        <value>1</value>
+    </params>
+    <reportType>ContactList</reportType>
+    <scope>organization</scope>
+    <showDetails>true</showDetails>
+    <showGrandTotal>true</showGrandTotal>
+    <showSubTotals>true</showSubTotals>
+    <timeFrameFilter>
+        <dateColumn>CREATED_DATE</dateColumn>
+        <interval>INTERVAL_CUSTOM</interval>
+    </timeFrameFilter>
+</Report>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>KDCE_GodFather__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <description>[KDCE] MGM Code를 제공한 고객</description>
+    <externalId>false</externalId>
+    <label>God Father</label>
+    <referenceTo>Contact</referenceTo>
+    <relationshipLabel>God Sons</relationshipLabel>
+    <relationshipName>KDCE_GodSons</relationshipName>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Lookup</type>
+</CustomField>

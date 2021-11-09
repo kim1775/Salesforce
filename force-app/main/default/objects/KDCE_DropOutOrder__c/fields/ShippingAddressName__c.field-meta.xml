@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>ShippingAddressName__c</fullName>
+    <description>[KDCE] 수령고객 명
+            Mapping Column : shipping_address_name</description>
+    <externalId>false</externalId>
+    <inlineHelpText>수령고객 명</inlineHelpText>
+    <label>Shipping Address Name</label>
+    <length>255</length>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

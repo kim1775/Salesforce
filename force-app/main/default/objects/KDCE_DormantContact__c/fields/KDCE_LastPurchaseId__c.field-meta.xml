@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>KDCE_LastPurchaseId__c</fullName>
+    <description>Last Purchase에 해당하는 Order/Offline Program/Coupon에 대한 레코드 Id를 저장</description>
+    <externalId>false</externalId>
+    <label>Last Purchase Id</label>
+    <length>255</length>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>IFFileStatus__c</fullName>
+    <defaultValue>true</defaultValue>
+    <description>파일 인터페이스를 Byte Stream으로 전송할지 URL로 전송할지 설정값 반환
+FALSE : URL , TRUE : Byte Stream
+deprecated  사용하지 않음.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>파일 인터페이스를 Byte Stream으로 전송할지 URL로 전송할지 설정값 반환
+FALSE : URL , TRUE : Byte Stream
+deprecated  사용하지 않음.</inlineHelpText>
+    <label>Interface File Status</label>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

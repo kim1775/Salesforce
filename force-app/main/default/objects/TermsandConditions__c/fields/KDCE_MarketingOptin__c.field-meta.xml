@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>KDCE_MarketingOptin__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>[KDCE] Marketing Opt in 제어 T&amp;C 여부
+고객의 Marketing Opt-in 필드와 연동됩니다.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>고객이 해당 T&amp;C 동의시, 고객의 Marketing Opt-in 필드와 연동되어 체크됩니다.</inlineHelpText>
+    <label>(X)Marketing Opt-in</label>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

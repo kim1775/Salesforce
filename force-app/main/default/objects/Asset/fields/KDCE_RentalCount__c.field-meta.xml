@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>KDCE_RentalCount__c</fullName>
+    <defaultValue>0</defaultValue>
+    <description>고객이 렌탈 할때마다 1번씩 증가함.</description>
+    <externalId>false</externalId>
+    <label>Rental Count</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>0</scale>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Number</type>
+    <unique>false</unique>
+</CustomField>

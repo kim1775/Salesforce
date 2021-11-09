@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>ScheduleBasedOn__c</fullName>
+    <externalId>false</externalId>
+    <label>Schedule Based On</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Record Datetime Field</fullName>
+                <default>false</default>
+                <label>Record Datetime Field</label>
+            </value>
+            <value>
+                <fullName>Rule Triggered Time</fullName>
+                <default>false</default>
+                <label>Rule Triggered Time</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

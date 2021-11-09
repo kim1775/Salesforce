@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Yesterday_log</fullName>
+    <columns>NAME</columns>
+    <columns>cronID__c</columns>
+    <columns>EndTime__c</columns>
+    <columns>Error__c</columns>
+    <columns>guessCnt__c</columns>
+    <columns>guessSize__c</columns>
+    <columns>log__c</columns>
+    <columns>startTime__c</columns>
+    <columns>Status__c</columns>
+    <columns>totalCnt__c</columns>
+    <columns>totalSize__c</columns>
+    <columns>User__c</columns>
+    <columns>OBJECT_ID</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>CREATED_DATE</field>
+        <operation>equals</operation>
+        <value>YESTERDAY</value>
+    </filters>
+    <label>Yesterday</label>
+</ListView>

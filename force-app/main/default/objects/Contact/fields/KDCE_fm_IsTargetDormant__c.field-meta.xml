@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>KDCE_fm_IsTargetDormant__c</fullName>
+    <description>[KDCE] 일정 기간 동안 활동내역이 없어서 휴면으로 전환될 고객</description>
+    <externalId>false</externalId>
+    <formula>if (AND(ADDMONTHS(KDCE_fm_LastActivityDate__c,12)&lt;=now(),  ISPICKVAL(KDCE_PersonalInfoValidityPeriod__c, &apos;1y&apos;)),true, 
+				if (AND(ADDMONTHS(KDCE_fm_LastActivityDate__c,36)&lt;=now(),  ISPICKVAL(KDCE_PersonalInfoValidityPeriod__c, &apos;3y&apos;) ), true, false))</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Dormant Target</label>
+    <trackHistory>false</trackHistory>
+    <type>Checkbox</type>
+</CustomField>

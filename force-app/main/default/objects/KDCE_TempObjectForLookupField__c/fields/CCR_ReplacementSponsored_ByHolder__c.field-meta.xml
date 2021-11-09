@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>CCR_ReplacementSponsored_ByHolder__c</fullName>
+    <description>Offline Program에서 Asset Replacement에 관한 필드를 작성하기 위한 임시 필드.</description>
+    <externalId>false</externalId>
+    <label>Replacement Sponsored By (Holder)</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Warranty</fullName>
+                <default>false</default>
+                <label>Warranty</label>
+            </value>
+            <value>
+                <fullName>Subscription</fullName>
+                <default>false</default>
+                <label>Subscription</label>
+            </value>
+            <value>
+                <fullName>Goodwill</fullName>
+                <default>false</default>
+                <label>Goodwill</label>
+            </value>
+            <value>
+                <fullName>Care+</fullName>
+                <default>false</default>
+                <label>Care+</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

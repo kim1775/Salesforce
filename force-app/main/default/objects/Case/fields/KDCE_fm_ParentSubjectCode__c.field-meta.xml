@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>KDCE_fm_ParentSubjectCode__c</fullName>
+    <externalId>false</externalId>
+    <formula>IF( Parent.RecordTypeId = &apos;0125g0000006QbSAAU&apos;, TEXT( Parent.KDCE_HeetsSubjectCode__c ), TEXT( Parent.CCR_SubjectCodeNew__c ))</formula>
+    <label>Parent Case Subject Code</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

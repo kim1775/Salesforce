@@ -1,0 +1,477 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>KDCE_OB_Issue__c</fullName>
+    <externalId>false</externalId>
+    <label>이슈 내용</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <controllingField>KDCE_OB_IQOSIssueType__c</controllingField>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>기기 결함</fullName>
+                <default>false</default>
+                <label>기기 결함</label>
+            </value>
+            <value>
+                <fullName>기기 디자인 및 설계</fullName>
+                <default>false</default>
+                <label>기기 디자인 및 설계</label>
+            </value>
+            <value>
+                <fullName>초기불량</fullName>
+                <default>false</default>
+                <label>초기불량</label>
+            </value>
+            <value>
+                <fullName>악세서리 관련 불만</fullName>
+                <default>false</default>
+                <label>악세서리 관련 불만</label>
+            </value>
+            <value>
+                <fullName>홀더 2개 연속 사용 불가능</fullName>
+                <default>false</default>
+                <label>홀더 2개 연속 사용 불가능</label>
+            </value>
+            <value>
+                <fullName>충전시간 너무 오래 걸림 (포켓 충전기)</fullName>
+                <default>false</default>
+                <label>충전시간 너무 오래 걸림 (포켓 충전기)</label>
+            </value>
+            <value>
+                <fullName>충전시간 너무 오래 걸림 (홀더)</fullName>
+                <default>false</default>
+                <label>충전시간 너무 오래 걸림 (홀더)</label>
+            </value>
+            <value>
+                <fullName>복잡한 사용방법</fullName>
+                <default>false</default>
+                <label>복잡한 사용방법</label>
+            </value>
+            <value>
+                <fullName>맛에 대한 불만족 (완전한 느낌도 없는)</fullName>
+                <default>false</default>
+                <label>맛에 대한 불만족 (완전한 느낌도 없는)</label>
+            </value>
+            <value>
+                <fullName>히츠스틱 (비어 있음 / 담뱃잎 없음 / 증기 없음 / 일관성 없는 경험)</fullName>
+                <default>false</default>
+                <label>히츠스틱 (비어 있음 / 담뱃잎 없음 / 증기 없음 / 일관성 없는 경험)</label>
+            </value>
+            <value>
+                <fullName>냄새</fullName>
+                <default>false</default>
+                <label>냄새</label>
+            </value>
+            <value>
+                <fullName>악세서리 가격</fullName>
+                <default>false</default>
+                <label>악세서리 가격</label>
+            </value>
+            <value>
+                <fullName>IQOS 사용 후 전보다 더 많은 타바코 사용하고 지출이 증가했다고 주장</fullName>
+                <default>false</default>
+                <label>IQOS 사용 후 전보다 더 많은 타바코 사용하고 지출이 증가했다고 주장</label>
+            </value>
+            <value>
+                <fullName>기기 종류별 가격 차이</fullName>
+                <default>false</default>
+                <label>기기 종류별 가격 차이</label>
+            </value>
+            <value>
+                <fullName>주변에 이용 가능한 스토어를 찾을 수 없음</fullName>
+                <default>false</default>
+                <label>주변에 이용 가능한 스토어를 찾을 수 없음</label>
+            </value>
+            <value>
+                <fullName>국가/시장별 제품군 차이</fullName>
+                <default>false</default>
+                <label>국가/시장별 제품군 차이</label>
+            </value>
+            <value>
+                <fullName>재고 없음</fullName>
+                <default>false</default>
+                <label>재고 없음</label>
+            </value>
+            <value>
+                <fullName>상담시 개인정보 제공 동의 절차 불만</fullName>
+                <default>false</default>
+                <label>상담시 개인정보 제공 동의 절차 불만</label>
+            </value>
+            <value>
+                <fullName>상담사 연결이 오래걸림</fullName>
+                <default>false</default>
+                <label>상담사 연결이 오래걸림</label>
+            </value>
+            <value>
+                <fullName>상담시 성인인증 절차 불만</fullName>
+                <default>false</default>
+                <label>상담시 성인인증 절차 불만</label>
+            </value>
+            <value>
+                <fullName>전화상담 불만족</fullName>
+                <default>false</default>
+                <label>전화상담 불만족</label>
+            </value>
+            <value>
+                <fullName>채팅상담 불만족</fullName>
+                <default>false</default>
+                <label>채팅상담 불만족</label>
+            </value>
+            <value>
+                <fullName>F2F 채널 직원 불만</fullName>
+                <default>false</default>
+                <label>F2F 채널 직원 불만</label>
+            </value>
+            <value>
+                <fullName>고객센터 오상담</fullName>
+                <default>false</default>
+                <label>고객센터 오상담</label>
+            </value>
+            <value>
+                <fullName>배송지연</fullName>
+                <default>false</default>
+                <label>배송지연</label>
+            </value>
+            <value>
+                <fullName>오배송</fullName>
+                <default>false</default>
+                <label>오배송</label>
+            </value>
+            <value>
+                <fullName>지인과 서비스 차이</fullName>
+                <default>false</default>
+                <label>지인과 서비스 차이</label>
+            </value>
+            <value>
+                <fullName>구매증빙 제공 불만</fullName>
+                <default>false</default>
+                <label>구매증빙 제공 불만</label>
+            </value>
+            <value>
+                <fullName>보증기간 만료로 교환불가</fullName>
+                <default>false</default>
+                <label>보증기간 만료로 교환불가</label>
+            </value>
+            <value>
+                <fullName>보증 대상이 아닐 경우, 교환/환불 서비스가 불가 (예: 포켓 충전기 리드/ 침수 등)</fullName>
+                <default>false</default>
+                <label>보증 대상이 아닐 경우, 교환/환불 서비스가 불가 (예: 포켓 충전기 리드/ 침수 등)</label>
+            </value>
+            <value>
+                <fullName>짧은 보증 기간 (1년)</fullName>
+                <default>false</default>
+                <label>짧은 보증 기간 (1년)</label>
+            </value>
+            <value>
+                <fullName>로그인 이슈</fullName>
+                <default>false</default>
+                <label>로그인 이슈</label>
+            </value>
+            <value>
+                <fullName>기기 등록/회원 가입</fullName>
+                <default>false</default>
+                <label>기기 등록/회원 가입</label>
+            </value>
+            <value>
+                <fullName>할인 코드</fullName>
+                <default>false</default>
+                <label>할인 코드</label>
+            </value>
+            <value>
+                <fullName>회원 탈퇴</fullName>
+                <default>false</default>
+                <label>회원 탈퇴</label>
+            </value>
+            <value>
+                <fullName>시스템 다운 또는 느림</fullName>
+                <default>false</default>
+                <label>시스템 다운 또는 느림</label>
+            </value>
+            <value>
+                <fullName>프로모션 이메일 수신</fullName>
+                <default>false</default>
+                <label>프로모션 이메일 수신</label>
+            </value>
+            <value>
+                <fullName>정보를 찾을 수 없음</fullName>
+                <default>false</default>
+                <label>정보를 찾을 수 없음</label>
+            </value>
+            <value>
+                <fullName>타인에게 기기 등록됨</fullName>
+                <default>false</default>
+                <label>타인에게 기기 등록됨</label>
+            </value>
+            <value>
+                <fullName>자가진단 페이지 오류</fullName>
+                <default>false</default>
+                <label>자가진단 페이지 오류</label>
+            </value>
+            <value>
+                <fullName>기기 오진단</fullName>
+                <default>false</default>
+                <label>기기 오진단</label>
+            </value>
+            <value>
+                <fullName>교체 후 동일 증상 반복</fullName>
+                <default>false</default>
+                <label>교체 후 동일 증상 반복</label>
+            </value>
+            <value>
+                <fullName>AS 관련 설명 부족</fullName>
+                <default>false</default>
+                <label>AS 관련 설명 부족</label>
+            </value>
+            <value>
+                <fullName>AS 서비스 불만</fullName>
+                <default>false</default>
+                <label>AS 서비스 불만</label>
+            </value>
+            <value>
+                <fullName>히팅 블레이드 굿윌 서비스</fullName>
+                <default>false</default>
+                <label>히팅 블레이드 굿윌 서비스</label>
+            </value>
+            <value>
+                <fullName>방문센터 불만</fullName>
+                <default>false</default>
+                <label>방문센터 불만</label>
+            </value>
+            <value>
+                <fullName>기기 종류별 서비스 차이</fullName>
+                <default>false</default>
+                <label>기기 종류별 서비스 차이</label>
+            </value>
+            <value>
+                <fullName>환불 정책</fullName>
+                <default>false</default>
+                <label>환불 정책</label>
+            </value>
+            <value>
+                <fullName>CVS 교환/환불 절차</fullName>
+                <default>false</default>
+                <label>CVS 교환/환불 절차</label>
+            </value>
+            <value>
+                <fullName>보상</fullName>
+                <default>false</default>
+                <label>보상</label>
+            </value>
+            <value>
+                <fullName>수리불가 정책</fullName>
+                <default>false</default>
+                <label>수리불가 정책</label>
+            </value>
+        </valueSetDefinition>
+        <valueSettings>
+            <controllingFieldValue>AS 이슈</controllingFieldValue>
+            <valueName>자가진단 페이지 오류</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>AS 이슈</controllingFieldValue>
+            <valueName>기기 오진단</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>AS 이슈</controllingFieldValue>
+            <valueName>교체 후 동일 증상 반복</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>AS 이슈</controllingFieldValue>
+            <valueName>AS 관련 설명 부족</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>AS 이슈</controllingFieldValue>
+            <valueName>AS 서비스 불만</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>AS 이슈</controllingFieldValue>
+            <valueName>히팅 블레이드 굿윌 서비스</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>AS 이슈</controllingFieldValue>
+            <valueName>방문센터 불만</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>기기 이슈</controllingFieldValue>
+            <valueName>기기 결함</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>기기 이슈</controllingFieldValue>
+            <valueName>기기 디자인 및 설계</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>기기 이슈</controllingFieldValue>
+            <valueName>초기불량</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>정책 이슈</controllingFieldValue>
+            <valueName>기기 종류별 서비스 차이</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>정책 이슈</controllingFieldValue>
+            <valueName>환불 정책</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>정책 이슈</controllingFieldValue>
+            <valueName>CVS 교환/환불 절차</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>정책 이슈</controllingFieldValue>
+            <valueName>보상</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>정책 이슈</controllingFieldValue>
+            <valueName>수리불가 정책</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>액세서리 이슈</controllingFieldValue>
+            <valueName>악세서리 관련 불만</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>기기성능 및 특징 이슈</controllingFieldValue>
+            <valueName>홀더 2개 연속 사용 불가능</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>기기성능 및 특징 이슈</controllingFieldValue>
+            <valueName>충전시간 너무 오래 걸림 (포켓 충전기)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>기기성능 및 특징 이슈</controllingFieldValue>
+            <valueName>충전시간 너무 오래 걸림 (홀더)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>기기성능 및 특징 이슈</controllingFieldValue>
+            <valueName>복잡한 사용방법</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>기기성능 및 특징 이슈</controllingFieldValue>
+            <valueName>맛에 대한 불만족 (완전한 느낌도 없는)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>기기성능 및 특징 이슈</controllingFieldValue>
+            <valueName>히츠스틱 (비어 있음 / 담뱃잎 없음 / 증기 없음 / 일관성 없는 경험)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>기기성능 및 특징 이슈</controllingFieldValue>
+            <valueName>냄새</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>가격 이슈</controllingFieldValue>
+            <valueName>악세서리 가격</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>가격 이슈</controllingFieldValue>
+            <valueName>IQOS 사용 후 전보다 더 많은 타바코 사용하고 지출이 증가했다고 주장</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>가격 이슈</controllingFieldValue>
+            <valueName>기기 종류별 가격 차이</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>가용성 이슈</controllingFieldValue>
+            <valueName>주변에 이용 가능한 스토어를 찾을 수 없음</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>가용성 이슈</controllingFieldValue>
+            <valueName>국가/시장별 제품군 차이</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>가용성 이슈</controllingFieldValue>
+            <valueName>재고 없음</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>상담품질 이슈</controllingFieldValue>
+            <valueName>상담시 개인정보 제공 동의 절차 불만</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>상담품질 이슈</controllingFieldValue>
+            <valueName>상담사 연결이 오래걸림</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>상담품질 이슈</controllingFieldValue>
+            <valueName>상담시 성인인증 절차 불만</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>상담품질 이슈</controllingFieldValue>
+            <valueName>전화상담 불만족</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>상담품질 이슈</controllingFieldValue>
+            <valueName>채팅상담 불만족</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>상담품질 이슈</controllingFieldValue>
+            <valueName>F2F 채널 직원 불만</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>상담품질 이슈</controllingFieldValue>
+            <valueName>고객센터 오상담</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>배송 이슈</controllingFieldValue>
+            <valueName>배송지연</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>배송 이슈</controllingFieldValue>
+            <valueName>오배송</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>대우 이슈</controllingFieldValue>
+            <valueName>지인과 서비스 차이</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>보증 이슈</controllingFieldValue>
+            <valueName>구매증빙 제공 불만</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>보증 이슈</controllingFieldValue>
+            <valueName>보증기간 만료로 교환불가</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>보증 이슈</controllingFieldValue>
+            <valueName>보증 대상이 아닐 경우, 교환/환불 서비스가 불가 (예: 포켓 충전기 리드/ 침수 등)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>보증 이슈</controllingFieldValue>
+            <valueName>짧은 보증 기간 (1년)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>시스템 이슈</controllingFieldValue>
+            <valueName>로그인 이슈</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>시스템 이슈</controllingFieldValue>
+            <valueName>기기 등록/회원 가입</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>시스템 이슈</controllingFieldValue>
+            <valueName>할인 코드</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>시스템 이슈</controllingFieldValue>
+            <valueName>회원 탈퇴</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>시스템 이슈</controllingFieldValue>
+            <valueName>시스템 다운 또는 느림</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>시스템 이슈</controllingFieldValue>
+            <valueName>프로모션 이메일 수신</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>시스템 이슈</controllingFieldValue>
+            <valueName>정보를 찾을 수 없음</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>시스템 이슈</controllingFieldValue>
+            <valueName>타인에게 기기 등록됨</valueName>
+        </valueSettings>
+    </valueSet>
+</CustomField>

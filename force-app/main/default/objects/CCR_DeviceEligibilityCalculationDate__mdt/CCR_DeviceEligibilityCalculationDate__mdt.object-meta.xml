@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>Used By : CCR
+Description : to store the information of Device Eligibility calculation date from channel ISOBAR</description>
+    <label>Device Eligibility Calculation Date</label>
+    <pluralLabel>CCR_DeviceEligibilityCalculationDate</pluralLabel>
+    <visibility>Public</visibility>
+</CustomObject>

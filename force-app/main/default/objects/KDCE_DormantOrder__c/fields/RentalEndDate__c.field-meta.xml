@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>RentalEndDate__c</fullName>
+    <description>[KDCE] 렌탈 종료일 (주문유형 렌탈일 경우만 존재)</description>
+    <externalId>false</externalId>
+    <label>Rental End Date</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Date</type>
+</CustomField>

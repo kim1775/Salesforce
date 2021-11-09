@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>KDCE_OfflineProgramId__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <externalId>false</externalId>
+    <label>Offline Program Id</label>
+    <referenceTo>KDCE_OfflineProgram__c</referenceTo>
+    <relationshipLabel>Dormant OfflineProgram</relationshipLabel>
+    <relationshipName>Dormant_OfflineProgram</relationshipName>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Lookup</type>
+</CustomField>

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Status__c</fullName>
+    <externalId>false</externalId>
+    <label>Status</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Complete</fullName>
+                <default>false</default>
+                <label>Complete</label>
+            </value>
+            <value>
+                <fullName>Cancel</fullName>
+                <default>false</default>
+                <label>Cancel</label>
+            </value>
+            <value>
+                <fullName>Rental Process</fullName>
+                <default>false</default>
+                <label>Rental Process</label>
+            </value>
+            <value>
+                <fullName>Rental Cancel</fullName>
+                <default>false</default>
+                <label>Rental Cancel</label>
+            </value>
+            <value>
+                <fullName>Rental Closed</fullName>
+                <default>false</default>
+                <label>Rental Closed</label>
+            </value>
+            <value>
+                <fullName>Rental Purchase</fullName>
+                <default>false</default>
+                <label>Rental Purchase</label>
+            </value>
+            <value>
+                <fullName>Rental Refund</fullName>
+                <default>false</default>
+                <label>Rental Refund</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

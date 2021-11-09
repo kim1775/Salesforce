@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>CCR_ProductGeneration__c</fullName>
+    <description>Used by CCR
+Description: The generation of device e.g 2.4, 3.0M</description>
+    <externalId>false</externalId>
+    <label>Product Generation</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <controllingField>CCR_SubType__c</controllingField>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>G20</fullName>
+                <default>false</default>
+                <label>G20</label>
+            </value>
+            <value>
+                <fullName>2.4</fullName>
+                <default>false</default>
+                <label>2.4</label>
+            </value>
+            <value>
+                <fullName>2.4 PLUS</fullName>
+                <default>false</default>
+                <label>2.4 PLUS</label>
+            </value>
+            <value>
+                <fullName>3.0</fullName>
+                <default>false</default>
+                <label>3.0</label>
+            </value>
+            <value>
+                <fullName>3.0M</fullName>
+                <default>false</default>
+                <label>3.0M</label>
+            </value>
+            <value>
+                <fullName>3.1</fullName>
+                <default>false</default>
+                <label>3.1</label>
+            </value>
+            <value>
+                <fullName>3 DUO</fullName>
+                <default>false</default>
+                <label>3 DUO</label>
+            </value>
+        </valueSetDefinition>
+        <valueSettings>
+            <controllingFieldValue>Electronic Accessory</controllingFieldValue>
+            <valueName>G20</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Electronic Accessory</controllingFieldValue>
+            <controllingFieldValue>Heatsticks</controllingFieldValue>
+            <controllingFieldValue>Holder</controllingFieldValue>
+            <controllingFieldValue>Accessories</controllingFieldValue>
+            <controllingFieldValue>Charger</controllingFieldValue>
+            <controllingFieldValue>NCP Device</controllingFieldValue>
+            <valueName>2.4</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Electronic Accessory</controllingFieldValue>
+            <controllingFieldValue>Heatsticks</controllingFieldValue>
+            <controllingFieldValue>Holder</controllingFieldValue>
+            <controllingFieldValue>Accessories</controllingFieldValue>
+            <controllingFieldValue>Charger</controllingFieldValue>
+            <controllingFieldValue>NCP Device</controllingFieldValue>
+            <valueName>2.4 PLUS</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Electronic Accessory</controllingFieldValue>
+            <controllingFieldValue>Heatsticks</controllingFieldValue>
+            <controllingFieldValue>Holder</controllingFieldValue>
+            <controllingFieldValue>Accessories</controllingFieldValue>
+            <controllingFieldValue>Charger</controllingFieldValue>
+            <controllingFieldValue>NCP Device</controllingFieldValue>
+            <valueName>3.0</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Electronic Accessory</controllingFieldValue>
+            <controllingFieldValue>Heatsticks</controllingFieldValue>
+            <controllingFieldValue>Holder</controllingFieldValue>
+            <controllingFieldValue>Accessories</controllingFieldValue>
+            <controllingFieldValue>NCP Device</controllingFieldValue>
+            <valueName>3.0M</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Electronic Accessory</controllingFieldValue>
+            <controllingFieldValue>Heatsticks</controllingFieldValue>
+            <controllingFieldValue>Holder</controllingFieldValue>
+            <controllingFieldValue>Accessories</controllingFieldValue>
+            <controllingFieldValue>Charger</controllingFieldValue>
+            <controllingFieldValue>NCP Device</controllingFieldValue>
+            <valueName>3.1</valueName>
+        </valueSettings>
+    </valueSet>
+</CustomField>

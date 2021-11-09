@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>CCR_ReplacementChannelNew__c</fullName>
+    <description>Used By: CCR
+Description: This value is updated depending on the type of user.</description>
+    <externalId>false</externalId>
+    <label>Replacement Channel</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Direct Retail</fullName>
+                <default>false</default>
+                <label>Direct Retail</label>
+            </value>
+            <value>
+                <fullName>Indirect Retail</fullName>
+                <default>false</default>
+                <label>Indirect Retail</label>
+            </value>
+            <value>
+                <fullName>Field Sales Force</fullName>
+                <default>false</default>
+                <label>Field Sales Force</label>
+            </value>
+            <value>
+                <fullName>Service Point</fullName>
+                <default>false</default>
+                <label>Service Point</label>
+            </value>
+            <value>
+                <fullName>Pickup Point</fullName>
+                <default>false</default>
+                <label>Pickup Point</label>
+            </value>
+            <value>
+                <fullName>LSP</fullName>
+                <default>false</default>
+                <label>LSP</label>
+            </value>
+            <value>
+                <fullName>LSP SHIFT-X</fullName>
+                <default>false</default>
+                <label>LSP SHIFT-X</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

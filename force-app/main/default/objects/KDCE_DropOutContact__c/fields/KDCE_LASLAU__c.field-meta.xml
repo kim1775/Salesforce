@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>KDCE_LASLAU__c</fullName>
+    <externalId>false</externalId>
+    <label>Consumer Sub Type</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>LAS</fullName>
+                <default>false</default>
+                <label>LAS</label>
+            </value>
+            <value>
+                <fullName>LAU</fullName>
+                <default>false</default>
+                <label>LAU</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>ifAggregation__c</fullName>
+    <description>분할전송시 전체 데이터 Set을 식별하기위한 Unique Key</description>
+    <externalId>false</externalId>
+    <label>ifAggregation</label>
+    <length>255</length>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

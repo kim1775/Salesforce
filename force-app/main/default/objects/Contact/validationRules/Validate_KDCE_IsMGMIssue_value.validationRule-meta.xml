@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Validate_KDCE_IsMGMIssue_value</fullName>
+    <active>false</active>
+    <description>Value for KDCE_IsMGMIssue__c can&apos;t change from True to False.</description>
+    <errorConditionFormula>AND(PRIORVALUE(KDCE_IsMGMIssue__c), NOT(KDCE_IsMGMIssue__c))</errorConditionFormula>
+    <errorMessage>MGM Coupon Issue field value cannot be changed from True to False.</errorMessage>
+</ValidationRule>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>CCR_Subscribed_Device__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>Used by: CCR. 
+Description: It&apos;s used to store information about the device subscription.</description>
+    <externalId>false</externalId>
+    <fieldManageability>DeveloperControlled</fieldManageability>
+    <label>Subscribed Device</label>
+    <type>Checkbox</type>
+</CustomField>

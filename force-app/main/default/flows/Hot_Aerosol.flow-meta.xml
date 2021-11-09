@@ -1,0 +1,1085 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Flow xmlns="http://soap.sforce.com/2006/04/metadata">
+    <apiVersion>51.0</apiVersion>
+    <assignments>
+        <name>AE_R</name>
+        <label>AE 결과</label>
+        <locationX>50</locationX>
+        <locationY>998</locationY>
+        <assignmentItems>
+            <assignToReference>InquiryResult</assignToReference>
+            <operator>Add</operator>
+            <value>
+                <elementReference>AE_Info_Footer</elementReference>
+            </value>
+        </assignmentItems>
+        <assignmentItems>
+            <assignToReference>GetCase.KDCE_InquiryResult__c</assignToReference>
+            <operator>Add</operator>
+            <value>
+                <elementReference>InquiryResult</elementReference>
+            </value>
+        </assignmentItems>
+        <connector>
+            <targetReference>Update_AE_Result</targetReference>
+        </connector>
+    </assignments>
+    <assignments>
+        <name>As1</name>
+        <label>부상 여부 결과</label>
+        <locationX>1458</locationX>
+        <locationY>638</locationY>
+        <assignmentItems>
+            <assignToReference>InquiryResult</assignToReference>
+            <operator>Add</operator>
+            <value>
+                <elementReference>Q0_R1</elementReference>
+            </value>
+        </assignmentItems>
+        <connector>
+            <targetReference>Check_AEorNot</targetReference>
+        </connector>
+    </assignments>
+    <assignments>
+        <name>H1_Info_Asgmt</name>
+        <label>H1 Info Asgmt</label>
+        <locationX>842</locationX>
+        <locationY>2558</locationY>
+        <assignmentItems>
+            <assignToReference>InquiryResult</assignToReference>
+            <operator>Add</operator>
+            <value>
+                <elementReference>Habit_1_Info</elementReference>
+            </value>
+        </assignmentItems>
+        <connector>
+            <targetReference>Inquiry_Result_Asgmt</targetReference>
+        </connector>
+    </assignments>
+    <assignments>
+        <name>H2_Info_Asgmt</name>
+        <label>H2 Info Asgmt</label>
+        <locationX>1106</locationX>
+        <locationY>2558</locationY>
+        <assignmentItems>
+            <assignToReference>InquiryResult</assignToReference>
+            <operator>Add</operator>
+            <value>
+                <elementReference>Habit_2_Info</elementReference>
+            </value>
+        </assignmentItems>
+        <connector>
+            <targetReference>Inquiry_Result_Asgmt</targetReference>
+        </connector>
+    </assignments>
+    <assignments>
+        <name>H3_Info_Asgmt</name>
+        <label>H3 Info Asgmt</label>
+        <locationX>1370</locationX>
+        <locationY>2558</locationY>
+        <assignmentItems>
+            <assignToReference>InquiryResult</assignToReference>
+            <operator>Add</operator>
+            <value>
+                <elementReference>Habit_3_Info</elementReference>
+            </value>
+        </assignmentItems>
+        <connector>
+            <targetReference>Inquiry_Result_Asgmt</targetReference>
+        </connector>
+    </assignments>
+    <assignments>
+        <name>HeetIssue_Result_Asgmt</name>
+        <label>HeetIssue Result Asgmt</label>
+        <locationX>1194</locationX>
+        <locationY>1838</locationY>
+        <assignmentItems>
+            <assignToReference>InquiryResult</assignToReference>
+            <operator>Add</operator>
+            <value>
+                <elementReference>HeetIssueCheck_Result_Resource</elementReference>
+            </value>
+        </assignmentItems>
+        <connector>
+            <targetReference>Heets_or_Not</targetReference>
+        </connector>
+    </assignments>
+    <assignments>
+        <name>HeetsIssue_Info_Asgmt</name>
+        <label>HeetsIssue Info Asgmt</label>
+        <locationX>578</locationX>
+        <locationY>2198</locationY>
+        <assignmentItems>
+            <assignToReference>InquiryResult</assignToReference>
+            <operator>Add</operator>
+            <value>
+                <elementReference>HeetsIssue_Info</elementReference>
+            </value>
+        </assignmentItems>
+        <connector>
+            <targetReference>Inquiry_Result_Asgmt</targetReference>
+        </connector>
+    </assignments>
+    <assignments>
+        <name>HumidEnv_Info_Asgmt</name>
+        <label>HumidEnv Info Asgmt</label>
+        <locationX>314</locationX>
+        <locationY>1838</locationY>
+        <assignmentItems>
+            <assignToReference>InquiryResult</assignToReference>
+            <operator>Add</operator>
+            <value>
+                <elementReference>HumidEnv_Info</elementReference>
+            </value>
+        </assignmentItems>
+        <connector>
+            <targetReference>Inquiry_Result_Asgmt</targetReference>
+        </connector>
+    </assignments>
+    <assignments>
+        <name>Inquiry_Result_Asgmt</name>
+        <label>Inquiry Result Asgmt</label>
+        <locationX>1194</locationX>
+        <locationY>2966</locationY>
+        <assignmentItems>
+            <assignToReference>InquiryResult</assignToReference>
+            <operator>Add</operator>
+            <value>
+                <elementReference>Inquiry_Footer</elementReference>
+            </value>
+        </assignmentItems>
+        <assignmentItems>
+            <assignToReference>GetCase.KDCE_InquiryResult__c</assignToReference>
+            <operator>Add</operator>
+            <value>
+                <elementReference>InquiryResult</elementReference>
+            </value>
+        </assignmentItems>
+        <connector>
+            <targetReference>Update_AE_Result_0</targetReference>
+        </connector>
+    </assignments>
+    <assignments>
+        <name>Inquiry_Result_Asgmt_0</name>
+        <label>Inquiry Result Asgmt</label>
+        <locationX>2338</locationX>
+        <locationY>1238</locationY>
+        <assignmentItems>
+            <assignToReference>InquiryResult</assignToReference>
+            <operator>Add</operator>
+            <value>
+                <elementReference>Inquiry_Footer</elementReference>
+            </value>
+        </assignmentItems>
+        <assignmentItems>
+            <assignToReference>GetCase.KDCE_InquiryResult__c</assignToReference>
+            <operator>Add</operator>
+            <value>
+                <elementReference>InquiryResult</elementReference>
+            </value>
+        </assignmentItems>
+        <connector>
+            <targetReference>Update_AE_Result_0_0</targetReference>
+        </connector>
+    </assignments>
+    <assignments>
+        <name>Q1_Result_Asgmt</name>
+        <label>Q1 Result Asgmt</label>
+        <locationX>1898</locationX>
+        <locationY>998</locationY>
+        <assignmentItems>
+            <assignToReference>InquiryResult</assignToReference>
+            <operator>Add</operator>
+            <value>
+                <elementReference>Q1_Result_Assignment_Resource</elementReference>
+            </value>
+        </assignmentItems>
+        <connector>
+            <targetReference>RB</targetReference>
+        </connector>
+    </assignments>
+    <assignments>
+        <name>Q2Q3_Result_Asgmt</name>
+        <label>Q2Q3 Result Asgmt</label>
+        <locationX>1194</locationX>
+        <locationY>1478</locationY>
+        <assignmentItems>
+            <assignToReference>InquiryResult</assignToReference>
+            <operator>Add</operator>
+            <value>
+                <elementReference>Q2Q3_Result_Resource</elementReference>
+            </value>
+        </assignmentItems>
+        <connector>
+            <targetReference>Humid_or_Not</targetReference>
+        </connector>
+    </assignments>
+    <assignments>
+        <name>Set_Inquiry_Result</name>
+        <label>Set Inquiry Result</label>
+        <locationX>1458</locationX>
+        <locationY>398</locationY>
+        <assignmentItems>
+            <assignToReference>InquiryResult</assignToReference>
+            <operator>Assign</operator>
+            <value>
+                <elementReference>TodayHeader</elementReference>
+            </value>
+        </assignmentItems>
+        <connector>
+            <targetReference>Hot_Aerosol</targetReference>
+        </connector>
+    </assignments>
+    <assignments>
+        <name>Smoking_Habit_Asgmt</name>
+        <label>Smoking Habit Asgmt</label>
+        <locationX>1238</locationX>
+        <locationY>2198</locationY>
+        <assignmentItems>
+            <assignToReference>InquiryResult</assignToReference>
+            <operator>Add</operator>
+            <value>
+                <elementReference>SmokingHabit_Result_Resource</elementReference>
+            </value>
+        </assignmentItems>
+        <connector>
+            <targetReference>Habit_Check</targetReference>
+        </connector>
+    </assignments>
+    <choices>
+        <name>AE</name>
+        <choiceText>AE</choiceText>
+        <dataType>String</dataType>
+        <value>
+            <stringValue>AE</stringValue>
+        </value>
+    </choices>
+    <choices>
+        <name>Habit1</name>
+        <choiceText>히츠를 깊게 무는 습관</choiceText>
+        <dataType>String</dataType>
+        <value>
+            <stringValue>히츠를 깊게 무는 습관​</stringValue>
+        </value>
+    </choices>
+    <choices>
+        <name>Habit2</name>
+        <choiceText>깊게 들이마시며 흡증하는 습관</choiceText>
+        <dataType>String</dataType>
+        <value>
+            <stringValue>깊게 들이마시며 흡증하는 습관​</stringValue>
+        </value>
+    </choices>
+    <choices>
+        <name>HeetsIssueN</name>
+        <choiceText>히츠 이슈 아님</choiceText>
+        <dataType>String</dataType>
+        <value>
+            <stringValue>히츠 이슈 아님​</stringValue>
+        </value>
+    </choices>
+    <choices>
+        <name>HeetsIssueY</name>
+        <choiceText>히츠 이슈</choiceText>
+        <dataType>String</dataType>
+        <value>
+            <stringValue>히츠 이슈</stringValue>
+        </value>
+    </choices>
+    <choices>
+        <name>HumidEnv</name>
+        <choiceText>습도가 높은 환경에서 사용</choiceText>
+        <dataType>String</dataType>
+        <value>
+            <stringValue>습도가 높은 환경에서 사용​</stringValue>
+        </value>
+    </choices>
+    <choices>
+        <name>N1</name>
+        <choiceText>N</choiceText>
+        <dataType>String</dataType>
+        <value>
+            <stringValue>false</stringValue>
+        </value>
+    </choices>
+    <choices>
+        <name>NoHabit</name>
+        <choiceText>없음</choiceText>
+        <dataType>String</dataType>
+        <value>
+            <stringValue>없음</stringValue>
+        </value>
+    </choices>
+    <choices>
+        <name>nohurt</name>
+        <choiceText>다치지 않음</choiceText>
+        <dataType>String</dataType>
+        <value>
+            <stringValue>다치지 않음</stringValue>
+        </value>
+    </choices>
+    <choices>
+        <name>NotHumidEnv</name>
+        <choiceText>습도가 높지 않은 환경에서 사용</choiceText>
+        <dataType>String</dataType>
+        <value>
+            <stringValue>습도가 높지 않은 환경에서 사용​</stringValue>
+        </value>
+    </choices>
+    <choices>
+        <name>Y1</name>
+        <choiceText>Y</choiceText>
+        <dataType>String</dataType>
+        <value>
+            <stringValue>true</stringValue>
+        </value>
+    </choices>
+    <decisions>
+        <name>Check_AEorNot</name>
+        <label>부상여부 확인</label>
+        <locationX>1458</locationX>
+        <locationY>758</locationY>
+        <defaultConnectorLabel>Default Outcome</defaultConnectorLabel>
+        <rules>
+            <name>Hot_AE</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>AE</leftValueReference>
+                <operator>WasSelected</operator>
+                <rightValue>
+                    <booleanValue>true</booleanValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>TransfertoAE</targetReference>
+            </connector>
+            <label>AE</label>
+        </rules>
+        <rules>
+            <name>Hot_nohurt</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>nohurt</leftValueReference>
+                <operator>WasSelected</operator>
+                <rightValue>
+                    <booleanValue>true</booleanValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Q1</targetReference>
+            </connector>
+            <label>다치지 않음</label>
+        </rules>
+    </decisions>
+    <decisions>
+        <name>Habit_Check</name>
+        <label>Habit Check</label>
+        <locationX>1238</locationX>
+        <locationY>2318</locationY>
+        <defaultConnector>
+            <targetReference>Inquiry_Result_Asgmt</targetReference>
+        </defaultConnector>
+        <defaultConnectorLabel>Default Outcome</defaultConnectorLabel>
+        <rules>
+            <name>Habit_1</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>SmokingHabit</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <elementReference>Habit1</elementReference>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>H1_Info</targetReference>
+            </connector>
+            <label>Habit 1</label>
+        </rules>
+        <rules>
+            <name>Habit_2</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>SmokingHabit</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <elementReference>Habit2</elementReference>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>H2_Info</targetReference>
+            </connector>
+            <label>Habit 2</label>
+        </rules>
+        <rules>
+            <name>No_Habit</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>SmokingHabit</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <elementReference>NoHabit</elementReference>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>H3_Info</targetReference>
+            </connector>
+            <label>No Habit</label>
+        </rules>
+    </decisions>
+    <decisions>
+        <name>Heets_or_Not</name>
+        <label>Heets or Not</label>
+        <locationX>1194</locationX>
+        <locationY>1958</locationY>
+        <defaultConnectorLabel>Default Outcome</defaultConnectorLabel>
+        <rules>
+            <name>Heets_Issue</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>HeetsIssueY</leftValueReference>
+                <operator>WasSelected</operator>
+                <rightValue>
+                    <booleanValue>true</booleanValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>HeetsIssue_Coaching</targetReference>
+            </connector>
+            <label>Heets Issue</label>
+        </rules>
+        <rules>
+            <name>Not_Heets_Issue</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>HeetsIssueN</leftValueReference>
+                <operator>WasSelected</operator>
+                <rightValue>
+                    <booleanValue>true</booleanValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Smoking_Habit_Check</targetReference>
+            </connector>
+            <label>Not Heets Issue</label>
+        </rules>
+    </decisions>
+    <decisions>
+        <name>Humid_or_Not</name>
+        <label>Humid or Not</label>
+        <locationX>1194</locationX>
+        <locationY>1598</locationY>
+        <defaultConnectorLabel>Default Outcome</defaultConnectorLabel>
+        <rules>
+            <name>Humid_Env</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>HumidEnv</leftValueReference>
+                <operator>WasSelected</operator>
+                <rightValue>
+                    <booleanValue>true</booleanValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>TransfertoAE_0</targetReference>
+            </connector>
+            <label>습도가 높은 환경</label>
+        </rules>
+        <rules>
+            <name>Not_Humid_Env</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>NotHumidEnv</leftValueReference>
+                <operator>WasSelected</operator>
+                <rightValue>
+                    <booleanValue>true</booleanValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Heets_Issue_Check</targetReference>
+            </connector>
+            <label>습도가 높지 않은 환경</label>
+        </rules>
+    </decisions>
+    <decisions>
+        <name>RB</name>
+        <label>회원가입 및 기기등록 확인</label>
+        <locationX>1898</locationX>
+        <locationY>1118</locationY>
+        <defaultConnectorLabel>Default Outcome</defaultConnectorLabel>
+        <rules>
+            <name>Y</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>Y1</leftValueReference>
+                <operator>WasSelected</operator>
+                <rightValue>
+                    <booleanValue>true</booleanValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Q2</targetReference>
+            </connector>
+            <label>Y</label>
+        </rules>
+        <rules>
+            <name>N</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>N1</leftValueReference>
+                <operator>WasSelected</operator>
+                <rightValue>
+                    <booleanValue>true</booleanValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Inquiry_Result_Asgmt_0</targetReference>
+            </connector>
+            <label>N</label>
+        </rules>
+    </decisions>
+    <dynamicChoiceSets>
+        <name>assetlist</name>
+        <dataType>String</dataType>
+        <displayField>Name</displayField>
+        <filterLogic>and</filterLogic>
+        <filters>
+            <field>ContactId</field>
+            <operator>EqualTo</operator>
+            <value>
+                <elementReference>GetCase.Contact.Id</elementReference>
+            </value>
+        </filters>
+        <object>Asset</object>
+        <valueField>Name</valueField>
+    </dynamicChoiceSets>
+    <formulas>
+        <name>AE_Info</name>
+        <dataType>String</dataType>
+        <expression>{!Transfer_to_AE}</expression>
+    </formulas>
+    <formulas>
+        <name>AE_Info_Footer</name>
+        <dataType>String</dataType>
+        <expression>{!AE_Info}&amp;{!Line_Break}&amp;&quot;-------------------------------------------&quot;</expression>
+    </formulas>
+    <formulas>
+        <name>HeetIssueCheck_Result_Resource</name>
+        <dataType>String</dataType>
+        <expression>&quot;히츠이슈 여부 : &quot;&amp;{!HeetsIssueCheck}&amp;{!Line_Break}</expression>
+    </formulas>
+    <formulas>
+        <name>Inquiry_Footer</name>
+        <dataType>String</dataType>
+        <expression>&quot;-------------------------------------------&quot;</expression>
+    </formulas>
+    <formulas>
+        <name>Line_Break</name>
+        <dataType>String</dataType>
+        <expression>BR()</expression>
+    </formulas>
+    <formulas>
+        <name>Q0_R1</name>
+        <dataType>String</dataType>
+        <expression>&quot;흡증 시 부상 여부 : &quot;&amp;{!AEorNot}&amp;{!Line_Break}</expression>
+    </formulas>
+    <formulas>
+        <name>Q1_Result_Assignment_Resource</name>
+        <dataType>String</dataType>
+        <expression>&quot;회원가입 및 기기등록 여부 : &quot;&amp;{!Q1_1_RB}&amp;{!Line_Break}</expression>
+    </formulas>
+    <formulas>
+        <name>Q2Q3_Result_Resource</name>
+        <dataType>String</dataType>
+        <expression>&quot;Codentify 수집 : &quot;&amp;{!assetlist_RB}&amp;{!Line_Break}&amp;
+&quot;발열을 느낀 시점 : &quot;&amp;{!A1}&amp;{!Line_Break}&amp;
+&quot;흡증지역 : &quot;&amp;{!A2}&amp;{!Line_Break}&amp;
+&quot;사용한 히츠 : &quot;&amp;{!A3}&amp;{!Line_Break}&amp;
+&quot;환경의 습도 : &quot;&amp;{!Envcheck}&amp;{!Line_Break}</expression>
+    </formulas>
+    <formulas>
+        <name>SmokingHabit_Result_Resource</name>
+        <dataType>String</dataType>
+        <expression>&quot;흡증습관 : &quot;&amp;{!SmokingHabit}&amp;{!Line_Break}</expression>
+    </formulas>
+    <formulas>
+        <name>TodayHeader</name>
+        <dataType>String</dataType>
+        <expression>{!Line_Break}&amp;{!Line_Break}&amp;&quot;-------------&quot;&amp;TEXT(DATE(YEAR(TODAY()),MONTH(TODAY()),DAY(TODAY())))&amp;&quot;-------------&quot;&amp;{!Line_Break}&amp;
+&quot;Hot Aerosol&quot;&amp;{!Line_Break}</expression>
+    </formulas>
+    <formulas>
+        <name>Update_fm_0</name>
+        <dataType>String</dataType>
+        <expression>&quot;Hot Aerosol : 부상 여부 : &quot; &amp;{!AEorNot}
+&amp;{!LineBreak_tt}&amp;
+&quot;회원가입 및 기기등록 여부 : &quot; &amp;{!Q1_1_RB}
+&amp;&quot; , &quot;&amp;
+&quot;Codentify 수집 : &quot; &amp;{!assetlist_RB}
+&amp;&quot; , &quot;&amp;
+&quot;발열감을 느낀 시점: &quot; &amp;{!A1}
+&amp;&quot; , &quot;&amp;
+&quot;흡증지역 : &quot; &amp;{!A2}
+&amp;&quot; , &quot;&amp;
+&quot;사용한 히츠 : &quot;&amp;{!A3}
+&amp;&quot; , &quot;&amp;
+&quot;환경의 습도 : &quot;&amp;{!Envcheck}</expression>
+    </formulas>
+    <formulas>
+        <name>Update_fm_1</name>
+        <dataType>String</dataType>
+        <expression>&quot;Hot Aerosol : 부상 여부 : &quot; &amp;{!AEorNot}
+&amp;&quot; , &quot;&amp;
+&quot;회원가입 및 기기등록 여부 : &quot; &amp;{!Q1_1_RB}
+&amp;&quot; , &quot;&amp;
+&quot;Codentify 수집 : &quot; &amp;{!assetlist_RB}
+&amp;&quot; , &quot;&amp;
+&quot;발열감을 느낀 시점: &quot; &amp;{!A1}
+&amp;&quot; , &quot;&amp;
+&quot;흡증지역 : &quot; &amp;{!A2}
+&amp;&quot; , &quot;&amp;
+&quot;사용한 히츠 : &quot;&amp;{!A3}
+&amp;&quot; , &quot;&amp;
+&quot;환경의 습도 : &quot;&amp;{!Envcheck}
+&amp;&quot; , &quot;&amp;
+&quot;히츠 이슈 여부: &quot;&amp;{!HeetsIssueCheck}</expression>
+    </formulas>
+    <formulas>
+        <name>Update_fm_2</name>
+        <dataType>String</dataType>
+        <expression>&quot;Hot Aerosol : 부상 여부 : &quot; &amp;{!AEorNot}
+&amp;&quot; , &quot;&amp;
+&quot;회원가입 및 기기등록 여부 : &quot; &amp;{!Q1_1_RB}
+&amp;&quot; , &quot;&amp;
+&quot;Codentify 수집 : &quot; &amp;{!assetlist_RB}
+&amp;&quot; , &quot;&amp;
+&quot;발열감을 느낀 시점: &quot; &amp;{!A1}
+&amp;&quot; , &quot;&amp;
+&quot;흡증지역 : &quot; &amp;{!A2}
+&amp;&quot; , &quot;&amp;
+&quot;사용한 히츠 : &quot;&amp;{!A3}
+&amp;&quot; , &quot;&amp;
+&quot;환경의 습도 : &quot;&amp;{!Envcheck}
+&amp;&quot; , &quot;&amp;
+&quot;히츠 이슈 여부 : &quot;&amp;{!HeetsIssueCheck}
+&amp;&quot; , &quot;&amp;
+&quot;흡증 습관 : &quot;&amp;{!SmokingHabit}</expression>
+    </formulas>
+    <formulas>
+        <name>Update_Verbatim_AE_Text</name>
+        <dataType>String</dataType>
+        <expression>&quot;Hot Aerosol : 부상여부 : &quot; &amp; {!AEorNot}</expression>
+    </formulas>
+    <interviewLabel>Hot Aerosol {!$Flow.CurrentDateTime}</interviewLabel>
+    <label>Case Hot Aerosol</label>
+    <processMetadataValues>
+        <name>BuilderType</name>
+        <value>
+            <stringValue>LightningFlowBuilder</stringValue>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
+        <name>CanvasMode</name>
+        <value>
+            <stringValue>AUTO_LAYOUT_CANVAS</stringValue>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
+        <name>OriginBuilderType</name>
+        <value>
+            <stringValue>LightningFlowBuilder</stringValue>
+        </value>
+    </processMetadataValues>
+    <processType>Flow</processType>
+    <recordLookups>
+        <name>Get_Asset</name>
+        <label>Get Asset</label>
+        <locationX>1458</locationX>
+        <locationY>278</locationY>
+        <assignNullValuesIfNoRecordsFound>false</assignNullValuesIfNoRecordsFound>
+        <connector>
+            <targetReference>Set_Inquiry_Result</targetReference>
+        </connector>
+        <filterLogic>and</filterLogic>
+        <filters>
+            <field>ContactId</field>
+            <operator>EqualTo</operator>
+            <value>
+                <elementReference>GetCase.Contact.Id</elementReference>
+            </value>
+        </filters>
+        <getFirstRecordOnly>false</getFirstRecordOnly>
+        <object>Asset</object>
+        <storeOutputAutomatically>true</storeOutputAutomatically>
+    </recordLookups>
+    <recordLookups>
+        <name>GetCase</name>
+        <label>Get Case</label>
+        <locationX>1458</locationX>
+        <locationY>158</locationY>
+        <assignNullValuesIfNoRecordsFound>false</assignNullValuesIfNoRecordsFound>
+        <connector>
+            <targetReference>Get_Asset</targetReference>
+        </connector>
+        <filterLogic>and</filterLogic>
+        <filters>
+            <field>Id</field>
+            <operator>EqualTo</operator>
+            <value>
+                <elementReference>recordId</elementReference>
+            </value>
+        </filters>
+        <getFirstRecordOnly>true</getFirstRecordOnly>
+        <object>Case</object>
+        <queriedFields>Id</queriedFields>
+        <queriedFields>ContactId</queriedFields>
+        <queriedFields>KDCE_InquiryResult__c</queriedFields>
+        <storeOutputAutomatically>true</storeOutputAutomatically>
+    </recordLookups>
+    <recordUpdates>
+        <name>Update_AE_Result</name>
+        <label>Update AE Result</label>
+        <locationX>50</locationX>
+        <locationY>1118</locationY>
+        <inputReference>GetCase</inputReference>
+    </recordUpdates>
+    <recordUpdates>
+        <name>Update_AE_Result_0</name>
+        <label>Update AE Result</label>
+        <locationX>1194</locationX>
+        <locationY>3086</locationY>
+        <inputReference>GetCase</inputReference>
+    </recordUpdates>
+    <recordUpdates>
+        <name>Update_AE_Result_0_0</name>
+        <label>Update AE Result</label>
+        <locationX>2338</locationX>
+        <locationY>1358</locationY>
+        <inputReference>GetCase</inputReference>
+    </recordUpdates>
+    <runInMode>DefaultMode</runInMode>
+    <screens>
+        <name>H1_Info</name>
+        <label>H1 Info</label>
+        <locationX>842</locationX>
+        <locationY>2438</locationY>
+        <allowBack>true</allowBack>
+        <allowFinish>true</allowFinish>
+        <allowPause>true</allowPause>
+        <connector>
+            <targetReference>H1_Info_Asgmt</targetReference>
+        </connector>
+        <fields>
+            <name>Habit_1_Info</name>
+            <fieldText>&lt;p&gt;&lt;b style=&quot;font-size: 20px;&quot;&gt;[안내사항]&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;font-size: 20px; font-family: &amp;quot;맑은 고딕&amp;quot;; color: black;&quot;&gt;마우스 필터 아래에 뜨거운 증기를 차갑게 만드는 역할을 하는 PLA 필터가 위치해 있기 때문에, 히츠를 깊숙이 물게 되면 PLA 필터의 위치까지 닿아 보다 뜨겁게 느껴질 수 있습니다.&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;font-size: 20px; font-family: &amp;quot;맑은 고딕&amp;quot;; color: black;&quot;&gt;마우스 필터에만 입술을 대고 흡증해보신 후, 이후에도 동일하다면 해당 증상과 관련하여 정확하게 확인하기 위해 서비스센터로 내방하여 육안점검을 받아 보시기를 권유 드립니다.&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;font-size: 20px; font-family: &amp;quot;맑은 고딕&amp;quot;; color: black;&quot;&gt;→ 고객 수긍 시, 서비스센터 안내&lt;/span&gt;&lt;/p&gt;</fieldText>
+            <fieldType>DisplayText</fieldType>
+        </fields>
+        <showFooter>true</showFooter>
+        <showHeader>true</showHeader>
+    </screens>
+    <screens>
+        <name>H2_Info</name>
+        <label>H1 Info</label>
+        <locationX>1106</locationX>
+        <locationY>2438</locationY>
+        <allowBack>true</allowBack>
+        <allowFinish>true</allowFinish>
+        <allowPause>true</allowPause>
+        <connector>
+            <targetReference>H2_Info_Asgmt</targetReference>
+        </connector>
+        <fields>
+            <name>Habit_2_Info</name>
+            <fieldText>&lt;p&gt;&lt;b style=&quot;font-size: 20px;&quot;&gt;[안내사항]&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;color: black; font-family: &amp;quot;맑은 고딕&amp;quot;; font-size: 20px;&quot;&gt;깊게 흡입할 경우 흡입하는 온도가 올라가 뜨겁게 느끼실 수 있기에, 흡증하시는 방법을 바꿔 흡증해보시기를 권유 드립니다.&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;color: black; font-family: &amp;quot;맑은 고딕&amp;quot;; font-size: 20px;&quot;&gt;이후에도 동일하다면 해당 증상과 관련하여 정확하게 확인하기 위해 서비스센터로 내방하여 육안점검을 받아 보시기를 권유 드립니다.&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;color: black; font-family: &amp;quot;맑은 고딕&amp;quot;; font-size: 20px;&quot;&gt;→ 고객 수긍 시, 서비스센터 안내&lt;/span&gt;&lt;/p&gt;</fieldText>
+            <fieldType>DisplayText</fieldType>
+        </fields>
+        <showFooter>true</showFooter>
+        <showHeader>true</showHeader>
+    </screens>
+    <screens>
+        <name>H3_Info</name>
+        <label>H1 Info</label>
+        <locationX>1370</locationX>
+        <locationY>2438</locationY>
+        <allowBack>true</allowBack>
+        <allowFinish>true</allowFinish>
+        <allowPause>true</allowPause>
+        <connector>
+            <targetReference>H3_Info_Asgmt</targetReference>
+        </connector>
+        <fields>
+            <name>Habit_3_Info</name>
+            <fieldText>&lt;p&gt;&lt;b style=&quot;font-size: 20px;&quot;&gt;[안내사항]&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;color: black; font-family: &amp;quot;맑은 고딕&amp;quot;; font-size: 20px;&quot;&gt;잘 사용하고 계시지만 흡증할 때마다 발열감이 느껴진다면 증상을 보다 더 정확하게 확인하기 위해 서비스센터로 내방하여 육안점검을 받아 보시기를 권유 드립니다.&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;color: black; font-family: &amp;quot;맑은 고딕&amp;quot;; font-size: 20px;&quot;&gt;→ 고객 지역 확인하여 서비스센터 안내&lt;/span&gt;&lt;/p&gt;</fieldText>
+            <fieldType>DisplayText</fieldType>
+        </fields>
+        <showFooter>true</showFooter>
+        <showHeader>true</showHeader>
+    </screens>
+    <screens>
+        <name>Heets_Issue_Check</name>
+        <label>Heets Issue Check</label>
+        <locationX>1194</locationX>
+        <locationY>1718</locationY>
+        <allowBack>true</allowBack>
+        <allowFinish>true</allowFinish>
+        <allowPause>true</allowPause>
+        <connector>
+            <targetReference>HeetIssue_Result_Asgmt</targetReference>
+        </connector>
+        <fields>
+            <name>HeetsIssueCheck</name>
+            <choiceReferences>HeetsIssueY</choiceReferences>
+            <choiceReferences>HeetsIssueN</choiceReferences>
+            <dataType>String</dataType>
+            <fieldText>히츠 이슈 확인</fieldText>
+            <fieldType>RadioButtons</fieldType>
+            <isRequired>true</isRequired>
+        </fields>
+        <showFooter>true</showFooter>
+        <showHeader>true</showHeader>
+    </screens>
+    <screens>
+        <name>HeetsIssue_Coaching</name>
+        <label>히츠 이슈 안내사항</label>
+        <locationX>578</locationX>
+        <locationY>2078</locationY>
+        <allowBack>true</allowBack>
+        <allowFinish>true</allowFinish>
+        <allowPause>true</allowPause>
+        <connector>
+            <targetReference>HeetsIssue_Info_Asgmt</targetReference>
+        </connector>
+        <fields>
+            <name>HeetsIssue_Info</name>
+            <fieldText>&lt;p&gt;&lt;b style=&quot;font-size: 20px;&quot;&gt;[안내사항]&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;font-size: 20px; font-family: &amp;quot;맑은 고딕&amp;quot;; color: black;&quot;&gt;해당 히츠에서만 증상이 발생되었다면 히츠의 문제로 판단되어 히츠 전담 부서를 통해 정확한 상담을 받아 보시기를 권유 드립니다. 전담 부서 연결 도와 드려도 괜찮을까요?&lt;/span&gt;&lt;/p&gt;</fieldText>
+            <fieldType>DisplayText</fieldType>
+        </fields>
+        <showFooter>true</showFooter>
+        <showHeader>true</showHeader>
+    </screens>
+    <screens>
+        <name>Hot_Aerosol</name>
+        <label>Q0(흡증 시 뜨거움으로 인한 부상 여부)</label>
+        <locationX>1458</locationX>
+        <locationY>518</locationY>
+        <allowBack>true</allowBack>
+        <allowFinish>true</allowFinish>
+        <allowPause>true</allowPause>
+        <connector>
+            <targetReference>As1</targetReference>
+        </connector>
+        <fields>
+            <name>DT1</name>
+            <fieldText>&lt;p&gt;&lt;span style=&quot;color: black; font-family: &amp;quot;맑은 고딕&amp;quot;; font-size: 10pt;&quot;&gt;흡증 시 증기/히츠 필터가  뜨거움&lt;/span&gt;&lt;/p&gt;</fieldText>
+            <fieldType>DisplayText</fieldType>
+        </fields>
+        <fields>
+            <name>AEorNot</name>
+            <choiceReferences>AE</choiceReferences>
+            <choiceReferences>nohurt</choiceReferences>
+            <dataType>String</dataType>
+            <fieldText>부상여부</fieldText>
+            <fieldType>RadioButtons</fieldType>
+            <isRequired>true</isRequired>
+        </fields>
+        <showFooter>true</showFooter>
+        <showHeader>true</showHeader>
+    </screens>
+    <screens>
+        <name>Q1</name>
+        <label>Q1(회원가입&amp;기기등록 여부)</label>
+        <locationX>1898</locationX>
+        <locationY>878</locationY>
+        <allowBack>true</allowBack>
+        <allowFinish>true</allowFinish>
+        <allowPause>true</allowPause>
+        <connector>
+            <targetReference>Q1_Result_Asgmt</targetReference>
+        </connector>
+        <fields>
+            <name>Q1_1_RB</name>
+            <choiceReferences>Y1</choiceReferences>
+            <choiceReferences>N1</choiceReferences>
+            <dataType>String</dataType>
+            <fieldText>회원가입 및 기기등록 확인</fieldText>
+            <fieldType>RadioButtons</fieldType>
+            <isRequired>true</isRequired>
+        </fields>
+        <showFooter>true</showFooter>
+        <showHeader>true</showHeader>
+    </screens>
+    <screens>
+        <name>Q2</name>
+        <label>Q2(Codentify)</label>
+        <locationX>1194</locationX>
+        <locationY>1238</locationY>
+        <allowBack>true</allowBack>
+        <allowFinish>true</allowFinish>
+        <allowPause>true</allowPause>
+        <connector>
+            <targetReference>Q3</targetReference>
+        </connector>
+        <fields>
+            <name>Codentify</name>
+            <fieldText>&lt;p&gt;&lt;span style=&quot;font-size: 10pt; font-family: &amp;quot;맑은 고딕&amp;quot;; color: black;&quot;&gt;제품 소지하고 있다면 제품 일련번호 마지막 4자리만 확인 부탁 드립니다.&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;font-size: 10pt; font-family: &amp;quot;맑은 고딕&amp;quot;; color: black;&quot;&gt;(제품목록이 없을 경우 기기 등록 후 &quot;이전&quot; 버튼 클릭 후 재 진행)&lt;/span&gt;&lt;/p&gt;</fieldText>
+            <fieldType>DisplayText</fieldType>
+        </fields>
+        <fields>
+            <name>assetlist_RB</name>
+            <choiceReferences>assetlist</choiceReferences>
+            <dataType>String</dataType>
+            <fieldText>제품목록</fieldText>
+            <fieldType>RadioButtons</fieldType>
+            <isRequired>false</isRequired>
+        </fields>
+        <showFooter>true</showFooter>
+        <showHeader>true</showHeader>
+    </screens>
+    <screens>
+        <name>Q3</name>
+        <label>Q3(Detailed Questions)</label>
+        <locationX>1194</locationX>
+        <locationY>1358</locationY>
+        <allowBack>true</allowBack>
+        <allowFinish>true</allowFinish>
+        <allowPause>true</allowPause>
+        <connector>
+            <targetReference>Q2Q3_Result_Asgmt</targetReference>
+        </connector>
+        <fields>
+            <name>Question1</name>
+            <fieldText>&lt;p&gt;&lt;b style=&quot;color: black; font-family: &amp;quot;맑은 고딕&amp;quot;; font-size: 11px;&quot;&gt;1) 혹시 언제부터 발열감을 느끼셨는지 여쭤봐도 될까요?&lt;/b&gt;&lt;/p&gt;</fieldText>
+            <fieldType>DisplayText</fieldType>
+        </fields>
+        <fields>
+            <name>A1</name>
+            <dataType>String</dataType>
+            <fieldText>A1</fieldText>
+            <fieldType>InputField</fieldType>
+            <isRequired>false</isRequired>
+        </fields>
+        <fields>
+            <name>Question2</name>
+            <fieldText>&lt;p&gt;&lt;b style=&quot;font-size: 11px; font-family: &amp;quot;맑은 고딕&amp;quot;; color: black;&quot;&gt;2) 증상을 느끼셨을 당시, 흡증하신 지역을 여쭤봐도 될까요? (Ex. 서울시 강남구와 같이 확인)&lt;/b&gt;&lt;/p&gt;</fieldText>
+            <fieldType>DisplayText</fieldType>
+        </fields>
+        <fields>
+            <name>A2</name>
+            <dataType>String</dataType>
+            <fieldText>A2</fieldText>
+            <fieldType>InputField</fieldType>
+            <isRequired>false</isRequired>
+        </fields>
+        <fields>
+            <name>Question3</name>
+            <fieldText>&lt;p&gt;&lt;b style=&quot;color: black; font-family: &amp;quot;맑은 고딕&amp;quot;; font-size: 11px;&quot;&gt;3) 히츠는 어떤 것을 사용하셨나요?&lt;/b&gt;&lt;/p&gt;</fieldText>
+            <fieldType>DisplayText</fieldType>
+        </fields>
+        <fields>
+            <name>A3</name>
+            <dataType>String</dataType>
+            <fieldText>A3</fieldText>
+            <fieldType>InputField</fieldType>
+            <isRequired>false</isRequired>
+        </fields>
+        <fields>
+            <name>Envcheck</name>
+            <choiceReferences>HumidEnv</choiceReferences>
+            <choiceReferences>NotHumidEnv</choiceReferences>
+            <dataType>String</dataType>
+            <fieldText>4) 습도가 높은 환경 여부</fieldText>
+            <fieldType>RadioButtons</fieldType>
+            <isRequired>false</isRequired>
+        </fields>
+        <showFooter>true</showFooter>
+        <showHeader>true</showHeader>
+    </screens>
+    <screens>
+        <name>Smoking_Habit_Check</name>
+        <label>Smoking Habit Check</label>
+        <locationX>1238</locationX>
+        <locationY>2078</locationY>
+        <allowBack>true</allowBack>
+        <allowFinish>true</allowFinish>
+        <allowPause>true</allowPause>
+        <connector>
+            <targetReference>Smoking_Habit_Asgmt</targetReference>
+        </connector>
+        <fields>
+            <name>SmokingHabit</name>
+            <choiceReferences>Habit1</choiceReferences>
+            <choiceReferences>Habit2</choiceReferences>
+            <choiceReferences>NoHabit</choiceReferences>
+            <dataType>String</dataType>
+            <fieldText>흡증 습관</fieldText>
+            <fieldType>RadioButtons</fieldType>
+            <isRequired>false</isRequired>
+        </fields>
+        <showFooter>true</showFooter>
+        <showHeader>true</showHeader>
+    </screens>
+    <screens>
+        <name>TransfertoAE</name>
+        <label>안내사항</label>
+        <locationX>50</locationX>
+        <locationY>878</locationY>
+        <allowBack>true</allowBack>
+        <allowFinish>true</allowFinish>
+        <allowPause>true</allowPause>
+        <connector>
+            <targetReference>AE_R</targetReference>
+        </connector>
+        <fields>
+            <name>Transfer_to_AE</name>
+            <fieldText>&lt;p&gt;&lt;span style=&quot;font-size: 20px;&quot;&gt;* AE 전담팀 이관&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;color: black; font-family: &amp;quot;맑은 고딕&amp;quot;; font-size: 20px;&quot;&gt;고객님, 많이 놀라셨을 것 같습니다. 해당 증상과 관련하여 정확한 확인을 위해 담당 부서로 연결하여 드리겠습니다. 연결 시 까지는 약 1-2분간 소요 될 수 있으며 연결된 이후 고객님 정보와 정보 제공에 대한 동의 절차가 진행된 이후 상담이&amp;nbsp;진행될 예정이오니 참고 부탁드립니다.&lt;/span&gt;&lt;/p&gt;</fieldText>
+            <fieldType>DisplayText</fieldType>
+        </fields>
+        <showFooter>true</showFooter>
+        <showHeader>true</showHeader>
+    </screens>
+    <screens>
+        <name>TransfertoAE_0</name>
+        <label>습도 높은 환경 안내사항</label>
+        <locationX>314</locationX>
+        <locationY>1718</locationY>
+        <allowBack>true</allowBack>
+        <allowFinish>true</allowFinish>
+        <allowPause>true</allowPause>
+        <connector>
+            <targetReference>HumidEnv_Info_Asgmt</targetReference>
+        </connector>
+        <fields>
+            <name>HumidEnv_Info</name>
+            <fieldText>&lt;p&gt;&lt;b style=&quot;font-size: 20px;&quot;&gt;[안내사항]&lt;/b&gt;&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;color: black; font-family: &amp;quot;맑은 고딕&amp;quot;; font-size: 20px;&quot;&gt;습도가 높은 환경에서 사용할 경우, 증기가 뜨거운 느낌을 받을 수 있으므로 아이코스를 제품을 고습한 장소에 보관하거나 직사광선에 노출시키지 마시고 히츠를 시원하고 건조한 장소에 보관하실 것을 권유 드립니다.&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;color: black; font-family: &amp;quot;맑은 고딕&amp;quot;; font-size: 20px;&quot;&gt;사용 환경을 바꿔 흡증해보신 후, 이후에도 증상이 동일하다면 재연락 주시거나 서비스센터로 내방하여 증상과 관련하여 정확하게 점검을 받아 보시기를 권유 드립니다.&lt;/span&gt;&lt;/p&gt;</fieldText>
+            <fieldType>DisplayText</fieldType>
+        </fields>
+        <showFooter>true</showFooter>
+        <showHeader>true</showHeader>
+    </screens>
+    <start>
+        <locationX>1332</locationX>
+        <locationY>0</locationY>
+        <connector>
+            <targetReference>GetCase</targetReference>
+        </connector>
+    </start>
+    <status>Active</status>
+    <textTemplates>
+        <name>LineBreak_tt</name>
+        <isViewedAsPlainText>true</isViewedAsPlainText>
+        <text>{!Line_Break}</text>
+    </textTemplates>
+    <variables>
+        <name>InquiryResult</name>
+        <dataType>String</dataType>
+        <isCollection>false</isCollection>
+        <isInput>false</isInput>
+        <isOutput>false</isOutput>
+    </variables>
+    <variables>
+        <name>recordId</name>
+        <dataType>String</dataType>
+        <isCollection>false</isCollection>
+        <isInput>true</isInput>
+        <isOutput>true</isOutput>
+    </variables>
+</Flow>

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>KDCE_FlowIssueType__c</fullName>
+    <description>Flow에서 사용하기 위한 Issue Type</description>
+    <externalId>false</externalId>
+    <label>Flow Issue Type</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>절차이슈</fullName>
+                <default>false</default>
+                <label>절차이슈</label>
+            </value>
+            <value>
+                <fullName>악세서리 이슈</fullName>
+                <default>false</default>
+                <label>악세서리 이슈</label>
+            </value>
+            <value>
+                <fullName>시스템 이슈</fullName>
+                <default>false</default>
+                <label>시스템 이슈</label>
+            </value>
+            <value>
+                <fullName>상담 품질 이슈</fullName>
+                <default>false</default>
+                <label>상담 품질 이슈</label>
+            </value>
+            <value>
+                <fullName>보증 이슈</fullName>
+                <default>false</default>
+                <label>보증 이슈</label>
+            </value>
+            <value>
+                <fullName>배송 이슈</fullName>
+                <default>false</default>
+                <label>배송 이슈</label>
+            </value>
+            <value>
+                <fullName>대우 이슈</fullName>
+                <default>false</default>
+                <label>대우 이슈</label>
+            </value>
+            <value>
+                <fullName>기기 성능 및 특징 이슈</fullName>
+                <default>false</default>
+                <label>기기 성능 및 특징 이슈</label>
+            </value>
+            <value>
+                <fullName>가용성 이슈</fullName>
+                <default>false</default>
+                <label>가용성 이슈</label>
+            </value>
+            <value>
+                <fullName>가격이슈</fullName>
+                <default>false</default>
+                <label>가격이슈</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

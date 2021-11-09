@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>SMSTextLimit__c</fullName>
+    <defaultValue>80</defaultValue>
+    <description>SMS 메세지 용량 제한 최대 80KB</description>
+    <externalId>false</externalId>
+    <inlineHelpText>SMS 메세지 용량 제한 최대 80KB</inlineHelpText>
+    <label>SMS Text Limit</label>
+    <precision>3</precision>
+    <required>false</required>
+    <scale>0</scale>
+    <trackTrending>false</trackTrending>
+    <type>Number</type>
+    <unique>false</unique>
+</CustomField>

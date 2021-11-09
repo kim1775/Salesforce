@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>KDCE_InfomationOptin__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>정보성 수신 여부</description>
+    <externalId>false</externalId>
+    <label>(X)Infomation Opt-in</label>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

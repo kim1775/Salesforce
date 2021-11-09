@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>KDCE_ru_RentalCount__c</fullName>
+    <description>[KDCE] Rental Count (Link &amp; Rental)</description>
+    <externalId>false</externalId>
+    <label>Rental Count (RU)</label>
+    <summaryFilterItems>
+        <field>CCR_AssetLifeCycle__c.CCR_Action__c</field>
+        <operation>equals</operation>
+        <value>Link</value>
+    </summaryFilterItems>
+    <summaryFilterItems>
+        <field>CCR_AssetLifeCycle__c.KDCE_DeviceType__c</field>
+        <operation>equals</operation>
+        <value>Rental</value>
+    </summaryFilterItems>
+    <summaryForeignKey>CCR_AssetLifeCycle__c.CCR_Asset__c</summaryForeignKey>
+    <summaryOperation>count</summaryOperation>
+    <trackHistory>false</trackHistory>
+    <type>Summary</type>
+</CustomField>

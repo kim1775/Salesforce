@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>AllMember</fullName>
+    <columns>FULL_NAME</columns>
+    <columns>CONTACT.PHONE1</columns>
+    <columns>KDCE_PhoneMask__c</columns>
+    <columns>KDCE_EmailMask__c</columns>
+    <columns>KDCE_fm_ConsumerType__c</columns>
+    <columns>KDCE_LASLAU__c</columns>
+    <columns>KDCE_ExternalId__c</columns>
+    <columns>KDCE_RegistrationDate__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>CONTACT.RECORDTYPE</field>
+        <operation>equals</operation>
+        <value>Contact.Contact_Member</value>
+    </filters>
+    <filters>
+        <field>KDCE_IsDropout__c</field>
+        <operation>equals</operation>
+        <value>0</value>
+    </filters>
+    <label>All Member</label>
+</ListView>

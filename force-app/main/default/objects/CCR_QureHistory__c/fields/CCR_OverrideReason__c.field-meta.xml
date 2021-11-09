@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>CCR_OverrideReason__c</fullName>
+    <description>It&apos;s to store information about the reason of overwriting.</description>
+    <externalId>false</externalId>
+    <label>Override Reason</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Unsatisfied customer</fullName>
+                <default>false</default>
+                <label>Unsatisfied customer</label>
+            </value>
+            <value>
+                <fullName>Warranty Expiration</fullName>
+                <default>false</default>
+                <label>Warranty Expiration</label>
+            </value>
+            <value>
+                <fullName>Product issue not covered by fault tree</fullName>
+                <default>false</default>
+                <label>Product issue not covered by fault tree</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

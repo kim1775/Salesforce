@@ -1,0 +1,58 @@
+<!--
+ - Created by I2MAX on 2021-04-28.
+ -->
+
+<apex:component id="CCR_LoadingScreen">
+    <apex:actionStatus onstart="loadingScreen_start()" onstop="loadingScreen_stop()" id="loadingScreen"/>
+    <apex:actionStatus onstart="loadingScreen_start()" id="loadingScreenStart"/>
+    <apex:actionStatus onstop="loadingScreen_stop()" id="loadingScreenStop"/>
+    <script>
+    function loadingScreen_start(){
+        var mask = document.createElement("div");
+        document.body.appendChild(mask);
+        mask.setAttribute("id","loading-screen");
+        mask.innerHTML="<div class='loading-bar'><div class='loading-cel'></div></div>";
+    }
+
+    function loadingScreen_stop(){
+        var loadingScreen = document.getElementById("loading-screen");
+        if(loadingScreen == undefined) return;
+        var parent = loadingScreen.parentNode;
+        if(parent != undefined) parent.removeChild(loadingScreen);
+    }
+    </script>
+
+    <style>
+        #loading-screen{
+        position:fixed;
+        top:0;
+        left:-10px;
+        z-index:9999;
+        width:100%;
+        height:100%;
+        background:rgba(255,255,255,0.6);
+        padding:0 10px;
+        }
+        #loading-screen .loading-bar{
+        position:absolute;
+        top:50%;
+        left:50%;
+        }
+        #loading-screen .loading-bar .loading-cel{
+        position:absolute;
+        top:-3em;
+        left:-3em;
+        width:6em;
+        height:6em;
+
+        background:url('{!$Resource.CCR_LoadingIcon}') center/100% no-repeat;
+        animation:rotate_in_fog 2s infinite linear;
+        }
+
+        @keyframes rotate_in_fog{
+        0%{transform:rotate(0deg);opacity:1;}
+        50%{transform:rotate(180deg);opacity:0.6;}
+        100%{transform:rotate(360deg);opacity:1);}
+        }
+    </style>
+</apex:component>

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>CCR_BrandFamily__c</fullName>
+    <description>Brand Family</description>
+    <externalId>false</externalId>
+    <label>Brand Family</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>IQOS</fullName>
+                <default>false</default>
+                <label>IQOS</label>
+            </value>
+            <value>
+                <fullName>NICOC</fullName>
+                <default>false</default>
+                <label>NICOC</label>
+            </value>
+            <value>
+                <fullName>SOLAI</fullName>
+                <default>false</default>
+                <label>SOLAI</label>
+            </value>
+            <value>
+                <fullName>UNDEF</fullName>
+                <default>false</default>
+                <label>UNDEF</label>
+            </value>
+            <value>
+                <fullName>VIVID</fullName>
+                <default>false</default>
+                <label>VIVID</label>
+            </value>
+            <value>
+                <fullName>IQON</fullName>
+                <default>false</default>
+                <label>IQON</label>
+            </value>
+            <value>
+                <fullName>VEEV</fullName>
+                <default>false</default>
+                <label>VEEV</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

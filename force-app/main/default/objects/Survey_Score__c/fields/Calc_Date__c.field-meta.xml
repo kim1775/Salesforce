@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Calc_Date__c</fullName>
+    <description>집계 기준 일자</description>
+    <externalId>false</externalId>
+    <inlineHelpText>집계 기준 일자</inlineHelpText>
+    <label>Calc Date</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Date</type>
+</CustomField>

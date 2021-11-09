@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>KDCE_ShortenURL__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>KDCE_ShortenURL 단축 URL 처리 플래그 : 트리거 Content 치환 처리 스킵</description>
+    <externalId>false</externalId>
+    <label>Shorten URL</label>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

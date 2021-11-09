@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>fm_Label2Usage__c</fullName>
+    <externalId>false</externalId>
+    <formula>NotificationTemplate__r.LABEL2__c</formula>
+    <label>Label 2 Usage</label>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

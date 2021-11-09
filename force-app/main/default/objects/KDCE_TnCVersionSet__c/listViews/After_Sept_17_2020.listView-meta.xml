@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>After_Sept_17_2020</fullName>
+    <columns>NAME</columns>
+    <columns>TnCVersion__c</columns>
+    <columns>TaC__c</columns>
+    <columns>fm_TnCName__c</columns>
+    <columns>InfomationOptin__c</columns>
+    <columns>MarketingOptin__c</columns>
+    <columns>LAST_UPDATE</columns>
+    <columns>CREATED_DATE</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>TnCVersion__c</field>
+        <operation>contains</operation>
+        <value>After Sept 17,2020</value>
+    </filters>
+    <label>After Sept 17, 2020</label>
+</ListView>

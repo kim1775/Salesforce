@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>CCR_IsBasicAuthEnabled__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>Used by CCR to check whether Basic username and password authentication is needed for Replace Order API.</description>
+    <externalId>false</externalId>
+    <fieldManageability>DeveloperControlled</fieldManageability>
+    <label>CCR IsBasicAuthEnabled</label>
+    <type>Checkbox</type>
+</CustomField>

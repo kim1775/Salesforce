@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>GetInfo</fullName>
+    <columns>NAME</columns>
+    <columns>Type__c</columns>
+    <columns>CouponCode__c</columns>
+    <columns>Status__c</columns>
+    <columns>Contact__c</columns>
+    <columns>IssueDate__c</columns>
+    <columns>CREATED_DATE</columns>
+    <columns>LAST_UPDATE</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Type__c</field>
+        <operation>equals</operation>
+        <value>GetInfo</value>
+    </filters>
+    <label>GetInfo</label>
+</ListView>

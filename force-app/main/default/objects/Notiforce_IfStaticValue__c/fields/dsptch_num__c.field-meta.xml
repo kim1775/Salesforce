@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>dsptch_num__c</fullName>
+    <description>dsptch_num 발신 번호</description>
+    <externalId>false</externalId>
+    <inlineHelpText>발신 번호</inlineHelpText>
+    <label>발신 번호</label>
+    <length>32</length>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

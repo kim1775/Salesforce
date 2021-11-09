@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>KDCE_NPSsent__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>[KDCE] 사례 종료 후 NPS 설문 발송완료 여부 (중복발송 방지 및 발송날짜 추적 필요)</description>
+    <externalId>false</externalId>
+    <label>NPS Sent</label>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

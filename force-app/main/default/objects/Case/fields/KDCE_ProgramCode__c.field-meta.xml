@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>KDCE_ProgramCode__c</fullName>
+    <externalId>false</externalId>
+    <label>Program Code</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>General (일반)</fullName>
+                <default>true</default>
+                <label>General (일반)</label>
+            </value>
+            <value>
+                <fullName>ON</fullName>
+                <default>false</default>
+                <label>ON</label>
+            </value>
+            <value>
+                <fullName>UP</fullName>
+                <default>false</default>
+                <label>UP</label>
+            </value>
+            <value>
+                <fullName>Rental (대여)</fullName>
+                <default>false</default>
+                <label>Rental (대여)</label>
+            </value>
+            <value>
+                <fullName>Outbound Program</fullName>
+                <default>false</default>
+                <label>Outbound Program</label>
+            </value>
+            <value>
+                <fullName>Remote Coach</fullName>
+                <default>false</default>
+                <label>Remote Coach</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

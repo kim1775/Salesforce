@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>ReservationMaxTime__c</fullName>
+    <defaultValue>3</defaultValue>
+    <description>예약 발송 최대 기간 제한  기본 3개월</description>
+    <externalId>false</externalId>
+    <inlineHelpText>예약 발송 최대 기간 제한  기본 3개월</inlineHelpText>
+    <label>Reservation Max Time(Month)</label>
+    <precision>2</precision>
+    <required>false</required>
+    <scale>0</scale>
+    <trackTrending>false</trackTrending>
+    <type>Number</type>
+    <unique>false</unique>
+</CustomField>

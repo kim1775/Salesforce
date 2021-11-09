@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>ProductTaxBasis__c</fullName>
+    <description>[KDCE] 세액 기준
+Mapping Column : product_tax_basis</description>
+    <externalId>false</externalId>
+    <inlineHelpText>세액 기준</inlineHelpText>
+    <label>Product Tax Basis</label>
+    <precision>16</precision>
+    <required>false</required>
+    <scale>2</scale>
+    <trackTrending>false</trackTrending>
+    <type>Number</type>
+    <unique>false</unique>
+</CustomField>

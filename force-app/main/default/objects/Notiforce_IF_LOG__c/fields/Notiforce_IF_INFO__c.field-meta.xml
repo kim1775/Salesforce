@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Notiforce_IF_INFO__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <description>IF 정보</description>
+    <externalId>false</externalId>
+    <label>Notiforce IF INFOs</label>
+    <referenceTo>Notiforce_IF_INFO__c</referenceTo>
+    <relationshipLabel>Noriforce IF LOGs</relationshipLabel>
+    <relationshipName>Notiforce_IF_LOG</relationshipName>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Lookup</type>
+</CustomField>

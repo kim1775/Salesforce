@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>CCR_GlobalAgeVerification__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>is the consumer globally Aved?</description>
+    <externalId>false</externalId>
+    <inlineHelpText>소비자 연령이 국제적으로 확인되었습니까?</inlineHelpText>
+    <label>(?) Global Age Verification</label>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Checkbox</type>
+</CustomField>

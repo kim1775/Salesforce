@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>CCR_NotMaxNumbersofReplacement__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>Used by: CCR Description: It&apos;s to store information if max # of replacements for device has been reached.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>If it is Checked, Qure Escalated to Call Center Agent.</inlineHelpText>
+    <label>Not Max Numbers of Replacement</label>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

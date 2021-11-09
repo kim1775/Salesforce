@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>KDCE_OB_Paid__c</fullName>
+    <externalId>false</externalId>
+    <inlineHelpText>Rental +13</inlineHelpText>
+    <label>결제 여부</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetName>KDCE_OB_Stage</valueSetName>
+    </valueSet>
+</CustomField>

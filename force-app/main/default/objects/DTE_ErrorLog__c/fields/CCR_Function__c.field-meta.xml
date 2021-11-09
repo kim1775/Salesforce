@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>CCR_Function__c</fullName>
+    <description>Used By: CCR
+Description: Feature in which the error occurred.</description>
+    <externalId>false</externalId>
+    <label>Function</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Linking Engine</fullName>
+                <default>false</default>
+                <label>Linking Engine</label>
+            </value>
+            <value>
+                <fullName>Replacement Engine</fullName>
+                <default>false</default>
+                <label>Replacement Engine</label>
+            </value>
+            <value>
+                <fullName>SPICE Integration</fullName>
+                <default>false</default>
+                <label>SPICE Integration</label>
+            </value>
+            <value>
+                <fullName>Merge Engine</fullName>
+                <default>false</default>
+                <label>Merge Engine</label>
+            </value>
+            <value>
+                <fullName>AssetPurchaseInforUpdate</fullName>
+                <default>false</default>
+                <label>AssetPurchaseInforUpdate</label>
+            </value>
+            <value>
+                <fullName>Massive For Lending Marking</fullName>
+                <default>false</default>
+                <label>Massive For Lending Marking</label>
+            </value>
+            <value>
+                <fullName>SFDC Internal</fullName>
+                <default>false</default>
+                <label>SFDC Internal</label>
+            </value>
+            <value>
+                <fullName>AIT Webservice</fullName>
+                <default>false</default>
+                <label>AIT Webservice</label>
+            </value>
+            <value>
+                <fullName>Order Replacement Integration</fullName>
+                <default>false</default>
+                <label>Order Replacement Integration</label>
+            </value>
+            <value>
+                <fullName>Interaction Engine</fullName>
+                <default>false</default>
+                <label>Interaction Engine</label>
+            </value>
+            <value>
+                <fullName>QURE</fullName>
+                <default>false</default>
+                <label>QURE</label>
+            </value>
+            <value>
+                <fullName>Zuora Integration</fullName>
+                <default>false</default>
+                <label>Zuora Integration</label>
+            </value>
+            <value>
+                <fullName>Stock Movement Integration</fullName>
+                <default>false</default>
+                <label>Stock Movement Integration</label>
+            </value>
+            <value>
+                <fullName>Twilio Create Video Room Integration</fullName>
+                <default>false</default>
+                <label>Twilio Create Video Room Integration</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

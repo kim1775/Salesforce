@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>KDCE_DisposalDevice__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>렌탈기기 불용처리를 할 때 쓰는 플래그 필드. 해당 필드를 Check 하면 to be disposed로 변경되고, 한번 불용처리가 기기는 다시 돌아올 수 없다.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>렌탈 불용처리 체크필드</inlineHelpText>
+    <label>Disposal Device</label>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Checkbox</type>
+</CustomField>

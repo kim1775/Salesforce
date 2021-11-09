@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Coupon__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <externalId>false</externalId>
+    <label>Coupon</label>
+    <lookupFilter>
+        <active>true</active>
+        <errorMessage>발급 된 MGM 쿠폰만 검색 가능합니다.</errorMessage>
+        <filterItems>
+            <field>KDCE_Coupon__c.RecordTypeId</field>
+            <operation>equals</operation>
+            <value>MGM</value>
+        </filterItems>
+        <filterItems>
+            <field>KDCE_Coupon__c.Status__c</field>
+            <operation>equals</operation>
+            <value>Issue, Use</value>
+        </filterItems>
+        <isOptional>false</isOptional>
+    </lookupFilter>
+    <referenceTo>KDCE_Coupon__c</referenceTo>
+    <relationshipLabel>Temp Object for Lookup Field</relationshipLabel>
+    <relationshipName>TempObjectforLookupField</relationshipName>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Lookup</type>
+</CustomField>

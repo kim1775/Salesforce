@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>KDCE_fm_AcceptTime__c</fullName>
+    <externalId>false</externalId>
+    <formula>IF( ISNULL( StartTime ) = true, &apos;0m 0s&apos;, 
+				TEXT( FLOOR( MOD( ( StartTime - RequestTime ) * 24 * 60, 60 ) ) ) &amp; &quot;m &quot; &amp;
+    TEXT( ROUND( MOD( ( StartTime - RequestTime ) * 24 * 60 * 60, 60 ), 0) ) &amp; &quot;s&quot; )</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <inlineHelpText>시작 시간 - 요청 시간</inlineHelpText>
+    <label>Chat Accept Time (FM)</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

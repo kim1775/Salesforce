@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>CCR_EligibilityByCarePlus__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>Field to store information if replacement is eligible by Care+ (check if &quot;Care+ Requested&quot; field is true &amp; if issue code is covered by Care+)</description>
+    <externalId>false</externalId>
+    <label>Eligibility by Care+</label>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

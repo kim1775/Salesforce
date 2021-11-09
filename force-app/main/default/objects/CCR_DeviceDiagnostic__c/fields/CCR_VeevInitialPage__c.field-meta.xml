@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>CCR_VeevInitialPage__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>Used By: CCR
+Description: Field is to identify the issues to show on the VEEV first page</description>
+    <externalId>false</externalId>
+    <label>Veev Initial Page</label>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

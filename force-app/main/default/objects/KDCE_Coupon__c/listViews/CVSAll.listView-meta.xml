@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>CVSAll</fullName>
+    <columns>NAME</columns>
+    <columns>Type__c</columns>
+    <columns>CouponCode__c</columns>
+    <columns>Status__c</columns>
+    <columns>IssueDate__c</columns>
+    <columns>ChannelDetails__c</columns>
+    <columns>CREATED_DATE</columns>
+    <columns>LAST_UPDATE</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Type__c</field>
+        <operation>equals</operation>
+        <value>CVS</value>
+    </filters>
+    <filters>
+        <field>Status__c</field>
+        <operation>equals</operation>
+        <value>Use</value>
+    </filters>
+    <label>CVS All</label>
+</ListView>

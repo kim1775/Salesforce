@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>IsVisibleInPublic</fullName>
+    <inlineHelpText>선택한 위치에 이 신뢰 조치를 게시합니다.</inlineHelpText>
+</CustomField>

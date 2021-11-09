@@ -1,0 +1,44 @@
+<!--
+ - Created by I2MAX on 2021-04-28.
+ -->
+
+<apex:page id="CCR_SwapAsset" standardController="Asset" extensions="CCR_SwapAssetControllerQure" docType="html-5.0" sidebar="false" showHeader="false" action="{!updateQureHistory}">
+    <c:CCR_LoadingScreen />
+    <apex:form id="formid">
+        <apex:sectionHeader title="QURE" subtitle="Device Replacement"/>
+        <apex:pageMessages id="ErrMsgs"/>
+        <apex:pageBlock title="{!$Label.CCR_Replacement}" rendered="{!replacehide}" id="sectionBock">
+            <apex:pageBlockButtons location="top">
+                <apex:outputPanel >
+                    <apex:commandButton id="checkButton" value="{!$Label.CCR_ReplaceLabel}" action="{!checkDeviceType}" status="loadingScreen" rendered="{!!buttonDisable}" reRender="formid"/>
+                    <apex:commandButton id="replaceButton" value="{!$Label.CCR_ReplaceLabel}" action="{!replace}" status="loadingScreen" rendered="{!buttonDisable}" reRender="formid"/>
+                    <apex:commandButton value="{!$Label.CCR_CancelLabel}" action="{!cancel}" immediate="true" status="loadingScreen"/>
+                </apex:outputPanel>
+            </apex:pageBlockButtons>
+            <apex:pageBlockSection >
+                <apex:pageBlockSectionItem >
+                    <apex:outputLabel value="자산"></apex:outputLabel>
+                    <apex:inputField value="{!ass.CCR_Replaces__c}" required="true">
+                        <apex:actionsupport event="onchange" action="{!checkDeviceType}" Rerender="formid" status="loadingScreen"/>
+                    </apex:inputField>
+                </apex:pageBlockSectionItem>
+                <apex:pageBlockSectionItem />
+                <apex:outputField value="{!ass.CCR_ReplacementDate__c}"/>
+<!--                <apex:selectList value="{!ass.CCR_ReplacementCountry__c}" size="1" label="{!$ObjectType.Asset.fields.CCR_ReplacementCountry__c.Label}">-->
+<!--                    <apex:selectOptions value="{!selectedReplacounfield}"/>-->
+<!--                </apex:selectList>-->
+                <apex:selectList value="{!ass.CCR_ReplacementChannelNew__c}" size="1" label="{!$ObjectType.Asset.fields.CCR_ReplacementChannelNew__c.Label}">
+                    <apex:selectOptions value="{!selectedReplacechannel}"/>
+                </apex:selectList>
+                <apex:pageBlockSectionItem >
+                    <apex:outputLabel value="{!$ObjectType.Asset.fields.CCR_ReplacementReason__c.Label}"></apex:outputLabel>
+                    <apex:outputText value="{!replacReason}"/>
+                </apex:pageBlockSectionItem>
+                <apex:outputField value="{!ass.CCR_ReplacementSponsored_By__c}"/>
+                <!--<apex:inputField value="{!ass.CCR_ReplacementCountry__c	}"/>
+                <apex:outputField value="{!ass.CCR_ReplacementChannel__c}"/>
+				<apex:outputField value="{!ass.CCR_ReplacementExternalReference__c}"/>-->
+            </apex:pageBlockSection>
+        </apex:pageBlock>
+    </apex:form>
+</apex:page>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>KDCE_fm_SuppliedNameMask__c</fullName>
+    <description>[KDCE] 웹 이름 필드 마스킹</description>
+    <externalId>false</externalId>
+    <formula>RPAD( LEFT( SuppliedName, 1), LEN( SuppliedName ), &apos;*&apos;)+RIGHT( SuppliedName, 1 )</formula>
+    <label>Web Name(Mask)</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

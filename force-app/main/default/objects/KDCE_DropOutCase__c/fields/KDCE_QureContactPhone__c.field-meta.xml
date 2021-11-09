@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>KDCE_QureContactPhone__c</fullName>
+    <description>QURE에서 고객이 입력하는 번호를 저장하기 위한 필드</description>
+    <externalId>false</externalId>
+    <label>KDCE_QureContactPhone</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Phone</type>
+</CustomField>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>NotificationTemplate__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <description>Notification Template</description>
+    <externalId>false</externalId>
+    <label>Notification Template</label>
+    <lookupFilter>
+        <active>true</active>
+        <booleanFilter>1 OR (2 AND 3)</booleanFilter>
+        <filterItems>
+            <field>NotificationTemplate__c.IsActive__c</field>
+            <operation>equals</operation>
+            <value>True</value>
+        </filterItems>
+        <filterItems>
+            <field>$Source.IsActive__c</field>
+            <operation>equals</operation>
+            <value>False</value>
+        </filterItems>
+        <filterItems>
+            <field>$Source.IsActive__c</field>
+            <operation>equals</operation>
+            <value>False</value>
+        </filterItems>
+        <isOptional>false</isOptional>
+    </lookupFilter>
+    <referenceTo>NotificationTemplate__c</referenceTo>
+    <relationshipName>NotificationSettings</relationshipName>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Lookup</type>
+</CustomField>

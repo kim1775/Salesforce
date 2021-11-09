@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>KDCE_SendNPS__c</fullName>
+    <description>[KDCE] 케이스 종료 시 NPS 설문 발송여부 확인</description>
+    <externalId>false</externalId>
+    <inlineHelpText>If the value is &quot;Yes&quot;, Case Survey is sent to the customer via text message when the case is closed. The type of survey varies depending on the Subject Code.</inlineHelpText>
+    <label>Send NPS</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Yes</fullName>
+                <default>false</default>
+                <label>Yes</label>
+            </value>
+            <value>
+                <fullName>No</fullName>
+                <default>false</default>
+                <label>No</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

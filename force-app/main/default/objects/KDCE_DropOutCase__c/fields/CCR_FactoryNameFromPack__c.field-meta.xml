@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>CCR_FactoryNameFromPack__c</fullName>
+    <description>Used by: CCR Description: this field stores the factory name based on packcode received from AIT response.</description>
+    <externalId>false</externalId>
+    <label>Factory Name (FromPack)</label>
+    <length>255</length>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>KDCE_fm_WarrantyDate__c</fullName>
+    <description>[KDCE] Warranty Date</description>
+    <externalId>false</externalId>
+    <formula>IF(Not(ISNULL(KDCE_OriginalWarrantyDate__c)), KDCE_OriginalWarrantyDate__c,
+IF(AND(ISNULL(KDCE_ShipmentDate__c), ISNULL(PurchaseDate)), ADDMONTHS( DATEVALUE(CCR_ParentProductionDateTime__c), 15),
+IF(AND(NOT(ISNULL(KDCE_ShipmentDate__c)),NOT(ISNULL(PurchaseDate)), PurchaseDate &lt; KDCE_ShipmentDate__c) , ADDMONTHS(KDCE_ShipmentDate__c,12),
+IF(AND(NOT(ISNULL(KDCE_ShipmentDate__c)),NOT(ISNULL(PurchaseDate)), PurchaseDate &gt;= KDCE_ShipmentDate__c), ADDMONTHS(PurchaseDate,12),
+IF(AND(NOT(ISNULL(KDCE_ShipmentDate__c)),ISNULL(PurchaseDate)), ADDMONTHS(KDCE_ShipmentDate__c,12),
+IF(AND(NOT(ISNULL(PurchaseDate)),ISNULL(KDCE_ShipmentDate__c)), ADDMONTHS(PurchaseDate,12), ADDMONTHS( DATEVALUE(CCR_ParentProductionDateTime__c), 15)
+)
+)
+)
+)
+)
+)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <inlineHelpText>보증일. 구매일이 있으면 구매일+12개월, 구매일이 없으면 생산일+15개월</inlineHelpText>
+    <label>Warranty Due Date</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <type>Date</type>
+</CustomField>

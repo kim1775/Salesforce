@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>CCR_FirstLinkDatetoCurrentContact__c</fullName>
+    <description>Used By: CCR
+Description: This field to store the first link date to the current contact</description>
+    <externalId>false</externalId>
+    <label>First Link Date</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Date</type>
+</CustomField>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Information_Type_is_required_for_NPS</fullName>
+    <active>true</active>
+    <description>Information Type is required for NPS</description>
+    <errorConditionFormula>AND(NPS__c, NOT(ISPICKVAL(Type__c, &apos;2&apos;)))</errorConditionFormula>
+    <errorDisplayField>NPS__c</errorDisplayField>
+    <errorMessage>Information Type is required for NPS</errorMessage>
+</ValidationRule>

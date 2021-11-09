@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>IF_Code2__c</fullName>
+    <description>IF Code2 2차발송채널 실패코드 
+1차 발송 실패시, 2차발송채널 상태코드</description>
+    <externalId>false</externalId>
+    <inlineHelpText>1차 발송 실패시, 2차발송채널 상태코드</inlineHelpText>
+    <label>IF Code2</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetName>IFCode</valueSetName>
+    </valueSet>
+</CustomField>

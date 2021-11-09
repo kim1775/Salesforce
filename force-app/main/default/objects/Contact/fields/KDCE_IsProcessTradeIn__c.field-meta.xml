@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>KDCE_IsProcessTradeIn__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>Order에서 Trade-in이 진행시 체크, 멈춤시 해제</description>
+    <externalId>false</externalId>
+    <label>Trade-In Collect Order YN</label>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Checkbox</type>
+</CustomField>

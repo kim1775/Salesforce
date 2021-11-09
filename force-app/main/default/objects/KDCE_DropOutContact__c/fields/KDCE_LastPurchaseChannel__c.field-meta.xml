@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>KDCE_LastPurchaseChannel__c</fullName>
+    <externalId>false</externalId>
+    <label>Last Purchase Channel</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>CVS</fullName>
+                <default>false</default>
+                <label>CVS</label>
+            </value>
+            <value>
+                <fullName>E-Commerce</fullName>
+                <default>false</default>
+                <label>E-Commerce</label>
+            </value>
+            <value>
+                <fullName>Manned</fullName>
+                <default>false</default>
+                <label>Manned</label>
+            </value>
+            <value>
+                <fullName>Rental</fullName>
+                <default>false</default>
+                <label>Rental</label>
+            </value>
+            <value>
+                <fullName>Trade-in</fullName>
+                <default>false</default>
+                <label>Trade-in</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

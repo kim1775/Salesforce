@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>KDCE_OB_Stage__c</fullName>
+    <externalId>false</externalId>
+    <label>OB 단계</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>true</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <controllingField>CCR_SubType__c</controllingField>
+        <restricted>true</restricted>
+        <valueSetName>KDCE_OB_Stage</valueSetName>
+        <valueSettings>
+            <controllingFieldValue>Sentiment Management</controllingFieldValue>
+            <valueName>미완료-부재중</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Sentiment Management</controllingFieldValue>
+            <valueName>미완료-무응답</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Sentiment Management</controllingFieldValue>
+            <valueName>미완료-미완료</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Sentiment Management</controllingFieldValue>
+            <valueName>완료-완료</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Sentiment Management</controllingFieldValue>
+            <valueName>완료-정보불일치</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Sentiment Management</controllingFieldValue>
+            <valueName>완료-확인거부</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Sentiment Management</controllingFieldValue>
+            <valueName>완료-타인</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Sentiment Management</controllingFieldValue>
+            <valueName>완료-기처리</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Sentiment Management</controllingFieldValue>
+            <controllingFieldValue>Up / Cross Sell</controllingFieldValue>
+            <controllingFieldValue>Up / Cross Sell &amp; Trade In</controllingFieldValue>
+            <controllingFieldValue>Remote Coach</controllingFieldValue>
+            <controllingFieldValue>Lead Generation</controllingFieldValue>
+            <controllingFieldValue>Rental +1</controllingFieldValue>
+            <controllingFieldValue>Rental +13</controllingFieldValue>
+            <controllingFieldValue>Rental +21</controllingFieldValue>
+            <controllingFieldValue>M1</controllingFieldValue>
+            <controllingFieldValue>M11</controllingFieldValue>
+            <controllingFieldValue>E-commerce</controllingFieldValue>
+            <controllingFieldValue>E-commerce_FD</controllingFieldValue>
+            <controllingFieldValue>Conversion</controllingFieldValue>
+            <controllingFieldValue>기타</controllingFieldValue>
+            <valueName>확인 후 재연락</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Up / Cross Sell &amp; Trade In</controllingFieldValue>
+            <controllingFieldValue>Remote Coach</controllingFieldValue>
+            <controllingFieldValue>Lead Generation</controllingFieldValue>
+            <controllingFieldValue>M1</controllingFieldValue>
+            <controllingFieldValue>M11</controllingFieldValue>
+            <controllingFieldValue>E-commerce</controllingFieldValue>
+            <controllingFieldValue>Conversion</controllingFieldValue>
+            <controllingFieldValue>기타</controllingFieldValue>
+            <valueName>결번/타인</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Up / Cross Sell &amp; Trade In</controllingFieldValue>
+            <controllingFieldValue>Remote Coach</controllingFieldValue>
+            <controllingFieldValue>Lead Generation</controllingFieldValue>
+            <controllingFieldValue>M1</controllingFieldValue>
+            <controllingFieldValue>M11</controllingFieldValue>
+            <controllingFieldValue>E-commerce</controllingFieldValue>
+            <controllingFieldValue>Conversion</controllingFieldValue>
+            <controllingFieldValue>기타</controllingFieldValue>
+            <valueName>기타</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Up / Cross Sell &amp; Trade In</controllingFieldValue>
+            <controllingFieldValue>Remote Coach</controllingFieldValue>
+            <controllingFieldValue>Lead Generation</controllingFieldValue>
+            <controllingFieldValue>Rental +1</controllingFieldValue>
+            <controllingFieldValue>Rental +13</controllingFieldValue>
+            <controllingFieldValue>M1</controllingFieldValue>
+            <controllingFieldValue>M11</controllingFieldValue>
+            <controllingFieldValue>E-commerce</controllingFieldValue>
+            <controllingFieldValue>Conversion</controllingFieldValue>
+            <controllingFieldValue>기타</controllingFieldValue>
+            <valueName>부재1</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Up / Cross Sell &amp; Trade In</controllingFieldValue>
+            <controllingFieldValue>Remote Coach</controllingFieldValue>
+            <controllingFieldValue>Lead Generation</controllingFieldValue>
+            <controllingFieldValue>Rental +1</controllingFieldValue>
+            <controllingFieldValue>M1</controllingFieldValue>
+            <controllingFieldValue>M11</controllingFieldValue>
+            <controllingFieldValue>E-commerce</controllingFieldValue>
+            <controllingFieldValue>Conversion</controllingFieldValue>
+            <controllingFieldValue>기타</controllingFieldValue>
+            <valueName>부재완료</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Up / Cross Sell &amp; Trade In</controllingFieldValue>
+            <controllingFieldValue>Rental +1</controllingFieldValue>
+            <controllingFieldValue>M1</controllingFieldValue>
+            <controllingFieldValue>M11</controllingFieldValue>
+            <controllingFieldValue>기타</controllingFieldValue>
+            <valueName>성공</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Up / Cross Sell &amp; Trade In</controllingFieldValue>
+            <controllingFieldValue>Rental +1</controllingFieldValue>
+            <controllingFieldValue>M1</controllingFieldValue>
+            <controllingFieldValue>M11</controllingFieldValue>
+            <controllingFieldValue>기타</controllingFieldValue>
+            <valueName>거부</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Remote Coach</controllingFieldValue>
+            <controllingFieldValue>Lead Generation</controllingFieldValue>
+            <controllingFieldValue>E-commerce</controllingFieldValue>
+            <controllingFieldValue>Conversion</controllingFieldValue>
+            <valueName>거절</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Remote Coach</controllingFieldValue>
+            <controllingFieldValue>E-commerce</controllingFieldValue>
+            <valueName>FD약속</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Remote Coach</controllingFieldValue>
+            <controllingFieldValue>E-commerce</controllingFieldValue>
+            <valueName>FD거부</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Lead Generation</controllingFieldValue>
+            <controllingFieldValue>Conversion</controllingFieldValue>
+            <valueName>통화완료</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Lead Generation</controllingFieldValue>
+            <valueName>기처리</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Lead Generation</controllingFieldValue>
+            <controllingFieldValue>Rental +13</controllingFieldValue>
+            <controllingFieldValue>Conversion</controllingFieldValue>
+            <valueName>부재2</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Rental +1</controllingFieldValue>
+            <valueName>착신거부</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Rental +13</controllingFieldValue>
+            <valueName>결제</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Rental +13</controllingFieldValue>
+            <valueName>회수</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Rental +13</controllingFieldValue>
+            <valueName>결제희망_쿠폰O</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Rental +13</controllingFieldValue>
+            <controllingFieldValue>Rental +21</controllingFieldValue>
+            <valueName>보류</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Rental +13</controllingFieldValue>
+            <valueName>1주일연장</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Rental +21</controllingFieldValue>
+            <valueName>결제_패널티</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Rental +21</controllingFieldValue>
+            <valueName>결제_중고가</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Rental +21</controllingFieldValue>
+            <valueName>결재_부재</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>E-commerce</controllingFieldValue>
+            <controllingFieldValue>E-commerce_FD</controllingFieldValue>
+            <valueName>이커머스 FD - 성공</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>E-commerce</controllingFieldValue>
+            <controllingFieldValue>E-commerce_FD</controllingFieldValue>
+            <valueName>이커머스 FD - 거부</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>E-commerce</controllingFieldValue>
+            <controllingFieldValue>E-commerce_FD</controllingFieldValue>
+            <valueName>이커머스 FD - 부재완료</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>E-commerce</controllingFieldValue>
+            <controllingFieldValue>E-commerce_FD</controllingFieldValue>
+            <valueName>이커머스 FD - 결번</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>E-commerce</controllingFieldValue>
+            <controllingFieldValue>E-commerce_FD</controllingFieldValue>
+            <valueName>이커머스 FD - 부재1</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Conversion</controllingFieldValue>
+            <valueName>기사용자-SF</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Conversion</controllingFieldValue>
+            <valueName>기사용자-CALL</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Conversion</controllingFieldValue>
+            <valueName>임신/모유수유</valueName>
+        </valueSettings>
+    </valueSet>
+</CustomField>

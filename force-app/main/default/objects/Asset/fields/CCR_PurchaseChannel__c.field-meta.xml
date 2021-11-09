@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>CCR_PurchaseChannel__c</fullName>
+    <description>Used By: CCR
+Description: This value is updated depending on the type of user.</description>
+    <externalId>false</externalId>
+    <label>Purchase Channel</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Direct Retail</fullName>
+                <default>false</default>
+                <label>Direct Retail</label>
+            </value>
+            <value>
+                <fullName>Indirect Retail</fullName>
+                <default>false</default>
+                <label>Indirect Retail</label>
+            </value>
+            <value>
+                <fullName>Ecommerce</fullName>
+                <default>false</default>
+                <label>Ecommerce</label>
+            </value>
+            <value>
+                <fullName>Field Sales Force</fullName>
+                <default>false</default>
+                <label>Field Sales Force</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

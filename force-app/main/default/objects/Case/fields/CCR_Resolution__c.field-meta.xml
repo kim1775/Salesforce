@@ -1,0 +1,405 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>CCR_Resolution__c</fullName>
+    <description>Used by: CCR
+Description: Resolution is the dependent picklist of subject code.</description>
+    <externalId>false</externalId>
+    <label>Resolution</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <controllingField>CCR_SubjectCodeNew__c</controllingField>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>LSP Contacted</fullName>
+                <default>false</default>
+                <label>LSP Contacted</label>
+            </value>
+            <value>
+                <fullName>New for Old Offer</fullName>
+                <default>false</default>
+                <label>New for Old Offer</label>
+            </value>
+            <value>
+                <fullName>Order Canceled</fullName>
+                <default>false</default>
+                <label>Order Canceled</label>
+            </value>
+            <value>
+                <fullName>Order Corrected</fullName>
+                <default>false</default>
+                <label>Order Corrected</label>
+            </value>
+            <value>
+                <fullName>Order Not Placed</fullName>
+                <default>false</default>
+                <label>Order Not Placed</label>
+            </value>
+            <value>
+                <fullName>Order Placed</fullName>
+                <default>false</default>
+                <label>Order Placed</label>
+            </value>
+            <value>
+                <fullName>PSP Contacted</fullName>
+                <default>false</default>
+                <label>PSP Contacted</label>
+            </value>
+            <value>
+                <fullName>Replacement by courier</fullName>
+                <default>false</default>
+                <label>Replacement by courier</label>
+            </value>
+            <value>
+                <fullName>Replacement face to face</fullName>
+                <default>false</default>
+                <label>Replacement face to face</label>
+            </value>
+            <value>
+                <fullName>Replacement Not Possible</fullName>
+                <default>false</default>
+                <label>Replacement Not Possible</label>
+            </value>
+            <value>
+                <fullName>Replacement Order</fullName>
+                <default>false</default>
+                <label>Replacement Order</label>
+            </value>
+            <value>
+                <fullName>Return not possible</fullName>
+                <default>false</default>
+                <label>Return not possible</label>
+            </value>
+            <value>
+                <fullName>Return Order</fullName>
+                <default>false</default>
+                <label>Return Order</label>
+            </value>
+            <value>
+                <fullName>Not Applicable</fullName>
+                <default>false</default>
+                <label>Not Applicable</label>
+            </value>
+            <value>
+                <fullName>No Action</fullName>
+                <default>false</default>
+                <label>No Action</label>
+            </value>
+            <value>
+                <fullName>Refund - KOREA ONLY</fullName>
+                <default>false</default>
+                <label>Refund - KOREA ONLY</label>
+            </value>
+            <value>
+                <fullName>Order collected</fullName>
+                <default>false</default>
+                <label>Order collected</label>
+            </value>
+            <value>
+                <fullName>Refund</fullName>
+                <default>false</default>
+                <label>Refund</label>
+            </value>
+            <value>
+                <fullName>Cancelled</fullName>
+                <default>false</default>
+                <label>Cancelled</label>
+            </value>
+            <value>
+                <fullName>Cancellation not possible</fullName>
+                <default>false</default>
+                <label>Cancellation not possible</label>
+            </value>
+            <value>
+                <fullName>Payment details updated</fullName>
+                <default>false</default>
+                <label>Payment details updated</label>
+            </value>
+            <value>
+                <fullName>Subscription Cancelled</fullName>
+                <default>false</default>
+                <label>Subscription Cancelled</label>
+            </value>
+            <value>
+                <fullName>Compensatory</fullName>
+                <default>false</default>
+                <label>Compensatory</label>
+            </value>
+            <value>
+                <fullName>Non Compensatory</fullName>
+                <default>false</default>
+                <label>Non Compensatory</label>
+            </value>
+            <value>
+                <fullName>Completed - Offer Accepted</fullName>
+                <default>false</default>
+                <label>Completed - Offer Accepted</label>
+            </value>
+            <value>
+                <fullName>Completed - Offer not Accepted</fullName>
+                <default>false</default>
+                <label>Completed - Offer not Accepted</label>
+            </value>
+            <value>
+                <fullName>Transferred to retail</fullName>
+                <default>false</default>
+                <label>Transferred to retail</label>
+            </value>
+            <value>
+                <fullName>Transferred to Qoach</fullName>
+                <default>false</default>
+                <label>Transferred to Qoach</label>
+            </value>
+            <value>
+                <fullName>Transferred to Website</fullName>
+                <default>false</default>
+                <label>Transferred to Website</label>
+            </value>
+            <value>
+                <fullName>Sales offer accepted</fullName>
+                <default>false</default>
+                <label>Sales offer accepted</label>
+            </value>
+            <value>
+                <fullName>Lending offer accepted</fullName>
+                <default>false</default>
+                <label>Lending offer accepted</label>
+            </value>
+            <value>
+                <fullName>Offers not accepted</fullName>
+                <default>false</default>
+                <label>Offers not accepted</label>
+            </value>
+            <value>
+                <fullName>Non verified Lead</fullName>
+                <default>false</default>
+                <label>Non verified Lead</label>
+            </value>
+            <value>
+                <fullName>Replacement</fullName>
+                <default>false</default>
+                <label>Replacement</label>
+            </value>
+            <value>
+                <fullName>Sales offer not accepted</fullName>
+                <default>false</default>
+                <label>Sales offer not accepted</label>
+            </value>
+            <value>
+                <fullName>환불 불가(이전 환불자)</fullName>
+                <default>false</default>
+                <label>환불 불가(이전 환불자)</label>
+            </value>
+            <value>
+                <fullName>환불 + 히츠포함</fullName>
+                <default>false</default>
+                <label>환불 + 히츠포함</label>
+            </value>
+            <value>
+                <fullName>환불 거부</fullName>
+                <default>false</default>
+                <label>환불 거부</label>
+            </value>
+            <value>
+                <fullName>이관 거부</fullName>
+                <default>false</default>
+                <label>이관 거부</label>
+            </value>
+            <value>
+                <fullName>민감 정보 철회 요청</fullName>
+                <default>false</default>
+                <label>민감 정보 철회 요청</label>
+            </value>
+        </valueSetDefinition>
+        <valueSettings>
+            <controllingFieldValue>B004</controllingFieldValue>
+            <controllingFieldValue>B006</controllingFieldValue>
+            <controllingFieldValue>B032</controllingFieldValue>
+            <controllingFieldValue>B037</controllingFieldValue>
+            <controllingFieldValue>B038</controllingFieldValue>
+            <controllingFieldValue>B043</controllingFieldValue>
+            <controllingFieldValue>B045</controllingFieldValue>
+            <controllingFieldValue>B048</controllingFieldValue>
+            <controllingFieldValue>B051</controllingFieldValue>
+            <controllingFieldValue>B101</controllingFieldValue>
+            <controllingFieldValue>B102</controllingFieldValue>
+            <controllingFieldValue>B103</controllingFieldValue>
+            <controllingFieldValue>B104</controllingFieldValue>
+            <controllingFieldValue>B105</controllingFieldValue>
+            <controllingFieldValue>C002</controllingFieldValue>
+            <controllingFieldValue>C101</controllingFieldValue>
+            <controllingFieldValue>A101</controllingFieldValue>
+            <valueName>New for Old Offer</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>B004</controllingFieldValue>
+            <controllingFieldValue>B006</controllingFieldValue>
+            <controllingFieldValue>B032</controllingFieldValue>
+            <controllingFieldValue>B037</controllingFieldValue>
+            <controllingFieldValue>B038</controllingFieldValue>
+            <controllingFieldValue>B043</controllingFieldValue>
+            <controllingFieldValue>B045</controllingFieldValue>
+            <controllingFieldValue>B048</controllingFieldValue>
+            <controllingFieldValue>B050</controllingFieldValue>
+            <controllingFieldValue>B051</controllingFieldValue>
+            <controllingFieldValue>B101</controllingFieldValue>
+            <controllingFieldValue>B102</controllingFieldValue>
+            <controllingFieldValue>B103</controllingFieldValue>
+            <controllingFieldValue>B104</controllingFieldValue>
+            <controllingFieldValue>B105</controllingFieldValue>
+            <controllingFieldValue>C002</controllingFieldValue>
+            <controllingFieldValue>C101</controllingFieldValue>
+            <controllingFieldValue>A101</controllingFieldValue>
+            <valueName>Replacement by courier</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>B004</controllingFieldValue>
+            <controllingFieldValue>B006</controllingFieldValue>
+            <controllingFieldValue>B032</controllingFieldValue>
+            <controllingFieldValue>B037</controllingFieldValue>
+            <controllingFieldValue>B038</controllingFieldValue>
+            <controllingFieldValue>B043</controllingFieldValue>
+            <controllingFieldValue>B045</controllingFieldValue>
+            <controllingFieldValue>B048</controllingFieldValue>
+            <controllingFieldValue>B050</controllingFieldValue>
+            <controllingFieldValue>B051</controllingFieldValue>
+            <controllingFieldValue>B101</controllingFieldValue>
+            <controllingFieldValue>B102</controllingFieldValue>
+            <controllingFieldValue>B103</controllingFieldValue>
+            <controllingFieldValue>B104</controllingFieldValue>
+            <controllingFieldValue>B105</controllingFieldValue>
+            <controllingFieldValue>C002</controllingFieldValue>
+            <controllingFieldValue>C101</controllingFieldValue>
+            <controllingFieldValue>A101</controllingFieldValue>
+            <valueName>Replacement face to face</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>B004</controllingFieldValue>
+            <controllingFieldValue>B006</controllingFieldValue>
+            <controllingFieldValue>B032</controllingFieldValue>
+            <controllingFieldValue>B037</controllingFieldValue>
+            <controllingFieldValue>B038</controllingFieldValue>
+            <controllingFieldValue>B043</controllingFieldValue>
+            <controllingFieldValue>B045</controllingFieldValue>
+            <controllingFieldValue>B048</controllingFieldValue>
+            <controllingFieldValue>B050</controllingFieldValue>
+            <controllingFieldValue>B051</controllingFieldValue>
+            <controllingFieldValue>B101</controllingFieldValue>
+            <controllingFieldValue>B102</controllingFieldValue>
+            <controllingFieldValue>B103</controllingFieldValue>
+            <controllingFieldValue>B104</controllingFieldValue>
+            <controllingFieldValue>B105</controllingFieldValue>
+            <controllingFieldValue>C002</controllingFieldValue>
+            <controllingFieldValue>C101</controllingFieldValue>
+            <controllingFieldValue>DS006</controllingFieldValue>
+            <controllingFieldValue>DS012</controllingFieldValue>
+            <controllingFieldValue>A101</controllingFieldValue>
+            <valueName>Replacement Not Possible</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>B004</controllingFieldValue>
+            <controllingFieldValue>B006</controllingFieldValue>
+            <controllingFieldValue>B032</controllingFieldValue>
+            <controllingFieldValue>B037</controllingFieldValue>
+            <controllingFieldValue>B038</controllingFieldValue>
+            <controllingFieldValue>B043</controllingFieldValue>
+            <controllingFieldValue>B045</controllingFieldValue>
+            <controllingFieldValue>B048</controllingFieldValue>
+            <controllingFieldValue>B050</controllingFieldValue>
+            <controllingFieldValue>B051</controllingFieldValue>
+            <controllingFieldValue>B101</controllingFieldValue>
+            <controllingFieldValue>B102</controllingFieldValue>
+            <controllingFieldValue>B103</controllingFieldValue>
+            <controllingFieldValue>B104</controllingFieldValue>
+            <controllingFieldValue>B105</controllingFieldValue>
+            <controllingFieldValue>C002</controllingFieldValue>
+            <controllingFieldValue>C101</controllingFieldValue>
+            <controllingFieldValue>A101</controllingFieldValue>
+            <valueName>Refund - KOREA ONLY</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>B101</controllingFieldValue>
+            <valueName>환불 불가(이전 환불자)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>B101</controllingFieldValue>
+            <valueName>환불 + 히츠포함</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>B101</controllingFieldValue>
+            <valueName>환불 거부</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>B101</controllingFieldValue>
+            <valueName>이관 거부</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>B101</controllingFieldValue>
+            <valueName>민감 정보 철회 요청</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Sentiment Management</controllingFieldValue>
+            <valueName>Compensatory</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Sentiment Management</controllingFieldValue>
+            <valueName>Non Compensatory</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>CI004</controllingFieldValue>
+            <controllingFieldValue>CI006</controllingFieldValue>
+            <controllingFieldValue>DS005</controllingFieldValue>
+            <controllingFieldValue>DS006</controllingFieldValue>
+            <controllingFieldValue>DS007</controllingFieldValue>
+            <controllingFieldValue>DS008</controllingFieldValue>
+            <valueName>Return Order</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>CI004</controllingFieldValue>
+            <controllingFieldValue>CI006</controllingFieldValue>
+            <valueName>No Action</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>DS003</controllingFieldValue>
+            <controllingFieldValue>DS004</controllingFieldValue>
+            <valueName>LSP Contacted</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>DS005</controllingFieldValue>
+            <valueName>Order Corrected</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>DS006</controllingFieldValue>
+            <controllingFieldValue>DS012</controllingFieldValue>
+            <valueName>Order Canceled</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>DS007</controllingFieldValue>
+            <valueName>Return not possible</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>DS008</controllingFieldValue>
+            <valueName>Replacement Order</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>DS009</controllingFieldValue>
+            <valueName>PSP Contacted</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>DS012</controllingFieldValue>
+            <valueName>Not Applicable</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>DS013</controllingFieldValue>
+            <valueName>Payment details updated</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>DS013</controllingFieldValue>
+            <valueName>Subscription Cancelled</valueName>
+        </valueSettings>
+    </valueSet>
+</CustomField>

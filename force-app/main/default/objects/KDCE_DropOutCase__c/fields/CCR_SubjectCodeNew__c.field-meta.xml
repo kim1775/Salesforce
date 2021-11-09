@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>CCR_SubjectCodeNew__c</fullName>
+    <description>Used by: CCR
+Description: subject code is the dependent picklist of sub type.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Subject Code</inlineHelpText>
+    <label>Subject Code</label>
+    <length>255</length>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

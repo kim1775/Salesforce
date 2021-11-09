@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>KDCE_IsOnlineCase__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>케이스 소유자의 division과 일치하는 store정보가 없으면 온라인, 아닐 경우 오프라인</description>
+    <externalId>false</externalId>
+    <label>Online Case</label>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

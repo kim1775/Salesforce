@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>KDCE_SubGroup__c</fullName>
+    <description>[KDCE] Version 관리하기 위한 값</description>
+    <externalId>false</externalId>
+    <label>Type</label>
+    <required>false</required>
+    <trackFeedHistory>true</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <controllingField>KDCE_Channel__c</controllingField>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>PMTC</fullName>
+                <default>false</default>
+                <label>[PMTC]이용약관  (필수)</label>
+            </value>
+            <value>
+                <fullName>PMPM</fullName>
+                <default>false</default>
+                <label>[PMPM]개인정보 수집 및 이용 (필수)</label>
+            </value>
+            <value>
+                <fullName>PMPO</fullName>
+                <default>false</default>
+                <label>[PMPO]개인정보 수집 및 이용 (선택)</label>
+            </value>
+            <value>
+                <fullName>PMPP</fullName>
+                <default>false</default>
+                <label>[PMPP]개인정보 처리업무 위탁 동의 (2020년 9월 16일 18시25분 가입자까지 유효)</label>
+            </value>
+            <value>
+                <fullName>PMPT</fullName>
+                <default>false</default>
+                <label>[PMPT]개인정보 제3자 제공 (선택)</label>
+            </value>
+            <value>
+                <fullName>PMTP</fullName>
+                <default>false</default>
+                <label>[PMTP]개인정보 국외이전 (선택)</label>
+            </value>
+            <value>
+                <fullName>PMCPE</fullName>
+                <default>false</default>
+                <label>[PMCPE]휴면회원 전환기간 특례</label>
+            </value>
+            <value>
+                <fullName>globaloptin</fullName>
+                <default>false</default>
+                <label>[Common]광고성 정보 수신 (통합)</label>
+            </value>
+            <value>
+                <fullName>PMPMG</fullName>
+                <default>false</default>
+                <label>[Getinfo]개인정보 수집 및 이용 (필수)</label>
+            </value>
+            <value>
+                <fullName>PMPOG</fullName>
+                <default>false</default>
+                <label>[Getinfo]개인정보 수집 및 이용</label>
+            </value>
+            <value>
+                <fullName>PMPPG</fullName>
+                <default>false</default>
+                <label>[Getinfo]개인정보 처리 업무 위탁에 대한 동의</label>
+            </value>
+            <value>
+                <fullName>PMPTG</fullName>
+                <default>false</default>
+                <label>[Getinfo]개인정보 제3자 제공 (선택)</label>
+            </value>
+            <value>
+                <fullName>PMDP</fullName>
+                <default>false</default>
+                <label>[PMDP]개인정보 수집 및 이용 동의 (필수)</label>
+            </value>
+            <value>
+                <fullName>PMNL</fullName>
+                <default>false</default>
+                <label>[PMNL]개인정보 수집 및 이용 동의 (선택)</label>
+            </value>
+            <value>
+                <fullName>PMDT</fullName>
+                <default>false</default>
+                <label>[PMDT]개인정보 국외이전 동의</label>
+            </value>
+            <value>
+                <fullName>PMTR</fullName>
+                <default>false</default>
+                <label>[PMTR]Rental 이용약관 (필수)</label>
+            </value>
+            <value>
+                <fullName>PMTI</fullName>
+                <default>false</default>
+                <label>[PMTI]보상판매 이용 약관 (필수)</label>
+            </value>
+        </valueSetDefinition>
+        <valueSettings>
+            <controllingFieldValue>iqos.com</controllingFieldValue>
+            <controllingFieldValue>tryiqos</controllingFieldValue>
+            <controllingFieldValue>trade-in</controllingFieldValue>
+            <controllingFieldValue>MGM</controllingFieldValue>
+            <controllingFieldValue>careplus</controllingFieldValue>
+            <valueName>PMTC</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>iqos.com</controllingFieldValue>
+            <controllingFieldValue>tryiqos</controllingFieldValue>
+            <controllingFieldValue>trade-in</controllingFieldValue>
+            <controllingFieldValue>MGM</controllingFieldValue>
+            <controllingFieldValue>careplus</controllingFieldValue>
+            <controllingFieldValue>Easyiqos</controllingFieldValue>
+            <valueName>PMPM</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>iqos.com</controllingFieldValue>
+            <controllingFieldValue>tryiqos</controllingFieldValue>
+            <controllingFieldValue>trade-in</controllingFieldValue>
+            <controllingFieldValue>MGM</controllingFieldValue>
+            <controllingFieldValue>careplus</controllingFieldValue>
+            <controllingFieldValue>Easyiqos</controllingFieldValue>
+            <valueName>PMPO</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>iqos.com</controllingFieldValue>
+            <controllingFieldValue>tryiqos</controllingFieldValue>
+            <controllingFieldValue>trade-in</controllingFieldValue>
+            <controllingFieldValue>MGM</controllingFieldValue>
+            <controllingFieldValue>careplus</controllingFieldValue>
+            <valueName>PMPP</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>iqos.com</controllingFieldValue>
+            <controllingFieldValue>tryiqos</controllingFieldValue>
+            <controllingFieldValue>trade-in</controllingFieldValue>
+            <controllingFieldValue>MGM</controllingFieldValue>
+            <controllingFieldValue>careplus</controllingFieldValue>
+            <valueName>PMPT</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>iqos.com</controllingFieldValue>
+            <controllingFieldValue>tryiqos</controllingFieldValue>
+            <controllingFieldValue>trade-in</controllingFieldValue>
+            <controllingFieldValue>MGM</controllingFieldValue>
+            <controllingFieldValue>careplus</controllingFieldValue>
+            <valueName>PMTP</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>iqos.com</controllingFieldValue>
+            <valueName>PMCPE</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>iqos.com</controllingFieldValue>
+            <controllingFieldValue>Easyiqos</controllingFieldValue>
+            <controllingFieldValue>getinfo</controllingFieldValue>
+            <controllingFieldValue>Common</controllingFieldValue>
+            <valueName>globaloptin</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>iqos.com</controllingFieldValue>
+            <valueName>PMDP</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>iqos.com</controllingFieldValue>
+            <valueName>PMNL</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>iqos.com</controllingFieldValue>
+            <valueName>PMDT</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>tryiqos</controllingFieldValue>
+            <valueName>PMTR</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>trade-in</controllingFieldValue>
+            <valueName>PMTI</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>getinfo</controllingFieldValue>
+            <valueName>PMPMG</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>getinfo</controllingFieldValue>
+            <valueName>PMPOG</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>getinfo</controllingFieldValue>
+            <valueName>PMPPG</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>getinfo</controllingFieldValue>
+            <valueName>PMPTG</valueName>
+        </valueSettings>
+    </valueSet>
+</CustomField>

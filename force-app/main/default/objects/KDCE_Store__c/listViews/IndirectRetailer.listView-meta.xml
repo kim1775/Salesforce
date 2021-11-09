@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>IndirectRetailer</fullName>
+    <columns>NAME</columns>
+    <columns>BizLOCCode__c</columns>
+    <columns>BizLOCENGName__c</columns>
+    <columns>CloseDate__c</columns>
+    <columns>CompanyCode__c</columns>
+    <columns>CompanyName__c</columns>
+    <columns>CREATED_DATE</columns>
+    <columns>RECORDTYPE</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>RECORDTYPE</field>
+        <operation>equals</operation>
+        <value>KDCE_Store__c.Store_Indirect</value>
+    </filters>
+    <label>Indirect Retailer</label>
+</ListView>

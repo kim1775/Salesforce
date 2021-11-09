@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>CCR_NextNegativeStep__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <description>Used by: CCR 
+Description: field used to store next negative step of QURE flow. For example the “NO” button on the Device Diagnostic Page</description>
+    <externalId>false</externalId>
+    <label>Next Negative Step</label>
+    <lookupFilter>
+        <active>false</active>
+        <filterItems>
+            <field>CCR_DeviceDiagnostic__c.RecordTypeId</field>
+            <operation>equals</operation>
+            <value>End Message, Tips and Tricks, Diagnostic Result</value>
+        </filterItems>
+        <filterItems>
+            <field>CCR_DeviceDiagnostic__c.CCR_Active__c</field>
+            <operation>equals</operation>
+            <value>True</value>
+        </filterItems>
+        <isOptional>false</isOptional>
+    </lookupFilter>
+    <referenceTo>CCR_DeviceDiagnostic__c</referenceTo>
+    <relationshipLabel>Device Diagnostics (Next Negative Step)</relationshipLabel>
+    <relationshipName>Previous_Steps2</relationshipName>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Lookup</type>
+</CustomField>

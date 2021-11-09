@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>CCR_ShowWarning__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>Used By : CCR
+Description : Checked if warning to be shown when replacing device.
+unchecked if No need to Warning.</description>
+    <externalId>false</externalId>
+    <fieldManageability>DeveloperControlled</fieldManageability>
+    <label>Show Warning</label>
+    <type>Checkbox</type>
+</CustomField>

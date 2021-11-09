@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>CCR_ConversionInformation__c</fullName>
+    <externalId>false</externalId>
+    <label>Conversion Information</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Fully Converted (95% - 100%) OR ONLY HEETS</fullName>
+                <default>false</default>
+                <label>Fully Converted (95% - 100%) OR ONLY HEETS</label>
+            </value>
+            <value>
+                <fullName>Predominant (70% - 94.99%) OR HEETS &gt; CC</fullName>
+                <default>false</default>
+                <label>Predominant (70% - 94.99%) OR HEETS &gt; CC</label>
+            </value>
+            <value>
+                <fullName>Situational IQOS (40% - 69.99%) OR HEETS = CC</fullName>
+                <default>false</default>
+                <label>Situational IQOS (40% - 69.99%) OR HEETS = CC</label>
+            </value>
+            <value>
+                <fullName>Situational CC (5% - 39.99%) OR HEETS &lt; CC</fullName>
+                <default>false</default>
+                <label>Situational CC (5% - 39.99%) OR HEETS &lt; CC</label>
+            </value>
+            <value>
+                <fullName>Abandoner (0% - 4.99%) OR ONLY CC</fullName>
+                <default>false</default>
+                <label>Abandoner (0% - 4.99%) OR ONLY CC</label>
+            </value>
+            <value>
+                <fullName>Prefer not to say</fullName>
+                <default>false</default>
+                <label>Prefer not to say</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

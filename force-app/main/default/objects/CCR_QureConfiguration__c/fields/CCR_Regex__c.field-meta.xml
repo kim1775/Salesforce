@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>CCR_Regex__c</fullName>
+    <description>Used By: CCR
+Description: Regex expression for the field validation
+1. Regular Expression for Courier Delivery Form.
+2. Marketing Cloud Template Id for Market Email Configuration.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>1. Regular Expression for Courier Delivery Form.
+2. Marketing Cloud Template Id for Market Email Configuration.</inlineHelpText>
+    <label>Regex</label>
+    <length>255</length>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

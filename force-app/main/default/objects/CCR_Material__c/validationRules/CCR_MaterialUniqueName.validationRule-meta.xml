@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>CCR_MaterialUniqueName</fullName>
+    <active>true</active>
+    <errorConditionFormula>if( 
+ISNEW(), 
+	(Name = VLOOKUP($ObjectType.CCR_Material__c.Fields.Name ,$ObjectType.CCR_Material__c.Fields.Name , Name)) , 
+	(
+		ISCHANGED(Name) &amp;&amp; (Name = VLOOKUP($ObjectType.CCR_Material__c.Fields.Name ,$ObjectType.CCR_Material__c.Fields.Name , Name)
+	))
+)</errorConditionFormula>
+    <errorMessage>Material name already exists</errorMessage>
+</ValidationRule>

@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>KDCE_ProductDescription__c</fullName>
+    <externalId>false</externalId>
+    <label>Product Description</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <controllingField>KDCE_BrandDifferentiator__c</controllingField>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>EHC1 HEETS BLUESELE MNT S50 PRI 20 SLI</fullName>
+                <default>false</default>
+                <label>EHC1 HEETS BLUESELE MNT S50 PRI 20 SLI</label>
+            </value>
+            <value>
+                <fullName>EHC1 HEETS GREENSE MNT S50 PRI 20 SLI</fullName>
+                <default>false</default>
+                <label>EHC1 HEETS GREENSE MNT S50 PRI 20 SLI</label>
+            </value>
+            <value>
+                <fullName>EHC1 HEETS SILVSEL S50 PRI 20 SLI</fullName>
+                <default>false</default>
+                <label>EHC1 HEETS SILVSEL S50 PRI 20 SLI</label>
+            </value>
+            <value>
+                <fullName>EHC1 HEETS AMBERSEL S50 PRI 20 SLI</fullName>
+                <default>false</default>
+                <label>EHC1 HEETS AMBERSEL S50 PRI 20 SLI</label>
+            </value>
+            <value>
+                <fullName>EHC1 HEETS PURPWA MNT S50 PRI 20 SLI</fullName>
+                <default>false</default>
+                <label>EHC1 HEETS PURPWA MNT S50 PRI 20 SLI</label>
+            </value>
+            <value>
+                <fullName>EHC1 HEETS GREEN ZING MNT S50 PRI 20 SLI</fullName>
+                <default>false</default>
+                <label>EHC1 HEETS GREEN ZING MNT S50 PRI 20 SLI</label>
+            </value>
+            <value>
+                <fullName>EHC1 HEETS TURQSEL MNT S50 PRI 20 SLI</fullName>
+                <default>false</default>
+                <label>EHC1 HEETS TURQSEL MNT S50 PRI 20 SLI</label>
+            </value>
+            <value>
+                <fullName>EHC1 HEETS GOLDSELC MNT S50 PRI 20 SLI</fullName>
+                <default>false</default>
+                <label>EHC1 HEETS GOLDSELC MNT S50 PRI 20 SLI</label>
+            </value>
+            <value>
+                <fullName>EHC1 HEETS BRONZESE S50 PRI 20 SLI</fullName>
+                <default>false</default>
+                <label>EHC1 HEETS BRONZESE S50 PRI 20 SLI</label>
+            </value>
+            <value>
+                <fullName>EHC1 HEETS CEDARSEL S50 PRI 20 SLI</fullName>
+                <default>false</default>
+                <label>EHC1 HEETS CEDARSEL S50 PRI 20 SLI</label>
+            </value>
+            <value>
+                <fullName>EHC1 HEETS SUMMERBR MNT S50 PRI 20 SLI</fullName>
+                <default>false</default>
+                <label>EHC1 HEETS SUMMERBR MNT S50 PRI 20 SLI</label>
+            </value>
+            <value>
+                <fullName>EHC1 H1 AMMIL MNT S50 PRI 20 SLI</fullName>
+                <default>false</default>
+                <label>EHC1 H1 AMMIL MNT S50 PRI 20 SLI</label>
+            </value>
+            <value>
+                <fullName>EHC1 H1 NOOR S50 PRI 20 SLI</fullName>
+                <default>false</default>
+                <label>EHC1 H1 NOOR S50 PRI 20 SLI</label>
+            </value>
+            <value>
+                <fullName>EHC1 H1 YUGEN MNT S50 PRI 20 SLI</fullName>
+                <default>false</default>
+                <label>EHC1 H1 YUGEN MNT S50 PRI 20 SLI</label>
+            </value>
+            <value>
+                <fullName>EHC1 HEETS MNT S50 PRI 20 SLI</fullName>
+                <default>false</default>
+                <label>EHC1 HEETS MNT S50 PRI 20 SLI</label>
+            </value>
+        </valueSetDefinition>
+        <valueSettings>
+            <controllingFieldValue>SUMMERBR</controllingFieldValue>
+            <valueName>EHC1 HEETS SUMMERBR MNT S50 PRI 20 SLI</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>AMMIL</controllingFieldValue>
+            <valueName>EHC1 H1 AMMIL MNT S50 PRI 20 SLI</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>NOOR</controllingFieldValue>
+            <valueName>EHC1 H1 NOOR S50 PRI 20 SLI</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>YUGEN</controllingFieldValue>
+            <valueName>EHC1 H1 YUGEN MNT S50 PRI 20 SLI</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>BGS</controllingFieldValue>
+            <valueName>EHC1 HEETS MNT S50 PRI 20 SLI</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>BLUESELE</controllingFieldValue>
+            <valueName>EHC1 HEETS BLUESELE MNT S50 PRI 20 SLI</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>GREENSE</controllingFieldValue>
+            <valueName>EHC1 HEETS GREENSE MNT S50 PRI 20 SLI</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>SILVSEL</controllingFieldValue>
+            <valueName>EHC1 HEETS SILVSEL S50 PRI 20 SLI</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>AMBERSEL</controllingFieldValue>
+            <valueName>EHC1 HEETS AMBERSEL S50 PRI 20 SLI</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>PURPWA</controllingFieldValue>
+            <valueName>EHC1 HEETS PURPWA MNT S50 PRI 20 SLI</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>GREENZIN</controllingFieldValue>
+            <valueName>EHC1 HEETS GREEN ZING MNT S50 PRI 20 SLI</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>TURQSEL</controllingFieldValue>
+            <valueName>EHC1 HEETS TURQSEL MNT S50 PRI 20 SLI</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>GOLDSELC</controllingFieldValue>
+            <valueName>EHC1 HEETS GOLDSELC MNT S50 PRI 20 SLI</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>BRONZESE</controllingFieldValue>
+            <valueName>EHC1 HEETS BRONZESE S50 PRI 20 SLI</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>CEDARSEL</controllingFieldValue>
+            <valueName>EHC1 HEETS CEDARSEL S50 PRI 20 SLI</valueName>
+        </valueSettings>
+    </valueSet>
+</CustomField>

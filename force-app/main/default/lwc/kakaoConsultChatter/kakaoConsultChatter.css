@@ -1,0 +1,111 @@
+* {
+    margin: 0;
+}
+
+.fullwidth {
+    width: 100%;
+    display: inline-block;
+    position: relative;
+}
+
+.chatroom__container {
+    height: 65vh;
+    min-height: 400px;
+}
+
+.chatroom__placearea {
+    background-color: rgba(181, 195, 221, 0.438);
+    height: 80%;
+    margin-left: 1em;
+    margin-right: 1em;
+    border-top-left-radius: 0.5em;
+    border-top-right-radius: 0.5em;
+    display: block;
+    overflow: scroll;
+    margin-bottom: 0.1em;
+}
+
+.chatroom__usermessage {
+    background-color: rgb(255, 254, 251);
+    color: black;
+    max-width: 80%;
+    float: left;
+    margin: 00.4em;
+    height: fit-content;
+    padding: 00.4em;
+    border-radius: 0.3em;
+}
+
+.chatroom__agentmessage {
+    background-color: rgb(255, 230, 0);
+    color: black;
+    max-width: 80%;
+    float: right;
+    margin: 00.4em;
+    height: fit-content;
+    padding: 00.4em;
+    border-radius: 0.3em;
+    position: relative;
+}
+
+.chatroom__inputarea {
+    margin-left: 1em;
+    margin-right: 1em;
+    height: 20%;
+}
+
+.chatroom__input {
+    margin: 0;
+    height: 100%;
+    height: 100%;
+    border-radius: 0;
+}
+
+.chatroom__sendbutton {
+    display: block;
+    width: 100%;
+    height: 100%;
+    border-radius: 0;
+    border: none;
+    background-color: rgb(255, 230, 0);
+    color: black;
+    cursor: pointer;
+}
+.chatroom__sendbutton:hover {
+    background-color: rgb(255, 233, 31);
+    color: black;
+    cursor: pointer;
+}
+.chatroom__sendbutton:active {
+    background-color: rgb(255, 187, 0);
+    color: white;
+    cursor: pointer;
+}
+.chatroom__sendbutton_disabled {
+    display: block;
+    width: 100%;
+    height: 100%;
+    border-radius: 0;
+    border: none;
+    background-color: grey;
+    color: white;
+    cursor: pointer;
+}
+
+.chatroom__sendtime_user {
+    font-size: x-small;
+    position: absolute;
+    bottom: 0;
+}
+
+.chatroom__sendtime_agent {
+    font-size: x-small;
+    position: absolute;
+    bottom: 0;
+}
+
+.chatroom__sendtime_agent_decorator {
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+}

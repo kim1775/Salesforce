@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>This is object is used to drive the user that activation of Qure , Limited Edition and to check online block of device</description>
+    <label>CCR Qure Process</label>
+    <pluralLabel>CCR Qure Processes</pluralLabel>
+    <visibility>Public</visibility>
+</CustomObject>

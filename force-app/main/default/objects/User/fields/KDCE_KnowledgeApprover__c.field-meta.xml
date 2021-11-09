@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>KDCE_KnowledgeApprover__c</fullName>
+    <description>[KDCE] Knowledge Article 승인자</description>
+    <externalId>false</externalId>
+    <label>Knowledge Approver</label>
+    <relationshipName>Knowledge_Approver</relationshipName>
+    <restrictedAdminField>false</restrictedAdminField>
+    <trackFeedHistory>false</trackFeedHistory>
+    <type>Hierarchy</type>
+</CustomField>

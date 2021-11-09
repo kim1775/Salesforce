@@ -1,0 +1,34 @@
+<!--
+ - Created by I2MAX on 2021-03-17.
+ -->
+
+<apex:page standardController="Asset" extensions="CCR_QUREAgentPageExt" sidebar="false" showHeader="false" standardStylesheets="false">
+    <apex:includeScript value="/lightning/lightning.out.js" />
+    <apex:stylesheet value="/resource/slds0120/assets/styles/salesforce-lightning-design-system-vf.css"/>
+    <apex:stylesheet value="{!$Resource.CCR_QUREAgentPageStylesheet}" />
+    <apex:includeLightning />
+    <meta name="viewport" content="width=device-width,initial-scale=1"/>
+    <title>제품 자가 진단</title>
+    <div id="qureHeader"/>
+    <div id="qureMainComponent"/>
+    <apex:outputText rendered="{!!qureEnabled}"></apex:outputText>
+    <apex:pageMessages rendered="true"/>
+    <style>
+    @media (max-width: 767px) { .pc-Only { display: none; } }
+    </style>
+    <script>
+    console.log('page called');
+    if({!qureEnabled}==true){
+        $Lightning.use("c:CCR_QUREMainApp", function() {
+            $Lightning.createComponent("c:CCR_Qure15MainHeader",
+                                       {},
+                                       "qureHeader",
+                                       function(cmp) {});
+            $Lightning.createComponent("c:CCR_QureMain",
+                                       {},
+                                       "qureMainComponent",
+                                       function(cmp) {});
+        });
+    }
+    </script>
+</apex:page>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>KakaoNotiTempleteCode__c</fullName>
+    <description>카카오 알림톡 템플릿 코드 - 기 등록된 템플릿 코드 이용(InfoBank에 등록된 코드만 사용가능)</description>
+    <externalId>false</externalId>
+    <label>Kakao Noti Templete Code</label>
+    <length>255</length>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

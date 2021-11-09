@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>KDCE_RegistrationChannel__c</fullName>
+    <externalId>false</externalId>
+    <label>Registration Channel</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>IQOS</fullName>
+                <default>false</default>
+                <label>IQOS</label>
+            </value>
+            <value>
+                <fullName>GetInfo</fullName>
+                <default>false</default>
+                <label>GetInfo</label>
+            </value>
+            <value>
+                <fullName>EasyIqos</fullName>
+                <default>false</default>
+                <label>EasyIqos</label>
+            </value>
+            <value>
+                <fullName>SC</fullName>
+                <default>false</default>
+                <label>SC</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

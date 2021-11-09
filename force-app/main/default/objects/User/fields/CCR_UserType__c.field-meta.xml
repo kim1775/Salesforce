@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>CCR_UserType__c</fullName>
+    <description>Used by: CCR Description: Used to monitor which SFDC licence has been assigned to the user. Introduced by QURE</description>
+    <externalId>false</externalId>
+    <label>User Type</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetName>CCR_UserType</valueSetName>
+    </valueSet>
+</CustomField>

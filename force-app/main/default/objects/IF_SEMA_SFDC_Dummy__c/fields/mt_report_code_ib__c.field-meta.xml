@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>mt_report_code_ib__c</fullName>
+    <description>[IF_SEMA_SFDC_0001] mt_report_code_ib</description>
+    <externalId>false</externalId>
+    <label>mt_report_code_ib</label>
+    <length>10</length>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

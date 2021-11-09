@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>CCR_MaximumReplacementsForCode__c</fullName>
+    <description>Used by: CCR. 
+Description: It&apos;s to store information what is the maximum number for replacements for specific diagnositc code.</description>
+    <externalId>false</externalId>
+    <label>Maximum Replacements for Code</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>0</scale>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Number</type>
+    <unique>false</unique>
+</CustomField>

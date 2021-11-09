@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>KDCE_IqosON__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>[KDCE] ON 프로그램 가입 여부</description>
+    <externalId>false</externalId>
+    <label>IQOS ON</label>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Checkbox</type>
+</CustomField>

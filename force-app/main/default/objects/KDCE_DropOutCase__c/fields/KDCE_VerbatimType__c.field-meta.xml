@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>KDCE_VerbatimType__c</fullName>
+    <externalId>false</externalId>
+    <label>Verbatim Type</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>CO meter</fullName>
+                <default>false</default>
+                <label>CO meter</label>
+            </value>
+            <value>
+                <fullName>Science Demo</fullName>
+                <default>false</default>
+                <label>Science Demo</label>
+            </value>
+            <value>
+                <fullName>Guided Trial</fullName>
+                <default>false</default>
+                <label>Guided Trial</label>
+            </value>
+            <value>
+                <fullName>Cleaning</fullName>
+                <default>false</default>
+                <label>Cleaning</label>
+            </value>
+            <value>
+                <fullName>이벤트 참여</fullName>
+                <default>false</default>
+                <label>이벤트 참여</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+    <visibleLines>4</visibleLines>
+</CustomField>

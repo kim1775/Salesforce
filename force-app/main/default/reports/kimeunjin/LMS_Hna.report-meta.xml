@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Report xmlns="http://soap.sforce.com/2006/04/metadata">
+    <columns>
+        <field>Notification__c$CreatedDate</field>
+    </columns>
+    <columns>
+        <field>Notification__c$CreatedBy</field>
+    </columns>
+    <columns>
+        <field>Notification__c$Contact__c</field>
+    </columns>
+    <columns>
+        <field>Notification__c$NotificationTemplate__c</field>
+    </columns>
+    <columns>
+        <field>Notification__c$Name</field>
+    </columns>
+    <filter>
+        <criteriaItems>
+            <column>Notification__c$NotificationTemplate__c</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>true</isUnlocked>
+            <operator>contains</operator>
+            <value>감성</value>
+        </criteriaItems>
+        <language>ko</language>
+    </filter>
+    <format>Tabular</format>
+    <name>감성터치 LMS 발송 내역</name>
+    <params>
+        <name>co</name>
+        <value>1</value>
+    </params>
+    <reportType>RT_Notification__c</reportType>
+    <scope>organization</scope>
+    <showDetails>true</showDetails>
+    <showGrandTotal>true</showGrandTotal>
+    <showSubTotals>true</showSubTotals>
+    <timeFrameFilter>
+        <dateColumn>Notification__c$CreatedDate</dateColumn>
+        <endDate>2021-11-01</endDate>
+        <interval>INTERVAL_CUSTOM</interval>
+        <startDate>2021-11-01</startDate>
+    </timeFrameFilter>
+</Report>

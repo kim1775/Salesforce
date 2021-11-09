@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>CCR_ReplacementDate__c</fullName>
+    <description>Offline Program에서 Asset Replacement에 관한 필드를 작성하기 위한 임시 필드.</description>
+    <externalId>false</externalId>
+    <label>Replacement Date</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>DateTime</type>
+</CustomField>

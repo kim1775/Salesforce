@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>KDCE_ru_RequestDateTime__c</fullName>
+    <description>The date/time when a customer requests a Kakao Chat.</description>
+    <externalId>false</externalId>
+    <label>Request Date/Time</label>
+    <summarizedField>Kakao_Chat_Feed__c.Sent_Time__c</summarizedField>
+    <summaryFilterItems>
+        <field>Kakao_Chat_Feed__c.Sender__c</field>
+        <operation>equals</operation>
+        <value>Customer</value>
+    </summaryFilterItems>
+    <summaryForeignKey>Kakao_Chat_Feed__c.Kakao_Consult_Chat__c</summaryForeignKey>
+    <summaryOperation>min</summaryOperation>
+    <trackTrending>false</trackTrending>
+    <type>Summary</type>
+</CustomField>

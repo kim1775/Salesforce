@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>ru_CancelCount__c</fullName>
+    <externalId>false</externalId>
+    <label>Coupon Cancel Count (RU)</label>
+    <summaryFilterItems>
+        <field>KDCE_CouponHistory__c.ActionType__c</field>
+        <operation>equals</operation>
+        <value>Cancel</value>
+    </summaryFilterItems>
+    <summaryForeignKey>KDCE_CouponHistory__c.Coupon__c</summaryForeignKey>
+    <summaryOperation>count</summaryOperation>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Summary</type>
+</CustomField>

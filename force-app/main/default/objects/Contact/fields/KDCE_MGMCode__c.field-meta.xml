@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>KDCE_MGMCode__c</fullName>
+    <caseSensitive>false</caseSensitive>
+    <description>MGM Coupon Code</description>
+    <externalId>true</externalId>
+    <inlineHelpText>[KDCE] MGM 친구 추천인 코드</inlineHelpText>
+    <label>MGM Coupon Code</label>
+    <length>255</length>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Text</type>
+    <unique>true</unique>
+</CustomField>

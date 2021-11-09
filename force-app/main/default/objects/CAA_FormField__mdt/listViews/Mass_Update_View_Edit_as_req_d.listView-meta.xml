@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Mass_Update_View_Edit_as_req_d</fullName>
+    <columns>MasterLabel</columns>
+    <columns>DeveloperName</columns>
+    <columns>Field_Default_Value__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>DeveloperName</field>
+        <operation>contains</operation>
+        <value>_birth</value>
+    </filters>
+    <label>Mass Update View (Edit as req&apos;d)</label>
+    <language>en_US</language>
+</ListView>

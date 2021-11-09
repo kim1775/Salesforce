@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>KDCE_SendNPS__c</fullName>
+    <description>[KDCE] 케이스 종료 시 NPS 설문 발송여부 확인</description>
+    <externalId>false</externalId>
+    <inlineHelpText>사례 종료 후 NPS 발송여부를 선택합니다. NPS 유형(Brand NPS/Channel NPS)은 선택한 서브젝트 코드에 따라 결정됩니다. 고객이 반드시 정보성 수신을 동의해야 정상 발송됩니다.</inlineHelpText>
+    <label>Send NPS</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Yes</fullName>
+                <default>false</default>
+                <label>Yes</label>
+            </value>
+            <value>
+                <fullName>No</fullName>
+                <default>false</default>
+                <label>No</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

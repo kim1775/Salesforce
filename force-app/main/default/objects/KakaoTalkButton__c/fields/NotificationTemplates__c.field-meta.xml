@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>NotificationTemplates__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <description>템플릿 ID Lookup : 카카오 알림톡 템플릿 ID 필터링</description>
+    <externalId>false</externalId>
+    <label>Kakao Notification Templates</label>
+    <lookupFilter>
+        <active>true</active>
+        <errorMessage>The Kakao button can only be created from a Kakao channel template.
+(e.g : Kakao Friend Talk, Kakao Notification Talk)</errorMessage>
+        <filterItems>
+            <field>NotificationTemplate__c.Channel__c</field>
+            <operation>equals</operation>
+            <value>1008, 1009</value>
+        </filterItems>
+        <isOptional>false</isOptional>
+    </lookupFilter>
+    <referenceTo>NotificationTemplate__c</referenceTo>
+    <relationshipLabel>Kakao Talk Button</relationshipLabel>
+    <relationshipName>Kakao_Notification_Talk_Button</relationshipName>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Lookup</type>
+</CustomField>

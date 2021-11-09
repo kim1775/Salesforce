@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>KDCE_ConvertedConsumer__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>새로운 Iqos.com 가입 고객</description>
+    <externalId>false</externalId>
+    <inlineHelpText>새로운 Iqos.com 가입 고객</inlineHelpText>
+    <label>Converted Consumer</label>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Checkbox</type>
+</CustomField>

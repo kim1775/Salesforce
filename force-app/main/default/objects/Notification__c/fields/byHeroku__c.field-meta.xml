@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>byHeroku__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>[PMK DCE]Heroku 통해서 생성/수정된 Notification 
+Heroku 통해서 생성/수정시 Notification Validation bypass 처리함.</description>
+    <externalId>false</externalId>
+    <label>by Heroku</label>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

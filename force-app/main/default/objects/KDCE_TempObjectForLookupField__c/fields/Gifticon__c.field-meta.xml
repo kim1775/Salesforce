@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Gifticon__c</fullName>
+    <description>Coupon Journey Gifticon</description>
+    <externalId>false</externalId>
+    <label>Gifticon</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>스타벅스 교환권</fullName>
+                <default>false</default>
+                <label>스타벅스 교환권</label>
+            </value>
+            <value>
+                <fullName>베스킨라빈스 교환권</fullName>
+                <default>false</default>
+                <label>베스킨라빈스 교환권</label>
+            </value>
+            <value>
+                <fullName>CU 모바일 상품권</fullName>
+                <default>false</default>
+                <label>CU 모바일 상품권</label>
+            </value>
+            <value>
+                <fullName>GS25 모바일 상품권</fullName>
+                <default>false</default>
+                <label>GS25 모바일 상품권</label>
+            </value>
+            <value>
+                <fullName>GS 칼텍스 주유상품권</fullName>
+                <default>false</default>
+                <label>GS 칼텍스 주유상품권</label>
+            </value>
+            <value>
+                <fullName>올리브영</fullName>
+                <default>false</default>
+                <label>올리브영</label>
+            </value>
+            <value>
+                <fullName>파리바게트</fullName>
+                <default>false</default>
+                <label>파리바게트</label>
+            </value>
+            <value>
+                <fullName>신세계 상품권</fullName>
+                <default>false</default>
+                <label>신세계 상품권</label>
+            </value>
+            <value>
+                <fullName>도서문화상품권</fullName>
+                <default>false</default>
+                <label>도서문화상품권</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

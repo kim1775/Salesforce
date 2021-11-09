@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>KDCE_ProgramSubCode__c</fullName>
+    <externalId>false</externalId>
+    <label>Program Sub Code</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <controllingField>CCR_SubjectCodeNew__c</controllingField>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>보상판매</fullName>
+                <default>false</default>
+                <label>보상판매</label>
+            </value>
+            <value>
+                <fullName>MGM</fullName>
+                <default>false</default>
+                <label>MGM</label>
+            </value>
+            <value>
+                <fullName>추가구매</fullName>
+                <default>false</default>
+                <label>추가구매</label>
+            </value>
+            <value>
+                <fullName>특별구매</fullName>
+                <default>false</default>
+                <label>특별구매</label>
+            </value>
+            <value>
+                <fullName>시즌 프로모션</fullName>
+                <default>false</default>
+                <label>시즌 프로모션</label>
+            </value>
+            <value>
+                <fullName>매장문의</fullName>
+                <default>false</default>
+                <label>매장문의</label>
+            </value>
+            <value>
+                <fullName>기기관련</fullName>
+                <default>false</default>
+                <label>기기관련</label>
+            </value>
+            <value>
+                <fullName>고객이외 통화</fullName>
+                <default>false</default>
+                <label>고객이외 통화</label>
+            </value>
+            <value>
+                <fullName>이전 통화자 요청</fullName>
+                <default>false</default>
+                <label>이전 통화자 요청</label>
+            </value>
+            <value>
+                <fullName>부재중 문의</fullName>
+                <default>false</default>
+                <label>부재중 문의</label>
+            </value>
+            <value>
+                <fullName>단순 교환 절차</fullName>
+                <default>false</default>
+                <label>단순 교환 절차</label>
+            </value>
+            <value>
+                <fullName>업그레이드</fullName>
+                <default>false</default>
+                <label>업그레이드</label>
+            </value>
+            <value>
+                <fullName>신규할인</fullName>
+                <default>false</default>
+                <label>신규할인</label>
+            </value>
+        </valueSetDefinition>
+        <valueSettings>
+            <controllingFieldValue>IN008</controllingFieldValue>
+            <valueName>보상판매</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>IN008</controllingFieldValue>
+            <valueName>MGM</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>IN008</controllingFieldValue>
+            <valueName>추가구매</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>IN008</controllingFieldValue>
+            <valueName>특별구매</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>IN008</controllingFieldValue>
+            <valueName>시즌 프로모션</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>IN008</controllingFieldValue>
+            <valueName>업그레이드</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>IN008</controllingFieldValue>
+            <valueName>신규할인</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>IN013</controllingFieldValue>
+            <valueName>매장문의</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>IN013</controllingFieldValue>
+            <valueName>기기관련</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>IN013</controllingFieldValue>
+            <valueName>고객이외 통화</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>IN013</controllingFieldValue>
+            <valueName>이전 통화자 요청</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>IN013</controllingFieldValue>
+            <valueName>부재중 문의</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>IN013</controllingFieldValue>
+            <valueName>단순 교환 절차</valueName>
+        </valueSettings>
+    </valueSet>
+</CustomField>

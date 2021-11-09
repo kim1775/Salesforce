@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>KDCE_DeviceLabelling__c</fullName>
+    <description>[KDCE] Status가 변경됨에 따라 Device Label도 변경된다</description>
+    <externalId>false</externalId>
+    <label>Device Labelling</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>true</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>E-Commerce</fullName>
+                <default>false</default>
+                <label>E-Commerce</label>
+            </value>
+            <value>
+                <fullName>Online Trade-in Return</fullName>
+                <default>false</default>
+                <label>Online Trade-in Return</label>
+            </value>
+            <value>
+                <fullName>Online Trade-in</fullName>
+                <default>false</default>
+                <label>Online Trade-in</label>
+            </value>
+            <value>
+                <fullName>Renting</fullName>
+                <default>false</default>
+                <label>Renting</label>
+            </value>
+            <value>
+                <fullName>Rental Purchased</fullName>
+                <default>false</default>
+                <label>Rental Purchased</label>
+            </value>
+            <value>
+                <fullName>To be disposed</fullName>
+                <default>false</default>
+                <label>To be disposed</label>
+            </value>
+            <value>
+                <fullName>Return Fail</fullName>
+                <default>false</default>
+                <label>Return Fail</label>
+            </value>
+            <value>
+                <fullName>Offline Trade-in</fullName>
+                <default>false</default>
+                <label>Offline Trade-in</label>
+            </value>
+            <value>
+                <fullName>Offline Trade-in Return</fullName>
+                <default>false</default>
+                <label>Offline Trade-in Return</label>
+            </value>
+            <value>
+                <fullName>E-commerce Rental</fullName>
+                <default>false</default>
+                <label>E-commerce Rental</label>
+            </value>
+            <value>
+                <fullName>Offline Rental</fullName>
+                <default>false</default>
+                <label>Offline Rental</label>
+            </value>
+            <value>
+                <fullName>Upgrade</fullName>
+                <default>false</default>
+                <label>Upgrade</label>
+            </value>
+            <value>
+                <fullName>Rental Returned</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Rental Returned</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

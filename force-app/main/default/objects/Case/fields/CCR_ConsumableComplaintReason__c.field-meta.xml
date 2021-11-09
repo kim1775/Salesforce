@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>CCR_ConsumableComplaintReason__c</fullName>
+    <description>Used by CCR
+Description: The reason by which the customer reported complaints e.g Missing, Dirty</description>
+    <externalId>false</externalId>
+    <label>Consumable Complaint Reason</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <controllingField>CCR_UnitOfMeasure__c</controllingField>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Damaged</fullName>
+                <default>false</default>
+                <label>Damaged</label>
+            </value>
+            <value>
+                <fullName>Extra</fullName>
+                <default>false</default>
+                <label>Extra</label>
+            </value>
+            <value>
+                <fullName>Missing</fullName>
+                <default>false</default>
+                <label>Missing</label>
+            </value>
+            <value>
+                <fullName>Sensory / Functionality / Other</fullName>
+                <default>false</default>
+                <label>Sensory / Functionality / Other</label>
+            </value>
+            <value>
+                <fullName>Smeared / Dirty</fullName>
+                <default>false</default>
+                <label>Smeared / Dirty</label>
+            </value>
+            <value>
+                <fullName>Wrong</fullName>
+                <default>false</default>
+                <label>Wrong</label>
+            </value>
+            <value>
+                <fullName>Crashed / Broken</fullName>
+                <default>false</default>
+                <label>Crashed / Broken</label>
+            </value>
+            <value>
+                <fullName>Functionality / Sensory / Experience</fullName>
+                <default>false</default>
+                <label>Functionality / Sensory / Experience</label>
+            </value>
+            <value>
+                <fullName>null</fullName>
+                <default>false</default>
+                <label>null</label>
+            </value>
+            <value>
+                <fullName>(Pack)Extra</fullName>
+                <default>false</default>
+                <label>(Pack)Extra</label>
+            </value>
+            <value>
+                <fullName>(Pack)Smeared / Dirty</fullName>
+                <default>false</default>
+                <label>(Pack)Smeared / Dirty</label>
+            </value>
+            <value>
+                <fullName>(Pack)Wrong</fullName>
+                <default>false</default>
+                <label>(Pack)Wrong</label>
+            </value>
+            <value>
+                <fullName>(Pack)Damaged</fullName>
+                <default>false</default>
+                <label>(Pack)Damaged</label>
+            </value>
+            <value>
+                <fullName>(Pack)Missing</fullName>
+                <default>false</default>
+                <label>(Pack)Missing</label>
+            </value>
+            <value>
+                <fullName>(Pack)Sensory / Functionality / Other</fullName>
+                <default>false</default>
+                <label>(Pack)Sensory / Functionality / Other</label>
+            </value>
+            <value>
+                <fullName>(Carton)Missing</fullName>
+                <default>false</default>
+                <label>(Carton)Missing</label>
+            </value>
+            <value>
+                <fullName>(Carton)Smeared / Dirty</fullName>
+                <default>false</default>
+                <label>(Carton)Smeared / Dirty</label>
+            </value>
+            <value>
+                <fullName>(Carton)Damaged</fullName>
+                <default>false</default>
+                <label>(Carton)Damaged</label>
+            </value>
+            <value>
+                <fullName>(Carton)Wrong</fullName>
+                <default>false</default>
+                <label>(Carton)Wrong</label>
+            </value>
+            <value>
+                <fullName>Miscellaneous</fullName>
+                <default>false</default>
+                <label>Miscellaneous</label>
+            </value>
+            <value>
+                <fullName>(Piece)Wrong</fullName>
+                <default>false</default>
+                <label>(Piece)Wrong</label>
+            </value>
+            <value>
+                <fullName>(Piece)Missing</fullName>
+                <default>false</default>
+                <label>(Piece)Missing</label>
+            </value>
+            <value>
+                <fullName>(Piece)Extra</fullName>
+                <default>false</default>
+                <label>(Piece)Extra</label>
+            </value>
+            <value>
+                <fullName>(Piece)Damaged</fullName>
+                <default>false</default>
+                <label>(Piece)Damaged</label>
+            </value>
+            <value>
+                <fullName>(Piece)Sensory / Functionality / Other</fullName>
+                <default>false</default>
+                <label>(Piece)Sensory / Functionality / Other</label>
+            </value>
+            <value>
+                <fullName>(Piece)Smeared / Dirty</fullName>
+                <default>false</default>
+                <label>(Piece)Smeared / Dirty</label>
+            </value>
+        </valueSetDefinition>
+        <valueSettings>
+            <controllingFieldValue>Carton</controllingFieldValue>
+            <valueName>(Carton)Missing</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Carton</controllingFieldValue>
+            <valueName>(Carton)Smeared / Dirty</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Carton</controllingFieldValue>
+            <valueName>(Carton)Damaged</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Carton</controllingFieldValue>
+            <valueName>(Carton)Wrong</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Pack</controllingFieldValue>
+            <valueName>(Pack)Extra</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Pack</controllingFieldValue>
+            <valueName>(Pack)Smeared / Dirty</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Pack</controllingFieldValue>
+            <valueName>(Pack)Wrong</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Pack</controllingFieldValue>
+            <valueName>(Pack)Damaged</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Pack</controllingFieldValue>
+            <valueName>(Pack)Missing</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Pack</controllingFieldValue>
+            <valueName>(Pack)Sensory / Functionality / Other</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Piece</controllingFieldValue>
+            <valueName>(Piece)Wrong</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Piece</controllingFieldValue>
+            <valueName>(Piece)Missing</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Piece</controllingFieldValue>
+            <valueName>(Piece)Extra</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Piece</controllingFieldValue>
+            <valueName>(Piece)Damaged</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Piece</controllingFieldValue>
+            <valueName>(Piece)Sensory / Functionality / Other</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Piece</controllingFieldValue>
+            <valueName>(Piece)Smeared / Dirty</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Other</controllingFieldValue>
+            <valueName>Miscellaneous</valueName>
+        </valueSettings>
+    </valueSet>
+</CustomField>

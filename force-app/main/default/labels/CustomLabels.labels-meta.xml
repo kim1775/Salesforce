@@ -1,0 +1,2747 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomLabels xmlns="http://soap.sforce.com/2006/04/metadata">
+    <labels>
+        <fullName>AccountAddress_NumberSet</fullName>
+        <categories>Address</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>AccountAddress_NumberSet</shortDescription>
+        <value>5</value>
+    </labels>
+    <labels>
+        <fullName>AddressInfo_SaveMsg</fullName>
+        <categories>Address</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>AddressInfo_SaveMsg</shortDescription>
+        <value>주소정보가 저장되었습니다.</value>
+    </labels>
+    <labels>
+        <fullName>AddressSearch_ApiKeySet</fullName>
+        <categories>Address</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>AddressSearch_ApiKeySet</shortDescription>
+        <value>U01TX0FVVEgyMDIxMDIxNzA4NTcxNTExMDgxNzc=</value>
+    </labels>
+    <labels>
+        <fullName>AddressSearch_ApiUrlSet</fullName>
+        <categories>Address</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>AddressSearch_ApiUrlSet</shortDescription>
+        <value>https://www.juso.go.kr/addrlink/addrLinkApi.do</value>
+    </labels>
+    <labels>
+        <fullName>AddressSearch_SearchMsg</fullName>
+        <categories>Address</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>AddressSearch_SearchMsg</shortDescription>
+        <value>도로명 정보를 입력하시기 바랍니다.</value>
+    </labels>
+    <labels>
+        <fullName>CAS_LAB_HEATS_INBOUND_OUTBOUND</fullName>
+        <categories>Case</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>CAS_LAB_HEATS_INBOUND_OUTBOUND</shortDescription>
+        <value>Inbound</value>
+    </labels>
+    <labels>
+        <fullName>CAS_MSG_SAVE</fullName>
+        <categories>Case</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>CAS_MSG_SAVE</shortDescription>
+        <value>케이스가 저장되었습니다.</value>
+    </labels>
+    <labels>
+        <fullName>CCR_AssetIdMissing</fullName>
+        <language>ko</language>
+        <protected>false</protected>
+        <shortDescription>Asset Id Missing</shortDescription>
+        <value>Asset Id not passed in URL or passed NULL or passed other SFDC Id, Please close this page and try again. If you need more help please contact with Support Team</value>
+    </labels>
+    <labels>
+        <fullName>CCR_Asset_Error_Message</fullName>
+        <language>ko</language>
+        <protected>false</protected>
+        <shortDescription>CCR Asset Error Message</shortDescription>
+        <value>해당 자산은 이미 컨택트에 링크(연동)되었습니다. 이전 컨택트를 언링크(연동해제)하여 새 컨택트와 링크(연동)하십시오.</value>
+    </labels>
+    <labels>
+        <fullName>CCR_Cancel</fullName>
+        <language>ko</language>
+        <protected>false</protected>
+        <shortDescription>CCR Cancel</shortDescription>
+        <value>취소</value>
+    </labels>
+    <labels>
+        <fullName>CCR_CancelLabel</fullName>
+        <language>ko</language>
+        <protected>false</protected>
+        <shortDescription>To store the cancel button label in CCR_AssetReplacement page</shortDescription>
+        <value>취소</value>
+    </labels>
+    <labels>
+        <fullName>CCR_CarePlusDamageCounterError</fullName>
+        <language>ko</language>
+        <protected>false</protected>
+        <shortDescription>CCR Care Plus Damage Counter Error</shortDescription>
+        <value>물리적 손상 보장 최대 한도에 도달했습니다.</value>
+    </labels>
+    <labels>
+        <fullName>CCR_CarePlusNotActivated</fullName>
+        <language>ko</language>
+        <protected>false</protected>
+        <shortDescription>CCR Care Plus Not Activated</shortDescription>
+        <value>이 국가에서는 Care Plus가 활성화되지 않았습니다.</value>
+    </labels>
+    <labels>
+        <fullName>CCR_Color</fullName>
+        <language>ko</language>
+        <protected>false</protected>
+        <shortDescription>Different Color Devices</shortDescription>
+        <value>장치를 다른 색상으로 교체하려고합니다.</value>
+    </labels>
+    <labels>
+        <fullName>CCR_ContactLastUpdatedInSpice</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>CCR ContactLastUpdatedInSpice</shortDescription>
+        <value>Contact last updated in SPICE, Try again Later.</value>
+    </labels>
+    <labels>
+        <fullName>CCR_Devices</fullName>
+        <language>ko</language>
+        <protected>false</protected>
+        <shortDescription>Different Devices</shortDescription>
+        <value>다른 유형의 제품을 교체하려고합니다. 진행 하시겠습니까?</value>
+    </labels>
+    <labels>
+        <fullName>CCR_DevicesApi</fullName>
+        <language>ko</language>
+        <protected>false</protected>
+        <shortDescription>CCR_DevicesApi</shortDescription>
+        <value>다른 유형의 제품을 교체하려고합니다.</value>
+    </labels>
+    <labels>
+        <fullName>CCR_EnterCodentify</fullName>
+        <language>ko</language>
+        <protected>false</protected>
+        <shortDescription>CCR_EnterCodentify</shortDescription>
+        <value>Codentify 또는 상위 Codentify ID를 입력하십시오.</value>
+    </labels>
+    <labels>
+        <fullName>CCR_Incorrect_Codentify_Id_Message</fullName>
+        <language>ko</language>
+        <protected>false</protected>
+        <shortDescription>CCR Incorrect Codentify Id Message</shortDescription>
+        <value>교체하려는 제품이 시스템 상에 없음</value>
+    </labels>
+    <labels>
+        <fullName>CCR_Invalid_Codentify_Id_New_Asset</fullName>
+        <language>ko</language>
+        <protected>false</protected>
+        <shortDescription>CCR Invalid Codentify Id New Asset</shortDescription>
+        <value>교체(replacement) 박스의 코덴티파이 코드를 찾을 수 없음</value>
+    </labels>
+    <labels>
+        <fullName>CCR_InvalideCodentify</fullName>
+        <language>ko</language>
+        <protected>false</protected>
+        <shortDescription>CCR_InvalideCodentify</shortDescription>
+        <value>Invalid Codentify OR Parent Codentify Id.</value>
+    </labels>
+    <labels>
+        <fullName>CCR_IsforTrail</fullName>
+        <language>ko</language>
+        <protected>false</protected>
+        <shortDescription>device is not for trail</shortDescription>
+        <value>You cannot replace a device used for Trials. Please contact your Community Activator</value>
+    </labels>
+    <labels>
+        <fullName>CCR_KITAssigned2ConsumersMessage</fullName>
+        <language>ko</language>
+        <protected>false</protected>
+        <shortDescription>CCR KITAssigned2ConsumersMessage</shortDescription>
+        <value>기존 KIT 장치가 다른 소비자에게 할당된 KIT 교체를 수행하고 있습니다.</value>
+    </labels>
+    <labels>
+        <fullName>CCR_Kit2KitReplacement</fullName>
+        <language>ko</language>
+        <protected>false</protected>
+        <shortDescription>CCR_Kit2KitReplacement</shortDescription>
+        <value>Kit2Kit 교체를 진행하고 있습니다. &quot;교체&quot;버튼을 클릭하여 진행하십시오.</value>
+    </labels>
+    <labels>
+        <fullName>CCR_MaterialDescription</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>material descripition</shortDescription>
+        <value>Material Description</value>
+    </labels>
+    <labels>
+        <fullName>CCR_MultiToMultiReplacementOnly</fullName>
+        <language>ko</language>
+        <protected>false</protected>
+        <shortDescription>CCR_MultiToMultiReplacementOnly</shortDescription>
+        <value>MULTI (모델 A1405) 장치는 다른 모델이 아닌 MULTI로만 교체 할 수 있습니다.</value>
+    </labels>
+    <labels>
+        <fullName>CCR_NoContactLinked</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>No Consumer is Linked to this Asset</shortDescription>
+        <value>Please Link your Device first before proceeding to QURE</value>
+    </labels>
+    <labels>
+        <fullName>CCR_NoQureCountry</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>QURE is not enabled for this country</shortDescription>
+        <value>We are sorry, but the diagnostic tool is temporarily unavailable.</value>
+    </labels>
+    <labels>
+        <fullName>CCR_NotEnrolledCarePlus</fullName>
+        <language>ko</language>
+        <protected>false</protected>
+        <shortDescription>CCR Not Enrolled For Care Plus</shortDescription>
+        <value>이 자산은 IQOS CARE PLUS에 등록되지 않았습니다.</value>
+    </labels>
+    <labels>
+        <fullName>CCR_ParentCodentifyID</fullName>
+        <language>ko</language>
+        <protected>false</protected>
+        <shortDescription>single child parent</shortDescription>
+        <value>제품는 싱글 라인업으로만 교체할 수 있습니다.</value>
+    </labels>
+    <labels>
+        <fullName>CCR_Producedstatus</fullName>
+        <language>ko</language>
+        <protected>false</protected>
+        <shortDescription>you cannot Replace device with status Active</shortDescription>
+        <value>제품를 생산됨 상태 이외의 상태로 변경할 수 없습니다.</value>
+    </labels>
+    <labels>
+        <fullName>CCR_PurchaseDateLabel</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>CCR Purchase Date Label</shortDescription>
+        <value>Purchase Date</value>
+    </labels>
+    <labels>
+        <fullName>CCR_QURECharger</fullName>
+        <categories>Qure</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>CCR_QURECharger</shortDescription>
+        <value>Charger</value>
+    </labels>
+    <labels>
+        <fullName>CCR_QUREHolder</fullName>
+        <categories>Qure</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>CCR_QUREHolder</shortDescription>
+        <value>Holder</value>
+    </labels>
+    <labels>
+        <fullName>CCR_QoachCaseExist</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>CCR_QoachCaseExist</shortDescription>
+        <value>Qoach Case already exist, you can not create another Qoach case.</value>
+    </labels>
+    <labels>
+        <fullName>CCR_QureAssetName</fullName>
+        <categories>Qure</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>CCR_QureAssetName</shortDescription>
+        <value>Asset Name</value>
+    </labels>
+    <labels>
+        <fullName>CCR_QureCancel</fullName>
+        <categories>Qure</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>CCR_QureCancel</shortDescription>
+        <value>DON’T OVERRIDE</value>
+    </labels>
+    <labels>
+        <fullName>CCR_QureCcnfirm</fullName>
+        <categories>Qure</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>CCR_QureCcnfirm</shortDescription>
+        <value>OVERRIDE</value>
+    </labels>
+    <labels>
+        <fullName>CCR_QureDeviceNotEligible</fullName>
+        <categories>Qure</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>CCR_QureDeviceNotEligible</shortDescription>
+        <value>This Device Is not Eligible for Replacement</value>
+    </labels>
+    <labels>
+        <fullName>CCR_QureEligibilityResults</fullName>
+        <categories>Qure</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>CCR_QureEligibilityResults</shortDescription>
+        <value>Eligibility Results</value>
+    </labels>
+    <labels>
+        <fullName>CCR_QureEligible</fullName>
+        <categories>Qure</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>CCR_QureEligible</shortDescription>
+        <value>Eligible</value>
+    </labels>
+    <labels>
+        <fullName>CCR_QureErrorDiagnosticToolMsg</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>CCR_QureErrorDiagnosticToolMsg</shortDescription>
+        <value>&lt;div class=&quot;width-720 center-it&quot;&gt;&lt;p class=&quot;mb-1&quot; style=&quot;text-align: center; font-weight: bold; font-size: 1.2rem;&quot;&gt;We are sorry, but there seems to be a problem with the diagnostic tool.&lt;/p&gt;&lt;p style=&quot;text-align: center;&quot;&gt;Try to login again and, if the problem continues,&lt;/p&gt;&lt;p style=&quot;text-align: center;&quot;&gt;please get in touch with us &lt;a href=&quot;https://kr.myiqos.com/&quot; target=&quot;_blank&quot;&gt;(https://kr.myiqos.com/)&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;</value>
+    </labels>
+    <labels>
+        <fullName>CCR_QureGoodWill</fullName>
+        <categories>QURE</categories>
+        <language>ko</language>
+        <protected>false</protected>
+        <shortDescription>CCR_QureGoodWill</shortDescription>
+        <value>블레이드 파손 교환</value>
+    </labels>
+    <labels>
+        <fullName>CCR_QureHistoryInactive</fullName>
+        <categories>Qure</categories>
+        <language>ko</language>
+        <protected>false</protected>
+        <shortDescription>CCR_QureHistoryInactive</shortDescription>
+        <value>Another diagnostic session is in process for this device</value>
+    </labels>
+    <labels>
+        <fullName>CCR_QureIssueCodeCovered</fullName>
+        <categories>Qure</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>CCR_QureIssueCodeCovered</shortDescription>
+        <value>Issue Code Covered</value>
+    </labels>
+    <labels>
+        <fullName>CCR_QureMainHeader</fullName>
+        <categories>QURE</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>CCR_QureMainHeader</shortDescription>
+        <value>제품 자가 진단</value>
+    </labels>
+    <labels>
+        <fullName>CCR_QureMaxReplacement</fullName>
+        <categories>Qure</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>CCR_QureMaxReplacement</shortDescription>
+        <value>Max Number of Replacement</value>
+    </labels>
+    <labels>
+        <fullName>CCR_QureNotEligible</fullName>
+        <categories>Qure</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>CCR_QureNotEligible</shortDescription>
+        <value>Not Eligible</value>
+    </labels>
+    <labels>
+        <fullName>CCR_QureOverrideEligibility</fullName>
+        <categories>Qure</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>CCR_QureOverrideEligibility</shortDescription>
+        <value>Override Eligibility?</value>
+    </labels>
+    <labels>
+        <fullName>CCR_QureOverrideReason</fullName>
+        <categories>Qure</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>CCR_QureOverrideReason</shortDescription>
+        <value>Override Reason</value>
+    </labels>
+    <labels>
+        <fullName>CCR_QureProvideAReason</fullName>
+        <categories>QURE</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>CCR_QureProvideAReason</shortDescription>
+        <value>Provide a reason</value>
+    </labels>
+    <labels>
+        <fullName>CCR_QureReplacedBy</fullName>
+        <categories>Qure</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>CCR_QureReplacedBy</shortDescription>
+        <value>Replaced By</value>
+    </labels>
+    <labels>
+        <fullName>CCR_QureReplacementChannel</fullName>
+        <categories>Qure</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>CCR_QureReplacementChannel</shortDescription>
+        <value>Replacement Channel</value>
+    </labels>
+    <labels>
+        <fullName>CCR_QureReplacementDate</fullName>
+        <categories>Qure</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>CCR_QureReplacementDate</shortDescription>
+        <value>Replacement Date</value>
+    </labels>
+    <labels>
+        <fullName>CCR_QureReplacementReason</fullName>
+        <categories>Qure</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>CCR_QureReplacementReason</shortDescription>
+        <value>Replacement Reason</value>
+    </labels>
+    <labels>
+        <fullName>CCR_QureStatus</fullName>
+        <categories>Qure</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>CCR_QureStatus</shortDescription>
+        <value>Status</value>
+    </labels>
+    <labels>
+        <fullName>CCR_QureVeev</fullName>
+        <categories>Qure</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>CCR_QureVeev</shortDescription>
+        <value>VEEV</value>
+    </labels>
+    <labels>
+        <fullName>CCR_QureWarrantyExpiredFor</fullName>
+        <categories>Qure</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>CCR_QureWarrantyExpiredFor</shortDescription>
+        <value>Warranty Expired For</value>
+    </labels>
+    <labels>
+        <fullName>CCR_QureWarrantyPeriod</fullName>
+        <categories>Qure</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>CCR_QureWarrantyPeriod</shortDescription>
+        <value>Warranty Period</value>
+    </labels>
+    <labels>
+        <fullName>CCR_RecordsUpdatedSuccessfully</fullName>
+        <language>ko</language>
+        <protected>false</protected>
+        <shortDescription>CCR_RecordsUpdatedSuccessfully</shortDescription>
+        <value>성공적으로 업데이트 했습니다.</value>
+    </labels>
+    <labels>
+        <fullName>CCR_ReplaceLabel</fullName>
+        <language>ko</language>
+        <protected>false</protected>
+        <shortDescription>To store the replace button label in CCR_Asset Replacement page</shortDescription>
+        <value>교체(replace)</value>
+    </labels>
+    <labels>
+        <fullName>CCR_Replacement</fullName>
+        <language>ko</language>
+        <protected>false</protected>
+        <shortDescription>CCR_Replacement</shortDescription>
+        <value>교체할 제품 선택</value>
+    </labels>
+    <labels>
+        <fullName>CCR_ReplacementHistory</fullName>
+        <categories>Qure</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>CCR_ReplacementHistory</shortDescription>
+        <value>Replacement History</value>
+    </labels>
+    <labels>
+        <fullName>CCR_ReplacementNotPossible</fullName>
+        <language>ko</language>
+        <protected>false</protected>
+        <shortDescription>CCR ReplacementNotPossible</shortDescription>
+        <value>기존 장비 / 교체 장비 중에 상위 / box codentify가있는 장치가 2 개 이상 있으므로 교체 할 수 없습니다.</value>
+    </labels>
+    <labels>
+        <fullName>CCR_ReplacementReason_Error</fullName>
+        <language>ko</language>
+        <protected>false</protected>
+        <shortDescription>CCR Replacement Reason Error</shortDescription>
+        <value>선택한 교체 이유는 IQOS CARE PLUS로 보장되지 않습니다.</value>
+    </labels>
+    <labels>
+        <fullName>CCR_ReplacingDeviceNotFound</fullName>
+        <language>ko</language>
+        <protected>false</protected>
+        <shortDescription>CCR_ReplacingDeviceNotFound</shortDescription>
+        <value>선택한 키트에 이러한 장치 유형이 없습니다.</value>
+    </labels>
+    <labels>
+        <fullName>CCR_SLUToKITMessage</fullName>
+        <language>ko</language>
+        <protected>false</protected>
+        <shortDescription>CCR SLUToKITMessage</shortDescription>
+        <value>단일 SLU 장치를 KIT로 교체합니다.</value>
+    </labels>
+    <labels>
+        <fullName>CCR_Save</fullName>
+        <language>ko</language>
+        <protected>false</protected>
+        <shortDescription>CCR Save</shortDescription>
+        <value>저장</value>
+    </labels>
+    <labels>
+        <fullName>CCR_SingleReplacement</fullName>
+        <language>ko</language>
+        <protected>false</protected>
+        <shortDescription>CCR_SingleReplacement</shortDescription>
+        <value>단일 체품 교체를 진행하고 있습니다. &quot;교체&quot;버튼을 클릭하여 진행하십시오.</value>
+    </labels>
+    <labels>
+        <fullName>CCR_Spice_Authentication_Error_Message</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>CCR Spice Authentication Error Message</shortDescription>
+        <value>We encountered some issue authenticating Spice.Please contact your administrator.</value>
+    </labels>
+    <labels>
+        <fullName>CCR_Spice_Unavailability_Messsage</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>CCR Spice Unavailability Messsage</shortDescription>
+        <value>We encountered some issue in Spice.Please contact your administrator.</value>
+    </labels>
+    <labels>
+        <fullName>CCR_StatusActive</fullName>
+        <language>ko</language>
+        <protected>false</protected>
+        <shortDescription>device is not in active status</shortDescription>
+        <value>You can replace only &quot;active&quot; or &quot; produced&quot; devices</value>
+    </labels>
+    <labels>
+        <fullName>CCR_WarningMessageforIncompatibleDevicesReplacement</fullName>
+        <language>ko</language>
+        <protected>false</protected>
+        <shortDescription>CCR Warning Message for Incompatible Devices Replacement</shortDescription>
+        <value>경고, 호환되지 않을 수있는 장치를 교체하려고합니다. 계속 하시겠습니까?</value>
+    </labels>
+    <labels>
+        <fullName>CCR_Warrantyduedate</fullName>
+        <categories>Qure</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>CCR_Warrantyduedate</shortDescription>
+        <value>Warranty Due Date</value>
+    </labels>
+    <labels>
+        <fullName>CCR_WrongDeviceType</fullName>
+        <language>ko</language>
+        <protected>false</protected>
+        <shortDescription>CCR_WrongDeviceType</shortDescription>
+        <value>잘못된 장치 유형을 교체하려고합니다.</value>
+    </labels>
+    <labels>
+        <fullName>COM_BTN_Cancel</fullName>
+        <categories>Common</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>COM_BTN_Cancel</shortDescription>
+        <value>Cancel</value>
+    </labels>
+    <labels>
+        <fullName>COM_BTN_EDIT</fullName>
+        <categories>Common</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>COM_BTN_EDIT</shortDescription>
+        <value>Edit</value>
+    </labels>
+    <labels>
+        <fullName>COM_BTN_NEXT</fullName>
+        <categories>Common</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>COM_BTN_NEXT</shortDescription>
+        <value>Next</value>
+    </labels>
+    <labels>
+        <fullName>COM_BTN_PREV</fullName>
+        <categories>Common</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>COM_BTN_PREV</shortDescription>
+        <value>Prev</value>
+    </labels>
+    <labels>
+        <fullName>COM_BTN_SAVE</fullName>
+        <categories>Common</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>COM_BTN_SAVE</shortDescription>
+        <value>Save</value>
+    </labels>
+    <labels>
+        <fullName>COM_ERR_VALID_SEARCH</fullName>
+        <categories>Common</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>COM_ERR_VALID_SEARCH</shortDescription>
+        <value>유효한 검색이 아닙니다.</value>
+    </labels>
+    <labels>
+        <fullName>Case_Summary</fullName>
+        <categories>Case Record Page</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Case Summary</shortDescription>
+        <value>Case Summary</value>
+    </labels>
+    <labels>
+        <fullName>ContactAddress_NumberSet</fullName>
+        <categories>Address</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>ContactAddress_NumberSet</shortDescription>
+        <value>5</value>
+    </labels>
+    <labels>
+        <fullName>Contact_RelatedCoupon</fullName>
+        <language>ko</language>
+        <protected>false</protected>
+        <shortDescription>Contact_RelatedCoupon</shortDescription>
+        <value>Coupons</value>
+    </labels>
+    <labels>
+        <fullName>Contact_Summary</fullName>
+        <categories>Case Record Page</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Contact Summary</shortDescription>
+        <value>Contact Summary</value>
+    </labels>
+    <labels>
+        <fullName>Device</fullName>
+        <language>ko</language>
+        <protected>false</protected>
+        <shortDescription>Contact_RelatedDevice</shortDescription>
+        <value>Device</value>
+    </labels>
+    <labels>
+        <fullName>GlobalDeviceInfo_SaveMsg</fullName>
+        <categories>Asset</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>GlobalDeviceInfo_SaveMsg</shortDescription>
+        <value>입력하신 디바이스 정보가 등록되었습니다.</value>
+    </labels>
+    <labels>
+        <fullName>GlobalDeviceSearch_SearchMsg</fullName>
+        <categories>Asset</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>GlobalDeviceSearch_SearchMsg</shortDescription>
+        <value>유효한 시리얼 번호를 입력하시기 바랍니다.</value>
+    </labels>
+    <labels>
+        <fullName>KDCE_AlreadyLinkContact</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>KDCE_AlreadyLinkContact</shortDescription>
+        <value>This device is already linked to another customer.</value>
+    </labels>
+    <labels>
+        <fullName>KDCE_AlreadyLinkContactWithCoupon</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>KDCE_AlreadyLinkContactWithCoupon</shortDescription>
+        <value>This coupon is already associated with the customer. Please search again.</value>
+    </labels>
+    <labels>
+        <fullName>KDCE_AlreadySubmitSurveyNPS</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>KDCE_AlreadySubmitSurveyNPS</shortDescription>
+        <value>This is a Survey that has already been submitted.</value>
+    </labels>
+    <labels>
+        <fullName>KDCE_AssetNotActiveStatus</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>KDCE_AssetNotActiveStatus</shortDescription>
+        <value>The device is not active.</value>
+    </labels>
+    <labels>
+        <fullName>KDCE_AssetNotConnectedWithContact</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>KDCE_AssetNotConnectedWithContact</shortDescription>
+        <value>The device is not connected to the customer.</value>
+    </labels>
+    <labels>
+        <fullName>KDCE_BirthdayInputFormat</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>KDCE_BirthdayInputFormat</shortDescription>
+        <value>Birthdate field must be entered in the form of yyyy-mm-dd.</value>
+    </labels>
+    <labels>
+        <fullName>KDCE_COM_PROFILE_NAME_CALL_CENTER</fullName>
+        <categories>Common</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Call Center Profile Name</shortDescription>
+        <value>CCR Call Center Restricted Access User</value>
+    </labels>
+    <labels>
+        <fullName>KDCE_CPN_TEMPLT_RESEND</fullName>
+        <categories>Coupon</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Coupon(Resending) Template Record External Id</shortDescription>
+        <value>NT-210504-00013</value>
+    </labels>
+    <labels>
+        <fullName>KDCE_CannotChangeDeviceDisposal</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>KDCE_CannotChangeDeviceDisposal</shortDescription>
+        <value>Once disused, you cannot change the device.</value>
+    </labels>
+    <labels>
+        <fullName>KDCE_CannotHaveParentCaseAE</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>KDCE_CannotHaveParentCaseAE</shortDescription>
+        <value>You cannot have a parent case with a 6-A/E record type.</value>
+    </labels>
+    <labels>
+        <fullName>KDCE_CheckUnlinkAsset</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>KDCE_CheckUnlinkAsset</shortDescription>
+        <value>Are you sure you really want to unlink Device?</value>
+    </labels>
+    <labels>
+        <fullName>KDCE_ConfirmRestoreContact</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>KDCE_ConfirmRestoreContact</shortDescription>
+        <value>Are you sure you want to Restore Contact? (If you proceed with the restore, the data will be transferred to the existing customer data, which will be deleted.)</value>
+    </labels>
+    <labels>
+        <fullName>KDCE_ContactCurrentRental</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>KDCE_ContactCurrentRental</shortDescription>
+        <value>The customer is currently renting another device.</value>
+    </labels>
+    <labels>
+        <fullName>KDCE_ContactHaveSameVersion</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>KDCE_ContactHaveSameVersion</shortDescription>
+        <value>The customer owns the same version of the device.</value>
+    </labels>
+    <labels>
+        <fullName>KDCE_ContactPurchaseHistorySameVersion</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>KDCE_ContactPurchaseHistorySameVersion</shortDescription>
+        <value>The customer has a history of purchasing the same version.</value>
+    </labels>
+    <labels>
+        <fullName>KDCE_DefaultAccount</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>KDCE_DefaultAccount</shortDescription>
+        <value>0015g00000IrfzxAAB</value>
+    </labels>
+    <labels>
+        <fullName>KDCE_DefaultContactRental</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>KDCE_DefaultContactRental</shortDescription>
+        <value>0035g000009hisCAAQ</value>
+    </labels>
+    <labels>
+        <fullName>KDCE_DeletedContactAccount</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>KDCE_DeletedContactAccount</shortDescription>
+        <value>0015g00000My8tRAAR</value>
+    </labels>
+    <labels>
+        <fullName>KDCE_DuplicateContact</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>KDCE_DuplicateContact</shortDescription>
+        <value>There is a customer with the same Email or Phone.</value>
+    </labels>
+    <labels>
+        <fullName>KDCE_GC_ECommerceUrl</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>KDCE_GC_ECommerceUrl</shortDescription>
+        <value>NT-210716-00008</value>
+    </labels>
+    <labels>
+        <fullName>KDCE_GC_StoreLocator</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>KDCE_GC_StoreLocator</shortDescription>
+        <value>NT-210725-00076</value>
+    </labels>
+    <labels>
+        <fullName>KDCE_InvalidAssetLinkStatus</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>KDCE_InvalidAssetLinkStatus</shortDescription>
+        <value>This device is already associated with contact.</value>
+    </labels>
+    <labels>
+        <fullName>KDCE_InvalidAssetUnlinkNoContact</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>KDCE_InvalidAssetUnlinkNoContact</shortDescription>
+        <value>The device does not have a connected contact.</value>
+    </labels>
+    <labels>
+        <fullName>KDCE_InvalidAssetUnlinkStatus</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>KDCE_InvalidAssetUnlinkStatus</shortDescription>
+        <value>Only devices with an Active or Produced status value can be Unlinked.</value>
+    </labels>
+    <labels>
+        <fullName>KDCE_InvalidCouponIssueDevicePromotion</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>KDCE_InvalidCouponIssueDevicePromotion</shortDescription>
+        <value>If the coupon type is Device Promotion, you must select the coupon details.</value>
+    </labels>
+    <labels>
+        <fullName>KDCE_InvalidCreateMultipleRecord</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>KDCE_InvalidCreateMultipleRecord</shortDescription>
+        <value>Multiple records cannot be created simultaneously.</value>
+    </labels>
+    <labels>
+        <fullName>KDCE_InvalidCreateMultipleRecordSameType</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>KDCE_InvalidCreateMultipleRecordSameType</shortDescription>
+        <value>Multiple records cannot be created/updated for the same type.</value>
+    </labels>
+    <labels>
+        <fullName>KDCE_InvalidLinkStatus</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>KDCE_InvalidLinkStatus</shortDescription>
+        <value>Only devices with an Active or Produced status value can be linked.</value>
+    </labels>
+    <labels>
+        <fullName>KDCE_InvalidMGMCouponCount</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>KDCE_InvalidMGMCouponCount</shortDescription>
+        <value>This coupon has exceeded the usage of 10 times. Please choose again.</value>
+    </labels>
+    <labels>
+        <fullName>KDCE_InvalidReturnVersion</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>KDCE_InvalidReturnVersion</shortDescription>
+        <value>You cannot return the 3.1 version.</value>
+    </labels>
+    <labels>
+        <fullName>KDCE_InvalidUnlinkStatus</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>KDCE_InvalidUnlinkStatus</shortDescription>
+        <value>Unlink is not possible for device with a status value of Locked or Blank.</value>
+    </labels>
+    <labels>
+        <fullName>KDCE_KakaoTemplate_Coupon_CVS</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>KDCE_KakaoTemplate_Coupon_CVS</shortDescription>
+        <value>NT-210716-00034</value>
+    </labels>
+    <labels>
+        <fullName>KDCE_MustChoiceHolder</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>KDCE_MustChoiceHolder</shortDescription>
+        <value>When purchasing a multi-product, you can choose only one holder.</value>
+    </labels>
+    <labels>
+        <fullName>KDCE_MustEnterEmailOrPhone</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>KDCE_MustEnterEmailOrPhone</shortDescription>
+        <value>You must enter either Email or Phone.</value>
+    </labels>
+    <labels>
+        <fullName>KDCE_MustEnterReplacementInfo</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>KDCE_MustEnterReplacementInfo</shortDescription>
+        <value>Please enter the contents of the Replacement.</value>
+    </labels>
+    <labels>
+        <fullName>KDCE_MustEnterStore</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>KDCE_MustEnterStore</shortDescription>
+        <value>Please enter Store.</value>
+    </labels>
+    <labels>
+        <fullName>KDCE_MustMatchHolderCharger</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>KDCE_MustMatchHolderCharger</shortDescription>
+        <value>Holder and Charger must match Parent Codenfiy.</value>
+    </labels>
+    <labels>
+        <fullName>KDCE_MustSelectChannelCVS</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>KDCE_MustSelectChannelCVS</shortDescription>
+        <value>You must select the Channel CVS.</value>
+    </labels>
+    <labels>
+        <fullName>KDCE_MustSelectHolderCharger</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>KDCE_MustSelectHolderCharger</shortDescription>
+        <value>You have to choose between Holder and Charger.</value>
+    </labels>
+    <labels>
+        <fullName>KDCE_MustSelectSameVersion</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>KDCE_MustSelectSameVersion</shortDescription>
+        <value>Only devices of the same version can be selected.</value>
+    </labels>
+    <labels>
+        <fullName>KDCE_NoAvailableAsset</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>KDCE_NoAvailableAsset</shortDescription>
+        <value>There is no device matches that condition.</value>
+    </labels>
+    <labels>
+        <fullName>KDCE_NotKitToKitDormantAndDropContact</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>KDCE_NotKitToKitDormantAndDropContact</shortDescription>
+        <value>Customers who are dormant or dropout cannot proceed with the Kit to Kit program.</value>
+    </labels>
+    <labels>
+        <fullName>KDCE_NotPossibleWhenCollectProgress</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>KDCE_NotPossibleWhenCollectProgress</shortDescription>
+        <value>Customers in the collection process cannot rent the device.</value>
+    </labels>
+    <labels>
+        <fullName>KDCE_NotPossibleWhenInProgress</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>KDCE_NotPossibleWhenInProgress</shortDescription>
+        <value>If there is an order/rental/case in progress, Dropout Process is not possible.</value>
+    </labels>
+    <labels>
+        <fullName>KDCE_NotificationTemplate_Coupon_CVS</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>KDCE_NotificationTemplate_Coupon_CVS</shortDescription>
+        <value>NT-210724-00073</value>
+    </labels>
+    <labels>
+        <fullName>KDCE_NotificationTemplate_Coupon_GetInfo</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>KDCE_NotificationTemplate_Coupon_GetInfo</shortDescription>
+        <value>NT-210731-00156</value>
+    </labels>
+    <labels>
+        <fullName>KDCE_NotificationTemplate_Coupon_MGM</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>KDCE_NotificationTemplate_Coupon_MGM</shortDescription>
+        <value>NT-210724-00075</value>
+    </labels>
+    <labels>
+        <fullName>KDCE_NotificationTemplate_NPS</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>KDCE_NotificationTemplate_NPS</shortDescription>
+        <value>NT-210722-00072</value>
+    </labels>
+    <labels>
+        <fullName>KDCE_PleaseEnterCancelDate</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>KDCE_PleaseEnterCancelDate</shortDescription>
+        <value>Please enter the cancel date.</value>
+    </labels>
+    <labels>
+        <fullName>KDCE_PreventEditName</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>KDCE_PreventEditName</shortDescription>
+        <value>You don&apos;t have permission to change the NAME field.</value>
+    </labels>
+    <labels>
+        <fullName>KDCE_PurchaseCanOnlyTodayOrPastDay</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>KDCE_PurchaseCanOnlyTodayOrPastDay</shortDescription>
+        <value>Purchase date can be today or past date only.</value>
+    </labels>
+    <labels>
+        <fullName>KDCE_ThereIsNoOriginOrderInReturnOrder</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>KDCE_ThereIsNoOriginOrderInReturnOrder</shortDescription>
+        <value>Original Order does not exist in that Return Order.</value>
+    </labels>
+    <labels>
+        <fullName>KDCE_TradeinCanVersionTwice</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>KDCE_TradeinCanVersionTwice</shortDescription>
+        <value>Trade-in is only available 2 times per version.</value>
+    </labels>
+    <labels>
+        <fullName>KDCE_UnableOrderDormant</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>KDCE_UnableOrderDormant</shortDescription>
+        <value>Dormant or Drop out customers cannot proceed with the order.</value>
+    </labels>
+    <labels>
+        <fullName>LABS_SF_AddQuestion</fullName>
+        <categories>SurveyForce</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Add Question</shortDescription>
+        <value>Add Question</value>
+    </labels>
+    <labels>
+        <fullName>LABS_SF_Anonymous</fullName>
+        <categories>SurveyForce</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Anonymous</shortDescription>
+        <value>Anonymous</value>
+    </labels>
+    <labels>
+        <fullName>LABS_SF_Answer_as</fullName>
+        <categories>SurveyForce</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Answer as</shortDescription>
+        <value>Answer as</value>
+    </labels>
+    <labels>
+        <fullName>LABS_SF_Cancel</fullName>
+        <categories>SurveyForce</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Cancel</shortDescription>
+        <value>Cancel</value>
+    </labels>
+    <labels>
+        <fullName>LABS_SF_Chatter</fullName>
+        <categories>SurveyForce</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Chatter</shortDescription>
+        <value>Chatter</value>
+    </labels>
+    <labels>
+        <fullName>LABS_SF_Chatter_Link</fullName>
+        <categories>SurveyForce</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Chatter Link</shortDescription>
+        <value>Chatter Link</value>
+    </labels>
+    <labels>
+        <fullName>LABS_SF_Close</fullName>
+        <categories>Survey Force</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Close</shortDescription>
+        <value>Close</value>
+    </labels>
+    <labels>
+        <fullName>LABS_SF_Community</fullName>
+        <categories>SurveyForce</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Community</shortDescription>
+        <value>Community</value>
+    </labels>
+    <labels>
+        <fullName>LABS_SF_Default_Option_Label</fullName>
+        <categories>SurveyForce</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Default Option Label</shortDescription>
+        <value>--SELECT--</value>
+    </labels>
+    <labels>
+        <fullName>LABS_SF_Detail</fullName>
+        <categories>SurveyForce</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Detail</shortDescription>
+        <value>Detail</value>
+    </labels>
+    <labels>
+        <fullName>LABS_SF_Edit</fullName>
+        <categories>SurveyForce</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Edit</shortDescription>
+        <value>Edit</value>
+    </labels>
+    <labels>
+        <fullName>LABS_SF_Email_Link_Anonymous</fullName>
+        <categories>SurveyForce</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Email Link, Anonymous</shortDescription>
+        <value>Email Link, Anonymous</value>
+    </labels>
+    <labels>
+        <fullName>LABS_SF_Email_Link_w_Contact_Case_Merge</fullName>
+        <categories>SurveyForce</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Email Link w/ Contact &amp; Case Merge</shortDescription>
+        <value>Email Link w/ Contact &amp; Case Merge</value>
+    </labels>
+    <labels>
+        <fullName>LABS_SF_Email_Link_w_Contact_Merge</fullName>
+        <categories>SurveyForce</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Email Link w/ Contact Merge</shortDescription>
+        <value>Email Link w/ Contact Merge</value>
+    </labels>
+    <labels>
+        <fullName>LABS_SF_External_Please_Create_Site</fullName>
+        <categories>SurveyForce</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>For external facing surveys, please create a site first.</shortDescription>
+        <value>For external facing surveys, please create a site first.  You may still create internal surveys without creating a site.</value>
+    </labels>
+    <labels>
+        <fullName>LABS_SF_For_community_assistance_with_Survey_Force</fullName>
+        <categories>SurveyForce</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>For community assistance with Survey Force</shortDescription>
+        <value>For community assistance with Survey Force</value>
+    </labels>
+    <labels>
+        <fullName>LABS_SF_Getting_Help</fullName>
+        <categories>SurveyForce</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Getting Help</shortDescription>
+        <value>Getting Help</value>
+    </labels>
+    <labels>
+        <fullName>LABS_SF_HeaderAndThankYou</fullName>
+        <categories>SurveyForce</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Header and Thank You</shortDescription>
+        <value>Header, Thank You &amp; CSS</value>
+    </labels>
+    <labels>
+        <fullName>LABS_SF_Installation_Guide</fullName>
+        <categories>SurveyForce</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Installation Guide</shortDescription>
+        <value>Installation Guide</value>
+    </labels>
+    <labels>
+        <fullName>LABS_SF_Learn_More</fullName>
+        <categories>SurveyForce</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Learn More</shortDescription>
+        <value>Learn More</value>
+    </labels>
+    <labels>
+        <fullName>LABS_SF_MakeANewSurvey</fullName>
+        <categories>SurveyForce</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Make A New Survey</shortDescription>
+        <value>Make A New Survey</value>
+    </labels>
+    <labels>
+        <fullName>LABS_SF_MakeNewSurvey</fullName>
+        <categories>SurveyForce</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Make New Survey</shortDescription>
+        <value>Make New Survey</value>
+    </labels>
+    <labels>
+        <fullName>LABS_SF_Make_a_Sample_Survey</fullName>
+        <categories>SurveyForce</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Make a Sample Survey</shortDescription>
+        <value>Make a Sample Survey</value>
+    </labels>
+    <labels>
+        <fullName>LABS_SF_NewQAdded</fullName>
+        <categories>Survey Force</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>NewQuestionAdded</shortDescription>
+        <value>New question was added!</value>
+    </labels>
+    <labels>
+        <fullName>LABS_SF_Next_Steps</fullName>
+        <categories>SurveyForce</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Next Steps</shortDescription>
+        <value>Next Steps</value>
+    </labels>
+    <labels>
+        <fullName>LABS_SF_Open_Survey_New_Window</fullName>
+        <categories>SurveyForce</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Open Survey New Window</shortDescription>
+        <value>Open Survey (New Window)</value>
+    </labels>
+    <labels>
+        <fullName>LABS_SF_PleaseEnterTheList</fullName>
+        <categories>SurveyForce</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Please enter the list</shortDescription>
+        <value>Please enter the list of answers/responses in the field below. Each value should be separated by a new line.</value>
+    </labels>
+    <labels>
+        <fullName>LABS_SF_Question</fullName>
+        <categories>SurveyForce</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Question</shortDescription>
+        <value>Question</value>
+    </labels>
+    <labels>
+        <fullName>LABS_SF_Required</fullName>
+        <categories>SurveyForce</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Required</shortDescription>
+        <value>required</value>
+    </labels>
+    <labels>
+        <fullName>LABS_SF_RequiredQuestion</fullName>
+        <categories>SurveyForce</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Required Question</shortDescription>
+        <value>Required Question</value>
+    </labels>
+    <labels>
+        <fullName>LABS_SF_Resources</fullName>
+        <categories>SurveyForce</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Resources</shortDescription>
+        <value>Resources</value>
+    </labels>
+    <labels>
+        <fullName>LABS_SF_Results</fullName>
+        <categories>SurveyForce</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Results</shortDescription>
+        <value>Results</value>
+    </labels>
+    <labels>
+        <fullName>LABS_SF_Salesforce_Answers</fullName>
+        <categories>SurveyForce</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Salesforce Answers</shortDescription>
+        <value>the Trailblazer Community</value>
+    </labels>
+    <labels>
+        <fullName>LABS_SF_Save</fullName>
+        <categories>SurveyForce</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Save</shortDescription>
+        <value>Save</value>
+    </labels>
+    <labels>
+        <fullName>LABS_SF_SaveOrder</fullName>
+        <categories>SurveyForce</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Save Order</shortDescription>
+        <value>Save Order</value>
+    </labels>
+    <labels>
+        <fullName>LABS_SF_SelectQuestionType</fullName>
+        <categories>SurveyForce</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Select Question Type</shortDescription>
+        <value>Select Question Type</value>
+    </labels>
+    <labels>
+        <fullName>LABS_SF_Share</fullName>
+        <categories>SurveyForce</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Share</shortDescription>
+        <value>Share</value>
+    </labels>
+    <labels>
+        <fullName>LABS_SF_Share_My_Survey</fullName>
+        <categories>SurveyForce</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Share My Survey</shortDescription>
+        <value>Share My Survey</value>
+    </labels>
+    <labels>
+        <fullName>LABS_SF_Sharing_Options</fullName>
+        <categories>SurveyForce</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Sharing Options</shortDescription>
+        <value>Sharing Options</value>
+    </labels>
+    <labels>
+        <fullName>LABS_SF_SubmitSurvey</fullName>
+        <categories>SurveyForce</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Submit Survey</shortDescription>
+        <value>Submit Survey</value>
+    </labels>
+    <labels>
+        <fullName>LABS_SF_SurveyForceIsOpenSource</fullName>
+        <categories>SurveyForce</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>SurveyForce is OpenSource</shortDescription>
+        <value>Survey Force is Open Source software.  We welcome your issue reports, ideas, documentation, code tweaks and all other participation.</value>
+    </labels>
+    <labels>
+        <fullName>LABS_SF_Survey_Force_is_unsupported</fullName>
+        <categories>SurveyForce</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Survey Force is unsupported</shortDescription>
+        <value>Survey Force is unsupported.</value>
+    </labels>
+    <labels>
+        <fullName>LABS_SF_Survey_Force_on_Github</fullName>
+        <categories>SurveyForce</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Survey Force on Github</shortDescription>
+        <value>Survey Force on Github</value>
+    </labels>
+    <labels>
+        <fullName>LABS_SF_Survey_Submitted_Thank_you</fullName>
+        <categories>SurveyForce</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Your survey has been submitted. Thank you for taking our survey.</shortDescription>
+        <value>Your survey has been submitted. Thank you for taking our survey.</value>
+    </labels>
+    <labels>
+        <fullName>LABS_SF_ThankYou</fullName>
+        <categories>Survey Force</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Thank You</shortDescription>
+        <value>Thank You</value>
+    </labels>
+    <labels>
+        <fullName>LABS_SF_To_submit_ideas_or_issues</fullName>
+        <categories>SurveyForce</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>To submit ideas or issues</shortDescription>
+        <value>To submit ideas or issues</value>
+    </labels>
+    <labels>
+        <fullName>LABS_SF_User_Guide</fullName>
+        <categories>SurveyForce</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>User Guide</shortDescription>
+        <value>User Guide</value>
+    </labels>
+    <labels>
+        <fullName>LABS_SF_View_Results_In_New_Window</fullName>
+        <categories>SurveyForce</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>View Results In New Window</shortDescription>
+        <value>View Results In New Window</value>
+    </labels>
+    <labels>
+        <fullName>LABS_SF_View_Sample_Survey</fullName>
+        <categories>SurveyForce</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>View Sample Survey</shortDescription>
+        <value>View Sample Survey</value>
+    </labels>
+    <labels>
+        <fullName>LABS_SF_Welcome_to_Survey_Force</fullName>
+        <categories>SurveyForce</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Welcome to Survey Force</shortDescription>
+        <value>Welcome to Survey Force</value>
+    </labels>
+    <labels>
+        <fullName>LABS_SF_X1_Create_a_sample_survey</fullName>
+        <categories>SurveyForce</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>1. Create a sample survey by clicking the button below.</shortDescription>
+        <value>1. Create a sample survey by clicking the button below.</value>
+    </labels>
+    <labels>
+        <fullName>LABS_SF_X2_External_Setup_Site</fullName>
+        <categories>SurveyForce</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>2. Set up a site if you would like to have external-facing surveys.</shortDescription>
+        <value>2. Set up a site if you would like to have external-facing surveys.</value>
+    </labels>
+    <labels>
+        <fullName>LABS_SF_X3_Start_creating_your_first_survey</fullName>
+        <categories>SurveyForce</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>3. Start creating your first survey.</shortDescription>
+        <value>3. Start creating your first survey.</value>
+    </labels>
+    <labels>
+        <fullName>LABS_SF_You_have_already_taken_this_survey</fullName>
+        <categories>SurveyForce</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>You have already taken this survey!</shortDescription>
+        <value>You have already taken this survey!</value>
+    </labels>
+    <labels>
+        <fullName>LABS_SF_Your_next_few_steps_are_easy</fullName>
+        <categories>SurveyForce</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Your next few steps are easy.</shortDescription>
+        <value>Your next few steps are easy.</value>
+    </labels>
+    <labels>
+        <fullName>LABS_SF_please_visit</fullName>
+        <categories>SurveyForce</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>please visit</shortDescription>
+        <value>please visit</value>
+    </labels>
+    <labels>
+        <fullName>LAB_COM_ERR_GLOBALDEVICE_ALREADY_ASSET</fullName>
+        <categories>COM</categories>
+        <language>ko</language>
+        <protected>true</protected>
+        <shortDescription>The Global Device attempting to register is already an Asset.</shortDescription>
+        <value>이미 등록된 기기입니다.</value>
+    </labels>
+    <labels>
+        <fullName>LAB_COM_HEETS_BRANDDIFFERENTIATORAIT</fullName>
+        <categories>COM</categories>
+        <language>ko</language>
+        <protected>true</protected>
+        <shortDescription>HEETS CCR Brand Differentiator AIT</shortDescription>
+        <value>SILVLABE</value>
+    </labels>
+    <labels>
+        <fullName>LAB_COM_HEETS_BRANDFAMILYAIT</fullName>
+        <categories>COM</categories>
+        <language>ko</language>
+        <protected>true</protected>
+        <shortDescription>HEETS CCR Brand Family AIT</shortDescription>
+        <value>HEETS</value>
+    </labels>
+    <labels>
+        <fullName>LAB_COM_I2ADDRESS_ACC_BILLINGADDREESS</fullName>
+        <categories>COM</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>i2_Address: Account Billing Address</shortDescription>
+        <value>billingaddress</value>
+    </labels>
+    <labels>
+        <fullName>LAB_COM_I2ADDRESS_ACC_SHIPPINGADDRESS</fullName>
+        <categories>COM</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>i2_Address: Account Shipping Address</shortDescription>
+        <value>shippingaddress</value>
+    </labels>
+    <labels>
+        <fullName>LAB_COM_I2ADDRESS_CON_FIRSTADDRESS</fullName>
+        <categories>COM</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>i2_Address: Contact First Address</shortDescription>
+        <value>firstAddress</value>
+    </labels>
+    <labels>
+        <fullName>LAB_COM_I2ADDRESS_CON_OTHERADDRESS</fullName>
+        <categories>COM</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>i2_Address: Contact Other Address</shortDescription>
+        <value>otheraddress</value>
+    </labels>
+    <labels>
+        <fullName>LAB_IF_BITLY_DOMAIN</fullName>
+        <categories>IF</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Bitly request domain data</shortDescription>
+        <value>bit.ly</value>
+    </labels>
+    <labels>
+        <fullName>LAB_IF_BITLY_GROUP_GUID</fullName>
+        <categories>IF</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Bitly request group guid data</shortDescription>
+        <value>B0110UYpzEj</value>
+    </labels>
+    <labels>
+        <fullName>LAB_IF_ERR_ASSET_ACTIONDATE_REQUIRED</fullName>
+        <categories>IF</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Asset Action Date is Required</shortDescription>
+        <value>[T_Asset.KDCE_ActionDate] is Required.</value>
+    </labels>
+    <labels>
+        <fullName>LAB_IF_ERR_ASSET_ACTIONTYPE_REQUIRED</fullName>
+        <categories>IF</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Asset Action Type is Required</shortDescription>
+        <value>[T_Asset.KDCE_ActionType] is Required.</value>
+    </labels>
+    <labels>
+        <fullName>LAB_IF_ERR_ASSET_CONTACTEXTID_REQUIRED</fullName>
+        <categories>IF</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Asset&apos;s Contact External ID is Required</shortDescription>
+        <value>[T_Asset.ContactExtId] is Required.</value>
+    </labels>
+    <labels>
+        <fullName>LAB_IF_ERR_ASSET_SERIALNUMBER_CONDENTIFYID_REQUIRED</fullName>
+        <categories>IF</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Asset SerialNumber or Codentify ID is Required</shortDescription>
+        <value>[T_Asset.SerialNumber] or [T_Asset.CCR_CdoentifyId] is Required.</value>
+    </labels>
+    <labels>
+        <fullName>LAB_IF_ERR_CONTACT_DOES_NOT_EXIST</fullName>
+        <categories>IF</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Contact Search Result doesn&apos;t exist</shortDescription>
+        <value>There&apos;s no result matching your search condition.</value>
+    </labels>
+    <labels>
+        <fullName>LAB_IF_ERR_CONTACT_DROPOUTREQUESTDATE_REQUIRED</fullName>
+        <categories>IF</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Contact Dropout Requesting-Date is Required</shortDescription>
+        <value>[T_Contact.DropOutRequestDate] is Required.</value>
+    </labels>
+    <labels>
+        <fullName>LAB_IF_ERR_CONTACT_DROPOUTREQUEST_REQUIRED</fullName>
+        <categories>IF</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>DroupOutRequest info is Required</shortDescription>
+        <value>[T_Contact.DropOutRequest] is Required.</value>
+    </labels>
+    <labels>
+        <fullName>LAB_IF_ERR_CONTACT_EXTERNALID_REQUIRED</fullName>
+        <categories>IF</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>External ID is Required</shortDescription>
+        <value>[T_Contact.ContactExtId] is Required.</value>
+    </labels>
+    <labels>
+        <fullName>LAB_IF_ERR_CONTACT_HARDAGEVERIFICATION_REQUIRED</fullName>
+        <categories>IF</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Hard Age Verification Info is Required.</shortDescription>
+        <value>[T_Contact.HardAgeVerification] is Required.</value>
+    </labels>
+    <labels>
+        <fullName>LAB_IF_ERR_CONTACT_HARDAVSTATUSDATECHANGE_REQUIRED</fullName>
+        <categories>IF</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Hard Age Verification Status changed date is Required</shortDescription>
+        <value>[T_Contact.HardAVStatusDateChange] is Required.</value>
+    </labels>
+    <labels>
+        <fullName>LAB_IF_ERR_CONTACT_ISDORMANT_REQUIRED</fullName>
+        <categories>IF</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>IsDormant info is Required</shortDescription>
+        <value>[T_Contact.IsDormant] is Required.</value>
+    </labels>
+    <labels>
+        <fullName>LAB_IF_ERR_CONTACT_MOBILECARRIER_REQUIRED</fullName>
+        <categories>IF</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Mobile Carrier is Required</shortDescription>
+        <value>[T_Contact.MobileCarrier] is Required.</value>
+    </labels>
+    <labels>
+        <fullName>LAB_IF_ERR_CONTACT_MOBILEPHONE_REQUIRED</fullName>
+        <categories>IF</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>MobilePhone is Required</shortDescription>
+        <value>[T_Contact.MobilePhone] is Required.</value>
+    </labels>
+    <labels>
+        <fullName>LAB_IF_ERR_CONTACT_NAME_REQUIRED</fullName>
+        <categories>IF</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Name is Required</shortDescription>
+        <value>[T_Contact.Name] is Required.</value>
+    </labels>
+    <labels>
+        <fullName>LAB_IF_ERR_CONTACT_REGISTRATIONCHANNEL_INVALID</fullName>
+        <categories>IF</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Only &apos;iqos.com&apos; Registration Channel is Allowed</shortDescription>
+        <value>Only iqos.com is allowed: [T_Contact.RegistrationChannel].</value>
+    </labels>
+    <labels>
+        <fullName>LAB_IF_ERR_CONTACT_REGISTRATIONCHANNEL_REQUIRED</fullName>
+        <categories>IF</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Registration Channel is Required</shortDescription>
+        <value>[T_Contact.RegistrationChannel] is Required.</value>
+    </labels>
+    <labels>
+        <fullName>LAB_IF_ERR_CONTACT_RESTOREDORMANTDATE_REQUIRED</fullName>
+        <categories>IF</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Dormant Contact Restoring-Date is Required.</shortDescription>
+        <value>[T_Contact.RestoreDormantDate] is Required.</value>
+    </labels>
+    <labels>
+        <fullName>LAB_IF_ERR_ORDERLINEITEM_ORDERITEMNO_REQUIRED</fullName>
+        <categories>IF</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>OrderItem Number is Required</shortDescription>
+        <value>[tOrderLineItem.OrderItemNo] is Required.</value>
+    </labels>
+    <labels>
+        <fullName>LAB_IF_ERR_ORDER_ACTIONCHANNEL_REQUIRED</fullName>
+        <categories>IF</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Action Channel is Required</shortDescription>
+        <value>[tOrders.ActionChannel] is Required.</value>
+    </labels>
+    <labels>
+        <fullName>LAB_IF_ERR_ORDER_ACTIONTYPE_REQUIRED</fullName>
+        <categories>IF</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Action Type is Required</shortDescription>
+        <value>[tOrders.ActionType] is Required.</value>
+    </labels>
+    <labels>
+        <fullName>LAB_IF_ERR_ORDER_CONTACTEXTID_REQUIRED</fullName>
+        <categories>IF</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Order&apos;s Contact External ID is Required</shortDescription>
+        <value>[tOrders.ContactExtId] is Required.</value>
+    </labels>
+    <labels>
+        <fullName>LAB_IF_ERR_ORDER_ORDERNO_REQUIRED</fullName>
+        <categories>IF</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Order No is Required</shortDescription>
+        <value>[tOrders.OrderNo] is Required.</value>
+    </labels>
+    <labels>
+        <fullName>LAB_IF_ERR_ORDER_ORDERTYPE_INVALID</fullName>
+        <categories>IF</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Order Type is Invalid</shortDescription>
+        <value>[tOrders.OrderType] is not valid.</value>
+    </labels>
+    <labels>
+        <fullName>LAB_IF_ERR_ORDER_ORDERTYPE_REQUIRED</fullName>
+        <categories>IF</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Order Type is Required</shortDescription>
+        <value>[tOrders.OrderType] is Required.</value>
+    </labels>
+    <labels>
+        <fullName>LAB_IF_ERR_PRODUCT_EANCODE_DO_NOT_EXIST</fullName>
+        <categories>IF</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>List of EANCode do not exist</shortDescription>
+        <value>List of [T_Product.KDCE_EANCode] do not exist.</value>
+    </labels>
+    <labels>
+        <fullName>LAB_IF_ERR_PRODUCT_EANCODE_LIST_DO_NOT_EXIST</fullName>
+        <categories>IF</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>List of EANCode do not exist</shortDescription>
+        <value>List of [T_Product.KDCE_EANCode] do not exist.</value>
+    </labels>
+    <labels>
+        <fullName>LAB_IF_ERR_PRODUCT_EANCODE_LIST_EMPTY</fullName>
+        <categories>IF</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>List of EANCode is Empty</shortDescription>
+        <value>List of [T_Product.KDCE_EANCode] is Empty.</value>
+    </labels>
+    <labels>
+        <fullName>LAB_IF_ERR_PRODUCT_EANCODE_REQUIRED</fullName>
+        <categories>IF</categories>
+        <language>ko</language>
+        <protected>true</protected>
+        <shortDescription>KDCE_EANCode is Required</shortDescription>
+        <value>[T_Product.KDCE_EANCode] is Required.</value>
+    </labels>
+    <labels>
+        <fullName>LAB_TNC_HISTORY_DESC_ACCEPT</fullName>
+        <categories>TNC</categories>
+        <language>ko</language>
+        <protected>true</protected>
+        <shortDescription>TnC Accept 동의처리의 경우</shortDescription>
+        <value>동의 처리하였습니다.</value>
+    </labels>
+    <labels>
+        <fullName>LAB_TNC_HISTORY_DESC_DECLINE</fullName>
+        <categories>TNC</categories>
+        <language>ko</language>
+        <protected>true</protected>
+        <shortDescription>TnC Accept 비동의처리의 경우(일반)</shortDescription>
+        <value>비동의 처리하였습니다.</value>
+    </labels>
+    <labels>
+        <fullName>LAB_TNC_HISTORY_DESC_DECLINE_INFORMATION</fullName>
+        <categories>TNC</categories>
+        <language>ko</language>
+        <protected>true</protected>
+        <shortDescription>TnC Accept 비동의처리하여 Contact의 Information Opt-In 해제되는 경우</shortDescription>
+        <value>비동의 처리하여, Information Opt-In 해제되었습니다.</value>
+    </labels>
+    <labels>
+        <fullName>LAB_TNC_HISTORY_DESC_DECLINE_MARKETING</fullName>
+        <categories>TNC</categories>
+        <language>ko</language>
+        <protected>true</protected>
+        <shortDescription>TnC Accept 비동의처리하여 Contact의 Marketing Opt-In 해제되는 경우</shortDescription>
+        <value>비동의 처리하여, Marketing Opt-In 해제되었습니다.</value>
+    </labels>
+    <labels>
+        <fullName>LAB_TNC_HISTORY_DESC_DECLINE_MARKETINGANDINFORMATION</fullName>
+        <categories>TNC</categories>
+        <language>ko</language>
+        <protected>true</protected>
+        <shortDescription>TnC Accept 비동의처리하여 Contact의 Marketing과 Information Opt-In 모두 해제되는 경우</shortDescription>
+        <value>비동의 처리하여, Marketing Opt-In과 Information Opt-In 해제되었습니다.</value>
+    </labels>
+    <labels>
+        <fullName>LAB_TNC_VersionSet_ERR_SAMEVERSIONFORTNCEXISTS</fullName>
+        <categories>TNC</categories>
+        <language>ko</language>
+        <protected>true</protected>
+        <shortDescription>같은 TnC에 대하여 동일한 버전이 이미 존재</shortDescription>
+        <value>같은 Terms and Conditions에 대하여 같은 Version이 이미 존재합니다.</value>
+    </labels>
+    <labels>
+        <fullName>LA_Chat_Body_MessageAreaTransferred_04I5g000000H7z5_5031305</fullName>
+        <categories>Snap-ins</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>LA_Chat_Body_MessageAreaTransferred_04I5g000000H7z5_5031305</shortDescription>
+        <value>잠시만 기다려주세요.</value>
+    </labels>
+    <labels>
+        <fullName>LA_Chat_CloseConfirmation_ChatStateBody_04I5g000000H7z5_8746432</fullName>
+        <categories>Snap-ins</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>LA_Chat_CloseConfirmation_ChatStateBody_04I5g000000H7z5_8746432</shortDescription>
+        <value>Don&apos;t worry. You can send a message and start a chat anytime you need.</value>
+    </labels>
+    <labels>
+        <fullName>LA_Chat_Reconnecting_ReconnectingChasitorIssue_04I5g000000H7z5_3054629</fullName>
+        <categories>Snap-ins</categories>
+        <language>ko</language>
+        <protected>false</protected>
+        <shortDescription>LA_Chat_Reconnecting_ReconnectingChasitorIssue_04I5g000000H7z5_3054629</shortDescription>
+        <value>기다려 주십시오. 다시 연결을 시도하고 있습니다.</value>
+    </labels>
+    <labels>
+        <fullName>LA_Waiting_CloseConfirmation_WaitingStateBodyApology_04I5g000000H7z5_2620309</fullName>
+        <categories>Snap-ins</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>LA_Waiting_CloseConfirmation_WaitingStateBodyApology_04I5g000000H7z5_2620309</shortDescription>
+        <value>Don&apos;t worry.</value>
+    </labels>
+    <labels>
+        <fullName>LA_Waiting_CloseConfirmation_WaitingStateBodyWarning_04I5g000000H7z5_7530571</fullName>
+        <categories>Snap-ins</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>LA_Waiting_CloseConfirmation_WaitingStateBodyWarning_04I5g000000H7z5_7530571</shortDescription>
+        <value>You can send a message and start a chat anytime you need.</value>
+    </labels>
+    <labels>
+        <fullName>LA_Waiting_Error_ErrorNoAgentHeader_04I5g000000H7z5_8186661</fullName>
+        <categories>Snap-ins</categories>
+        <language>ko</language>
+        <protected>false</protected>
+        <shortDescription>LA_Waiting_Error_ErrorNoAgentHeader_04I5g000000H7z5_8186661</shortDescription>
+        <value>현재 에이전트 연결이 지연되고 있습니다.</value>
+    </labels>
+    <labels>
+        <fullName>Labs_SF_Delete</fullName>
+        <categories>Survey Force</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Delete</shortDescription>
+        <value>Delete</value>
+    </labels>
+    <labels>
+        <fullName>Marketing</fullName>
+        <language>ko</language>
+        <protected>false</protected>
+        <shortDescription>Contact_RelatedMarketing</shortDescription>
+        <value>Marketing</value>
+    </labels>
+    <labels>
+        <fullName>Membership</fullName>
+        <language>ko</language>
+        <protected>false</protected>
+        <shortDescription>Contact_RelatedMembership</shortDescription>
+        <value>Membership</value>
+    </labels>
+    <labels>
+        <fullName>Order</fullName>
+        <language>ko</language>
+        <protected>false</protected>
+        <shortDescription>Contact_RelatedOrder</shortDescription>
+        <value>Order</value>
+    </labels>
+    <labels>
+        <fullName>Others</fullName>
+        <language>ko</language>
+        <protected>false</protected>
+        <shortDescription>Contact_RelatedOthers</shortDescription>
+        <value>Others</value>
+    </labels>
+    <labels>
+        <fullName>PleaseEnterCancelDate</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>PleaseEnterCancelDate</shortDescription>
+        <value>Please enter the cancel date.</value>
+    </labels>
+    <labels>
+        <fullName>Service</fullName>
+        <language>ko</language>
+        <protected>false</protected>
+        <shortDescription>Contact_RelatedService</shortDescription>
+        <value>Service</value>
+    </labels>
+    <labels>
+        <fullName>ToDoListDefault</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>ToDoListDefault</shortDescription>
+        <value>eunjee@i2max.co.kr;</value>
+    </labels>
+    <labels>
+        <fullName>X0015g00000My8tRAAR</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>KDCE_DeletedContactAccount</shortDescription>
+        <value>0015g00000My8tRAAR</value>
+    </labels>
+    <labels>
+        <fullName>eCommerce</fullName>
+        <language>ko</language>
+        <protected>false</protected>
+        <shortDescription>Contact_RelatedeCommerce</shortDescription>
+        <value>eCommerce</value>
+    </labels>
+    <labels>
+        <fullName>i2SEMA_LAB_ADD_RECEIVER</fullName>
+        <categories>i2SEMA</categories>
+        <language>ko</language>
+        <protected>true</protected>
+        <shortDescription>i2SEMA_LAB_ADD_RECEIVER</shortDescription>
+        <value>Add Receiver</value>
+    </labels>
+    <labels>
+        <fullName>i2SEMA_LAB_ARS080</fullName>
+        <categories>i2SEMA</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>i2SEMA_LAB_ARS080</shortDescription>
+        <value>Block 080 Number</value>
+    </labels>
+    <labels>
+        <fullName>i2SEMA_LAB_ARS080_FREE</fullName>
+        <categories>i2SEMA</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>i2SEMA_LAB_ARS080_FREE</shortDescription>
+        <value>Block Call :</value>
+    </labels>
+    <labels>
+        <fullName>i2SEMA_LAB_CHANNEL</fullName>
+        <categories>i2SEMA</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Send</shortDescription>
+        <value>Channel</value>
+    </labels>
+    <labels>
+        <fullName>i2SEMA_LAB_CHATTER</fullName>
+        <categories>i2SEMA</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Preview</shortDescription>
+        <value>Chatter</value>
+    </labels>
+    <labels>
+        <fullName>i2SEMA_LAB_CONTENTS</fullName>
+        <categories>i2SEMA</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Send</shortDescription>
+        <value>Contents</value>
+    </labels>
+    <labels>
+        <fullName>i2SEMA_LAB_CURRENT_RECORD</fullName>
+        <categories>i2SEMA</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Send</shortDescription>
+        <value>Current record</value>
+    </labels>
+    <labels>
+        <fullName>i2SEMA_LAB_DONE</fullName>
+        <categories>i2SEMA</categories>
+        <language>ko</language>
+        <protected>true</protected>
+        <shortDescription>i2SEMA_LAB_DONE</shortDescription>
+        <value>Done</value>
+    </labels>
+    <labels>
+        <fullName>i2SEMA_LAB_EDIT_NOTIFICATION_TEMPLATE</fullName>
+        <categories>i2SEMA</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Template</shortDescription>
+        <value>Edit Notification Template</value>
+    </labels>
+    <labels>
+        <fullName>i2SEMA_LAB_ENTER_PHONENUMBER</fullName>
+        <categories>i2SEMA</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Send</shortDescription>
+        <value>Enter phone number</value>
+    </labels>
+    <labels>
+        <fullName>i2SEMA_LAB_KAKAO_BUTTON</fullName>
+        <categories>i2SEMA</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>KakaoButtons</shortDescription>
+        <value>Kakao Talk Button</value>
+    </labels>
+    <labels>
+        <fullName>i2SEMA_LAB_KAKAO_BUTTON_ADD</fullName>
+        <categories>i2SEMA</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>KakaoButtons</shortDescription>
+        <value>Add</value>
+    </labels>
+    <labels>
+        <fullName>i2SEMA_LAB_KAKAO_BUTTON_ADD_EDIT</fullName>
+        <categories>i2SEMA</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>KakaoButtons</shortDescription>
+        <value>Add/Edit</value>
+    </labels>
+    <labels>
+        <fullName>i2SEMA_LAB_KAKAO_BUTTON_TYPE_AL</fullName>
+        <categories>i2SEMA</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>KakaoButtons</shortDescription>
+        <value>App Link</value>
+    </labels>
+    <labels>
+        <fullName>i2SEMA_LAB_KAKAO_BUTTON_TYPE_BK</fullName>
+        <categories>i2SEMA</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>KakaoButtons</shortDescription>
+        <value>Bot keyword</value>
+    </labels>
+    <labels>
+        <fullName>i2SEMA_LAB_KAKAO_BUTTON_TYPE_DS</fullName>
+        <categories>i2SEMA</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>KakaoButtons</shortDescription>
+        <value>Tracking delivery</value>
+    </labels>
+    <labels>
+        <fullName>i2SEMA_LAB_KAKAO_BUTTON_TYPE_MD</fullName>
+        <categories>i2SEMA</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>KakaoButtons</shortDescription>
+        <value>Message delivery</value>
+    </labels>
+    <labels>
+        <fullName>i2SEMA_LAB_KAKAO_BUTTON_TYPE_WL</fullName>
+        <categories>i2SEMA</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>KakaoButtons</shortDescription>
+        <value>Web Link</value>
+    </labels>
+    <labels>
+        <fullName>i2SEMA_LAB_KAKAO_FRIEND_TALK</fullName>
+        <categories>i2SEMA</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Preview</shortDescription>
+        <value>Kakao Friend Talk</value>
+    </labels>
+    <labels>
+        <fullName>i2SEMA_LAB_KAKAO_NOTI_TALK</fullName>
+        <categories>i2SEMA</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Preview</shortDescription>
+        <value>Kakao Notification Talk</value>
+    </labels>
+    <labels>
+        <fullName>i2SEMA_LAB_KAKAO_NOTI_TALK_ARRIVED</fullName>
+        <categories>i2SEMA</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Preview</shortDescription>
+        <value>Notification Talk Arrived</value>
+    </labels>
+    <labels>
+        <fullName>i2SEMA_LAB_LABEL_01</fullName>
+        <categories>i2SEMA</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Template</shortDescription>
+        <value>LABEL1</value>
+    </labels>
+    <labels>
+        <fullName>i2SEMA_LAB_LABEL_01_VAL</fullName>
+        <categories>i2SEMA</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Template</shortDescription>
+        <value>%%LABEL1%%</value>
+    </labels>
+    <labels>
+        <fullName>i2SEMA_LAB_LABEL_02</fullName>
+        <categories>i2SEMA</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Template</shortDescription>
+        <value>LABEL2</value>
+    </labels>
+    <labels>
+        <fullName>i2SEMA_LAB_LABEL_02_VAL</fullName>
+        <categories>i2SEMA</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Template</shortDescription>
+        <value>%%LABEL2%%</value>
+    </labels>
+    <labels>
+        <fullName>i2SEMA_LAB_LABEL_03</fullName>
+        <categories>i2SEMA</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Template</shortDescription>
+        <value>LABEL3</value>
+    </labels>
+    <labels>
+        <fullName>i2SEMA_LAB_LABEL_03_VAL</fullName>
+        <categories>i2SEMA</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Template</shortDescription>
+        <value>%%LABEL3%%</value>
+    </labels>
+    <labels>
+        <fullName>i2SEMA_LAB_LABEL_04</fullName>
+        <categories>i2SEMA</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Template</shortDescription>
+        <value>LABEL4</value>
+    </labels>
+    <labels>
+        <fullName>i2SEMA_LAB_LABEL_04_VAL</fullName>
+        <categories>i2SEMA</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Template</shortDescription>
+        <value>%%LABEL4%%</value>
+    </labels>
+    <labels>
+        <fullName>i2SEMA_LAB_LABEL_05</fullName>
+        <categories>i2SEMA</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Template</shortDescription>
+        <value>LABEL5</value>
+    </labels>
+    <labels>
+        <fullName>i2SEMA_LAB_LABEL_05_VAL</fullName>
+        <categories>i2SEMA</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Template</shortDescription>
+        <value>%%LABEL5%%</value>
+    </labels>
+    <labels>
+        <fullName>i2SEMA_LAB_LMS</fullName>
+        <categories>i2SEMA</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Preview</shortDescription>
+        <value>LMS</value>
+    </labels>
+    <labels>
+        <fullName>i2SEMA_LAB_MARKETING</fullName>
+        <categories>i2SEMA</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>i2SEMA_LAB_MARKETING</shortDescription>
+        <value>(광고)</value>
+    </labels>
+    <labels>
+        <fullName>i2SEMA_LAB_MMS</fullName>
+        <categories>i2SEMA</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Preview</shortDescription>
+        <value>MMS</value>
+    </labels>
+    <labels>
+        <fullName>i2SEMA_LAB_NEW_NOTIFICATION_TEMPLATE</fullName>
+        <categories>i2SEMA</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Template</shortDescription>
+        <value>New Notification Template</value>
+    </labels>
+    <labels>
+        <fullName>i2SEMA_LAB_NONE</fullName>
+        <categories>i2SEMA</categories>
+        <language>ko</language>
+        <protected>true</protected>
+        <shortDescription>i2SEMA_LAB_NONE</shortDescription>
+        <value>-- None --</value>
+    </labels>
+    <labels>
+        <fullName>i2SEMA_LAB_NO_ITEMS</fullName>
+        <categories>i2SEMA</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Send</shortDescription>
+        <value>There are no items to display</value>
+    </labels>
+    <labels>
+        <fullName>i2SEMA_LAB_PERSONALIZATION_LABELS</fullName>
+        <categories>i2SEMA</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Template</shortDescription>
+        <value>Personalization Labels</value>
+    </labels>
+    <labels>
+        <fullName>i2SEMA_LAB_PREVIEW</fullName>
+        <categories>i2SEMA</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Preview</shortDescription>
+        <value>Preview</value>
+    </labels>
+    <labels>
+        <fullName>i2SEMA_LAB_RECEIVER</fullName>
+        <categories>i2SEMA</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Send</shortDescription>
+        <value>Receiver</value>
+    </labels>
+    <labels>
+        <fullName>i2SEMA_LAB_REFERENCE_FIELD</fullName>
+        <categories>i2SEMA</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Send</shortDescription>
+        <value>Reference Field</value>
+    </labels>
+    <labels>
+        <fullName>i2SEMA_LAB_RELATED_RECORD</fullName>
+        <categories>i2SEMA</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Send</shortDescription>
+        <value>Related record</value>
+    </labels>
+    <labels>
+        <fullName>i2SEMA_LAB_REMOVE_ATTACHMENT</fullName>
+        <categories>i2SEMA</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Template</shortDescription>
+        <value>Remove</value>
+    </labels>
+    <labels>
+        <fullName>i2SEMA_LAB_SCHEDULED</fullName>
+        <categories>i2SEMA</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Send</shortDescription>
+        <value>Scheduled</value>
+    </labels>
+    <labels>
+        <fullName>i2SEMA_LAB_SELECT_RECEIVER</fullName>
+        <categories>i2SEMA</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Send</shortDescription>
+        <value>Select Receiver</value>
+    </labels>
+    <labels>
+        <fullName>i2SEMA_LAB_SEND</fullName>
+        <categories>i2SEMA</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Send</shortDescription>
+        <value>Send</value>
+    </labels>
+    <labels>
+        <fullName>i2SEMA_LAB_SEND_NOTIFICATION</fullName>
+        <categories>i2SEMA</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Send</shortDescription>
+        <value>Send Notification</value>
+    </labels>
+    <labels>
+        <fullName>i2SEMA_LAB_SMS</fullName>
+        <categories>i2SEMA</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Preview</shortDescription>
+        <value>SMS</value>
+    </labels>
+    <labels>
+        <fullName>i2SEMA_LAB_SPECIFIC_RECORD</fullName>
+        <categories>i2SEMA</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Send</shortDescription>
+        <value>Specific record</value>
+    </labels>
+    <labels>
+        <fullName>i2SEMA_LAB_TEMPLATE</fullName>
+        <categories>i2SEMA</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Send</shortDescription>
+        <value>Template</value>
+    </labels>
+    <labels>
+        <fullName>i2SEMA_LAB_TITLE</fullName>
+        <categories>i2SEMA</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Send</shortDescription>
+        <value>Title</value>
+    </labels>
+    <labels>
+        <fullName>i2SEMA_LAB_TYPE</fullName>
+        <categories>i2SEMA</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>i2SEMA_LAB_TYPE</shortDescription>
+        <value>Type</value>
+    </labels>
+    <labels>
+        <fullName>i2SEMA_LAB_UPLOADED_ATTACHMENT</fullName>
+        <categories>i2SEMA</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Template</shortDescription>
+        <value>Uploaded file :</value>
+    </labels>
+    <labels>
+        <fullName>i2SEMA_MSG_AUTOMATIC_SETTING_NOT_FOUND</fullName>
+        <categories>i2SEMA</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Send</shortDescription>
+        <value>Automatic Setting is not found</value>
+    </labels>
+    <labels>
+        <fullName>i2SEMA_MSG_BLANK_CHANNEL</fullName>
+        <categories>i2SEMA</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Template</shortDescription>
+        <value>Please select channel.</value>
+    </labels>
+    <labels>
+        <fullName>i2SEMA_MSG_BLANK_IMG</fullName>
+        <categories>i2SEMA</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Template</shortDescription>
+        <value>File is required for MMS channel. Please upload the file.</value>
+    </labels>
+    <labels>
+        <fullName>i2SEMA_MSG_BLANK_KAKAO_BUTTON_TYPE</fullName>
+        <categories>i2SEMA</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>KakaoButtons</shortDescription>
+        <value>Please select button type.</value>
+    </labels>
+    <labels>
+        <fullName>i2SEMA_MSG_CANCEL_INVALID_NOTI_STATUS</fullName>
+        <categories>i2SEMA</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Send</shortDescription>
+        <value>Only the request status can be canceled. Current status :</value>
+    </labels>
+    <labels>
+        <fullName>i2SEMA_MSG_DUPLICATE_TEMPLATE</fullName>
+        <categories>i2SEMA</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Template</shortDescription>
+        <value>Duplicate template name exists. change the name for the template.</value>
+    </labels>
+    <labels>
+        <fullName>i2SEMA_MSG_EMPTY_FRIENDTALK_IMAGE</fullName>
+        <categories>i2SEMA</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Template</shortDescription>
+        <value>There is no Kakao friend talk image. Please select the kakao freind image.</value>
+    </labels>
+    <labels>
+        <fullName>i2SEMA_MSG_FIELD_API_INVALID</fullName>
+        <categories>i2SEMA</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Send</shortDescription>
+        <value>Field API is invalid</value>
+    </labels>
+    <labels>
+        <fullName>i2SEMA_MSG_FIELD_TYPE_INVALID</fullName>
+        <categories>i2SEMA</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Send</shortDescription>
+        <value>Field Type is invalid</value>
+    </labels>
+    <labels>
+        <fullName>i2SEMA_MSG_INCORRECT_ARS080</fullName>
+        <categories>i2SEMA</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Template</shortDescription>
+        <value>The block message is incorrect. Please do not edit the block message.</value>
+    </labels>
+    <labels>
+        <fullName>i2SEMA_MSG_INCORRECT_MARKETING</fullName>
+        <categories>i2SEMA</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Template</shortDescription>
+        <value>광고성 메세지에 (광고) 안내가 존재하지 않습니다. 메세지 앞부분에 &apos;(광고)&apos; 안내를 추가하시기 바랍니다.</value>
+    </labels>
+    <labels>
+        <fullName>i2SEMA_MSG_INVALID_AUTO_SETTING_ID</fullName>
+        <categories>i2SEMA</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Send</shortDescription>
+        <value>Invalid notification automatic setting id</value>
+    </labels>
+    <labels>
+        <fullName>i2SEMA_MSG_INVALID_NOTI_ID</fullName>
+        <categories>i2SEMA</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Send</shortDescription>
+        <value>Invalid notification id</value>
+    </labels>
+    <labels>
+        <fullName>i2SEMA_MSG_INVALID_NOTI_OR_NOTIGROUP_ID</fullName>
+        <categories>i2SEMA</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Send</shortDescription>
+        <value>Invalid notification id or notification group id</value>
+    </labels>
+    <labels>
+        <fullName>i2SEMA_MSG_INVALID_OBJECT_TYPE</fullName>
+        <categories>i2SEMA</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Send</shortDescription>
+        <value>Invalid objectType</value>
+    </labels>
+    <labels>
+        <fullName>i2SEMA_MSG_INVALID_RECORDID</fullName>
+        <categories>i2SEMA</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Tempate</shortDescription>
+        <value>Invalid record id</value>
+    </labels>
+    <labels>
+        <fullName>i2SEMA_MSG_INVALID_TEMPLATE_ID</fullName>
+        <categories>i2SEMA</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Send</shortDescription>
+        <value>Invalid template id</value>
+    </labels>
+    <labels>
+        <fullName>i2SEMA_MSG_INVALID_TEMPLATE_ID2</fullName>
+        <categories>i2SEMA</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Send</shortDescription>
+        <value>Invalid template id :</value>
+    </labels>
+    <labels>
+        <fullName>i2SEMA_MSG_KAKAO_IMAGE_EMPTY</fullName>
+        <categories>i2SEMA</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Template</shortDescription>
+        <value>There is no Kakao friend image in Kakao friend talk. Please select an image.</value>
+    </labels>
+    <labels>
+        <fullName>i2SEMA_MSG_LENGTH_LIMIT_EXCEED</fullName>
+        <categories>i2SEMA</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Send</shortDescription>
+        <value>The message has exceeded the length that can be sent</value>
+    </labels>
+    <labels>
+        <fullName>i2SEMA_MSG_NOTIFICATION_EVENT_SETTING_ALREADY_SET</fullName>
+        <categories>i2SEMA</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Template</shortDescription>
+        <value>Template used for automatic sending. Unable to modify.</value>
+    </labels>
+    <labels>
+        <fullName>i2SEMA_MSG_NOT_EXIST_ARS080</fullName>
+        <categories>i2SEMA</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Template</shortDescription>
+        <value>The 080 number is not defined. Please contact the system admin.</value>
+    </labels>
+    <labels>
+        <fullName>i2SEMA_MSG_NO_EXIST_ID</fullName>
+        <categories>i2SEMA</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Send</shortDescription>
+        <value>The record id does not exist.</value>
+    </labels>
+    <labels>
+        <fullName>i2SEMA_MSG_OBJECT_API_INVALID</fullName>
+        <categories>i2SEMA</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Send</shortDescription>
+        <value>Object API is invalid</value>
+    </labels>
+    <labels>
+        <fullName>i2SEMA_MSG_RECEIVER_API_INVALID</fullName>
+        <categories>i2SEMA</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Send</shortDescription>
+        <value>Receiver API is invalid</value>
+    </labels>
+    <labels>
+        <fullName>i2SEMA_MSG_RECEIVER_NOT_FOUND</fullName>
+        <categories>i2SEMA</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Send</shortDescription>
+        <value>Message receiver does not exist.</value>
+    </labels>
+    <labels>
+        <fullName>i2SEMA_MSG_RECEIVER_PHONE_NOT_EXIST</fullName>
+        <categories>i2SEMA</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Send</shortDescription>
+        <value>Receiver&apos;s phone number does not exist</value>
+    </labels>
+    <labels>
+        <fullName>i2SEMA_MSG_RECEIVER_PHONE_UNSUBSCRIBED</fullName>
+        <categories>i2SEMA</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Send</shortDescription>
+        <value>This phone number has been unsubscribed</value>
+    </labels>
+    <labels>
+        <fullName>i2SEMA_MSG_RECEIVER_TYPE_INVALID</fullName>
+        <categories>i2SEMA</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Send</shortDescription>
+        <value>Receiver type is not valid.</value>
+    </labels>
+    <labels>
+        <fullName>i2SEMA_MSG_REFERENCE_TYPE_INVALID</fullName>
+        <categories>i2SEMA</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Send</shortDescription>
+        <value>Reference Type is invalid</value>
+    </labels>
+    <labels>
+        <fullName>i2SEMA_MSG_REQUIRED_CHANNEL</fullName>
+        <categories>i2SEMA</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Send Message</shortDescription>
+        <value>메세지 채널 혹은 템플릿을 먼저 입력해주세요.</value>
+    </labels>
+    <labels>
+        <fullName>i2SEMA_MSG_REQUIRED_FIELD_EMPTY</fullName>
+        <categories>i2SEMA</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Send</shortDescription>
+        <value>Mandatory properties are missing</value>
+    </labels>
+    <labels>
+        <fullName>i2SEMA_MSG_SCHEDULE_TIME_INVALID</fullName>
+        <categories>i2SEMA</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Send</shortDescription>
+        <value>The sending time of the message is outside the valid range</value>
+    </labels>
+    <labels>
+        <fullName>i2SEMA_MSG_TEMPLATE_ALREADY_USED</fullName>
+        <categories>i2SEMA</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Template</shortDescription>
+        <value>The template used to send the message cannot be modified.</value>
+    </labels>
+    <labels>
+        <fullName>i2SEMA_MSG_TEMPLATE_FIELD_INVALID</fullName>
+        <categories>i2SEMA</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Send</shortDescription>
+        <value>Template Label Field is Invalid</value>
+    </labels>
+    <labels>
+        <fullName>i2SEMA_MSG_TEMPLATE_INVALID</fullName>
+        <categories>i2SEMA</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Send</shortDescription>
+        <value>The template is not active or not registered with the message server</value>
+    </labels>
+    <labels>
+        <fullName>i2SEMA_MSG_TEMPLATE_LABEL_INVALID</fullName>
+        <categories>i2SEMA</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Send</shortDescription>
+        <value>Template label information is missing or unused label value is entered</value>
+    </labels>
+    <labels>
+        <fullName>i2SEMA_MSG_UNMODIFICATOIN_NOTIFICATION_TALK</fullName>
+        <categories>i2SEMA</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Template</shortDescription>
+        <value>Unable to modify Kakao Notification Talk template.</value>
+    </labels>
+    <labels>
+        <fullName>i2SEMA_MSG_VALIDATION_FAILED</fullName>
+        <categories>i2SEMA</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Send</shortDescription>
+        <value>Validation failed :</value>
+    </labels>
+    <labels>
+        <fullName>i2SEMA_MSG_VALIDATION_LABEL</fullName>
+        <categories>Notific ation</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Template</shortDescription>
+        <value>There are invalid personalization labels. Only (%%LABEL1%%) to (%%LABEL5%%) personalization labels are allowed.</value>
+    </labels>
+    <labels>
+        <fullName>i2SEMA_NT_LAB_UPLOAD_ATTACHMENT</fullName>
+        <categories>Notification</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Template Label</shortDescription>
+        <value>Upload Attachment</value>
+    </labels>
+    <labels>
+        <fullName>i2SEMA_NT_MSG_LIMIT</fullName>
+        <categories>NotificationTemplate</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Template Message</shortDescription>
+        <value>메세지 입력 길이가 초과하였습니다.</value>
+    </labels>
+    <labels>
+        <fullName>i2SEMA_NT_MSG_REQUIRED_TEMPLATE_CHANNEL</fullName>
+        <categories>i2SEMA</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Template Message</shortDescription>
+        <value>템플릿 채널을 입력해주세요.</value>
+    </labels>
+    <labels>
+        <fullName>i2SEMA_NT_MSG_REQUIRED_TEMPLATE_CONTENT</fullName>
+        <categories>i2SEMA</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Template Message</shortDescription>
+        <value>템플릿 내용을 입력해주세요.</value>
+    </labels>
+    <labels>
+        <fullName>i2SEMA_NT_MSG_REQUIRED_TEMPLATE_NAME</fullName>
+        <categories>i2SEMA</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Template Message</shortDescription>
+        <value>템플릿 이름을 입력해주세요.</value>
+    </labels>
+    <labels>
+        <fullName>i2SEMA_NT_MSG_REQUIRED_TEMPLATE_TITLE</fullName>
+        <categories>i2SEMA</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Template Message</shortDescription>
+        <value>템플릿 제목을 입력해주세요.</value>
+    </labels>
+</CustomLabels>

@@ -1,0 +1,372 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>KDCE_HeetsSubjectCode__c</fullName>
+    <externalId>false</externalId>
+    <label>HEETS Subject Code</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <controllingField>CCR_ConsumableComplaintReason__c</controllingField>
+        <restricted>true</restricted>
+        <valueSetName>CCR_SubjectCode</valueSetName>
+        <valueSettings>
+            <controllingFieldValue>(Piece)Missing</controllingFieldValue>
+            <controllingFieldValue>Missing</controllingFieldValue>
+            <valueName>164.01</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>(Piece)Missing</controllingFieldValue>
+            <controllingFieldValue>Missing</controllingFieldValue>
+            <valueName>165.01</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>(Piece)Missing</controllingFieldValue>
+            <controllingFieldValue>Missing</controllingFieldValue>
+            <valueName>173.01</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>(Piece)Missing</controllingFieldValue>
+            <controllingFieldValue>Missing</controllingFieldValue>
+            <valueName>173.89</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>(Piece)Missing</controllingFieldValue>
+            <controllingFieldValue>Missing</controllingFieldValue>
+            <valueName>174.01</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>(Piece)Missing</controllingFieldValue>
+            <controllingFieldValue>Missing</controllingFieldValue>
+            <valueName>175.23C</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>(Piece)Missing</controllingFieldValue>
+            <controllingFieldValue>Missing</controllingFieldValue>
+            <valueName>176.01</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>(Piece)Extra</controllingFieldValue>
+            <controllingFieldValue>Extra</controllingFieldValue>
+            <valueName>174.05</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>(Piece)Damaged</controllingFieldValue>
+            <controllingFieldValue>Damaged</controllingFieldValue>
+            <valueName>170.60C</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>(Piece)Damaged</controllingFieldValue>
+            <controllingFieldValue>Damaged</controllingFieldValue>
+            <valueName>171.10C</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>(Piece)Damaged</controllingFieldValue>
+            <controllingFieldValue>Damaged</controllingFieldValue>
+            <valueName>173.88</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>(Piece)Damaged</controllingFieldValue>
+            <controllingFieldValue>Damaged</controllingFieldValue>
+            <valueName>174.10C</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>(Piece)Damaged</controllingFieldValue>
+            <controllingFieldValue>Damaged</controllingFieldValue>
+            <valueName>177.60</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>(Piece)Sensory / Functionality / Other</controllingFieldValue>
+            <controllingFieldValue>Sensory / Functionality / Other</controllingFieldValue>
+            <valueName>199.03</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>(Piece)Sensory / Functionality / Other</controllingFieldValue>
+            <controllingFieldValue>Sensory / Functionality / Other</controllingFieldValue>
+            <valueName>199.04</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>(Piece)Sensory / Functionality / Other</controllingFieldValue>
+            <controllingFieldValue>Sensory / Functionality / Other</controllingFieldValue>
+            <valueName>199.06</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>(Piece)Sensory / Functionality / Other</controllingFieldValue>
+            <controllingFieldValue>Sensory / Functionality / Other</controllingFieldValue>
+            <valueName>199.07 - Stick Too much menthol</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>(Piece)Sensory / Functionality / Other</controllingFieldValue>
+            <controllingFieldValue>Sensory / Functionality / Other</controllingFieldValue>
+            <valueName>199.08</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>(Piece)Sensory / Functionality / Other</controllingFieldValue>
+            <controllingFieldValue>Sensory / Functionality / Other</controllingFieldValue>
+            <valueName>199.09</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>(Piece)Sensory / Functionality / Other</controllingFieldValue>
+            <controllingFieldValue>Sensory / Functionality / Other</controllingFieldValue>
+            <valueName>199.14</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>(Piece)Sensory / Functionality / Other</controllingFieldValue>
+            <controllingFieldValue>Sensory / Functionality / Other</controllingFieldValue>
+            <valueName>199.15</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>(Piece)Sensory / Functionality / Other</controllingFieldValue>
+            <controllingFieldValue>Sensory / Functionality / Other</controllingFieldValue>
+            <valueName>199.16</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>(Piece)Sensory / Functionality / Other</controllingFieldValue>
+            <controllingFieldValue>Sensory / Functionality / Other</controllingFieldValue>
+            <valueName>199.47</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>(Piece)Sensory / Functionality / Other</controllingFieldValue>
+            <controllingFieldValue>Sensory / Functionality / Other</controllingFieldValue>
+            <valueName>199.67</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>(Piece)Sensory / Functionality / Other</controllingFieldValue>
+            <valueName>199.73</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>(Piece)Smeared / Dirty</controllingFieldValue>
+            <controllingFieldValue>Smeared / Dirty</controllingFieldValue>
+            <valueName>171.15C</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>(Piece)Smeared / Dirty</controllingFieldValue>
+            <controllingFieldValue>Smeared / Dirty</controllingFieldValue>
+            <valueName>173.15C</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>(Piece)Smeared / Dirty</controllingFieldValue>
+            <controllingFieldValue>Smeared / Dirty</controllingFieldValue>
+            <valueName>176.87</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>(Piece)Smeared / Dirty</controllingFieldValue>
+            <controllingFieldValue>Smeared / Dirty</controllingFieldValue>
+            <valueName>177.87</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>(Pack)Extra</controllingFieldValue>
+            <controllingFieldValue>Extra</controllingFieldValue>
+            <valueName>151.05</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>(Pack)Smeared / Dirty</controllingFieldValue>
+            <controllingFieldValue>Smeared / Dirty</controllingFieldValue>
+            <valueName>151.15</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>(Pack)Smeared / Dirty</controllingFieldValue>
+            <controllingFieldValue>Smeared / Dirty</controllingFieldValue>
+            <valueName>154.15C</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>(Pack)Smeared / Dirty</controllingFieldValue>
+            <controllingFieldValue>Smeared / Dirty</controllingFieldValue>
+            <valueName>157.98</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>(Pack)Wrong</controllingFieldValue>
+            <valueName>157.25</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>(Pack)Wrong</controllingFieldValue>
+            <controllingFieldValue>Wrong</controllingFieldValue>
+            <valueName>157.95</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>(Pack)Damaged</controllingFieldValue>
+            <controllingFieldValue>Damaged</controllingFieldValue>
+            <valueName>151.10</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>(Pack)Damaged</controllingFieldValue>
+            <controllingFieldValue>Damaged</controllingFieldValue>
+            <valueName>157.64</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>(Pack)Missing</controllingFieldValue>
+            <valueName>150.01</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>(Pack)Missing</controllingFieldValue>
+            <controllingFieldValue>Missing</controllingFieldValue>
+            <valueName>151.01</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>(Pack)Missing</controllingFieldValue>
+            <controllingFieldValue>Missing</controllingFieldValue>
+            <valueName>152.01 - Missing Sticker</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>(Pack)Missing</controllingFieldValue>
+            <controllingFieldValue>Missing</controllingFieldValue>
+            <valueName>153.01</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>(Pack)Missing</controllingFieldValue>
+            <valueName>157.50</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>(Pack)Missing</controllingFieldValue>
+            <valueName>157.52</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>(Pack)Missing</controllingFieldValue>
+            <controllingFieldValue>Missing</controllingFieldValue>
+            <valueName>157.96</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>(Pack)Sensory / Functionality / Other</controllingFieldValue>
+            <valueName>154.21</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>(Pack)Sensory / Functionality / Other</controllingFieldValue>
+            <controllingFieldValue>Sensory / Functionality / Other</controllingFieldValue>
+            <valueName>156.21</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>(Pack)Sensory / Functionality / Other</controllingFieldValue>
+            <controllingFieldValue>Sensory / Functionality / Other</controllingFieldValue>
+            <valueName>156.75</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>(Pack)Sensory / Functionality / Other</controllingFieldValue>
+            <valueName>157.66</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>(Pack)Sensory / Functionality / Other</controllingFieldValue>
+            <controllingFieldValue>Sensory / Functionality / Other</controllingFieldValue>
+            <valueName>157.70 - Lid / Miter stuck pack</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>(Pack)Sensory / Functionality / Other</controllingFieldValue>
+            <controllingFieldValue>Sensory / Functionality / Other</controllingFieldValue>
+            <valueName>157.74 - Lid retention Miscellaneous pack</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>(Carton)Missing</controllingFieldValue>
+            <valueName>140.01</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>(Carton)Missing</controllingFieldValue>
+            <valueName>144.50</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>(Carton)Missing</controllingFieldValue>
+            <valueName>147.96</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>(Carton)Smeared / Dirty</controllingFieldValue>
+            <valueName>144.15</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>(Carton)Damaged</controllingFieldValue>
+            <valueName>141.10</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>(Carton)Damaged</controllingFieldValue>
+            <valueName>144.10</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>(Carton)Damaged</controllingFieldValue>
+            <valueName>147.64</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>(Carton)Wrong</controllingFieldValue>
+            <controllingFieldValue>Wrong</controllingFieldValue>
+            <valueName>157.65</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Damaged</controllingFieldValue>
+            <valueName>141.10 - Tear/Slit/Hole Overwrap</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Damaged</controllingFieldValue>
+            <valueName>144.10 - Tear/Slit/Hole Carton / Bundle</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Damaged</controllingFieldValue>
+            <valueName>147.64 - Crushed Bundle</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Missing</controllingFieldValue>
+            <valueName>140.01 - Missing Tear Tape</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Missing</controllingFieldValue>
+            <valueName>144.50 - Legal text illegible Carton / Bundle</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Missing</controllingFieldValue>
+            <valueName>144.96 - Improper pack count Carton / Bundle</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Missing</controllingFieldValue>
+            <valueName>150.01 - Missing Tear Tape</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Missing</controllingFieldValue>
+            <valueName>157.50 - Legal text illegible / missing on the pack</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Missing</controllingFieldValue>
+            <valueName>157.52 - Text illegible on the pack</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Missing</controllingFieldValue>
+            <valueName>174.21C</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Missing</controllingFieldValue>
+            <valueName>174.22 - Tip to plug adhesion Tipping</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Sensory / Functionality / Other</controllingFieldValue>
+            <valueName>154.21 - Pack adhesion Blank/Label</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Sensory / Functionality / Other</controllingFieldValue>
+            <valueName>157.66 - Stick stuck to pack</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Sensory / Functionality / Other</controllingFieldValue>
+            <valueName>199.73 - Old stock/expired product</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Smeared / Dirty</controllingFieldValue>
+            <valueName>144.15 - Smeared/Dirty Carton / Bundle</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Smeared / Dirty</controllingFieldValue>
+            <valueName>157.87</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Wrong</controllingFieldValue>
+            <valueName>157.25 - Inverted Stick on the pack</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Miscellaneous</controllingFieldValue>
+            <valueName>199.99</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>(Piece)Wrong</controllingFieldValue>
+            <valueName>174.79 - Exposed junction Tipping</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>(Piece)Wrong</controllingFieldValue>
+            <valueName>199.10A</valueName>
+        </valueSettings>
+    </valueSet>
+</CustomField>

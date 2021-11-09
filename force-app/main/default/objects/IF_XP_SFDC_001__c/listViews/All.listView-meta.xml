@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>All</fullName>
+    <columns>NAME</columns>
+    <columns>IsProcess__c</columns>
+    <columns>IsError__c</columns>
+    <columns>ErrorContent__c</columns>
+    <columns>CouponId__c</columns>
+    <columns>CREATED_DATE</columns>
+    <columns>Couponissuedate__c</columns>
+    <columns>CouponStatusDate__c</columns>
+    <columns>CouponStatusDatetime__c</columns>
+    <columns>CouponStatus__c</columns>
+    <columns>LAST_UPDATE</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>CREATED_DATE</field>
+        <operation>equals</operation>
+        <value>9/15/2021 12:00 AM</value>
+    </filters>
+    <label>All</label>
+</ListView>

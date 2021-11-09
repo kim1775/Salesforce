@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>CCR_ProductFamily__c</fullName>
+    <description>Used By: CCR
+Description: Used to store the Product Family values</description>
+    <externalId>false</externalId>
+    <label>Product Family</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <controllingField>Type</controllingField>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Device</fullName>
+                <default>false</default>
+                <label>Device</label>
+            </value>
+            <value>
+                <fullName>Consumable</fullName>
+                <default>false</default>
+                <label>Consumable</label>
+            </value>
+            <value>
+                <fullName>Accessory</fullName>
+                <default>false</default>
+                <label>Accessory</label>
+            </value>
+            <value>
+                <fullName>Service</fullName>
+                <default>false</default>
+                <label>Service</label>
+            </value>
+        </valueSetDefinition>
+        <valueSettings>
+            <controllingFieldValue>Qoach</controllingFieldValue>
+            <controllingFieldValue>Accessory</controllingFieldValue>
+            <controllingFieldValue>Inquiry</controllingFieldValue>
+            <controllingFieldValue>Direct Sales</controllingFieldValue>
+            <controllingFieldValue>Product Issues</controllingFieldValue>
+            <controllingFieldValue>Proactive</controllingFieldValue>
+            <controllingFieldValue>Heatstick</controllingFieldValue>
+            <controllingFieldValue>Device Issue</controllingFieldValue>
+            <valueName>Device</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Qoach</controllingFieldValue>
+            <controllingFieldValue>Accessory</controllingFieldValue>
+            <controllingFieldValue>Inquiry</controllingFieldValue>
+            <controllingFieldValue>Direct Sales</controllingFieldValue>
+            <controllingFieldValue>Product Issues</controllingFieldValue>
+            <controllingFieldValue>Proactive</controllingFieldValue>
+            <controllingFieldValue>Heatstick</controllingFieldValue>
+            <controllingFieldValue>Device Issue</controllingFieldValue>
+            <valueName>Consumable</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Qoach</controllingFieldValue>
+            <controllingFieldValue>Accessory</controllingFieldValue>
+            <controllingFieldValue>Inquiry</controllingFieldValue>
+            <controllingFieldValue>Direct Sales</controllingFieldValue>
+            <controllingFieldValue>Product Issues</controllingFieldValue>
+            <controllingFieldValue>Proactive</controllingFieldValue>
+            <controllingFieldValue>Heatstick</controllingFieldValue>
+            <controllingFieldValue>Device Issue</controllingFieldValue>
+            <valueName>Accessory</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Qoach</controllingFieldValue>
+            <controllingFieldValue>Accessory</controllingFieldValue>
+            <controllingFieldValue>Inquiry</controllingFieldValue>
+            <controllingFieldValue>Direct Sales</controllingFieldValue>
+            <controllingFieldValue>Product Issues</controllingFieldValue>
+            <controllingFieldValue>Proactive</controllingFieldValue>
+            <controllingFieldValue>Heatstick</controllingFieldValue>
+            <controllingFieldValue>Device Issue</controllingFieldValue>
+            <valueName>Service</valueName>
+        </valueSettings>
+    </valueSet>
+</CustomField>

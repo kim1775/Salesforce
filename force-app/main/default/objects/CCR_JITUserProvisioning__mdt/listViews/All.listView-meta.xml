@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>All</fullName>
+    <columns>MasterLabel</columns>
+    <columns>DeveloperName</columns>
+    <columns>NamespacePrefix</columns>
+    <columns>CCR_CountryCode__c</columns>
+    <columns>CCR_Active__c</columns>
+    <columns>CCR_PermissionSet__c</columns>
+    <columns>CCR_UsedFor__c</columns>
+    <filterScope>Everything</filterScope>
+    <label>All</label>
+    <language>ko</language>
+</ListView>

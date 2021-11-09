@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>CCR_ContactType__c</fullName>
+    <description>Created so the call center agent do not see the picklist of the queue from the other countries</description>
+    <externalId>false</externalId>
+    <label>Case Channel</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Phone</fullName>
+                <default>true</default>
+                <label>Phone</label>
+            </value>
+            <value>
+                <fullName>Email</fullName>
+                <default>false</default>
+                <label>Email</label>
+            </value>
+            <value>
+                <fullName>Webpage</fullName>
+                <default>false</default>
+                <label>Webpage</label>
+            </value>
+            <value>
+                <fullName>Chat</fullName>
+                <default>false</default>
+                <label>Chat</label>
+            </value>
+            <value>
+                <fullName>Kakao Chat</fullName>
+                <default>false</default>
+                <label>Kakao Chat</label>
+            </value>
+            <value>
+                <fullName>Social Media</fullName>
+                <default>false</default>
+                <label>Social Media</label>
+            </value>
+            <value>
+                <fullName>In person - Direct Retail</fullName>
+                <default>false</default>
+                <label>In person - Direct Retail</label>
+            </value>
+            <value>
+                <fullName>In person - Indirect Retail</fullName>
+                <default>false</default>
+                <label>In person - Indirect Retail</label>
+            </value>
+            <value>
+                <fullName>Self-Service - QURE</fullName>
+                <default>false</default>
+                <label>Self-Service - QURE</label>
+            </value>
+            <value>
+                <fullName>Other</fullName>
+                <default>false</default>
+                <label>Other</label>
+            </value>
+            <value>
+                <fullName>Self Service - iREFER</fullName>
+                <default>false</default>
+                <label>Self Service - iREFER</label>
+            </value>
+            <value>
+                <fullName>Consumer Engagement</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Consumer Engagement</label>
+            </value>
+            <value>
+                <fullName>Electronical Form</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Electronical Form</label>
+            </value>
+            <value>
+                <fullName>FC -1800 telephone number</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>FC -1800 telephone number</label>
+            </value>
+            <value>
+                <fullName>FX -Facsimile</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>FX -Facsimile</label>
+            </value>
+            <value>
+                <fullName>Face to Face</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Face to Face</label>
+            </value>
+            <value>
+                <fullName>Flagship Store</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Flagship Store</label>
+            </value>
+            <value>
+                <fullName>I -Inbound</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>I -Inbound</label>
+            </value>
+            <value>
+                <fullName>In person</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>In person</label>
+            </value>
+            <value>
+                <fullName>Letter</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Letter</label>
+            </value>
+            <value>
+                <fullName>O -Outbound</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>O -Outbound</label>
+            </value>
+            <value>
+                <fullName>OB -Outbound Call</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>OB -Outbound Call</label>
+            </value>
+            <value>
+                <fullName>Self-Service – QURE</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Self-Service – QURE</label>
+            </value>
+            <value>
+                <fullName>TS -TSM</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>TS -TSM</label>
+            </value>
+            <value>
+                <fullName>Voicemail</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Voicemail</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

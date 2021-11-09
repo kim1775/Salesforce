@@ -1,0 +1,505 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>CCR_SubType__c</fullName>
+    <description>Type of order, e.g. Replacement Order Warranty, Replacement Order Goodwill, Replacement POS, Return Order</description>
+    <externalId>false</externalId>
+    <label>Sub Type</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <controllingField>Type</controllingField>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Accessories</fullName>
+                <default>false</default>
+                <label>Accessories</label>
+            </value>
+            <value>
+                <fullName>Web Issues</fullName>
+                <default>false</default>
+                <label>Account Management</label>
+            </value>
+            <value>
+                <fullName>Alleged Claims</fullName>
+                <default>false</default>
+                <label>Alleged Claims</label>
+            </value>
+            <value>
+                <fullName>Charger</fullName>
+                <default>false</default>
+                <label>Charger</label>
+            </value>
+            <value>
+                <fullName>Churn Management</fullName>
+                <default>false</default>
+                <label>Churn Management</label>
+            </value>
+            <value>
+                <fullName>Click &amp; Collect</fullName>
+                <default>false</default>
+                <label>Click &amp; Collect</label>
+            </value>
+            <value>
+                <fullName>Commercial</fullName>
+                <default>false</default>
+                <label>Commercial</label>
+            </value>
+            <value>
+                <fullName>Communication</fullName>
+                <default>false</default>
+                <label>Communication</label>
+            </value>
+            <value>
+                <fullName>Consumables Premium Delivery</fullName>
+                <default>false</default>
+                <label>Consumables Premium Delivery</label>
+            </value>
+            <value>
+                <fullName>Customer /Product Care</fullName>
+                <default>false</default>
+                <label>Customer / Product Care</label>
+            </value>
+            <value>
+                <fullName>Data Privacy</fullName>
+                <default>false</default>
+                <label>Data Privacy</label>
+            </value>
+            <value>
+                <fullName>Device Subscription</fullName>
+                <default>false</default>
+                <label>Device Subscription</label>
+            </value>
+            <value>
+                <fullName>Ecommerce Orders</fullName>
+                <default>false</default>
+                <label>Ecommerce Orders</label>
+            </value>
+            <value>
+                <fullName>Electronic Accessory</fullName>
+                <default>false</default>
+                <label>Electronic Accessory</label>
+            </value>
+            <value>
+                <fullName>Feedback</fullName>
+                <default>false</default>
+                <label>Feedback</label>
+            </value>
+            <value>
+                <fullName>Goodwill</fullName>
+                <default>false</default>
+                <label>Goodwill</label>
+            </value>
+            <value>
+                <fullName>Health</fullName>
+                <default>false</default>
+                <label>Health</label>
+            </value>
+            <value>
+                <fullName>Heatsticks</fullName>
+                <default>false</default>
+                <label>Heatsticks</label>
+            </value>
+            <value>
+                <fullName>Holder</fullName>
+                <default>false</default>
+                <label>Holder</label>
+            </value>
+            <value>
+                <fullName>IQOS Club</fullName>
+                <default>false</default>
+                <label>IQOS Club</label>
+            </value>
+            <value>
+                <fullName>IQOS Product</fullName>
+                <default>false</default>
+                <label>IQOS Product</label>
+            </value>
+            <value>
+                <fullName>Lead validation</fullName>
+                <default>false</default>
+                <label>Lead validation</label>
+            </value>
+            <value>
+                <fullName>Lending</fullName>
+                <default>false</default>
+                <label>Lending</label>
+            </value>
+            <value>
+                <fullName>Market Specific Red Talking Points</fullName>
+                <default>false</default>
+                <label>Market Specific Red Talking Points</label>
+            </value>
+            <value>
+                <fullName>NCP Battery</fullName>
+                <default>false</default>
+                <label>NCP Battery</label>
+            </value>
+            <value>
+                <fullName>NCP Closed Cartridge</fullName>
+                <default>false</default>
+                <label>NCP Closed Cartridge</label>
+            </value>
+            <value>
+                <fullName>NCP Device</fullName>
+                <default>false</default>
+                <label>NCP Device</label>
+            </value>
+            <value>
+                <fullName>Non Electronic Accessory</fullName>
+                <default>false</default>
+                <label>Non Electronic Accessory</label>
+            </value>
+            <value>
+                <fullName>Order on Behalf</fullName>
+                <default>false</default>
+                <label>Order on Behalf</label>
+            </value>
+            <value>
+                <fullName>Orders</fullName>
+                <default>false</default>
+                <label>Orders</label>
+            </value>
+            <value>
+                <fullName>Other</fullName>
+                <default>false</default>
+                <label>Other</label>
+            </value>
+            <value>
+                <fullName>Products</fullName>
+                <default>false</default>
+                <label>Products</label>
+            </value>
+            <value>
+                <fullName>Qoach Program</fullName>
+                <default>false</default>
+                <label>Qoach Program</label>
+            </value>
+            <value>
+                <fullName>Referral</fullName>
+                <default>false</default>
+                <label>Referral</label>
+            </value>
+            <value>
+                <fullName>Remorse Calls</fullName>
+                <default>false</default>
+                <label>Remorse Calls</label>
+            </value>
+            <value>
+                <fullName>Remote Acquisition</fullName>
+                <default>false</default>
+                <label>Remote Acquisition</label>
+            </value>
+            <value>
+                <fullName>Remote Sales and Coach</fullName>
+                <default>false</default>
+                <label>Remote Sales and Coach</label>
+            </value>
+            <value>
+                <fullName>Replacement Order Goodwill</fullName>
+                <default>false</default>
+                <label>Replacement Order Goodwill</label>
+            </value>
+            <value>
+                <fullName>Replacement Order Warranty</fullName>
+                <default>false</default>
+                <label>Replacement Order Warranty</label>
+            </value>
+            <value>
+                <fullName>Replacement POS</fullName>
+                <default>false</default>
+                <label>Replacement POS</label>
+            </value>
+            <value>
+                <fullName>Replacement POS Goodwill</fullName>
+                <default>false</default>
+                <label>Replacement POS Goodwill</label>
+            </value>
+            <value>
+                <fullName>Replacement POS Warranty</fullName>
+                <default>false</default>
+                <label>Replacement POS Warranty</label>
+            </value>
+            <value>
+                <fullName>Resolution Campaigns</fullName>
+                <default>false</default>
+                <label>Resolution Campaigns</label>
+            </value>
+            <value>
+                <fullName>Return order</fullName>
+                <default>false</default>
+                <label>Return order</label>
+            </value>
+            <value>
+                <fullName>RRP HTP Stick</fullName>
+                <default>false</default>
+                <label>RRP HTP Stick</label>
+            </value>
+            <value>
+                <fullName>Lead Generation</fullName>
+                <default>false</default>
+                <label>Lead Generation</label>
+            </value>
+            <value>
+                <fullName>Remote Coach</fullName>
+                <default>false</default>
+                <label>Remote Coach</label>
+            </value>
+            <value>
+                <fullName>E-commerce</fullName>
+                <default>false</default>
+                <label>E-commerce</label>
+            </value>
+            <value>
+                <fullName>E-commerce_FD</fullName>
+                <default>false</default>
+                <label>E-commerce_FD</label>
+            </value>
+            <value>
+                <fullName>Rental +1</fullName>
+                <default>false</default>
+                <label>Rental +1</label>
+            </value>
+            <value>
+                <fullName>Rental +13</fullName>
+                <default>false</default>
+                <label>Rental +13</label>
+            </value>
+            <value>
+                <fullName>Rental +21</fullName>
+                <default>false</default>
+                <label>Rental +21</label>
+            </value>
+            <value>
+                <fullName>M1</fullName>
+                <default>false</default>
+                <label>M1</label>
+            </value>
+            <value>
+                <fullName>M11</fullName>
+                <default>false</default>
+                <label>M11</label>
+            </value>
+            <value>
+                <fullName>Sentiment Management</fullName>
+                <default>false</default>
+                <label>Sentiment Management</label>
+            </value>
+            <value>
+                <fullName>Up / Cross Sell</fullName>
+                <default>false</default>
+                <label>Up / Cross Sell</label>
+            </value>
+            <value>
+                <fullName>Up / Cross Sell &amp; Trade In</fullName>
+                <default>false</default>
+                <label>Up / Cross Sell &amp; Trade In</label>
+            </value>
+            <value>
+                <fullName>Conversion</fullName>
+                <default>false</default>
+                <label>Conversion</label>
+            </value>
+            <value>
+                <fullName>기타</fullName>
+                <default>false</default>
+                <label>기타</label>
+            </value>
+            <value>
+                <fullName>NCP eCig Cartridge</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>NCP eCig Cartridge</label>
+            </value>
+            <value>
+                <fullName>Rental +27</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Rental +27</label>
+            </value>
+            <value>
+                <fullName>Sentiment Management Program</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Sentiment Management Program</label>
+            </value>
+        </valueSetDefinition>
+        <valueSettings>
+            <controllingFieldValue>Accessory</controllingFieldValue>
+            <controllingFieldValue>Product Issues</controllingFieldValue>
+            <valueName>Accessories</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Accessory</controllingFieldValue>
+            <controllingFieldValue>Product Issues</controllingFieldValue>
+            <valueName>Electronic Accessory</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Outbound Program</controllingFieldValue>
+            <valueName>Lead Generation</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Outbound Program</controllingFieldValue>
+            <valueName>Remote Coach</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Outbound Program</controllingFieldValue>
+            <valueName>E-commerce</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Outbound Program</controllingFieldValue>
+            <valueName>E-commerce_FD</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Outbound Program</controllingFieldValue>
+            <valueName>Rental +1</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Outbound Program</controllingFieldValue>
+            <valueName>Rental +13</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Outbound Program</controllingFieldValue>
+            <valueName>Rental +21</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Outbound Program</controllingFieldValue>
+            <valueName>M1</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Outbound Program</controllingFieldValue>
+            <valueName>M11</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Outbound Program</controllingFieldValue>
+            <controllingFieldValue>Proactive</controllingFieldValue>
+            <valueName>Sentiment Management</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Outbound Program</controllingFieldValue>
+            <controllingFieldValue>Proactive</controllingFieldValue>
+            <valueName>Up / Cross Sell &amp; Trade In</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Outbound Program</controllingFieldValue>
+            <valueName>Conversion</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Outbound Program</controllingFieldValue>
+            <valueName>기타</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Inquiry</controllingFieldValue>
+            <valueName>Web Issues</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Inquiry</controllingFieldValue>
+            <valueName>Commercial</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Inquiry</controllingFieldValue>
+            <valueName>Customer /Product Care</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Inquiry</controllingFieldValue>
+            <valueName>Data Privacy</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Inquiry</controllingFieldValue>
+            <valueName>Feedback</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Inquiry</controllingFieldValue>
+            <valueName>Other</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Inquiry</controllingFieldValue>
+            <valueName>Products</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Direct Sales</controllingFieldValue>
+            <valueName>Orders</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Product Issues</controllingFieldValue>
+            <valueName>Charger</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Product Issues</controllingFieldValue>
+            <valueName>Heatsticks</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Product Issues</controllingFieldValue>
+            <controllingFieldValue>Device Issue</controllingFieldValue>
+            <valueName>Holder</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Product Issues</controllingFieldValue>
+            <valueName>NCP Device</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Product Issues</controllingFieldValue>
+            <valueName>RRP HTP Stick</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Critical Inquiry</controllingFieldValue>
+            <valueName>Alleged Claims</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Critical Inquiry</controllingFieldValue>
+            <valueName>Communication</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Critical Inquiry</controllingFieldValue>
+            <valueName>Health</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Critical Inquiry</controllingFieldValue>
+            <valueName>Market Specific Red Talking Points</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Proactive</controllingFieldValue>
+            <valueName>Churn Management</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Proactive</controllingFieldValue>
+            <valueName>Consumables Premium Delivery</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Proactive</controllingFieldValue>
+            <valueName>Device Subscription</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Proactive</controllingFieldValue>
+            <valueName>IQOS Club</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Proactive</controllingFieldValue>
+            <valueName>Lead validation</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Proactive</controllingFieldValue>
+            <valueName>Lending</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Proactive</controllingFieldValue>
+            <valueName>Qoach Program</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Proactive</controllingFieldValue>
+            <valueName>Remorse Calls</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Proactive</controllingFieldValue>
+            <valueName>Remote Acquisition</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Proactive</controllingFieldValue>
+            <valueName>Remote Sales and Coach</valueName>
+        </valueSettings>
+    </valueSet>
+</CustomField>

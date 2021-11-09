@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>CCR_TimeToRegisterDeviceAfterPurchase__c</fullName>
+    <description>Used by: CCR. 
+Description: It&apos;s to store information about the period when consumer should register the device to get warranty extension - it&apos;s in DAYS.</description>
+    <externalId>false</externalId>
+    <fieldManageability>DeveloperControlled</fieldManageability>
+    <label>Time To Register Device After Purchase</label>
+    <precision>18</precision>
+    <required>true</required>
+    <scale>0</scale>
+    <type>Number</type>
+    <unique>false</unique>
+</CustomField>

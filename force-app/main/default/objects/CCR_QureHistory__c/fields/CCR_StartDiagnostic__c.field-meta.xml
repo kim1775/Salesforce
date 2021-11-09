@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>CCR_StartDiagnostic__c</fullName>
+    <description>Used by: CCR. 
+Description: It&apos;s to store information when diagnostic process starts.</description>
+    <externalId>false</externalId>
+    <label>Start Diagnostic</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>DateTime</type>
+</CustomField>

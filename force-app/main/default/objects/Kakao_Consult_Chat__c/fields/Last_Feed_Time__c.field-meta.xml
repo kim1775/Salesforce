@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Last_Feed_Time__c</fullName>
+    <deprecated>false</deprecated>
+    <externalId>false</externalId>
+    <label>Last Feed Time</label>
+    <summarizedField>Kakao_Chat_Feed__c.CreatedDate</summarizedField>
+    <summaryForeignKey>Kakao_Chat_Feed__c.Kakao_Consult_Chat__c</summaryForeignKey>
+    <summaryOperation>max</summaryOperation>
+    <trackTrending>false</trackTrending>
+    <type>Summary</type>
+</CustomField>

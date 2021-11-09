@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>CCR_LimitedEdition</fullName>
+    <columns>NAME</columns>
+    <columns>CCR_Color__c</columns>
+    <columns>CCR_Country__c</columns>
+    <columns>CCR_Model__c</columns>
+    <columns>CCR_DiagnosticDescription__c</columns>
+    <columns>CCR_DiagnosticResult__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>RECORDTYPE</field>
+        <operation>equals</operation>
+        <value>CCR_QureConfiguration__c.CCR_LimitedEdition</value>
+    </filters>
+    <label>Limited Edition</label>
+    <language>en_US</language>
+</ListView>

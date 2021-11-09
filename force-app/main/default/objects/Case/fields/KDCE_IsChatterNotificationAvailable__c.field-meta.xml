@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>KDCE_IsChatterNotificationAvailable__c</fullName>
+    <externalId>false</externalId>
+    <formula>IF(
+	CONTAINS(CreatedBy.LastName, &apos;Site Guest&apos;),
+	FALSE,
+	IF(
+		OR(CONTAINS(Owner:User.LastName, &apos;Korea PMI&apos;), CONTAINS(Owner:Queue.QueueName, &apos;Queue&apos;)),
+		FALSE,
+		TRUE
+	)
+)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Chatter Notification Available</label>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

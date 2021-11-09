@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>CCR_Flag__c</fullName>
+    <description>Used by: CCR
+Description: To show green/red flag depends on eligibility due date.</description>
+    <externalId>false</externalId>
+    <formula>IF(ISBLANK(CCR_EligibilityDueDate__c), &quot;&quot;,
+IF(CCR_EligibilityDueDate__c &gt;= TODAY(), IMAGE(&quot;/resource/WarrantyFlag/GreenFlag.png&quot;,&quot;Green&quot;,20,20),
+IMAGE(&quot;/resource/WarrantyFlag/RedFlag.png&quot;,&quot;Red&quot;,20,20)))</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Replacement Eligibility Flag</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

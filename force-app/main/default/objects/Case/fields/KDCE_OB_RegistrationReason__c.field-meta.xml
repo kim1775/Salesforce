@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>KDCE_OB_RegistrationReason__c</fullName>
+    <externalId>false</externalId>
+    <inlineHelpText>Rental +1</inlineHelpText>
+    <label>대여 신청 경로</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>C2C</fullName>
+                <default>false</default>
+                <label>C2C</label>
+            </value>
+            <value>
+                <fullName>F2F</fullName>
+                <default>false</default>
+                <label>F2F</label>
+            </value>
+            <value>
+                <fullName>고장</fullName>
+                <default>false</default>
+                <label>고장</label>
+            </value>
+            <value>
+                <fullName>기타</fullName>
+                <default>false</default>
+                <label>기타</label>
+            </value>
+            <value>
+                <fullName>보증만료</fullName>
+                <default>false</default>
+                <label>보증만료</label>
+            </value>
+            <value>
+                <fullName>분실</fullName>
+                <default>false</default>
+                <label>분실</label>
+            </value>
+            <value>
+                <fullName>아이코스 문자</fullName>
+                <default>false</default>
+                <label>아이코스 문자</label>
+            </value>
+            <value>
+                <fullName>아이코스 카카오톡</fullName>
+                <default>false</default>
+                <label>아이코스 카카오톡</label>
+            </value>
+            <value>
+                <fullName>인터넷</fullName>
+                <default>false</default>
+                <label>인터넷</label>
+            </value>
+            <value>
+                <fullName>저렴한 가격</fullName>
+                <default>false</default>
+                <label>저렴한 가격</label>
+            </value>
+            <value>
+                <fullName>지인추천</fullName>
+                <default>false</default>
+                <label>지인추천</label>
+            </value>
+            <value>
+                <fullName>추가구매</fullName>
+                <default>false</default>
+                <label>추가구매</label>
+            </value>
+            <value>
+                <fullName>파손</fullName>
+                <default>false</default>
+                <label>파손</label>
+            </value>
+            <value>
+                <fullName>편의점</fullName>
+                <default>false</default>
+                <label>편의점</label>
+            </value>
+            <value>
+                <fullName>호기심</fullName>
+                <default>false</default>
+                <label>호기심</label>
+            </value>
+            <value>
+                <fullName>금연</fullName>
+                <default>false</default>
+                <label>금연</label>
+            </value>
+            <value>
+                <fullName>사유없음</fullName>
+                <default>false</default>
+                <label>사유없음</label>
+            </value>
+            <value>
+                <fullName>냄새적음</fullName>
+                <default>false</default>
+                <label>냄새적음</label>
+            </value>
+            <value>
+                <fullName>연초 줄이기 위해</fullName>
+                <default>false</default>
+                <label>연초 줄이기 위해</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

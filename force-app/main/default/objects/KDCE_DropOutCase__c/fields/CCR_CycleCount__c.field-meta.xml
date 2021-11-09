@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>CCR_CycleCount__c</fullName>
+    <description>Cycle it shows how many times the device has been used. Numeric manual input.</description>
+    <externalId>false</externalId>
+    <label>Cycle Count</label>
+    <precision>11</precision>
+    <required>false</required>
+    <scale>0</scale>
+    <trackTrending>false</trackTrending>
+    <type>Number</type>
+    <unique>false</unique>
+</CustomField>

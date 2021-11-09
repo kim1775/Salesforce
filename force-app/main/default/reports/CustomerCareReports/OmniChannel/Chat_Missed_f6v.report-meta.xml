@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Report xmlns="http://soap.sforce.com/2006/04/metadata">
+    <buckets>
+        <bucketType>text</bucketType>
+        <developerName>BucketField_15442582</developerName>
+        <masterLabel>Chat Assignee</masterLabel>
+        <nullTreatment>n</nullTreatment>
+        <otherBucketLabel>Other</otherBucketLabel>
+        <sourceColumnName>LiveChatTranscript$Owner</sourceColumnName>
+        <useOther>true</useOther>
+        <values>
+            <sourceValues>
+                <sourceValue>Process Automated</sourceValue>
+            </sourceValues>
+            <value>Process Automated</value>
+        </values>
+        <values>
+            <sourceValues>
+                <sourceValue>admin i2max</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Doo Seunghoon</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Noh Jaehui</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>PMK DCE Release</sourceValue>
+            </sourceValues>
+            <value>Test</value>
+        </values>
+        <values>
+            <sourceValues>
+                <sourceValue>Live Chat Queue</sourceValue>
+            </sourceValues>
+            <value>Queue</value>
+        </values>
+        <values>
+            <sourceValues>
+                <sourceValue>Cho Jiyeon</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Gang Yoonsung</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Hwang Eunyoung</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Jang Junho</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Jung Seongyun</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Kim Namhyun</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Kim Sora</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Kim Taeyeon</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Kwon Hyunjin</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Lee Geumbi</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Lee Mi Kyoung</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Lee Yookyung</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Moon Jongwon</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Oh Kyoyong</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Park Baoro</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>park seolhee</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>Shin Jungah</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>sin minyoung</sourceValue>
+            </sourceValues>
+            <sourceValues>
+                <sourceValue>ye songhui</sourceValue>
+            </sourceValues>
+            <value>Agent</value>
+        </values>
+    </buckets>
+    <columns>
+        <field>LiveChatTranscript.LiveChatTranscriptEvents$Type</field>
+    </columns>
+    <columns>
+        <field>LiveChatTranscript.LiveChatTranscriptEvents$Detail</field>
+    </columns>
+    <columns>
+        <field>LiveChatTranscript.LiveChatTranscriptEvents$Time</field>
+    </columns>
+    <columns>
+        <field>LiveChatTranscript.LiveChatTranscriptEvents$Agent</field>
+    </columns>
+    <columns>
+        <aggregateTypes>Unique</aggregateTypes>
+        <field>LiveChatTranscript$Case</field>
+    </columns>
+    <filter>
+        <criteriaItems>
+            <column>LiveChatTranscript$Status</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>false</isUnlocked>
+            <operator>equals</operator>
+            <value>0</value>
+        </criteriaItems>
+        <language>en_US</language>
+    </filter>
+    <format>Summary</format>
+    <groupingsDown>
+        <dateGranularity>Day</dateGranularity>
+        <field>BucketField_15442582</field>
+        <sortOrder>Desc</sortOrder>
+    </groupingsDown>
+    <groupingsDown>
+        <dateGranularity>Day</dateGranularity>
+        <field>LiveChatTranscript$Name</field>
+        <sortOrder>Asc</sortOrder>
+    </groupingsDown>
+    <name>Missed Chat Log_Today</name>
+    <params>
+        <name>co</name>
+        <value>1</value>
+    </params>
+    <reportType>Chat_Transcripts_with_Events__c</reportType>
+    <scope>organization</scope>
+    <showDetails>true</showDetails>
+    <showGrandTotal>true</showGrandTotal>
+    <showSubTotals>false</showSubTotals>
+    <timeFrameFilter>
+        <dateColumn>LiveChatTranscript$CreatedDate</dateColumn>
+        <interval>INTERVAL_TODAY</interval>
+    </timeFrameFilter>
+</Report>

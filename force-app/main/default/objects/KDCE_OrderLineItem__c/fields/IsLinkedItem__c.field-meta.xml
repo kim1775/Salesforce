@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>IsLinkedItem__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>Asset History가 생성된 경우, true가 됨. APEX에서 Asset History 중복 생성 방지를 위해 사용.</description>
+    <externalId>false</externalId>
+    <label>Linked Item</label>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

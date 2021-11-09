@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>KDCE_OB_RentalComment__c</fullName>
+    <description>[OB] Rental 프로그램 결과</description>
+    <externalId>false</externalId>
+    <inlineHelpText>CC 종류, 사용자 타입, OB 진행여부, 1일차 결제 등</inlineHelpText>
+    <label>Rental Comment</label>
+    <length>4000</length>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>LongTextArea</type>
+    <visibleLines>10</visibleLines>
+</CustomField>

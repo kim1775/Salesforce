@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>CouponStatusDatetime__c</fullName>
+    <description>Text인 CouponStatusDate__c 값을 트리거롤 통해 Datetime으로 변환</description>
+    <externalId>false</externalId>
+    <label>CouponStatusDate</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>DateTime</type>
+</CustomField>

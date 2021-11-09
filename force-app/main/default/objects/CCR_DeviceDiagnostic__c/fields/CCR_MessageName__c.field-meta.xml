@@ -1,0 +1,832 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>CCR_MessageName__c</fullName>
+    <description>Used by: CCR. 
+Description: It&apos;s for end messages, to store information which end message needs to be displayed (e.g. code not covered)</description>
+    <externalId>false</externalId>
+    <label>Message Name</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Accessory Issue</fullName>
+                <default>false</default>
+                <label>Accessory Issue</label>
+            </value>
+            <value>
+                <fullName>Accessory Issue Agents</fullName>
+                <default>false</default>
+                <label>Accessory Issue Agents</label>
+            </value>
+            <value>
+                <fullName>Address1 Title</fullName>
+                <default>false</default>
+                <label>Address1 Title</label>
+            </value>
+            <value>
+                <fullName>Address2 Title</fullName>
+                <default>false</default>
+                <label>Address2 Title</label>
+            </value>
+            <value>
+                <fullName>Address3</fullName>
+                <default>false</default>
+                <label>Address 3</label>
+            </value>
+            <value>
+                <fullName>Address4</fullName>
+                <default>false</default>
+                <label>Address 4</label>
+            </value>
+            <value>
+                <fullName>Address5</fullName>
+                <default>false</default>
+                <label>Address 5</label>
+            </value>
+            <value>
+                <fullName>Address Lookup</fullName>
+                <default>false</default>
+                <label>Address Lookup</label>
+            </value>
+            <value>
+                <fullName>Asset Blocked</fullName>
+                <default>false</default>
+                <label>Asset Blocked</label>
+            </value>
+            <value>
+                <fullName>Blinking Bottom Red Light</fullName>
+                <default>false</default>
+                <label>Blinking Bottom Red Light</label>
+            </value>
+            <value>
+                <fullName>Blinking Charger Red Light</fullName>
+                <default>false</default>
+                <label>Blinking Charger Red Light</label>
+            </value>
+            <value>
+                <fullName>Blinking Holder Red Light</fullName>
+                <default>false</default>
+                <label>Blinking Holder Red Light</label>
+            </value>
+            <value>
+                <fullName>Blinking Red Light</fullName>
+                <default>false</default>
+                <label>Blinking Red Light</label>
+            </value>
+            <value>
+                <fullName>Bluetooth malfunction</fullName>
+                <default>false</default>
+                <label>Bluetooth malfunction</label>
+            </value>
+            <value>
+                <fullName>Broken Heating Blade</fullName>
+                <default>false</default>
+                <label>Broken Heating Blade</label>
+            </value>
+            <value>
+                <fullName>Call Center Agent SWAP</fullName>
+                <default>false</default>
+                <label>Call Center Agent SWAP</label>
+            </value>
+            <value>
+                <fullName>Cancel Button</fullName>
+                <default>false</default>
+                <label>Cancel Button</label>
+            </value>
+            <value>
+                <fullName>CarePlus Invite Agent</fullName>
+                <default>false</default>
+                <label>Care+ Invite Agent</label>
+            </value>
+            <value>
+                <fullName>CarePlus Invite Consumer</fullName>
+                <default>false</default>
+                <label>Care+ Invite Consumer</label>
+            </value>
+            <value>
+                <fullName>Channel Selected</fullName>
+                <default>false</default>
+                <label>Channel Selected</label>
+            </value>
+            <value>
+                <fullName>City Title</fullName>
+                <default>false</default>
+                <label>City Title</label>
+            </value>
+            <value>
+                <fullName>Code Not Covered</fullName>
+                <default>false</default>
+                <label>Code Not Covered</label>
+            </value>
+            <value>
+                <fullName>Color Swap Title</fullName>
+                <default>false</default>
+                <label>Color Swap Title</label>
+            </value>
+            <value>
+                <fullName>Confirm Button</fullName>
+                <default>false</default>
+                <label>Confirm Button</label>
+            </value>
+            <value>
+                <fullName>CourierDelivery</fullName>
+                <default>false</default>
+                <label>Courier Delivery</label>
+            </value>
+            <value>
+                <fullName>Courier Delivery Subtitle</fullName>
+                <default>false</default>
+                <label>Courier Delivery Subtitle</label>
+            </value>
+            <value>
+                <fullName>Cracks and Dirty Contacts</fullName>
+                <default>false</default>
+                <label>Cracks and Dirty Contacts</label>
+            </value>
+            <value>
+                <fullName>Cracks and Other Damages</fullName>
+                <default>false</default>
+                <label>Cracks and Other Damages</label>
+            </value>
+            <value>
+                <fullName>CVS Mobile Number Confirm</fullName>
+                <default>false</default>
+                <label>CVS Mobile Number Confirm</label>
+            </value>
+            <value>
+                <fullName>CVS Selected</fullName>
+                <default>false</default>
+                <label>CVS Selected</label>
+            </value>
+            <value>
+                <fullName>CVSStore</fullName>
+                <default>false</default>
+                <label>CVS store</label>
+            </value>
+            <value>
+                <fullName>CVS Store Finder Button</fullName>
+                <default>false</default>
+                <label>CVS Store Finder Button</label>
+            </value>
+            <value>
+                <fullName>CVS Store Link</fullName>
+                <default>false</default>
+                <label>CVS Store Link</label>
+            </value>
+            <value>
+                <fullName>CVS Voucher Info</fullName>
+                <default>false</default>
+                <label>CVS Voucher Info</label>
+            </value>
+            <value>
+                <fullName>CVS Voucher Re Send Confirm</fullName>
+                <default>false</default>
+                <label>CVS Voucher Re Send Confirm</label>
+            </value>
+            <value>
+                <fullName>CVS Voucher Re Send Error</fullName>
+                <default>false</default>
+                <label>CVS Voucher Re Send Error</label>
+            </value>
+            <value>
+                <fullName>CVS Voucher Re Send Info</fullName>
+                <default>false</default>
+                <label>CVS Voucher Re Send Info</label>
+            </value>
+            <value>
+                <fullName>CVS Voucher Sent Confirm</fullName>
+                <default>false</default>
+                <label>CVS Voucher Sent Confirm</label>
+            </value>
+            <value>
+                <fullName>CVS Voucher Sent Error</fullName>
+                <default>false</default>
+                <label>CVS Voucher Sent Error</label>
+            </value>
+            <value>
+                <fullName>CVS Warning</fullName>
+                <default>false</default>
+                <label>CVS Warning</label>
+            </value>
+            <value>
+                <fullName>Damaged Latch/Spring</fullName>
+                <default>false</default>
+                <label>Damaged Latch/Spring</label>
+            </value>
+            <value>
+                <fullName>Defective Accessory</fullName>
+                <default>false</default>
+                <label>Defective Accessory</label>
+            </value>
+            <value>
+                <fullName>Department</fullName>
+                <default>false</default>
+                <label>Department</label>
+            </value>
+            <value>
+                <fullName>Detailed Diagnostic VEEV pod</fullName>
+                <default>false</default>
+                <label>Detailed Diagnostic VEEV pod</label>
+            </value>
+            <value>
+                <fullName>Detailed Troubleshooting Device</fullName>
+                <default>false</default>
+                <label>Detailed Troubleshooting Device</label>
+            </value>
+            <value>
+                <fullName>Detailed Troubleshooting VEEV pod</fullName>
+                <default>false</default>
+                <label>Detailed Troubleshooting VEEV pod</label>
+            </value>
+            <value>
+                <fullName>District</fullName>
+                <default>false</default>
+                <label>District</label>
+            </value>
+            <value>
+                <fullName>Eligible For Replacement Title</fullName>
+                <default>false</default>
+                <label>Eligible For Replacement Title</label>
+            </value>
+            <value>
+                <fullName>Escalate to CSC</fullName>
+                <default>false</default>
+                <label>Escalate to CSC</label>
+            </value>
+            <value>
+                <fullName>Fast Convenient</fullName>
+                <default>false</default>
+                <label>Fast Convenient</label>
+            </value>
+            <value>
+                <fullName>Fill Details Below</fullName>
+                <default>false</default>
+                <label>Fill Details Below</label>
+            </value>
+            <value>
+                <fullName>FirstName Title</fullName>
+                <default>false</default>
+                <label>FirstName Title</label>
+            </value>
+            <value>
+                <fullName>Fixed Red Light or No Light</fullName>
+                <default>false</default>
+                <label>Fixed Red Light or No Light</label>
+            </value>
+            <value>
+                <fullName>Flip Phone</fullName>
+                <default>false</default>
+                <label>Flip Phone</label>
+            </value>
+            <value>
+                <fullName>Footer Message</fullName>
+                <default>false</default>
+                <label>Footer Message</label>
+            </value>
+            <value>
+                <fullName>Generic Error</fullName>
+                <default>false</default>
+                <label>Generic Error</label>
+            </value>
+            <value>
+                <fullName>Go Back</fullName>
+                <default>false</default>
+                <label>Go Back</label>
+            </value>
+            <value>
+                <fullName>Go to IQOS Store</fullName>
+                <default>false</default>
+                <label>Go to IQOS Store</label>
+            </value>
+            <value>
+                <fullName>Go to Store</fullName>
+                <default>false</default>
+                <label>Go to Store</label>
+            </value>
+            <value>
+                <fullName>Go to Store Agent</fullName>
+                <default>false</default>
+                <label>Go to Store Agent</label>
+            </value>
+            <value>
+                <fullName>Holder is getting unpleasantly hot</fullName>
+                <default>false</default>
+                <label>Holder is getting unpleasantly hot</label>
+            </value>
+            <value>
+                <fullName>IDNumber</fullName>
+                <default>false</default>
+                <label>ID Number</label>
+            </value>
+            <value>
+                <fullName>IDType</fullName>
+                <default>false</default>
+                <label>ID Type</label>
+            </value>
+            <value>
+                <fullName>Information Popup Title</fullName>
+                <default>false</default>
+                <label>Information Popup Title</label>
+            </value>
+            <value>
+                <fullName>Iqos coach</fullName>
+                <default>false</default>
+                <label>Iqos coach</label>
+            </value>
+            <value>
+                <fullName>IqosCoach Mobile Number Confirm</fullName>
+                <default>false</default>
+                <label>IqosCoach Mobile Number Confirm</label>
+            </value>
+            <value>
+                <fullName>IQOS Flagship Store</fullName>
+                <default>false</default>
+                <label>IQOS Flagship Store</label>
+            </value>
+            <value>
+                <fullName>IQOS Store</fullName>
+                <default>false</default>
+                <label>IQOS Store</label>
+            </value>
+            <value>
+                <fullName>Issue Solved</fullName>
+                <default>false</default>
+                <label>Issue Solved</label>
+            </value>
+            <value>
+                <fullName>iSWAP</fullName>
+                <default>false</default>
+                <label>iSWAP</label>
+            </value>
+            <value>
+                <fullName>iSwap Info</fullName>
+                <default>false</default>
+                <label>iSwap Info</label>
+            </value>
+            <value>
+                <fullName>iSWAP Mobile Number Confirm</fullName>
+                <default>false</default>
+                <label>iSWAP Mobile Number Confirm</label>
+            </value>
+            <value>
+                <fullName>iSwap Selected</fullName>
+                <default>false</default>
+                <label>iSwap Selected</label>
+            </value>
+            <value>
+                <fullName>iSwap SMS Sent</fullName>
+                <default>false</default>
+                <label>iSwap SMS Sent</label>
+            </value>
+            <value>
+                <fullName>iSwap SMS Sent Error</fullName>
+                <default>false</default>
+                <label>iSwap SMS Sent Error</label>
+            </value>
+            <value>
+                <fullName>iSwap Store Link</fullName>
+                <default>false</default>
+                <label>iSwap Store Link</label>
+            </value>
+            <value>
+                <fullName>LastName Title</fullName>
+                <default>false</default>
+                <label>LastName Title</label>
+            </value>
+            <value>
+                <fullName>Lights loop on and off</fullName>
+                <default>false</default>
+                <label>Lights loop on and off</label>
+            </value>
+            <value>
+                <fullName>Lights not pulsing or turning on when charging</fullName>
+                <default>false</default>
+                <label>Lights not pulsing or turning on when charging</label>
+            </value>
+            <value>
+                <fullName>Limited &amp; Subscription Warning</fullName>
+                <default>false</default>
+                <label>Limited &amp; Subscription Warning</label>
+            </value>
+            <value>
+                <fullName>Limited Edition Warning</fullName>
+                <default>false</default>
+                <label>Limited Edition Warning</label>
+            </value>
+            <value>
+                <fullName>Main Troubleshooting</fullName>
+                <default>false</default>
+                <label>Main Troubleshooting</label>
+            </value>
+            <value>
+                <fullName>Mandatory</fullName>
+                <default>false</default>
+                <label>Mandatory</label>
+            </value>
+            <value>
+                <fullName>Max Replacements Reached</fullName>
+                <default>false</default>
+                <label>Max Replacements Reached</label>
+            </value>
+            <value>
+                <fullName>Model Not Supported</fullName>
+                <default>false</default>
+                <label>Model Not Supported</label>
+            </value>
+            <value>
+                <fullName>Network Issue</fullName>
+                <default>false</default>
+                <label>Network Issue</label>
+            </value>
+            <value>
+                <fullName>No Diagnosis Possible</fullName>
+                <default>false</default>
+                <label>No Diagnosis Possible</label>
+            </value>
+            <value>
+                <fullName>Not Covered</fullName>
+                <default>false</default>
+                <label>Not Covered</label>
+            </value>
+            <value>
+                <fullName>Not Covered Cosmetic Damage</fullName>
+                <default>false</default>
+                <label>Not Covered - Cosmetic Damage</label>
+            </value>
+            <value>
+                <fullName>Not Qure Model</fullName>
+                <default>false</default>
+                <label>Not Qure Model</label>
+            </value>
+            <value>
+                <fullName>Not Qure Model Agents</fullName>
+                <default>false</default>
+                <label>Not Qure Model Agents</label>
+            </value>
+            <value>
+                <fullName>No vibration when pressing power button</fullName>
+                <default>false</default>
+                <label>No vibration when pressing power button</label>
+            </value>
+            <value>
+                <fullName>Online Replacement Channel Selected</fullName>
+                <default>false</default>
+                <label>Online Replacement Channel Selected</label>
+            </value>
+            <value>
+                <fullName>Other Functional Issues (non-physical)</fullName>
+                <default>false</default>
+                <label>Other Functional Issues (non-physical)</label>
+            </value>
+            <value>
+                <fullName>Other Issues(Other software malfunction)</fullName>
+                <default>false</default>
+                <label>Other Issues(Other software malfunction)</label>
+            </value>
+            <value>
+                <fullName>Other_Retail</fullName>
+                <default>false</default>
+                <label>Other Retail</label>
+            </value>
+            <value>
+                <fullName>Out Of Warranty</fullName>
+                <default>false</default>
+                <label>Out Of Warranty</label>
+            </value>
+            <value>
+                <fullName>Override No Agents</fullName>
+                <default>false</default>
+                <label>Override No Agents</label>
+            </value>
+            <value>
+                <fullName>Paint Peeling</fullName>
+                <default>false</default>
+                <label>Paint Peeling</label>
+            </value>
+            <value>
+                <fullName>Parallel QURE Session</fullName>
+                <default>false</default>
+                <label>Parallel QURE Session</label>
+            </value>
+            <value>
+                <fullName>Phone Provide</fullName>
+                <default>false</default>
+                <label>Phone Provide</label>
+            </value>
+            <value>
+                <fullName>Phone Title</fullName>
+                <default>false</default>
+                <label>Phone Title</label>
+            </value>
+            <value>
+                <fullName>Phone Validation</fullName>
+                <default>false</default>
+                <label>Phone Validation</label>
+            </value>
+            <value>
+                <fullName>Physical damages</fullName>
+                <default>false</default>
+                <label>Physical damages</label>
+            </value>
+            <value>
+                <fullName>Postal Code Title</fullName>
+                <default>false</default>
+                <label>Postal Code Title</label>
+            </value>
+            <value>
+                <fullName>Postal Validation</fullName>
+                <default>false</default>
+                <label>Postal Validation</label>
+            </value>
+            <value>
+                <fullName>Problem Sub Title</fullName>
+                <default>false</default>
+                <label>Problem Sub Title</label>
+            </value>
+            <value>
+                <fullName>Qure Process Is Not Activated</fullName>
+                <default>false</default>
+                <label>Qure Process Is Not Activated</label>
+            </value>
+            <value>
+                <fullName>ReplacementByCVS</fullName>
+                <default>false</default>
+                <label>ReplacementByCVS</label>
+            </value>
+            <value>
+                <fullName>Replacement Channels</fullName>
+                <default>false</default>
+                <label>Replacement Channels</label>
+            </value>
+            <value>
+                <fullName>Replacement Channel selected</fullName>
+                <default>false</default>
+                <label>Replacement Channel selected</label>
+            </value>
+            <value>
+                <fullName>Replacement Channel Selected Agents</fullName>
+                <default>false</default>
+                <label>Replacement Channel Selected Agents</label>
+            </value>
+            <value>
+                <fullName>Replacement Count Warning</fullName>
+                <default>false</default>
+                <label>Replacement Count Warning</label>
+            </value>
+            <value>
+                <fullName>Replacement Order Created</fullName>
+                <default>false</default>
+                <label>Replacement Order Created</label>
+            </value>
+            <value>
+                <fullName>Replacement Order Not Created</fullName>
+                <default>false</default>
+                <label>Replacement Order Not Created</label>
+            </value>
+            <value>
+                <fullName>Resend Button</fullName>
+                <default>false</default>
+                <label>Resend Button</label>
+            </value>
+            <value>
+                <fullName>Retailer F2F</fullName>
+                <default>false</default>
+                <label>Retailer F2F</label>
+            </value>
+            <value>
+                <fullName>Retailer Lite Block Qure</fullName>
+                <default>false</default>
+                <label>Retailer Lite Block Qure</label>
+            </value>
+            <value>
+                <fullName>Salutation Title</fullName>
+                <default>false</default>
+                <label>Salutation Title</label>
+            </value>
+            <value>
+                <fullName>Select Channel Error</fullName>
+                <default>false</default>
+                <label>Select Channel Error</label>
+            </value>
+            <value>
+                <fullName>Select Channel Message</fullName>
+                <default>false</default>
+                <label>Select Channel Message</label>
+            </value>
+            <value>
+                <fullName>Select Channel Title</fullName>
+                <default>false</default>
+                <label>Select Channel Title</label>
+            </value>
+            <value>
+                <fullName>Selected Device</fullName>
+                <default>false</default>
+                <label>Selected Device</label>
+            </value>
+            <value>
+                <fullName>Selected Swap Device</fullName>
+                <default>false</default>
+                <label>Selected Swap Device</label>
+            </value>
+            <value>
+                <fullName>Select Issue Title</fullName>
+                <default>false</default>
+                <label>Select Issue Title</label>
+            </value>
+            <value>
+                <fullName>Serial Number</fullName>
+                <default>false</default>
+                <label>Serial Number</label>
+            </value>
+            <value>
+                <fullName>Service Not Available For Consumer</fullName>
+                <default>false</default>
+                <label>Service Not Available For Consumer</label>
+            </value>
+            <value>
+                <fullName>Shift F2F</fullName>
+                <default>false</default>
+                <label>Shift F2F</label>
+            </value>
+            <value>
+                <fullName>Shift Lite Block Qure</fullName>
+                <default>false</default>
+                <label>Shift Lite Block Qure</label>
+            </value>
+            <value>
+                <fullName>Solid Red Light or No Light</fullName>
+                <default>false</default>
+                <label>Solid Red Light or No Light</label>
+            </value>
+            <value>
+                <fullName>Solved - Blinking Bottom Red Light</fullName>
+                <default>false</default>
+                <label>Solved - Blinking Bottom Red Light</label>
+            </value>
+            <value>
+                <fullName>Solved - Blinking Charger Red Light</fullName>
+                <default>false</default>
+                <label>Solved - Blinking Charger Red Light</label>
+            </value>
+            <value>
+                <fullName>Solved - Blinking Holder Red Light</fullName>
+                <default>false</default>
+                <label>Solved - Blinking Holder Red Light</label>
+            </value>
+            <value>
+                <fullName>Solved - Bluetooth malfunction</fullName>
+                <default>false</default>
+                <label>Solved - Bluetooth malfunction</label>
+            </value>
+            <value>
+                <fullName>Solved - Fixed Red Light or No light</fullName>
+                <default>false</default>
+                <label>Solved - Fixed Red Light or No light</label>
+            </value>
+            <value>
+                <fullName>Solved - Lights loop on and off</fullName>
+                <default>false</default>
+                <label>Solved - Lights loop on and off</label>
+            </value>
+            <value>
+                <fullName>Solved - Lights not pulsing or turning on when charging</fullName>
+                <default>false</default>
+                <label>Solved - Lights not pulsing or turning on when charging</label>
+            </value>
+            <value>
+                <fullName>Solved - Top light not turning on</fullName>
+                <default>false</default>
+                <label>Solved - Top light not turning on</label>
+            </value>
+            <value>
+                <fullName>Solved - While charging, issues with the lights</fullName>
+                <default>false</default>
+                <label>Solved - While charging, issues with the lights</label>
+            </value>
+            <value>
+                <fullName>State Title</fullName>
+                <default>false</default>
+                <label>State Title</label>
+            </value>
+            <value>
+                <fullName>Still Not Working</fullName>
+                <default>false</default>
+                <label>Still Not Working</label>
+            </value>
+            <value>
+                <fullName>Store Finder Button</fullName>
+                <default>false</default>
+                <label>Store Finder Button</label>
+            </value>
+            <value>
+                <fullName>Store Locator Link</fullName>
+                <default>false</default>
+                <label>Store Locator Link</label>
+            </value>
+            <value>
+                <fullName>Submit</fullName>
+                <default>false</default>
+                <label>Submit</label>
+            </value>
+            <value>
+                <fullName>Submit Eligibility Message</fullName>
+                <default>false</default>
+                <label>Submit Eligibility Message</label>
+            </value>
+            <value>
+                <fullName>Subscription Disable Qure Agent</fullName>
+                <default>false</default>
+                <label>Subscription Disable Qure Agent</label>
+            </value>
+            <value>
+                <fullName>Subscription Disable Qure Consumer</fullName>
+                <default>false</default>
+                <label>Subscription Disable Qure Consumer</label>
+            </value>
+            <value>
+                <fullName>Subscription Unpaid Agent</fullName>
+                <default>false</default>
+                <label>Subscription Unpaid Agent</label>
+            </value>
+            <value>
+                <fullName>Subscription Unpaid Consumer</fullName>
+                <default>false</default>
+                <label>Subscription Unpaid Consumer</label>
+            </value>
+            <value>
+                <fullName>Subscription Warning</fullName>
+                <default>false</default>
+                <label>Subscription Warning</label>
+            </value>
+            <value>
+                <fullName>Swap for Shift</fullName>
+                <default>false</default>
+                <label>Swap for Shift</label>
+            </value>
+            <value>
+                <fullName>TaxID</fullName>
+                <default>false</default>
+                <label>Tax ID</label>
+            </value>
+            <value>
+                <fullName>Thanks For Phone</fullName>
+                <default>false</default>
+                <label>Thanks For Phone</label>
+            </value>
+            <value>
+                <fullName>Top light not turning on</fullName>
+                <default>false</default>
+                <label>Top light not turning on</label>
+            </value>
+            <value>
+                <fullName>Troubleshoot Message Title</fullName>
+                <default>false</default>
+                <label>Troubleshoot Message Title</label>
+            </value>
+            <value>
+                <fullName>UnReplaceable EndMessage</fullName>
+                <default>false</default>
+                <label>UnReplaceable EndMessage</label>
+            </value>
+            <value>
+                <fullName>VisitOfflineStore</fullName>
+                <default>false</default>
+                <label>VisitOfflineStore</label>
+            </value>
+            <value>
+                <fullName>Welcome Message</fullName>
+                <default>false</default>
+                <label>Welcome Message</label>
+            </value>
+            <value>
+                <fullName>Welcome Note Title</fullName>
+                <default>false</default>
+                <label>Welcome Note Title</label>
+            </value>
+            <value>
+                <fullName>While charging, issues with the lights</fullName>
+                <default>false</default>
+                <label>While charging, issues with the lights</label>
+            </value>
+            <value>
+                <fullName>Corner_Shop</fullName>
+                <default>false</default>
+                <label>Corner_Shop</label>
+            </value>
+            <value>
+                <fullName>NoReplacementChannel</fullName>
+                <default>false</default>
+                <label>NoReplacementChannel</label>
+            </value>
+            <value>
+                <fullName>Escalate to CSC Internal</fullName>
+                <default>false</default>
+                <label>Escalate to CSC Internal</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

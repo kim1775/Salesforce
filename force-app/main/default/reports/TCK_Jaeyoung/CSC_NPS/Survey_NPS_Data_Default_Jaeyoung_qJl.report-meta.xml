@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Report xmlns="http://soap.sforce.com/2006/04/metadata">
+    <columns>
+        <field>Contact.Cases$CaseNumber</field>
+    </columns>
+    <columns>
+        <field>Contact.Cases$CCR_SubjectCodeNew__c</field>
+    </columns>
+    <columns>
+        <field>Contact.Cases$Owner</field>
+    </columns>
+    <description>서베이 기본 - 사례 접수경로 기반 Raw</description>
+    <filter>
+        <criteriaItems>
+            <column>Contact.Cases.SurveyTakers__r.Survey_Question_Answers__r$fm_SurveyQuestionName__c</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>true</isUnlocked>
+            <operator>contains</operator>
+            <value>흡연자</value>
+        </criteriaItems>
+        <language>ko</language>
+    </filter>
+    <format>Matrix</format>
+    <groupingsAcross>
+        <field>Contact.Cases$CreatedDate</field>
+        <sortOrder>Asc</sortOrder>
+    </groupingsAcross>
+    <groupingsAcross>
+        <dateGranularity>Day</dateGranularity>
+        <field>Contact.Cases.SurveyTakers__r.Survey_Question_Answers__r$Response__c</field>
+        <sortOrder>Asc</sortOrder>
+    </groupingsAcross>
+    <groupingsDown>
+        <dateGranularity>Day</dateGranularity>
+        <field>Contact.Cases$Origin</field>
+        <sortOrder>Asc</sortOrder>
+    </groupingsDown>
+    <name>Survey - NPS Data (Default)_Jaeyoung의 사본</name>
+    <params>
+        <name>co</name>
+        <value>1</value>
+    </params>
+    <reportType>Contacts_with_Case_Survey_Taken_Response__c</reportType>
+    <scope>organization</scope>
+    <showDetails>true</showDetails>
+    <showGrandTotal>true</showGrandTotal>
+    <showSubTotals>false</showSubTotals>
+    <timeFrameFilter>
+        <dateColumn>Contact.Cases$CreatedDate</dateColumn>
+        <endDate>2021-07-27</endDate>
+        <interval>INTERVAL_CUSTOM</interval>
+        <startDate>2021-07-25</startDate>
+    </timeFrameFilter>
+</Report>

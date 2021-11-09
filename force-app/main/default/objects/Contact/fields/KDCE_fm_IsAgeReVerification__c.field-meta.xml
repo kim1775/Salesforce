@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>KDCE_fm_IsAgeReVerification__c</fullName>
+    <description>[KDCE] HAV 재인증 대상. .HAV 인증 만료일에 따라 체크.</description>
+    <externalId>false</externalId>
+    <formula>IF(
+    or (KDCE_fm_AgeVerificationExpiryDate__c = null, KDCE_fm_AgeVerificationExpiryDate__c &gt;=  NOW()),
+				FALSE,
+				KDCE_fm_AgeVerificationExpiryDate__c &lt;  NOW()
+)</formula>
+    <label>Age ReVerification Target</label>
+    <trackHistory>false</trackHistory>
+    <type>Checkbox</type>
+</CustomField>

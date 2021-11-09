@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>KDCE_fm_SuppliedPhoneMask__c</fullName>
+    <description>[KDCE] 웹 전화 필드 마스킹</description>
+    <externalId>false</externalId>
+    <formula>IF( LEFT( SuppliedPhone, 2 ) = &quot;02&quot;,
+MID( SuppliedPhone, 1, 2 ) &amp; SUBSTITUTE( MID( SuppliedPhone, 3, 7 ), MID( SuppliedPhone, 3, 7 ), &quot;-***-&quot; ) &amp; RIGHT( SuppliedPhone, 4 ),
+MID( SuppliedPhone, 1, 3 ) &amp; SUBSTITUTE( MID( SuppliedPhone, 4, 9 ), MID( SuppliedPhone, 4, 9 ), &quot;-****-&quot; ) &amp; RIGHT( SuppliedPhone, 4 ))</formula>
+    <label>Web Phone(Mask)</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

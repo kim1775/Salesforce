@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>CCR_QASubject__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <description>The code is selected but in table the Subject ID is saved from the Subject master table.</description>
+    <externalId>false</externalId>
+    <label>QA Subject</label>
+    <lookupFilter>
+        <active>true</active>
+        <filterItems>
+            <field>CCR_Localization__c.CCR_Active__c</field>
+            <operation>equals</operation>
+            <value>True</value>
+        </filterItems>
+        <isOptional>false</isOptional>
+    </lookupFilter>
+    <referenceTo>CCR_Localization__c</referenceTo>
+    <relationshipLabel>Cases (QA Subject)</relationshipLabel>
+    <relationshipName>CasesQAS</relationshipName>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Lookup</type>
+</CustomField>

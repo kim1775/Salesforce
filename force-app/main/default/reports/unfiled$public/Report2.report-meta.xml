@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Report xmlns="http://soap.sforce.com/2006/04/metadata">
+    <columns>
+        <field>KDCE_OfflineProgram__c.PurchaseDate__c</field>
+    </columns>
+    <columns>
+        <field>CUST_NAME</field>
+    </columns>
+    <columns>
+        <field>FK_NAME</field>
+    </columns>
+    <columns>
+        <field>KDCE_OfflineProgram__c.ProgramType__c</field>
+    </columns>
+    <columns>
+        <field>FK_CNTC_PHONE1</field>
+    </columns>
+    <filter>
+        <criteriaItems>
+            <column>KDCE_OfflineProgram__c.ProgramType__c</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>true</isUnlocked>
+            <operator>equals</operator>
+            <value>ZTI</value>
+        </criteriaItems>
+        <language>ko</language>
+    </filter>
+    <format>Tabular</format>
+    <name>오프라인 트레이드인을 위한 보고서</name>
+    <params>
+        <name>co</name>
+        <value>1</value>
+    </params>
+    <reportType>CustomEntity$KDCE_OfflineProgram__c@KDCE_OfflineProgram__c.Contact__c</reportType>
+    <scope>organization</scope>
+    <showDetails>true</showDetails>
+    <showGrandTotal>true</showGrandTotal>
+    <showSubTotals>true</showSubTotals>
+    <timeFrameFilter>
+        <dateColumn>KDCE_OfflineProgram__c.PurchaseDate__c</dateColumn>
+        <endDate>2021-07-27</endDate>
+        <interval>INTERVAL_CUSTOM</interval>
+        <startDate>2021-07-14</startDate>
+    </timeFrameFilter>
+</Report>

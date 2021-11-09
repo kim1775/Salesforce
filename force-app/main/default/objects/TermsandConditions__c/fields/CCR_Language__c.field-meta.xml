@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>CCR_Language__c</fullName>
+    <description>The Language in which the Terms and Conditions are written. Need to be an Language that the market supports</description>
+    <externalId>false</externalId>
+    <label>(X)Language</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetName>CTI_Languages</valueSetName>
+    </valueSet>
+</CustomField>

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>CCR_GrandType__c</fullName>
+    <description>this field is used to hold the value of type what he has access</description>
+    <externalId>false</externalId>
+    <fieldManageability>DeveloperControlled</fieldManageability>
+    <label>Grand Type New</label>
+    <required>false</required>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Qure Enable</fullName>
+                <default>true</default>
+                <label>Qure Enable</label>
+            </value>
+            <value>
+                <fullName>Block Sequential Qure</fullName>
+                <default>false</default>
+                <label>Block Sequential Qure</label>
+            </value>
+            <value>
+                <fullName>Check Limited Edition</fullName>
+                <default>false</default>
+                <label>Check Limited Edition</label>
+            </value>
+            <value>
+                <fullName>Block Sequential Qure by Consumer</fullName>
+                <default>false</default>
+                <label>Block Sequential Qure by Consumer</label>
+            </value>
+            <value>
+                <fullName>Enable Override</fullName>
+                <default>false</default>
+                <label>Enable Override</label>
+            </value>
+            <value>
+                <fullName>Enable Swap For Local Market</fullName>
+                <default>false</default>
+                <label>Enable Swap For Local Market</label>
+            </value>
+            <value>
+                <fullName>Show Replacement Count Warning</fullName>
+                <default>false</default>
+                <label>Show Replacement Count Warning</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

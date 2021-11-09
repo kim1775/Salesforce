@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>TnCVersionSet__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <description>[KDCE] TnCVersionSet</description>
+    <externalId>false</externalId>
+    <label>Terms and Conditions Version Set</label>
+    <referenceTo>KDCE_TnCVersionSet__c</referenceTo>
+    <relationshipLabel>Terms and Conditions Accepted</relationshipLabel>
+    <relationshipName>Terms_and_Conditions_Accepted</relationshipName>
+    <required>false</required>
+    <trackFeedHistory>true</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Lookup</type>
+</CustomField>

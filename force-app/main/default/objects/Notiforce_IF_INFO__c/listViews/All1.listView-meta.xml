@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>All1</fullName>
+    <columns>IF_ID__c</columns>
+    <columns>TITLE__c</columns>
+    <columns>NAME</columns>
+    <columns>FROM__c</columns>
+    <columns>TO__c</columns>
+    <columns>URL__c</columns>
+    <columns>LAST_ACTIVITY</columns>
+    <columns>TARGET_SYSTEM__c</columns>
+    <columns>CYCLE__c</columns>
+    <columns>CALLING__c</columns>
+    <columns>FORCE_LOGGING__c</columns>
+    <columns>IN_IF_ID__c</columns>
+    <filterScope>Everything</filterScope>
+    <label>All</label>
+</ListView>

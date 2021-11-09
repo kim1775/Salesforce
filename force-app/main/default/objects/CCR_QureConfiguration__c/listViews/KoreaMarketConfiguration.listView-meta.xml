@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>KoreaMarketConfiguration</fullName>
+    <columns>NAME</columns>
+    <columns>CCR_QureConfigurationUID__c</columns>
+    <columns>CCR_DiagnosticResult__c</columns>
+    <columns>CCR_L0code__c</columns>
+    <columns>CCR_DiagnosticDescription__c</columns>
+    <columns>CCR_MaximumReplacementsForCode__c</columns>
+    <columns>CCR_CoveredInWarranty__c</columns>
+    <columns>CCR_SubjectCode__c</columns>
+    <columns>CCR_MaterialGroupDescription__c</columns>
+    <columns>CCR_Model__c</columns>
+    <columns>CCR_CodeToBeEscalated__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>RECORDTYPE</field>
+        <operation>equals</operation>
+        <value>CCR_QureConfiguration__c.CCR_MarketConfiguration</value>
+    </filters>
+    <filters>
+        <field>CCR_Country__c</field>
+        <operation>equals</operation>
+        <value>KR</value>
+    </filters>
+    <label>Korea Market Configuration</label>
+    <language>en_US</language>
+    <sharedTo></sharedTo>
+</ListView>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>All</fullName>
+    <columns>NAME</columns>
+    <columns>Store__c</columns>
+    <columns>StockDate__c</columns>
+    <columns>EANCode__c</columns>
+    <columns>Product__c</columns>
+    <columns>ProductCode__c</columns>
+    <columns>ProductGroup__c</columns>
+    <columns>ProductName__c</columns>
+    <columns>ActualStockQty__c</columns>
+    <columns>StockQty__c</columns>
+    <columns>StockStatus__c</columns>
+    <columns>LAST_UPDATE</columns>
+    <filterScope>Everything</filterScope>
+    <label>All</label>
+</ListView>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>CCR_ActionDate__c</fullName>
+    <description>Date and time when the link / unlink action is performed.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>This field indicates the date and time when linking/unlinking the contact.</inlineHelpText>
+    <label>Action Date Time</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>DateTime</type>
+</CustomField>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>CCR_ParentDiagnostic__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <description>Used By: CCR
+Description: Parent issue</description>
+    <externalId>false</externalId>
+    <label>Parent Diagnostic</label>
+    <referenceTo>CCR_DeviceDiagnostic__c</referenceTo>
+    <relationshipLabel>Device Diagnostics (Parent Diagnostic)</relationshipLabel>
+    <relationshipName>Next_Diagnostics</relationshipName>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Lookup</type>
+</CustomField>

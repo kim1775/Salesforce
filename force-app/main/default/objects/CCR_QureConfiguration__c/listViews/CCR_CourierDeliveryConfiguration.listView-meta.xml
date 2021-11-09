@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>CCR_CourierDeliveryConfiguration</fullName>
+    <columns>NAME</columns>
+    <columns>CCR_Country__c</columns>
+    <columns>CCR_FormField__c</columns>
+    <columns>CCR_Mandatory__c</columns>
+    <columns>CCR_Regex__c</columns>
+    <columns>CCR_Lenght__c</columns>
+    <columns>CCR_DisplayOrder__c</columns>
+    <columns>CCR_ReadOnly__c</columns>
+    <columns>CCR_MarketEnabled__c</columns>
+    <columns>CCR_QureConfigurationUID__c</columns>
+    <columns>RECORDTYPE</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>RECORDTYPE</field>
+        <operation>equals</operation>
+        <value>CCR_QureConfiguration__c.CCR_CourierDeliveryConfiguration</value>
+    </filters>
+    <label>Courier Delivery Configuration</label>
+    <language>en_US</language>
+</ListView>

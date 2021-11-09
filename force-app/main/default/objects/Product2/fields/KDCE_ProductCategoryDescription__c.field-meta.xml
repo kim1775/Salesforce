@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>KDCE_ProductCategoryDescription__c</fullName>
+    <description>커머스 사용자가 수정가능한 Product Category 필드. 초기에 들어올땐 기존에 있던 Product Category값과 같은 값으로 매핑되어서 들어옴.</description>
+    <externalId>false</externalId>
+    <label>Product Category Description</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>M0101</fullName>
+                <default>false</default>
+                <label>(M0101) RRP HTP Sticks</label>
+            </value>
+            <value>
+                <fullName>M0301</fullName>
+                <default>false</default>
+                <label>(M0301) Reduced Risk Products HTP Holder</label>
+            </value>
+            <value>
+                <fullName>M0302</fullName>
+                <default>false</default>
+                <label>(M0302) Reduced Risk Products HTP Pocket Charger</label>
+            </value>
+            <value>
+                <fullName>M0303</fullName>
+                <default>false</default>
+                <label>(M0303) Accessory Organize</label>
+            </value>
+            <value>
+                <fullName>M0304</fullName>
+                <default>false</default>
+                <label>(M0304) Accessory Customize</label>
+            </value>
+            <value>
+                <fullName>M0306</fullName>
+                <default>false</default>
+                <label>(M0306) Reduced Risk Products HTP USB Power Adapter</label>
+            </value>
+            <value>
+                <fullName>M0307</fullName>
+                <default>false</default>
+                <label>(M0307) Reduced Risk Products HTP Car Charger</label>
+            </value>
+            <value>
+                <fullName>M0308</fullName>
+                <default>false</default>
+                <label>(M0308) Reduced Risk Products HTP USB Cable</label>
+            </value>
+            <value>
+                <fullName>M0309</fullName>
+                <default>false</default>
+                <label>(M0309) Accessory Charge</label>
+            </value>
+            <value>
+                <fullName>M0320</fullName>
+                <default>false</default>
+                <label>(M0320) RRP HTP Cleaning Tool</label>
+            </value>
+            <value>
+                <fullName>M0321</fullName>
+                <default>false</default>
+                <label>(M0321) RRP HTP Cleaning Sticks</label>
+            </value>
+            <value>
+                <fullName>M0322</fullName>
+                <default>false</default>
+                <label>(M0322) Accessory Dispose</label>
+            </value>
+            <value>
+                <fullName>M0323</fullName>
+                <default>false</default>
+                <label>(M0323) RRP HTP Sleeve</label>
+            </value>
+            <value>
+                <fullName>M0390</fullName>
+                <default>false</default>
+                <label>(M0390) RRP HTP Other Accessory</label>
+            </value>
+            <value>
+                <fullName>M0401</fullName>
+                <default>false</default>
+                <label>(M0401) RRP HTP Kit with holder</label>
+            </value>
+            <value>
+                <fullName>M0405</fullName>
+                <default>false</default>
+                <label>(M0405) NCP Closed System Sys Kit</label>
+            </value>
+            <value>
+                <fullName>M0412</fullName>
+                <default>false</default>
+                <label>(M0412) RRP HTP Combo Box</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

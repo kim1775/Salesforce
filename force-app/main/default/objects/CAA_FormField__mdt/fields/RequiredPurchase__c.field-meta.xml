@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>RequiredPurchase__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>Is the field required to switch stage to Purchase</description>
+    <externalId>false</externalId>
+    <fieldManageability>DeveloperControlled</fieldManageability>
+    <label>RequiredPurchase</label>
+    <type>Checkbox</type>
+</CustomField>

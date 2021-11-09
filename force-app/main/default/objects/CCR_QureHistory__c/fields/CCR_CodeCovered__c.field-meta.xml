@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>CCR_CodeCovered__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>Used by: CCR. 
+Description: It&apos;s to store information if code got as diagnostic result is covered by warranty or not.</description>
+    <externalId>false</externalId>
+    <label>Code Covered by Warranty Goodwill</label>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

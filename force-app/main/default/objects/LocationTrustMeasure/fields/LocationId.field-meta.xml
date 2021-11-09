@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>LocationId</fullName>
+    <inlineHelpText>비즈니스가 공간을 차지하는 스토어, 호텔 또는 기타 물리적 공간. 각 신뢰 조치는 단일 장소에 적용됩니다. 위치에 외부 참조가 없는 경우 신뢰 카드가 표시되지 않습니다. 오류가 발생하는 경우 위치를 편집하여 외부 참조를 추가하십시오.</inlineHelpText>
+    <type>Lookup</type>
+</CustomField>

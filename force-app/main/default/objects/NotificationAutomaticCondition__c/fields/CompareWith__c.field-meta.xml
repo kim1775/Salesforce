@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>CompareWith__c</fullName>
+    <externalId>false</externalId>
+    <label>Compare with</label>
+    <required>true</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>it-self</fullName>
+                <default>false</default>
+                <label>it-self</label>
+            </value>
+            <value>
+                <fullName>other field</fullName>
+                <default>false</default>
+                <label>other field</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

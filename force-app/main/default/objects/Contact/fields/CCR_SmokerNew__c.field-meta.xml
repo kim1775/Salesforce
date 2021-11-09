@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>CCR_SmokerNew__c</fullName>
+    <description>Used by: CCR Description: New field that will substitute CCR_Smoker. This was requested in order to be able to handle 3x values to sent to SPICE instead of just TRUE or FALSE</description>
+    <externalId>false</externalId>
+    <label>Smoker Declaration</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetName>CCR_Declaration</valueSetName>
+    </valueSet>
+</CustomField>

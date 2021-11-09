@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>CCR_UnlimitedReplacementsPeriod__c</fullName>
+    <description>Used by: CCR
+Description: It&apos;s to store information for how long the unlimited period is active</description>
+    <externalId>false</externalId>
+    <label>Unlimited Replacements Period (months)</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>0</scale>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Number</type>
+    <unique>false</unique>
+</CustomField>

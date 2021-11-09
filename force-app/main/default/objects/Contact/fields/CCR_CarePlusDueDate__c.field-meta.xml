@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>CCR_CarePlusDueDate__c</fullName>
+    <description>Field on Contact to store information about Care+ due date (Validity date): is the max(Validity Date, Due Dates) of all linked devices.</description>
+    <externalId>false</externalId>
+    <label>Care+ Due Date</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>DateTime</type>
+</CustomField>

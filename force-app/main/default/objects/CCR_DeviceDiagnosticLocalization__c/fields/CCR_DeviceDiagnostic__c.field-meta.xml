@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>CCR_DeviceDiagnostic__c</fullName>
+    <description>Used By: CCR 
+Description: To relate the Localization of the diagnostic with the diagnostic flow</description>
+    <externalId>false</externalId>
+    <label>Device Diagnostic</label>
+    <referenceTo>CCR_DeviceDiagnostic__c</referenceTo>
+    <relationshipLabel>Devices Diagnostics Localizations</relationshipLabel>
+    <relationshipName>Devices_Diagnostics_Localizations</relationshipName>
+    <relationshipOrder>0</relationshipOrder>
+    <reparentableMasterDetail>false</reparentableMasterDetail>
+    <trackTrending>false</trackTrending>
+    <type>MasterDetail</type>
+    <writeRequiresMasterRead>true</writeRequiresMasterRead>
+</CustomField>

@@ -1,0 +1,142 @@
+<!--
+  @description       : 
+  @author            : Obidjon
+  @group             : 
+  @last modified on  : 05-31-2021
+  @last modified by  : Obidjon
+  Modifications Log 
+  Ver   Date         Author    Modification
+  1.0   03-08-2021   Obidjon   Initial Version
+-->
+<template>
+    <template if:true={error}>
+        <p class="slds-text-color_error">{error}</p>
+    </template>
+    <lightning-card title="Kakao Consult Chatter" icon-name="standard:question_feed">
+        <template if:true={sessionLive}>
+            <lightning-button-menu
+                icon-name="utility:down"
+                alternative-text="Show menu"
+                variant="border"
+                slot="actions"
+                menu-alignment="right"
+            >
+                <lightning-menu-item
+                    value="MenuItemOne"
+                    label="Identify link"
+                    onclick={handleIdentifyLink}
+                ></lightning-menu-item>
+                <lightning-menu-divider></lightning-menu-divider>
+                <lightning-menu-subheader label="Quick Text"></lightning-menu-subheader>
+                <template for:each={quickTextList} for:item="item">
+                    <lightning-menu-item
+                        key={item.Id}
+                        variant="destructive"
+                        value={item.Label__c}
+                        label={item.Label__c}
+                        onclick={handleQuickText}
+                    ></lightning-menu-item>
+                </template>
+                <lightning-menu-divider></lightning-menu-divider>
+                <lightning-menu-item
+                    variant="destructive"
+                    value="MenuItemEnd"
+                    label="End Session"
+                    onclick={handleEndSession}
+                ></lightning-menu-item>
+            </lightning-button-menu>
+        </template>
+        <template if:false={sessionLive}>
+            <div class="slds-text-align_center slds-p-bottom_xx-small">
+                <lightning-badge label="Session is closed" class="slds-badge_inverse"> </lightning-badge>
+            </div>
+        </template>
+
+        <div class="chatroom__container">
+            <div class="chatroom__placearea">
+                <template if:true={errors}>
+                    <p>{errors.body.message}</p>
+                </template>
+                <template if:true={messages}>
+                    <template for:each={messages} for:item="message">
+                        <!--Agent message-->
+                        <template if:true={message.isAgent}>
+                            <div key={message.Id} class="fullwidth">
+                                <template if:true={message.isTextMessage}>
+                                    <div class="chatroom__agentmessage">{message.Message__c}</div>
+                                </template>
+                                <template if:true={message.isImageMessage}>
+                                    <div class="chatroom__agentmessage">
+                                        <a href={message.Image_Url__c} target="_blank">
+                                            <img src={message.Image_Url__c} alt="Message Image" />
+                                        </a>
+                                    </div>
+                                </template>
+                                <div class="chatroom__sendtime_agent_decorator">
+                                    <span class="chatroom__sendtime_agent">
+                                        <template if:true={message.prepend}>
+                                            {message.prepend} {message.Sent_Time_formatted__c}
+                                        </template>
+                                        <template if:false={message.prepend}>
+                                            <i style="color: red; text-decoration: underline; cursor: pointer">
+                                                resend
+                                            </i>
+                                        </template>
+                                    </span>
+                                </div>
+                            </div>
+                        </template>
+
+                        <!--Customer message-->
+                        <template if:true={message.isCustomer}>
+                            <div key={message.Id} class="fullwidth">
+                                <template if:true={message.isTextMessage}>
+                                    <div class="chatroom__usermessage">{message.Message__c}</div>
+                                </template>
+                                <template if:true={message.isImageMessage}>
+                                    <div class="chatroom__usermessage">
+                                        <a href={message.Image_Url__c} target="_blank">
+                                            <img src={message.Image_Url__c} alt="Message Image" />
+                                        </a>
+                                    </div>
+                                </template>
+                                <template if:true={message.isFileMessage}>
+                                    <div class="chatroom__usermessage">
+                                        <a href={message.File_Url__c} target="_blank"> View {message.Type__c} </a>
+                                    </div>
+                                </template>
+                                <span class="chatroom__sendtime_user">{message.Sent_Time_formatted__c}</span>
+                            </div>
+                        </template>
+                    </template>
+                </template>
+
+                <template if:false={messages}>
+                    <div class="slds-text-align_center slds-p-top_medium">
+                        <lightning-badge label="No messages" class="slds-badge_inverse"></lightning-badge>
+                    </div>
+                </template>
+            </div>
+
+            <div class="slds-grid chatroom__inputarea">
+                <div class="slds-col slds-size_4-of-5">
+                    <textarea
+                        id="message"
+                        placeholder="Input message..."
+                        class="slds-textarea chatroom__input"
+                        maxlength="1000"
+                    >
+                    </textarea>
+                </div>
+                <div class="slds-col slds-size_1-of-5">
+                    <button
+                        class="slds-button slds-button_neutral slds-button_stretch chatroom__sendbutton_disabled send_button"
+                        value="Send"
+                    >
+                        Send
+                    </button>
+                </div>
+            </div>
+        </div>
+    </lightning-card>
+</template>

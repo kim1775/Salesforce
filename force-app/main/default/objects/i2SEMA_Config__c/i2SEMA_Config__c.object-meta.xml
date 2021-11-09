@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customSettingsType>Hierarchy</customSettingsType>
+    <description>i2SEMA 설정 관리</description>
+    <enableFeeds>false</enableFeeds>
+    <label>i2SEMA Config</label>
+    <visibility>Public</visibility>
+</CustomObject>

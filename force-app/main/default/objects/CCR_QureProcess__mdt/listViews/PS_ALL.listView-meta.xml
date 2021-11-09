@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>PS_ALL</fullName>
+    <columns>MasterLabel</columns>
+    <columns>DeveloperName</columns>
+    <columns>NamespacePrefix</columns>
+    <columns>CCR_GrandType__c</columns>
+    <columns>CCR_UserType__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>CCR_Country__c</field>
+        <operation>equals</operation>
+        <value>PS</value>
+    </filters>
+    <label>PS ALL</label>
+    <language>en_US</language>
+</ListView>

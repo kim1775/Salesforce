@@ -1,0 +1,766 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RecordType xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>CCR_OtherMessage</fullName>
+    <active>true</active>
+    <description>It&apos;s for all labels and messages that need to be displayed as info</description>
+    <label>Other Message</label>
+    <picklistValues>
+        <picklist>CCR_DiagnosticDescription__c</picklist>
+        <values>
+            <fullName>Battery doesn%E2%80%99t last 10 consecutive experiences</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Blinking Bottom Red Light</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Blinking Red Light</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Blinking red - top and cleaning lights</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Blinking white light %28blinks 2 times%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Blinking white light %28blinks 8 times%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Bluetooth malfunction</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Broken Heating Blade</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Cracks and Other Damages</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Damaged Latch%2FSpring</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Defective Accessory</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Light not turning on</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Lights loop on and off</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Lights not pulsing or turning on when charging</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>No vibration when pressing power button</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Orange lights - top and cleaning lights</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Other Issues%28Other software malfunction%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Paint Peeling</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Physical Damages</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Solid Red Light or No Light</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Solved - Battery doesn%E2%80%99t last 10 consecutive experiences</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Solved - Blinking Bottom Red Light</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Solved - Blinking Red Light</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Solved - Blinking red - top and cleaning lights</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Solved - Blinking white light %28blinks 2 times%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Solved - Blinking white light - 2x</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Solved - Bluetooth malfunction</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Solved - Fixed Red Light or No light</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Solved - Light not turning on</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Solved - Lights loop on and off</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Solved - Lights not pulsing or turning on when charging</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Solved - No vibration when pressing power button</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Solved - Orange lights - top and cleaning lights</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Solved - Top light not turning on</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Top light not turning on</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Unpleasant taste</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>CCR_DiagnosticResult__c</picklist>
+        <values>
+            <fullName>A101</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CA1</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CA2</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CA3</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CA6</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CA7</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CB1</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CB2</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CB3</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CB4</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CB5</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CB6</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CB7</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CB8</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CC1</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CC2</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CC3</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CC4</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CC5</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>HA1</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>HA5</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>HA6</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>HB1</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>HB2</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>HB3</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>HB4</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>HB8</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>HC1</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>HC2</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>HC3</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>HC4</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>CCR_EndMessageType__c</picklist>
+        <values>
+            <fullName>Input Message</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Select Message</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Standard Message</fullName>
+            <default>true</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>CCR_ExcludeUserTypes__c</picklist>
+        <values>
+            <fullName>Call Center Agent</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Consumer</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Flagship Store Agent</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>CCR_MessageName__c</picklist>
+        <values>
+            <fullName>Address Lookup</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Address1 Title</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Address2 Title</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Address3</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Address4</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Address5</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Blinking Charger Red Light</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Blinking Holder Red Light</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Blinking Red Light</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Bluetooth malfunction</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Broken Heating Blade</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CVS Mobile Number Confirm</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CVS Store Finder Button</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CVS Store Link</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CVS Voucher Info</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CVS Voucher Re Send Error</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CVS Voucher Re Send Info</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CVS Voucher Sent Error</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CVSStore</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Call Center Agent SWAP</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Cancel Button</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CarePlus Invite Agent</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>City Title</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Color Swap Title</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Confirm Button</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Corner_Shop</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Courier Delivery Subtitle</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CourierDelivery</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Cracks and Dirty Contacts</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Cracks and Other Damages</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Damaged Latch%2FSpring</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Defective Accessory</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Department</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Detailed Diagnostic VEEV pod</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Detailed Troubleshooting Device</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Detailed Troubleshooting VEEV pod</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>District</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Eligible For Replacement Title</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Fast Convenient</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Fill Details Below</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>FirstName Title</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Fixed Red Light or No Light</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Flip Phone</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Footer Message</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Generic Error</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Go Back</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Holder is getting unpleasantly hot</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>IDNumber</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>IDType</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>IQOS Flagship Store</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>IQOS Store</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Information Popup Title</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Iqos coach</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>IqosCoach Mobile Number Confirm</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>LastName Title</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Lights loop on and off</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Limited %26 Subscription Warning</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Limited Edition Warning</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Main Troubleshooting</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Mandatory</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Network Issue</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>No vibration when pressing power button</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>NoReplacementChannel</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Other Functional Issues %28non-physical%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Other Issues%28Other software malfunction%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Other_Retail</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Paint Peeling</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Parallel QURE Session</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Phone Provide</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Phone Title</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Phone Validation</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Physical damages</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Postal Code Title</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Postal Validation</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Problem Sub Title</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Replacement Count Warning</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Resend Button</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Retailer F2F</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Salutation Title</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Select Channel Error</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Select Channel Message</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Select Channel Title</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Select Issue Title</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Selected Device</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Selected Swap Device</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Serial Number</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Shift F2F</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Solved - Blinking Charger Red Light</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Solved - Blinking Holder Red Light</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Solved - Fixed Red Light or No light</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Solved - While charging%2C issues with the lights</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>State Title</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Still Not Working</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Store Finder Button</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Store Locator Link</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Submit</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Submit Eligibility Message</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Subscription Warning</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Swap for Shift</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>TaxID</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Top light not turning on</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Troubleshoot Message Title</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>VisitOfflineStore</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Welcome Message</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Welcome Note Title</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>While charging%2C issues with the lights</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>iSWAP</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>iSWAP Mobile Number Confirm</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>iSwap Info</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>iSwap SMS Sent</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>iSwap SMS Sent Error</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>iSwap Selected</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>iSwap Store Link</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+</RecordType>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>OriginSystem__c</fullName>
+    <defaultValue>&apos;SFDC&apos;</defaultValue>
+    <description>[PMK DCE]Origin System 메세지 발송 시스템 SFSC/ SFMC</description>
+    <externalId>false</externalId>
+    <inlineHelpText>발송 시스템</inlineHelpText>
+    <label>Origin System</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>SFDC</fullName>
+                <default>true</default>
+                <label>SFDC</label>
+            </value>
+            <value>
+                <fullName>SFMC</fullName>
+                <default>false</default>
+                <label>SFMC</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

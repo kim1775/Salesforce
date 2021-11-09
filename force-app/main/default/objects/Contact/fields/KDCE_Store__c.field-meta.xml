@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>KDCE_Store__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <description>[KDCE] 인입 채널</description>
+    <externalId>false</externalId>
+    <label>Store</label>
+    <referenceTo>KDCE_Store__c</referenceTo>
+    <relationshipLabel>Contacts</relationshipLabel>
+    <relationshipName>Anonymous</relationshipName>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Lookup</type>
+</CustomField>

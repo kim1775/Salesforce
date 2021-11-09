@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>isKakaoTemplate</fullName>
+    <active>true</active>
+    <description>is Kakao Template</description>
+    <errorConditionFormula>NOT(
+    OR( 
+								ISPICKVAL(NotificationTemplates__r.Channel__c, &quot;1008&quot;)   
+								,ISPICKVAL(NotificationTemplates__r.Channel__c, &quot;1009&quot;)
+    )
+)</errorConditionFormula>
+    <errorMessage>The Kakao button can only be created from a Kakao channel template.
+(e.g : Kakao Friend Talk, Kakao Notification Talk)</errorMessage>
+</ValidationRule>

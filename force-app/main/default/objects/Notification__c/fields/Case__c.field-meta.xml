@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Case__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <description>NPS 인입 채널 트래킹을 위한 필드</description>
+    <externalId>false</externalId>
+    <label>사례</label>
+    <referenceTo>Case</referenceTo>
+    <relationshipLabel>Notification Name</relationshipLabel>
+    <relationshipName>Notification_Name</relationshipName>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Lookup</type>
+</CustomField>

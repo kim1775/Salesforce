@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>ProgramType__c</fullName>
+    <description>[KDCE] Program Type</description>
+    <externalId>false</externalId>
+    <label>Program Type</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>ZTA</fullName>
+                <default>false</default>
+                <label>Purchase</label>
+            </value>
+            <value>
+                <fullName>ZTI</fullName>
+                <default>false</default>
+                <label>Trade-in</label>
+            </value>
+            <value>
+                <fullName>ZTU</fullName>
+                <default>false</default>
+                <label>Upgrade</label>
+            </value>
+            <value>
+                <fullName>ZRN</fullName>
+                <default>false</default>
+                <label>Rental</label>
+            </value>
+            <value>
+                <fullName>ZTAR</fullName>
+                <default>false</default>
+                <label>Rental Purchase</label>
+            </value>
+            <value>
+                <fullName>ZRT</fullName>
+                <default>false</default>
+                <label>Kit to Kit</label>
+            </value>
+            <value>
+                <fullName>ZRA</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Replacement</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

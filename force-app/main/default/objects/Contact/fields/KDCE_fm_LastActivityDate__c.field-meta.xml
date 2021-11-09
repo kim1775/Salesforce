@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>KDCE_fm_LastActivityDate__c</fullName>
+    <description>[KDCE] Last Login Date, Last Coupon Burnt Date, Last Case Date, Last Case Close Date, Last CRM Response Date, Last NPS Response Date 중 가장 마지막 날짜 저장</description>
+    <externalId>false</externalId>
+    <formula>IF(
+    AND(
+        ISBLANK(KDCE_LastLoginDate__c),
+        ISBLANK(KDCE_LastCouponUsedDate__c),
+        ISBLANK(KDCE_LastCaseDate__c), 
+		ISBLANK(KDCE_LastCloseDate__c), 
+        ISBLANK(KDCE_LastCRMResponseDate__c),
+		ISBLANK(KDCE_LastNPSResponseDate__c),
+		ISBLANK(KDCE_LastOfflineProgramDate__c),
+		ISBLANK(KDCE_ReactivateDormantDate__c),
+		ISBLANK(KDCE_LastDeviceLinkDate__c),
+		ISBLANK(KDCE_ECJoinDate__c)
+    ),
+    NULL,
+    NOW() - MIN(
+        NOW() - BLANKVALUE(KDCE_LastLoginDate__c, DATETIMEVALUE(&quot;1900-01-01 12:00:00&quot;)),
+	    NOW() - BLANKVALUE(KDCE_LastCouponUsedDate__c, DATETIMEVALUE(&quot;1900-01-01 12:00:00&quot;)), 
+        NOW() - BLANKVALUE(KDCE_LastCaseDate__c, DATETIMEVALUE(&quot;1900-01-01 12:00:00&quot;)),
+        NOW() - BLANKVALUE(KDCE_LastCloseDate__c, DATETIMEVALUE(&quot;1900-01-01 12:00:00&quot;)),
+		NOW() - BLANKVALUE(KDCE_LastCRMResponseDate__c, DATETIMEVALUE(&quot;1900-01-01 12:00:00&quot;)),
+		NOW() - BLANKVALUE(KDCE_LastNPSResponseDate__c, DATETIMEVALUE(&quot;1900-01-01 12:00:00&quot;)),
+		NOW() - BLANKVALUE(KDCE_LastOfflineProgramDate__c, DATETIMEVALUE(&quot;1900-01-01 12:00:00&quot;)),
+		NOW() - BLANKVALUE(KDCE_ReactivateDormantDate__c, DATETIMEVALUE(&quot;1900-01-01 12:00:00&quot;)),
+		NOW() - BLANKVALUE(KDCE_LastDeviceLinkDate__c, DATETIMEVALUE(&quot;1900-01-01 12:00:00&quot;)),
+		NOW() - BLANKVALUE(KDCE_ECJoinDate__c, DATETIMEVALUE(&quot;1900-01-01 12:00:00&quot;))
+    )
+)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Last Activity Date</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <type>DateTime</type>
+</CustomField>

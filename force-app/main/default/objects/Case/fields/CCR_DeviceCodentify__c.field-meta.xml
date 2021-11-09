@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>CCR_DeviceCodentify__c</fullName>
+    <description>Unique identifier of the device to be used as external key. Autopopulate Codentify of the selected Asset</description>
+    <externalId>false</externalId>
+    <formula>HYPERLINK(&quot;/&quot;&amp;Asset.Id,Asset.CCR_CodentifyId__c)</formula>
+    <label>Device Codentify</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

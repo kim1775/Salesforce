@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>KDCE_PersonalInfoValidityPeriod__c</fullName>
+    <description>[KDCE] Personal Information Validity Period</description>
+    <externalId>false</externalId>
+    <label>Personal Information Validity Period</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>1y</fullName>
+                <default>false</default>
+                <label>1년</label>
+            </value>
+            <value>
+                <fullName>3y</fullName>
+                <default>false</default>
+                <label>3년</label>
+            </value>
+            <value>
+                <fullName>dropout</fullName>
+                <default>false</default>
+                <label>탈퇴시까지</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>KDCE_InvalidAssetPurchaseDate</fullName>
+    <active>true</active>
+    <description>구매일은 오늘이거나 과거일자만 입력가능합니다.</description>
+    <errorConditionFormula>if (AND(ISCHANGED(PurchaseDate),!ISBLANK(PurchaseDate),PurchaseDate &gt; TODAY()), TRUE, FALSE)</errorConditionFormula>
+    <errorDisplayField>PurchaseDate</errorDisplayField>
+    <errorMessage>구매일은 오늘이거나 과거일자만 입력가능합니다.</errorMessage>
+</ValidationRule>

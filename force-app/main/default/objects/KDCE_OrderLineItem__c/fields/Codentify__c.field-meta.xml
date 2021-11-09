@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Codentify__c</fullName>
+    <description>[KDCE] 시리얼 (Parent Codentify Id OR Codentify Id)
+Mapping Column : codentify</description>
+    <externalId>false</externalId>
+    <inlineHelpText>시리얼 (Parent Codentify Id OR Codentify Id)</inlineHelpText>
+    <label>Codentify</label>
+    <length>255</length>
+    <required>false</required>
+    <trackHistory>true</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

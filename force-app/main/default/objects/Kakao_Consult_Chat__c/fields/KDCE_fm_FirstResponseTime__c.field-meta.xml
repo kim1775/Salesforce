@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>KDCE_fm_FirstResponseTime__c</fullName>
+    <externalId>false</externalId>
+    <formula>IF(
+  KDCE_ru_FirstResponseDateTime__c -  KDCE_ru_RequestDateTime__c &gt;= 0 ,
+  TEXT( FLOOR( MOD( ( KDCE_ru_FirstResponseDateTime__c -  KDCE_ru_RequestDateTime__c ) * 24, 24 ) ) ) &amp; &quot;h &quot;
+  &amp; TEXT( ROUND( MOD( ( KDCE_ru_FirstResponseDateTime__c -  KDCE_ru_RequestDateTime__c ) * 24 * 60, 60 ), 0 ) ) &amp; &quot;m &quot;
+		&amp; TEXT( ROUND( MOD( ( KDCE_ru_FirstResponseDateTime__c -  KDCE_ru_RequestDateTime__c ) * 24 * 60 * 60, 60 ), 0) ) &amp; &quot;s&quot;,
+  &quot;&quot;
+)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>First Response Time (FM)</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

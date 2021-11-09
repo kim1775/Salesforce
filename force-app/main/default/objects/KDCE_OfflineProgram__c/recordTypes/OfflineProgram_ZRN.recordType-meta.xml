@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RecordType xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>OfflineProgram_ZRN</fullName>
+    <active>true</active>
+    <description>[KDCE] Rental Record Type</description>
+    <label>Rental</label>
+    <picklistValues>
+        <picklist>ProgramType__c</picklist>
+        <values>
+            <fullName>ZRN</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ZTA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ZTAR</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ZTI</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ZTU</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>RentalDeviceType__c</picklist>
+        <values>
+            <fullName>신규</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>중고</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Status__c</picklist>
+        <values>
+            <fullName>Rental Cancel</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Rental Closed</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Rental Process</fullName>
+            <default>true</default>
+        </values>
+    </picklistValues>
+</RecordType>

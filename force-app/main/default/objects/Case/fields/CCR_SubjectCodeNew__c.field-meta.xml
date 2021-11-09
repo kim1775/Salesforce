@@ -1,0 +1,670 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>CCR_SubjectCodeNew__c</fullName>
+    <description>Used by: CCR
+Description: subject code is the dependent picklist of sub type.</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Subject Code</inlineHelpText>
+    <label>Subject Code</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <controllingField>CCR_SubType__c</controllingField>
+        <restricted>true</restricted>
+        <valueSetName>CCR_SubjectCode</valueSetName>
+        <valueSettings>
+            <controllingFieldValue>RRP HTP Stick</controllingFieldValue>
+            <valueName>140.01</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>RRP HTP Stick</controllingFieldValue>
+            <valueName>141.10</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>RRP HTP Stick</controllingFieldValue>
+            <valueName>144.10</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>RRP HTP Stick</controllingFieldValue>
+            <valueName>144.15</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>RRP HTP Stick</controllingFieldValue>
+            <valueName>144.50</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>RRP HTP Stick</controllingFieldValue>
+            <valueName>147.64</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>RRP HTP Stick</controllingFieldValue>
+            <valueName>147.96</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>RRP HTP Stick</controllingFieldValue>
+            <valueName>150.01</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>RRP HTP Stick</controllingFieldValue>
+            <valueName>151.01</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>RRP HTP Stick</controllingFieldValue>
+            <valueName>151.05</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>RRP HTP Stick</controllingFieldValue>
+            <valueName>151.10</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>RRP HTP Stick</controllingFieldValue>
+            <valueName>151.15</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>RRP HTP Stick</controllingFieldValue>
+            <valueName>152.01 - Missing Sticker</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>RRP HTP Stick</controllingFieldValue>
+            <valueName>153.01</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>RRP HTP Stick</controllingFieldValue>
+            <valueName>154.15C</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>RRP HTP Stick</controllingFieldValue>
+            <valueName>154.21</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>RRP HTP Stick</controllingFieldValue>
+            <valueName>156.21</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>RRP HTP Stick</controllingFieldValue>
+            <valueName>156.75</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>RRP HTP Stick</controllingFieldValue>
+            <valueName>157.25</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>RRP HTP Stick</controllingFieldValue>
+            <valueName>157.50</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>RRP HTP Stick</controllingFieldValue>
+            <valueName>157.52</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>RRP HTP Stick</controllingFieldValue>
+            <valueName>157.52 - Text illegible on the pack</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>RRP HTP Stick</controllingFieldValue>
+            <valueName>157.64</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>RRP HTP Stick</controllingFieldValue>
+            <valueName>157.65</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>RRP HTP Stick</controllingFieldValue>
+            <valueName>157.66</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>RRP HTP Stick</controllingFieldValue>
+            <valueName>157.70 - Lid / Miter stuck pack</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>RRP HTP Stick</controllingFieldValue>
+            <valueName>157.74 - Lid retention Miscellaneous pack</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>RRP HTP Stick</controllingFieldValue>
+            <valueName>157.95</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>RRP HTP Stick</controllingFieldValue>
+            <valueName>157.96</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>RRP HTP Stick</controllingFieldValue>
+            <valueName>157.98</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>RRP HTP Stick</controllingFieldValue>
+            <valueName>164.01</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>RRP HTP Stick</controllingFieldValue>
+            <valueName>165.01</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>RRP HTP Stick</controllingFieldValue>
+            <valueName>170.60C</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>RRP HTP Stick</controllingFieldValue>
+            <valueName>171.10C</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>RRP HTP Stick</controllingFieldValue>
+            <valueName>171.15C</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>RRP HTP Stick</controllingFieldValue>
+            <valueName>173.01</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>RRP HTP Stick</controllingFieldValue>
+            <valueName>173.15C</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>RRP HTP Stick</controllingFieldValue>
+            <valueName>173.88</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>RRP HTP Stick</controllingFieldValue>
+            <valueName>173.89</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>RRP HTP Stick</controllingFieldValue>
+            <valueName>174.01</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>RRP HTP Stick</controllingFieldValue>
+            <valueName>174.05</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>RRP HTP Stick</controllingFieldValue>
+            <valueName>174.10C</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>RRP HTP Stick</controllingFieldValue>
+            <valueName>174.21C</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>RRP HTP Stick</controllingFieldValue>
+            <valueName>174.79 - Exposed junction Tipping</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>RRP HTP Stick</controllingFieldValue>
+            <valueName>175.23C</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>RRP HTP Stick</controllingFieldValue>
+            <valueName>176.01</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>RRP HTP Stick</controllingFieldValue>
+            <valueName>176.87</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>RRP HTP Stick</controllingFieldValue>
+            <valueName>177.60</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>RRP HTP Stick</controllingFieldValue>
+            <valueName>177.87</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>RRP HTP Stick</controllingFieldValue>
+            <valueName>199.03</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>RRP HTP Stick</controllingFieldValue>
+            <valueName>199.04</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>RRP HTP Stick</controllingFieldValue>
+            <valueName>199.06</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>RRP HTP Stick</controllingFieldValue>
+            <valueName>199.07 - Stick Too much menthol</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>RRP HTP Stick</controllingFieldValue>
+            <valueName>199.08</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>RRP HTP Stick</controllingFieldValue>
+            <valueName>199.09</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>RRP HTP Stick</controllingFieldValue>
+            <valueName>199.10A</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>RRP HTP Stick</controllingFieldValue>
+            <valueName>199.14</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>RRP HTP Stick</controllingFieldValue>
+            <valueName>199.15</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>RRP HTP Stick</controllingFieldValue>
+            <valueName>199.16</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>RRP HTP Stick</controllingFieldValue>
+            <valueName>199.47</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>RRP HTP Stick</controllingFieldValue>
+            <valueName>199.67</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>RRP HTP Stick</controllingFieldValue>
+            <valueName>199.73</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>RRP HTP Stick</controllingFieldValue>
+            <valueName>199.99</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Sentiment Management</controllingFieldValue>
+            <valueName>Sentiment Management</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Up / Cross Sell &amp; Trade In</controllingFieldValue>
+            <valueName>Cross Sell</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Up / Cross Sell &amp; Trade In</controllingFieldValue>
+            <controllingFieldValue>Remote Coach</controllingFieldValue>
+            <controllingFieldValue>Lead Generation</controllingFieldValue>
+            <controllingFieldValue>Rental +1</controllingFieldValue>
+            <controllingFieldValue>Rental +13</controllingFieldValue>
+            <controllingFieldValue>Rental +21</controllingFieldValue>
+            <controllingFieldValue>M1</controllingFieldValue>
+            <controllingFieldValue>M11</controllingFieldValue>
+            <controllingFieldValue>E-commerce</controllingFieldValue>
+            <controllingFieldValue>E-commerce_FD</controllingFieldValue>
+            <controllingFieldValue>Conversion</controllingFieldValue>
+            <controllingFieldValue>Remote Sales and Coach</controllingFieldValue>
+            <valueName>Remote Coach</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Up / Cross Sell &amp; Trade In</controllingFieldValue>
+            <valueName>Trade In</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Up / Cross Sell &amp; Trade In</controllingFieldValue>
+            <valueName>Up Sell</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Customer /Product Care</controllingFieldValue>
+            <valueName>IN012</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Customer /Product Care</controllingFieldValue>
+            <valueName>IN013</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Data Privacy</controllingFieldValue>
+            <valueName>IN014</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Data Privacy</controllingFieldValue>
+            <valueName>IN015</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Data Privacy</controllingFieldValue>
+            <valueName>IN016</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Data Privacy</controllingFieldValue>
+            <valueName>IN017</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Data Privacy</controllingFieldValue>
+            <valueName>IN018</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Data Privacy</controllingFieldValue>
+            <valueName>IN019</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Device Subscription</controllingFieldValue>
+            <controllingFieldValue>Consumables Premium Delivery</controllingFieldValue>
+            <valueName>About Program / Benefits</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Device Subscription</controllingFieldValue>
+            <controllingFieldValue>Consumables Premium Delivery</controllingFieldValue>
+            <valueName>Cancellation</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Device Subscription</controllingFieldValue>
+            <controllingFieldValue>Consumables Premium Delivery</controllingFieldValue>
+            <controllingFieldValue>IQOS Club</controllingFieldValue>
+            <valueName>Other</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Device Subscription</controllingFieldValue>
+            <controllingFieldValue>Consumables Premium Delivery</controllingFieldValue>
+            <valueName>Payment / Billing</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Device Subscription</controllingFieldValue>
+            <controllingFieldValue>Consumables Premium Delivery</controllingFieldValue>
+            <valueName>Sign up / Manage my Account</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Device Subscription</controllingFieldValue>
+            <controllingFieldValue>Consumables Premium Delivery</controllingFieldValue>
+            <valueName>Upgrade / Renewal</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Electronic Accessory</controllingFieldValue>
+            <controllingFieldValue>Holder</controllingFieldValue>
+            <controllingFieldValue>Accessories</controllingFieldValue>
+            <controllingFieldValue>Charger</controllingFieldValue>
+            <controllingFieldValue>Non Electronic Accessory</controllingFieldValue>
+            <valueName>A101</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Electronic Accessory</controllingFieldValue>
+            <controllingFieldValue>Holder</controllingFieldValue>
+            <controllingFieldValue>Charger</controllingFieldValue>
+            <valueName>B101</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Electronic Accessory</controllingFieldValue>
+            <controllingFieldValue>Holder</controllingFieldValue>
+            <controllingFieldValue>Accessories</controllingFieldValue>
+            <controllingFieldValue>Charger</controllingFieldValue>
+            <controllingFieldValue>Non Electronic Accessory</controllingFieldValue>
+            <valueName>C101</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Feedback</controllingFieldValue>
+            <valueName>IN026</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Feedback</controllingFieldValue>
+            <valueName>IN027</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Health</controllingFieldValue>
+            <valueName>CI001</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Health</controllingFieldValue>
+            <valueName>CI002</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Health</controllingFieldValue>
+            <valueName>CI003</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Holder</controllingFieldValue>
+            <valueName>B004</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Holder</controllingFieldValue>
+            <valueName>B037</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Holder</controllingFieldValue>
+            <controllingFieldValue>Charger</controllingFieldValue>
+            <valueName>B038</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Holder</controllingFieldValue>
+            <valueName>B043</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Holder</controllingFieldValue>
+            <valueName>B048</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Holder</controllingFieldValue>
+            <valueName>B051</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Holder</controllingFieldValue>
+            <valueName>B102</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Holder</controllingFieldValue>
+            <valueName>B103</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Holder</controllingFieldValue>
+            <controllingFieldValue>Charger</controllingFieldValue>
+            <valueName>B104</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Holder</controllingFieldValue>
+            <valueName>B412</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Holder</controllingFieldValue>
+            <valueName>C002</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Holder</controllingFieldValue>
+            <valueName>D001</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Accessories</controllingFieldValue>
+            <controllingFieldValue>Non Electronic Accessory</controllingFieldValue>
+            <valueName>B050</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Web Issues</controllingFieldValue>
+            <valueName>IN020</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Web Issues</controllingFieldValue>
+            <valueName>IN021</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Web Issues</controllingFieldValue>
+            <valueName>IN022</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Web Issues</controllingFieldValue>
+            <valueName>IN023</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Web Issues</controllingFieldValue>
+            <valueName>IN025</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Alleged Claims</controllingFieldValue>
+            <valueName>CI004</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Alleged Claims</controllingFieldValue>
+            <valueName>CI005</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Alleged Claims</controllingFieldValue>
+            <valueName>CI006</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Alleged Claims</controllingFieldValue>
+            <valueName>CI007</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Charger</controllingFieldValue>
+            <valueName>B006</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Charger</controllingFieldValue>
+            <valueName>B032</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Charger</controllingFieldValue>
+            <valueName>B045</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Charger</controllingFieldValue>
+            <valueName>B063</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Churn Management</controllingFieldValue>
+            <valueName>Churn Management</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Commercial</controllingFieldValue>
+            <valueName>IN007</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Commercial</controllingFieldValue>
+            <valueName>IN008</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Commercial</controllingFieldValue>
+            <valueName>IN009</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Commercial</controllingFieldValue>
+            <valueName>IN010</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Commercial</controllingFieldValue>
+            <valueName>IN011</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Communication</controllingFieldValue>
+            <valueName>CI008</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Communication</controllingFieldValue>
+            <valueName>CI009</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>IQOS Club</controllingFieldValue>
+            <valueName>Access to CLUB Online</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>IQOS Club</controllingFieldValue>
+            <valueName>Benefits / Experience</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>IQOS Club</controllingFieldValue>
+            <valueName>General / About Program</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>IQOS Club</controllingFieldValue>
+            <valueName>Point Collection &amp; Status</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>IQOS Club</controllingFieldValue>
+            <valueName>Terms &amp; Conditions / Data Privacy / Marketing Opt-in</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Lead validation</controllingFieldValue>
+            <valueName>Lead validation</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Lending</controllingFieldValue>
+            <valueName>Lending Activation</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Lending</controllingFieldValue>
+            <valueName>Lending Completion</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Market Specific Red Talking Points</controllingFieldValue>
+            <valueName>CI010</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Orders</controllingFieldValue>
+            <valueName>DS003</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Orders</controllingFieldValue>
+            <valueName>DS004</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Orders</controllingFieldValue>
+            <valueName>DS005</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Orders</controllingFieldValue>
+            <valueName>DS006</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Orders</controllingFieldValue>
+            <valueName>DS007</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Orders</controllingFieldValue>
+            <valueName>DS008</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Orders</controllingFieldValue>
+            <valueName>DS009</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Orders</controllingFieldValue>
+            <valueName>DS012</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Orders</controllingFieldValue>
+            <valueName>DS013</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Other</controllingFieldValue>
+            <valueName>IN024</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Products</controllingFieldValue>
+            <valueName>IN001</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Products</controllingFieldValue>
+            <valueName>IN002</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Products</controllingFieldValue>
+            <valueName>IN003</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Products</controllingFieldValue>
+            <valueName>IN004</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Products</controllingFieldValue>
+            <valueName>IN005</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Products</controllingFieldValue>
+            <valueName>IN028</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Products</controllingFieldValue>
+            <valueName>IN029</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Qoach Program</controllingFieldValue>
+            <valueName>Qoach</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Remorse Calls</controllingFieldValue>
+            <valueName>Lending Remorse Calls</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Remorse Calls</controllingFieldValue>
+            <valueName>Remote Sales Remorse Calls</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Remote Acquisition</controllingFieldValue>
+            <valueName>Remote Acquisition</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Remote Sales and Coach</controllingFieldValue>
+            <valueName>Remote Sales</valueName>
+        </valueSettings>
+    </valueSet>
+</CustomField>

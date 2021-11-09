@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>KDCE_HasRegistedUsingKakaoId__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>[KDCE] Indicates whether the Contact has registered using KAKAO Account</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Indicates whether the Contact has registered using KAKAO Account</inlineHelpText>
+    <label>Has Registered using KAKAO Account</label>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Checkbox</type>
+</CustomField>

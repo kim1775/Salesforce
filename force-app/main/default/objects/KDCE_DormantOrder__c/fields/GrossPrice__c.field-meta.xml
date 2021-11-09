@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>GrossPrice__c</fullName>
+    <description>[KDCE] 정상가-VAT 포함 계
+Mapping Column : gross_price</description>
+    <externalId>false</externalId>
+    <inlineHelpText>정상가-VAT 포함 계</inlineHelpText>
+    <label>Gross Price</label>
+    <precision>16</precision>
+    <required>false</required>
+    <scale>2</scale>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Number</type>
+    <unique>false</unique>
+</CustomField>

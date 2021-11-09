@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Report xmlns="http://soap.sforce.com/2006/04/metadata">
+    <columns>
+        <field>KDCE_DormantContact__c$Name</field>
+    </columns>
+    <columns>
+        <field>KDCE_DormantContact__c$KDCE_fm_LastActivityDate__c</field>
+    </columns>
+    <columns>
+        <field>KDCE_DormantContact__c$CreatedDate</field>
+    </columns>
+    <columns>
+        <field>KDCE_DormantContact__c$Id</field>
+    </columns>
+    <filter>
+        <criteriaItems>
+            <column>KDCE_DormantContact__c$CreatedDate</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>true</isUnlocked>
+            <operator>equals</operator>
+            <value>TODAY</value>
+        </criteriaItems>
+        <language>ko</language>
+    </filter>
+    <format>Tabular</format>
+    <name>Today Dormant Contact</name>
+    <params>
+        <name>co</name>
+        <value>1</value>
+    </params>
+    <reportType>Dormant_Contact__c</reportType>
+    <scope>organization</scope>
+    <showDetails>true</showDetails>
+    <showGrandTotal>true</showGrandTotal>
+    <showSubTotals>true</showSubTotals>
+    <timeFrameFilter>
+        <dateColumn>KDCE_DormantContact__c$CCR_AVStatusDateChange__c</dateColumn>
+        <interval>INTERVAL_CUSTOM</interval>
+    </timeFrameFilter>
+</Report>

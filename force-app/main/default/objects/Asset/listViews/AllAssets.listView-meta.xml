@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>AllAssets</fullName>
+    <columns>ASSET.NAME</columns>
+    <columns>CCR_CodentifyId__c</columns>
+    <columns>CONTACT.NAME</columns>
+    <columns>CCR_MaterialDescription__c</columns>
+    <columns>CCR_MaterialGroupDescription__c</columns>
+    <columns>CCR_DeviceProductCode__c</columns>
+    <columns>ASSET.STATUS</columns>
+    <columns>ASSET.SERIAL_NUMBER</columns>
+    <columns>CCR_SubscriptionID__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>CCR_SubscribedDevice__c</field>
+        <operation>equals</operation>
+        <value>1</value>
+    </filters>
+    <label>모든 자산</label>
+</ListView>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>ActivatedNotificationEvent</fullName>
+    <columns>NAME</columns>
+    <columns>IsActive__c</columns>
+    <columns>ObjectType__c</columns>
+    <columns>ExecuteOn__c</columns>
+    <columns>NotificationTemplate__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>IsActive__c</field>
+        <operation>equals</operation>
+        <value>1</value>
+    </filters>
+    <label>Activated Notification Event</label>
+</ListView>

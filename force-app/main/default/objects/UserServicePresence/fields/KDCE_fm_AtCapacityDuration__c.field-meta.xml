@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>KDCE_fm_AtCapacityDuration__c</fullName>
+    <businessOwnerUser>s-ownbackup-prd@dce.pmi.com</businessOwnerUser>
+    <externalId>false</externalId>
+    <formula>TEXT( FLOOR( AtCapacityDuration / 3600 )) + &quot;:&quot; +
+TEXT( FLOOR( MOD( AtCapacityDuration , 3600 ) / 60 )) + &quot;:&quot; +
+TEXT( MOD( MOD( AtCapacityDuration , 3600 ),60 ))</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>At Capacity Duration (hh:mm:ss)</label>
+    <required>false</required>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

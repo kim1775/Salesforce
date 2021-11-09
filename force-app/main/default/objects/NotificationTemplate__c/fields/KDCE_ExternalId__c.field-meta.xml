@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>KDCE_ExternalId__c</fullName>
+    <description>KDCE Notiforce Template External Id for Sending API From 3rd Party System.</description>
+    <displayFormat>NT-{YY}{MM}{DD}-{00000}</displayFormat>
+    <externalId>true</externalId>
+    <label>External Id</label>
+    <trackTrending>false</trackTrending>
+    <type>AutoNumber</type>
+</CustomField>

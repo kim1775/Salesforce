@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>CCR_BlockedContact__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>Flag identifying that the person is explicitly blocked from receiving campaign communications and form accessing SPICE</description>
+    <externalId>false</externalId>
+    <label>Blocked Contact</label>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Checkbox</type>
+</CustomField>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Search</fullName>
+    <columns>ASSET.NAME</columns>
+    <columns>ASSET.SERIAL_NUMBER</columns>
+    <columns>CONTACT.NAME</columns>
+    <columns>CCR_MaterialDescription__c</columns>
+    <columns>CCR_MaterialGroupDescription__c</columns>
+    <columns>CCR_DeviceProductCode__c</columns>
+    <columns>ASSET.STATUS</columns>
+    <columns>CCR_Version__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>CCR_Version__c</field>
+        <operation>equals</operation>
+        <value>3.0</value>
+    </filters>
+    <filters>
+        <field>CCR_ParentProductionDateTime__c</field>
+        <operation>greaterThan</operation>
+        <value>6/1/2021 12:00 AM</value>
+    </filters>
+    <label>Search</label>
+</ListView>

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>KDCE_Channel__c</fullName>
+    <description>[KDCE] Term &amp; Condition Accepted Channel</description>
+    <externalId>false</externalId>
+    <label>Channel</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>iqos.com</fullName>
+                <default>false</default>
+                <label>iqos.com</label>
+            </value>
+            <value>
+                <fullName>tryiqos</fullName>
+                <default>false</default>
+                <label>tryiqos</label>
+            </value>
+            <value>
+                <fullName>trade-in</fullName>
+                <default>false</default>
+                <label>trade-in</label>
+            </value>
+            <value>
+                <fullName>MGM</fullName>
+                <default>false</default>
+                <label>MGM</label>
+            </value>
+            <value>
+                <fullName>careplus</fullName>
+                <default>false</default>
+                <label>careplus</label>
+            </value>
+            <value>
+                <fullName>Easyiqos</fullName>
+                <default>false</default>
+                <label>Easyiqos</label>
+            </value>
+            <value>
+                <fullName>getinfo</fullName>
+                <default>false</default>
+                <label>getinfo</label>
+            </value>
+            <value>
+                <fullName>call center</fullName>
+                <default>false</default>
+                <label>call center</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

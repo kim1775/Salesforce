@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>CCR_CalculateUnlimitedPeriodFrom__c</fullName>
+    <description>Used by: CCR
+Description: Calculate the unlimited period from which field</description>
+    <externalId>false</externalId>
+    <label>Calculate Unlimited Period From</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Original Device</fullName>
+                <default>false</default>
+                <label>Original Device</label>
+            </value>
+            <value>
+                <fullName>Latest Active Device</fullName>
+                <default>false</default>
+                <label>Latest Active Device</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

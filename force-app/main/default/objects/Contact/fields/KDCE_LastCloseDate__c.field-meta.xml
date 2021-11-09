@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>KDCE_LastCloseDate__c</fullName>
+    <description>[KDCE] 케이스가 종료되는 시점에 업데이트</description>
+    <externalId>false</externalId>
+    <label>Last Case Close Date (Online)</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>DateTime</type>
+</CustomField>

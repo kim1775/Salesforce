@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Today</fullName>
+    <columns>Name</columns>
+    <columns>Agent</columns>
+    <columns>LoginTime</columns>
+    <columns>LogoutTime</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>LoginTime</field>
+        <operation>equals</operation>
+        <value>TODAY</value>
+    </filters>
+    <label>Today</label>
+</ListView>

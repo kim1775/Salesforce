@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>LMSTextLimit__c</fullName>
+    <defaultValue>2000</defaultValue>
+    <description>LMS 메세지 용량 제한 기본 2000KB</description>
+    <externalId>false</externalId>
+    <inlineHelpText>LMS 메세지 용량 제한 기본 2000KB</inlineHelpText>
+    <label>LMS Text Limit</label>
+    <precision>4</precision>
+    <required>false</required>
+    <scale>0</scale>
+    <trackTrending>false</trackTrending>
+    <type>Number</type>
+    <unique>false</unique>
+</CustomField>

@@ -1,0 +1,2005 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Flow xmlns="http://soap.sforce.com/2006/04/metadata">
+    <apiVersion>51.0</apiVersion>
+    <assignments>
+        <name>Inquiry_Result_Asgmt</name>
+        <label>Inquiry Result Asgmt</label>
+        <locationX>710</locationX>
+        <locationY>1214</locationY>
+        <assignmentItems>
+            <assignToReference>InquiryResult</assignToReference>
+            <operator>Add</operator>
+            <value>
+                <elementReference>Inquiry_Footer</elementReference>
+            </value>
+        </assignmentItems>
+        <assignmentItems>
+            <assignToReference>Get_Case.KDCE_InquiryResult__c</assignToReference>
+            <operator>Add</operator>
+            <value>
+                <elementReference>InquiryResult</elementReference>
+            </value>
+        </assignmentItems>
+        <connector>
+            <targetReference>Update_InquiryResult</targetReference>
+        </connector>
+    </assignments>
+    <assignments>
+        <name>Q1_A1</name>
+        <label>DTI 결과</label>
+        <locationX>50</locationX>
+        <locationY>998</locationY>
+        <assignmentItems>
+            <assignToReference>InquiryResult</assignToReference>
+            <operator>Add</operator>
+            <value>
+                <elementReference>Q1_1_R1</elementReference>
+            </value>
+        </assignmentItems>
+        <connector>
+            <targetReference>Inquiry_Result_Asgmt</targetReference>
+        </connector>
+    </assignments>
+    <assignments>
+        <name>Q1_A2</name>
+        <label>LNA 결과</label>
+        <locationX>314</locationX>
+        <locationY>998</locationY>
+        <assignmentItems>
+            <assignToReference>InquiryResult</assignToReference>
+            <operator>Add</operator>
+            <value>
+                <elementReference>Q1_1_R2</elementReference>
+            </value>
+        </assignmentItems>
+        <connector>
+            <targetReference>Inquiry_Result_Asgmt</targetReference>
+        </connector>
+    </assignments>
+    <assignments>
+        <name>Q1_A3</name>
+        <label>맛부족 결과</label>
+        <locationX>578</locationX>
+        <locationY>878</locationY>
+        <assignmentItems>
+            <assignToReference>InquiryResult</assignToReference>
+            <operator>Add</operator>
+            <value>
+                <elementReference>Q1_1_R3</elementReference>
+            </value>
+        </assignmentItems>
+        <connector>
+            <targetReference>Inquiry_Result_Asgmt</targetReference>
+        </connector>
+    </assignments>
+    <assignments>
+        <name>Q1_A4</name>
+        <label>벌레 결과</label>
+        <locationX>842</locationX>
+        <locationY>878</locationY>
+        <assignmentItems>
+            <assignToReference>InquiryResult</assignToReference>
+            <operator>Add</operator>
+            <value>
+                <elementReference>Q1_1_R4</elementReference>
+            </value>
+        </assignmentItems>
+        <connector>
+            <targetReference>Inquiry_Result_Asgmt</targetReference>
+        </connector>
+    </assignments>
+    <assignments>
+        <name>Q1_A5</name>
+        <label>곰팡이 결과</label>
+        <locationX>1106</locationX>
+        <locationY>878</locationY>
+        <assignmentItems>
+            <assignToReference>InquiryResult</assignToReference>
+            <operator>Add</operator>
+            <value>
+                <elementReference>Q1_1_R5</elementReference>
+            </value>
+        </assignmentItems>
+        <connector>
+            <targetReference>Inquiry_Result_Asgmt</targetReference>
+        </connector>
+    </assignments>
+    <assignments>
+        <name>Set_Inquiry_Result</name>
+        <label>Set Inquiry Result</label>
+        <locationX>710</locationX>
+        <locationY>398</locationY>
+        <assignmentItems>
+            <assignToReference>InquiryResult</assignToReference>
+            <operator>Assign</operator>
+            <value>
+                <elementReference>TodayHeader</elementReference>
+            </value>
+        </assignmentItems>
+        <connector>
+            <targetReference>Q1_D1</targetReference>
+        </connector>
+    </assignments>
+    <choices>
+        <name>A1</name>
+        <choiceText>DTI</choiceText>
+        <dataType>String</dataType>
+        <value>
+            <stringValue>DTI</stringValue>
+        </value>
+    </choices>
+    <choices>
+        <name>A2</name>
+        <choiceText>LNA</choiceText>
+        <dataType>String</dataType>
+        <value>
+            <stringValue>LNA</stringValue>
+        </value>
+    </choices>
+    <choices>
+        <name>A3</name>
+        <choiceText>맛 부족, 맛 이상함</choiceText>
+        <dataType>String</dataType>
+        <value>
+            <stringValue>맛 부족, 맛 이상함​</stringValue>
+        </value>
+    </choices>
+    <choices>
+        <name>A4</name>
+        <choiceText>벌레</choiceText>
+        <dataType>String</dataType>
+        <value>
+            <stringValue>벌레</stringValue>
+        </value>
+    </choices>
+    <choices>
+        <name>A5</name>
+        <choiceText>곰팡이</choiceText>
+        <dataType>String</dataType>
+        <value>
+            <stringValue>곰팡이</stringValue>
+        </value>
+    </choices>
+    <choices>
+        <description>개선됨</description>
+        <name>improvement_1</name>
+        <choiceText>개선됨</choiceText>
+        <dataType>String</dataType>
+        <value>
+            <stringValue>개선됨</stringValue>
+        </value>
+    </choices>
+    <choices>
+        <name>N</name>
+        <choiceText>N</choiceText>
+        <dataType>String</dataType>
+        <value>
+            <stringValue>N</stringValue>
+        </value>
+    </choices>
+    <choices>
+        <name>NoTry</name>
+        <choiceText>시도해 보지 않음</choiceText>
+        <dataType>String</dataType>
+        <value>
+            <stringValue>시도해 보지 않음​</stringValue>
+        </value>
+    </choices>
+    <choices>
+        <description>1. Duo</description>
+        <name>Q1_1_C1_1</name>
+        <choiceText>Duo</choiceText>
+        <dataType>String</dataType>
+        <value>
+            <stringValue>Duo</stringValue>
+        </value>
+    </choices>
+    <choices>
+        <description>2. 3.0</description>
+        <name>Q1_1_C1_2</name>
+        <choiceText>3.0</choiceText>
+        <dataType>String</dataType>
+        <value>
+            <stringValue>3.0</stringValue>
+        </value>
+    </choices>
+    <choices>
+        <description>3. Multi</description>
+        <name>Q1_1_C1_3</name>
+        <choiceText>Multi</choiceText>
+        <dataType>String</dataType>
+        <value>
+            <stringValue>Multi</stringValue>
+        </value>
+    </choices>
+    <choices>
+        <description>4. 2.4+</description>
+        <name>Q1_1_C1_4</name>
+        <choiceText>2.4+</choiceText>
+        <dataType>String</dataType>
+        <value>
+            <stringValue>2.4+</stringValue>
+        </value>
+    </choices>
+    <choices>
+        <description>5. 2개 이상</description>
+        <name>Q1_1_C1_5</name>
+        <choiceText>2개 이상</choiceText>
+        <dataType>String</dataType>
+        <value>
+            <stringValue>2개 이상</stringValue>
+        </value>
+    </choices>
+    <choices>
+        <name>Q1_1_C2_1</name>
+        <choiceText>&lt;span style=&quot;color: black; font-family: &amp;quot;맑은 고딕&amp;quot;; font-size: 6pt;&quot;&gt;IQOS 2.4+&lt;/span&gt;</choiceText>
+        <dataType>String</dataType>
+        <value>
+            <stringValue>IQOS 2.4+</stringValue>
+        </value>
+    </choices>
+    <choices>
+        <name>Q1_1_C2_2</name>
+        <choiceText>&lt;span style=&quot;color: black; font-family: &amp;quot;맑은 고딕&amp;quot;; font-size: 6pt;&quot;&gt;IQOS 3.0&lt;/span&gt;</choiceText>
+        <dataType>String</dataType>
+        <value>
+            <stringValue>IQOS 3.0</stringValue>
+        </value>
+    </choices>
+    <choices>
+        <name>Q1_1_C2_3</name>
+        <choiceText>&lt;span style=&quot;color: black; font-family: &amp;quot;맑은 고딕&amp;quot;; font-size: 6pt;&quot;&gt;IQOS Multi&lt;/span&gt;</choiceText>
+        <dataType>String</dataType>
+        <value>
+            <stringValue>IQOS Multi</stringValue>
+        </value>
+    </choices>
+    <choices>
+        <name>Q1_1_C2_4</name>
+        <choiceText>&lt;span style=&quot;color: black; font-family: &amp;quot;맑은 고딕&amp;quot;; font-size: 6pt;&quot;&gt;IQOS 3.0과 Multi&lt;/span&gt;</choiceText>
+        <dataType>String</dataType>
+        <value>
+            <stringValue>IQOS 3.0과 Multi</stringValue>
+        </value>
+    </choices>
+    <choices>
+        <name>Q1_1_C2_5</name>
+        <choiceText>&lt;span style=&quot;font-size: 6pt; font-family: &amp;quot;맑은 고딕&amp;quot;; color: black;&quot;&gt;IQOS 2.4+를 포함한 여러 device들&lt;/span&gt;</choiceText>
+        <dataType>String</dataType>
+        <value>
+            <stringValue>IQOS 2.4+를 포함한 여러 device들</stringValue>
+        </value>
+    </choices>
+    <choices>
+        <name>Q1_1_C2_6</name>
+        <choiceText>IQOS Duo</choiceText>
+        <dataType>String</dataType>
+        <value>
+            <stringValue>IQOS Duo</stringValue>
+        </value>
+    </choices>
+    <choices>
+        <name>Q1_1_C3_1</name>
+        <choiceText>&lt;span style=&quot;color: black; font-family: &amp;quot;맑은 고딕&amp;quot;; font-size: 6pt;&quot;&gt;HEETS가 삽입 과정에서 부러졌다 → 질문 종료&lt;/span&gt;</choiceText>
+        <dataType>String</dataType>
+        <value>
+            <stringValue>HEETS가 삽입 과정에서 부러졌다 → 질문 종료</stringValue>
+        </value>
+    </choices>
+    <choices>
+        <name>Q1_1_C3_2</name>
+        <choiceText>&lt;span style=&quot;font-size: 6pt; font-family: &amp;quot;맑은 고딕&amp;quot;; color: black;&quot;&gt;HEETS가 삽입 과정에서 심하게 찌그러졌다. → 질문 종료&lt;/span&gt;</choiceText>
+        <dataType>String</dataType>
+        <value>
+            <stringValue>HEETS가 삽입 과정에서 심하게 찌그러졌다. → 질문 종료</stringValue>
+        </value>
+    </choices>
+    <choices>
+        <name>Q1_1_C3_3</name>
+        <choiceText>&lt;span style=&quot;font-size: 6pt; font-family: &amp;quot;맑은 고딕&amp;quot;; color: black;&quot;&gt;HEETS의 파손이나 찌그러짐은 없으나, 빡빡하게 들어간다. (너무 꽉 끼어서 힘겹게 삽입해야 한다)&lt;/span&gt;</choiceText>
+        <dataType>String</dataType>
+        <value>
+            <stringValue>HEETS의 파손이나 찌그러짐은 없으나, 빡빡하게 들어간다. (너무 꽉 끼어서 힘겹게 삽입해야 한다)</stringValue>
+        </value>
+    </choices>
+    <choices>
+        <name>Q1_1_C4_1</name>
+        <choiceText>&lt;span style=&quot;color: black; font-family: &amp;quot;맑은 고딕&amp;quot;; font-size: 6pt;&quot;&gt;HEETS의 (담배가 있는) 처음부터 빡빡하게 삽입됨을 느낌.&lt;/span&gt;</choiceText>
+        <dataType>String</dataType>
+        <value>
+            <stringValue>HEETS의 (담배가 있는) 처음부터 빡빡하게 삽입됨을 느낌.</stringValue>
+        </value>
+    </choices>
+    <choices>
+        <name>Q1_1_C4_2</name>
+        <choiceText>&lt;span style=&quot;color: black; font-family: &amp;quot;맑은 고딕&amp;quot;; font-size: 6pt;&quot;&gt;HEETS가 절반 이상 삽입 되고, 은색 선 있는 부분까지 삽입할 때 느낌&lt;/span&gt;</choiceText>
+        <dataType>String</dataType>
+        <value>
+            <stringValue>HEETS가 절반 이상 삽입 되고, 은색 선 있는 부분까지 삽입할 때 느낌</stringValue>
+        </value>
+    </choices>
+    <choices>
+        <name>Q1_1_C4_3</name>
+        <choiceText>&lt;span style=&quot;color: black; font-family: &amp;quot;맑은 고딕&amp;quot;; font-size: 6pt;&quot;&gt;빡빡하게 삽입된 이후에, 사용하실 때 추가 문제는 없으셨습니까? (LNA, DTD, 이상 없음)&lt;/span&gt;</choiceText>
+        <dataType>String</dataType>
+        <value>
+            <stringValue>빡빡하게 삽입된 이후에, 사용하실 때 추가 문제는 없으셨습니까? (LNA, DTD, 이상 없음)</stringValue>
+        </value>
+    </choices>
+    <choices>
+        <name>Q1_1_C5_1</name>
+        <choiceText>&lt;span style=&quot;color: black; font-family: &amp;quot;맑은 고딕&amp;quot;; font-size: 6pt;&quot;&gt;엄지 손가락으로 위에서 누르듯이 삽입&lt;/span&gt;</choiceText>
+        <dataType>String</dataType>
+        <value>
+            <stringValue>엄지 손가락으로 위에서 누르듯이 삽입</stringValue>
+        </value>
+    </choices>
+    <choices>
+        <name>Q1_1_C5_2</name>
+        <choiceText>&lt;span style=&quot;color: black; font-family: &amp;quot;맑은 고딕&amp;quot;; font-size: 6pt;&quot;&gt;엄지와 검지로 HEETS를 옆에서 잡아 밀어 넣듯이 삽입&lt;/span&gt;</choiceText>
+        <dataType>String</dataType>
+        <value>
+            <stringValue>엄지와 검지로 HEETS를 옆에서 잡아 밀어 넣듯이 삽입</stringValue>
+        </value>
+    </choices>
+    <choices>
+        <name>Q1_1_C5_3</name>
+        <choiceText>&lt;span style=&quot;color: black; font-family: &amp;quot;맑은 고딕&amp;quot;; font-size: 6pt;&quot;&gt;기타 (추가 입력)&lt;/span&gt;</choiceText>
+        <dataType>String</dataType>
+        <value>
+            <stringValue>기타 (추가 입력)</stringValue>
+        </value>
+    </choices>
+    <choices>
+        <name>Q1_1_C6_1</name>
+        <choiceText>&lt;span style=&quot;color: black; font-family: &amp;quot;맑은 고딕&amp;quot;; font-size: 6pt;&quot;&gt;더 쉽게 삽입된다.&lt;/span&gt;</choiceText>
+        <dataType>String</dataType>
+        <value>
+            <stringValue>더 쉽게 삽입된다.</stringValue>
+        </value>
+    </choices>
+    <choices>
+        <name>Q1_1_C7_0</name>
+        <choiceText>--선택되지 않음--</choiceText>
+        <dataType>String</dataType>
+        <value>
+            <stringValue>선택되지 않음</stringValue>
+        </value>
+    </choices>
+    <choices>
+        <description>1</description>
+        <name>Q1_1_C7_1</name>
+        <choiceText>1</choiceText>
+        <dataType>String</dataType>
+        <value>
+            <stringValue>1</stringValue>
+        </value>
+    </choices>
+    <choices>
+        <description>10</description>
+        <name>Q1_1_C7_10</name>
+        <choiceText>10</choiceText>
+        <dataType>String</dataType>
+        <value>
+            <stringValue>10</stringValue>
+        </value>
+    </choices>
+    <choices>
+        <description>11</description>
+        <name>Q1_1_C7_11</name>
+        <choiceText>11</choiceText>
+        <dataType>String</dataType>
+        <value>
+            <stringValue>11</stringValue>
+        </value>
+    </choices>
+    <choices>
+        <description>12</description>
+        <name>Q1_1_C7_12</name>
+        <choiceText>12</choiceText>
+        <dataType>String</dataType>
+        <value>
+            <stringValue>12</stringValue>
+        </value>
+    </choices>
+    <choices>
+        <description>13</description>
+        <name>Q1_1_C7_13</name>
+        <choiceText>13</choiceText>
+        <dataType>String</dataType>
+        <value>
+            <stringValue>13</stringValue>
+        </value>
+    </choices>
+    <choices>
+        <description>14</description>
+        <name>Q1_1_C7_14</name>
+        <choiceText>14</choiceText>
+        <dataType>String</dataType>
+        <value>
+            <stringValue>14</stringValue>
+        </value>
+    </choices>
+    <choices>
+        <description>15</description>
+        <name>Q1_1_C7_15</name>
+        <choiceText>15</choiceText>
+        <dataType>String</dataType>
+        <value>
+            <stringValue>15</stringValue>
+        </value>
+    </choices>
+    <choices>
+        <description>16</description>
+        <name>Q1_1_C7_16</name>
+        <choiceText>16</choiceText>
+        <dataType>String</dataType>
+        <value>
+            <stringValue>16</stringValue>
+        </value>
+    </choices>
+    <choices>
+        <description>17</description>
+        <name>Q1_1_C7_17</name>
+        <choiceText>17</choiceText>
+        <dataType>String</dataType>
+        <value>
+            <stringValue>17</stringValue>
+        </value>
+    </choices>
+    <choices>
+        <description>18</description>
+        <name>Q1_1_C7_18</name>
+        <choiceText>18</choiceText>
+        <dataType>String</dataType>
+        <value>
+            <stringValue>18</stringValue>
+        </value>
+    </choices>
+    <choices>
+        <description>19</description>
+        <name>Q1_1_C7_19</name>
+        <choiceText>19</choiceText>
+        <dataType>String</dataType>
+        <value>
+            <stringValue>19</stringValue>
+        </value>
+    </choices>
+    <choices>
+        <description>2</description>
+        <name>Q1_1_C7_2</name>
+        <choiceText>2</choiceText>
+        <dataType>String</dataType>
+        <value>
+            <stringValue>2</stringValue>
+        </value>
+    </choices>
+    <choices>
+        <description>20</description>
+        <name>Q1_1_C7_20</name>
+        <choiceText>20</choiceText>
+        <dataType>String</dataType>
+        <value>
+            <stringValue>20</stringValue>
+        </value>
+    </choices>
+    <choices>
+        <description>3</description>
+        <name>Q1_1_C7_3</name>
+        <choiceText>3</choiceText>
+        <dataType>String</dataType>
+        <value>
+            <stringValue>3</stringValue>
+        </value>
+    </choices>
+    <choices>
+        <description>4</description>
+        <name>Q1_1_C7_4</name>
+        <choiceText>4</choiceText>
+        <dataType>String</dataType>
+        <value>
+            <stringValue>4</stringValue>
+        </value>
+    </choices>
+    <choices>
+        <description>5</description>
+        <name>Q1_1_C7_5</name>
+        <choiceText>5</choiceText>
+        <dataType>String</dataType>
+        <value>
+            <stringValue>5</stringValue>
+        </value>
+    </choices>
+    <choices>
+        <description>6</description>
+        <name>Q1_1_C7_6</name>
+        <choiceText>6</choiceText>
+        <dataType>String</dataType>
+        <value>
+            <stringValue>6</stringValue>
+        </value>
+    </choices>
+    <choices>
+        <description>7</description>
+        <name>Q1_1_C7_7</name>
+        <choiceText>7</choiceText>
+        <dataType>String</dataType>
+        <value>
+            <stringValue>7</stringValue>
+        </value>
+    </choices>
+    <choices>
+        <description>8</description>
+        <name>Q1_1_C7_8</name>
+        <choiceText>8</choiceText>
+        <dataType>String</dataType>
+        <value>
+            <stringValue>8</stringValue>
+        </value>
+    </choices>
+    <choices>
+        <description>9</description>
+        <name>Q1_1_C7_9</name>
+        <choiceText>9</choiceText>
+        <dataType>String</dataType>
+        <value>
+            <stringValue>9</stringValue>
+        </value>
+    </choices>
+    <choices>
+        <name>Q2_2_C1_1</name>
+        <choiceText>Duo</choiceText>
+        <dataType>String</dataType>
+        <value>
+            <stringValue>Duo</stringValue>
+        </value>
+    </choices>
+    <choices>
+        <name>Q2_2_C1_2</name>
+        <choiceText>3.0</choiceText>
+        <dataType>String</dataType>
+        <value>
+            <stringValue>3.0</stringValue>
+        </value>
+    </choices>
+    <choices>
+        <name>Q2_2_C1_3</name>
+        <choiceText>Multi</choiceText>
+        <dataType>String</dataType>
+        <value>
+            <stringValue>Multi</stringValue>
+        </value>
+    </choices>
+    <choices>
+        <name>Q2_2_C1_4</name>
+        <choiceText>2.4+</choiceText>
+        <dataType>String</dataType>
+        <value>
+            <stringValue>2.4+</stringValue>
+        </value>
+    </choices>
+    <choices>
+        <name>Q2_2_C1_5</name>
+        <choiceText>2개 이상</choiceText>
+        <dataType>String</dataType>
+        <value>
+            <stringValue>2개 이상</stringValue>
+        </value>
+    </choices>
+    <choices>
+        <name>Q2_3_C1_1</name>
+        <choiceText>&lt;span style=&quot;font-size: 6pt; font-family: &amp;quot;맑은 고딕&amp;quot;; color: black;&quot;&gt;평소보다 헐겁게 들어가는 느낌&lt;/span&gt;</choiceText>
+        <dataType>String</dataType>
+        <value>
+            <stringValue>평소보다 헐겁게 들어가는 느낌 </stringValue>
+        </value>
+    </choices>
+    <choices>
+        <name>Q2_3_C1_2</name>
+        <choiceText>&lt;span style=&quot;font-size: 6pt; font-family: &amp;quot;맑은 고딕&amp;quot;; color: black;&quot;&gt;평소랑 동일하게 들어가는 느낌&lt;/span&gt;</choiceText>
+        <dataType>String</dataType>
+        <value>
+            <stringValue>평소랑 동일하게 들어가는 느낌 </stringValue>
+        </value>
+    </choices>
+    <choices>
+        <name>Q2_3_C1_3</name>
+        <choiceText>&lt;span style=&quot;font-size: 6pt; font-family: &amp;quot;맑은 고딕&amp;quot;; color: black;&quot;&gt;평소보다 더 빡빡하게 들어가는 느낌&lt;/span&gt;</choiceText>
+        <dataType>String</dataType>
+        <value>
+            <stringValue>평소보다 더 빡빡하게 들어가는 느낌 </stringValue>
+        </value>
+    </choices>
+    <choices>
+        <name>Q2_4_C1_1</name>
+        <choiceText>&lt;span style=&quot;font-size: 6pt; font-family: &amp;quot;맑은 고딕&amp;quot;; color: black;&quot;&gt;빈 빨대를 빠는 느낌&lt;/span&gt;</choiceText>
+        <dataType>String</dataType>
+        <value>
+            <stringValue>빈 빨대를 빠는 느낌 </stringValue>
+        </value>
+    </choices>
+    <choices>
+        <name>Q2_4_C1_2</name>
+        <choiceText>&lt;span style=&quot;font-size: 6pt; font-family: &amp;quot;맑은 고딕&amp;quot;; color: black;&quot;&gt;꽉 막힌 빨대를 빠는 느낌&lt;/span&gt;</choiceText>
+        <dataType>String</dataType>
+        <value>
+            <stringValue>꽉 막힌 빨대를 빠는 느낌 </stringValue>
+        </value>
+    </choices>
+    <choices>
+        <name>Q2_4_C1_3</name>
+        <choiceText>&lt;span style=&quot;font-size: 6pt; font-family: &amp;quot;맑은 고딕&amp;quot;; color: black;&quot;&gt;특별한 느낌이 없으며 흡증시 타격감 / 증기량만 부족&lt;/span&gt;</choiceText>
+        <dataType>String</dataType>
+        <value>
+            <stringValue>특별한 느낌이 없으며 흡증시 타격감 / 증기량만 부족 </stringValue>
+        </value>
+    </choices>
+    <choices>
+        <name>Q2_5_C1_1</name>
+        <choiceText>&lt;span style=&quot;font-size: 6pt; font-family: &amp;quot;맑은 고딕&amp;quot;; color: black;&quot;&gt;첫 두모금 이내에 바로 발생&lt;/span&gt;</choiceText>
+        <dataType>String</dataType>
+        <value>
+            <stringValue>첫 두모금 이내에 바로 발생 </stringValue>
+        </value>
+    </choices>
+    <choices>
+        <name>Q2_5_C1_2</name>
+        <choiceText>&lt;span style=&quot;font-size: 6pt; font-family: &amp;quot;맑은 고딕&amp;quot;; color: black;&quot;&gt;두 모금 이후 ~ 중반 부분에 발생&lt;/span&gt;</choiceText>
+        <dataType>String</dataType>
+        <value>
+            <stringValue>두 모금 이후 ~ 중반 부분에 발생</stringValue>
+        </value>
+    </choices>
+    <choices>
+        <name>Q2_5_C1_3</name>
+        <choiceText>&lt;span style=&quot;font-size: 6pt; font-family: &amp;quot;맑은 고딕&amp;quot;; color: black;&quot;&gt;전체적으로 계속 증상 발생&lt;/span&gt;</choiceText>
+        <dataType>String</dataType>
+        <value>
+            <stringValue>전체적으로 계속 증상 발생 </stringValue>
+        </value>
+    </choices>
+    <choices>
+        <name>Same</name>
+        <choiceText>동일하다</choiceText>
+        <dataType>String</dataType>
+        <value>
+            <stringValue>동일</stringValue>
+        </value>
+    </choices>
+    <choices>
+        <description>동일함</description>
+        <name>Same_1</name>
+        <choiceText>동일함</choiceText>
+        <dataType>String</dataType>
+        <value>
+            <stringValue>동일함</stringValue>
+        </value>
+    </choices>
+    <choices>
+        <name>Y</name>
+        <choiceText>Y</choiceText>
+        <dataType>String</dataType>
+        <value>
+            <stringValue>Y</stringValue>
+        </value>
+    </choices>
+    <decisions>
+        <name>Q1_D1</name>
+        <label>문의 파악</label>
+        <locationX>710</locationX>
+        <locationY>518</locationY>
+        <defaultConnector>
+            <targetReference>Inquiry_Result_Asgmt</targetReference>
+        </defaultConnector>
+        <defaultConnectorLabel>Default Outcome</defaultConnectorLabel>
+        <rules>
+            <name>Q1_D1_O1</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>Q1_RB</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <elementReference>A1</elementReference>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Q1_D1_O1_1</targetReference>
+            </connector>
+            <label>DTI</label>
+        </rules>
+        <rules>
+            <name>Q1_D1_O2</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>Q1_RB</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <elementReference>A2</elementReference>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Q1_D1_O2_1</targetReference>
+            </connector>
+            <label>LNA</label>
+        </rules>
+        <rules>
+            <name>Q1_D1_O3</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>Q1_RB</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <elementReference>A3</elementReference>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Q1_D1_O3_1</targetReference>
+            </connector>
+            <label>맛 부족, 맛 이상함</label>
+        </rules>
+        <rules>
+            <name>Q1_D1_O4</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>Q1_RB</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <elementReference>A4</elementReference>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Q1_D1_O4_1</targetReference>
+            </connector>
+            <label>벌레</label>
+        </rules>
+        <rules>
+            <name>Q1_D1_O5</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>Q1_RB</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <elementReference>A5</elementReference>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Q1_D1_O5_1</targetReference>
+            </connector>
+            <label>곰팡이</label>
+        </rules>
+    </decisions>
+    <formulas>
+        <name>Inquiry_Footer</name>
+        <dataType>String</dataType>
+        <expression>&quot;-------------------------------------------&quot;</expression>
+    </formulas>
+    <formulas>
+        <name>Line_Break</name>
+        <dataType>String</dataType>
+        <expression>BR()</expression>
+    </formulas>
+    <formulas>
+        <name>Q1_1_R1</name>
+        <dataType>String</dataType>
+        <expression>&quot;Q. 현재 소지중인 갑에서 나온 불량인가요? : &quot;&amp;{!Q1_1_RB0}&amp;{!Line_Break}&amp;
+&quot;Q. 삽입이 어렵다면 잘 안 들어가는게 어느 지점 부터 일까요? : &quot;&amp;{!Q1_1_T2}&amp;{!Line_Break}&amp;
+&quot;Q. 청소를 하고 삽입해도 동일한가요? : &quot;&amp;{!Q1_1_RB1}&amp;{!Line_Break}&amp;
+&quot;Q. 예열을 한뒤 사용해 보셨나요? : &quot;&amp;{!Q1_1_RB2}&amp;{!Line_Break}&amp;
+&quot;Q. 한갑중 몇개 정도의 불량이 발생 하였나요? : &quot;&amp;({!Q1_1_PL1})&amp;{!Line_Break}&amp;
+&quot;Q. 사용하는 기기 버전? : &quot;&amp;{!Q1_1_PL2}&amp;{!Line_Break}&amp;
+&quot;Q. 이전 다른 기기를 사용해 보신적도 있으신가요? : &quot;&amp;{!Q1_1_RB3}&amp;{!Line_Break}&amp;
+&quot;Q. 소지하고 있는 히츠의 개피 수 : &quot;&amp;{!Q1_2_T1}&amp;{!Line_Break}&amp;
+&quot;Q. 미 사용 히츠를 홀더캡을 분리하여 삽입을 해봤을 시 동일 한가요? : &quot;&amp;{!Q1_2_RB1}&amp;{!Line_Break}&amp;
+&quot;Q. 현재 소지중인 갑에서 나온 불량인가요? : &quot;&amp;{!Q1_2_RB2}&amp;{!Line_Break}&amp;
+&quot;Q. 교환여부 : &quot;&amp;{!Q1_2_RB3}&amp;{!Line_Break}&amp;
+&quot;Q. 주소지 : &quot;&amp;{!Q1_2_T2}&amp;{!Line_Break}&amp;
+&quot;Q. 팩번호 : &quot;&amp;{!Q1_2_T3}&amp;{!Line_Break}&amp;
+{!Q1_3_DT1}&amp;{!Line_Break}&amp;
+&quot;1. 이 경험이 한 갑에서 몇 개피 발생하였습니까? : &quot;&amp;TEXT({!Q1_3_N1})&amp;{!Line_Break}&amp;
+&quot;2. 어려움이 발생하였을 때 사용하였던 IQOS 종류는 무엇입니까? (선택) : &quot;&amp;{!Q1_3_PL1}&amp;{!Line_Break}&amp;
+&quot;3. 고객님께서 느끼신 HEETS 삽입의 어려움은 무엇이었나요? (선택) : &quot;&amp;{!Q1_3_PL2}&amp;{!Line_Break}&amp;
+&quot;4. 빡빡하게 삽입된다면, 그 느낌을 경험한 지점이 대략 HEETS가 어느 정도 삽입되었을 때 입니까? (선택) : &quot;&amp;{!Q1_3_PL3}&amp;{!Line_Break}&amp;
+&quot;5. 고객님께서는 HEETS를 어떻게 삽입하십니까? (선택) : &quot;&amp;{!Q1_3_PL4}&amp;{!Line_Break}&amp;
+&quot;추가 입력 : &quot;&amp;{!Q1_3_T1}&amp;{!Line_Break}&amp;
+&quot;6. 고객이 추가 확인에 동의 하는 경우 진행:    IQOS로부터 Holder cap을 분리하여서 삽입을 시도했을 때에도 느끼는 어려움은 동일한가요? 혹은, 더 쉽게 삽입이 되나요? : &quot;&amp;{!Q1_3_PL5}&amp;{!Line_Break}</expression>
+    </formulas>
+    <formulas>
+        <name>Q1_1_R2</name>
+        <dataType>String</dataType>
+        <expression>&quot;Q. 한갑중 몇개 정도의 불량이 발생 하였나요? : &quot;&amp;({!Q2_1_PL1})&amp;{!Line_Break}&amp;
+&quot;Q. 사용하는 기기 버전? : &quot;&amp;{!Q2_1_PL2}&amp;{!Line_Break}&amp;
+&quot;Q. 은색선보다 더 깊게 삽입된 것은 아닌가요? : &quot;&amp;{!Q2_1_RB1}&amp;{!Line_Break}&amp;
+&quot;Q. 지금 소지하고 있는 갑에서만 문제가 발생하였습니까? : &quot;&amp;{!Q2_1_RB2}&amp;{!Line_Break}&amp;
+&quot;Q. 다른 종류의 히츠를 사용해 본 적이 있나요? : &quot;&amp;{!Q2_1_RB3}&amp;{!Line_Break}&amp;
+&quot;Q. 다른 종류의 히츠 사용시 동일문제가 있었나요? : &quot;&amp;{!Q2_2_RB1}&amp;{!Line_Break}&amp;
+&quot;Q. 청소 후 흡증 시에도 동일한가요? : &quot;&amp;{!Q2_2_RB2}&amp;{!Line_Break}&amp;
+&quot;Q. 소지하고 있는 히츠의 개피 수 : &quot;&amp;{!Q2_2_T1}&amp;{!Line_Break}&amp;
+&quot;Q. 교환여부 : &quot;&amp;{!Q2_2_RB3}&amp;{!Line_Break}&amp;
+&quot;Q. 주소지 : &quot;&amp;{!Q2_2_T2}&amp;{!Line_Break}&amp;
+&quot;Q. 팩번호 : &quot;&amp;{!Q2_2_T3}&amp;{!Line_Break}&amp;
+{!Q2_3_DT1}&amp;{!Line_Break}&amp;
+&quot;1. Q: 어떤 기기를 사용하십니까? (작년 11월 부터 2월까지의 LNA Complaints 가장 큰 비중 37% 가 Duo 유저에 의해 접수되었습니다 – Stick &amp; Holder Cap Dia. gap으로 인한 LNA occurrence를 증명하기 위해 사용될 예정입니다.) : &quot;&amp;{!Q2_3_PL1}&amp;{!Line_Break}&amp;
+&quot;1-1. 5번 선택시, 2개 이상 기기들간의 증상이 더 많이 발견되는 기기가 있습니까? : &quot;&amp;{!Q2_3_PL2}&amp;{!Line_Break}&amp;
+&quot;2. Q: 삽입시의 어떤 느낌이 들었습니까? : &quot;&amp;{!Q2_3_PL3}&amp;{!Line_Break}&amp;
+&quot;3. Q: 흡증 시 다음중 가장 비슷한 느낌이 뭐였나요? : &quot;&amp;{!Q2_3_PL4}&amp;{!Line_Break}&amp;
+&quot;4. Q: 흡증이 부족하다는 느낌은 몇 모금째에 발생합니까? : &quot;&amp;{!Q2_3_PL5}&amp;{!Line_Break}&amp;
+&quot;5. Q: 홀더캡의 색상을 얘기해주실 수 있나요? : &quot;&amp;{!Q2_3_T1}&amp;{!Line_Break}</expression>
+    </formulas>
+    <formulas>
+        <name>Q1_1_R3</name>
+        <dataType>String</dataType>
+        <expression>&quot;Q. 문제가 발생한 히츠의 종류는 무엇인가요? : &quot;&amp;{!Q3_1_T1}&amp;{!Line_Break}&amp;
+&quot;Q. 맛이 다르다는 점에 대해 구체적으로 말씀해 주세요. : &quot;&amp;{!Q3_1_T2}&amp;{!Line_Break}&amp;
+&quot;Q. 팩번호 취합 : &quot;&amp;{!Q3_1_T3}&amp;{!Line_Break}&amp;
+&quot;Q. 사용하는 기기 버전? : &quot;&amp;{!Q3_1_PL1}&amp;{!Line_Break}&amp;
+&quot;Q. 히츠 보관은 보통 어디에 하시나요? : &quot;&amp;{!Q3_1_T5}&amp;{!Line_Break}&amp;
+&quot;Q. 몇 모금 정도에 다르다는 느낌이 드는지? : &quot;&amp;{!Q3_1_T6}&amp;{!Line_Break}&amp;
+&quot;Q. 지금 소지중인 팩에서 나온 히츠 인지? : &quot;&amp;{!Q3_2_RB1}&amp;{!Line_Break}&amp;
+&quot;Q. 대략적인 구매 시기를 말씀해 주세요. : &quot;&amp;{!Q3_2_T1}&amp;{!Line_Break}&amp;
+&quot;Q. 다른 종류의 히츠 사용시 동일문제가 있었나요? : &quot;&amp;{!Q3_2_RB2}&amp;{!Line_Break}&amp;
+&quot;Q. 이물질 확인유무 : &quot;&amp;{!Q3_2_RB3}&amp;{!Line_Break}&amp;
+&quot;Q. 홀더 청소 이후에도 동일한 증상이 있나요? : &quot;&amp;{!Q3_2_RB4}&amp;{!Line_Break}&amp;
+&quot;Q. 소지하고 있는 히츠의 개피 수 : &quot;&amp;{!Q3_2_T2}&amp;{!Line_Break}&amp;
+&quot;Q. 교환여부 : &quot;&amp;{!Q3_2_RB5}&amp;{!Line_Break}&amp;
+&quot;Q. 주소지 : &quot;&amp;{!Q3_2_T3}&amp;{!Line_Break}</expression>
+    </formulas>
+    <formulas>
+        <name>Q1_1_R4</name>
+        <dataType>String</dataType>
+        <expression>&quot;Q. 어떤 종류의 히츠에서 벌레가 발견되었나요? : &quot;&amp;{!Q4_1_T1}&amp;{!Line_Break}&amp;
+&quot;Q. 발생한 문제에 대해 자세히 말씀해 주시겠습니까? : &quot;&amp;{!Q4_1_T2}&amp;{!Line_Break}&amp;
+&quot;Q. 팩번호 취합 : &quot;&amp;{!Q4_1_T3}&amp;{!Line_Break}&amp;
+&quot;Q. 사용하는 기기 버전? : &quot;&amp;{!Q4_1_PL1}&amp;{!Line_Break}&amp;
+&quot;Q. 사진을 촬영하여 보내주실 수 있을까요? : &quot;&amp;{!Q4_1_T5}&amp;{!Line_Break}&amp;
+&quot;Q. 해당 히츠 갑을 구매하신 시기는 언제쯤인가요? : &quot;&amp;{!Q4_1_T6}&amp;{!Line_Break}&amp;
+&quot;Q. 해당 히츠를 얼마에 구매하셨나요? : &quot;&amp;{!Q4_1_T7}&amp;{!Line_Break}&amp;
+&quot;Q. 해당 히츠를 구매하신 곳은 어디인가요? : &quot;&amp;{!Q4_2_T1}&amp;{!Line_Break}&amp;
+&quot;Q. 해당 히츠를 언제 개봉하셨나요? : &quot;&amp;{!Q4_2_T2}&amp;{!Line_Break}&amp;
+&quot;Q. 해당 히츠를 보관하신 환경은 어떻게 되나요? (장소, 개봉여부) : &quot;&amp;{!Q4_2_T3}&amp;{!Line_Break}&amp;
+&quot;Q. 발견된 벌레가 살아있는 상태로 발견이 되었나요? : &quot;&amp;{!Q4_2_RB1}&amp;{!Line_Break}&amp;
+&quot;Q. 팩을 열어둔 상태로 장시간 방치가 되었었나요? : &quot;&amp;{!Q4_2_RB2}&amp;{!Line_Break}&amp;
+&quot;Q. 해당 갑에 남아있는 히츠의 개피 수는 어떻게 되나요?: &quot;&amp;{!Q4_2_T4}&amp;{!Line_Break}&amp;
+&quot;Q. 교환여부 : &quot;&amp;{!Q4_2_RB3}&amp;{!Line_Break}&amp;
+&quot;Q. 주소지 : &quot;&amp;{!Q4_2_T5}&amp;{!Line_Break}</expression>
+    </formulas>
+    <formulas>
+        <name>Q1_1_R5</name>
+        <dataType>String</dataType>
+        <expression>&quot;Q. 어떤 종류의 히츠에서 곰팡이가 발견되었나요? : &quot;&amp;{!Q5_1_T1}&amp;{!Line_Break}&amp;
+&quot;Q. 발생한 문제에 대해 자세히 말씀해 주시겠습니까? : &quot;&amp;{!Q5_1_T2}&amp;{!Line_Break}&amp;
+&quot;Q. 곰팡이가 발견된 히츠갑 안의 다른 히츠를 사용하셨나요? : &quot;&amp;{!Q5_1_T3}&amp;{!Line_Break}&amp;
+&quot;Q. 해당 히츠 갑을 구매하신 시기는 언제쯤인가요? : &quot;&amp;{!Q5_1_T4}&amp;{!Line_Break}&amp;
+&quot;Q. 해당 히츠를 얼마에 구매하셨나요? : &quot;&amp;{!Q5_1_T5}&amp;{!Line_Break}&amp;
+&quot;Q. 해당 히츠를 구매하신 곳은 어디인가요? : &quot;&amp;{!Q5_1_T6}&amp;{!Line_Break}&amp;
+&quot;Q. 해당 히츠를 언제 개봉하셨나요? : &quot;&amp;{!Q5_2_T1}&amp;{!Line_Break}&amp;
+&quot;Q. 해당 히츠를 보관하신 환경은 어떻게 되나요? (장소, 개봉여부) : &quot;&amp;{!Q5_2_T2}&amp;{!Line_Break}&amp;
+&quot;Q. 사진을 촬영하여 보내주실 수 있을까요? : &quot;&amp;{!Q5_2_T3}&amp;{!Line_Break}&amp;
+&quot;Q. 해당 갑에 남아있는 히츠의 개피 수는 어떻게 되나요? : &quot;&amp;{!Q5_2_T4}&amp;{!Line_Break}&amp;
+&quot;Q. 교환여부 : &quot;&amp;{!Q5_2_RB1}&amp;{!Line_Break}&amp;
+&quot;Q. 주소지 : &quot;&amp;{!Q5_2_T5}&amp;{!Line_Break}</expression>
+    </formulas>
+    <formulas>
+        <name>TodayHeader</name>
+        <dataType>String</dataType>
+        <expression>{!Line_Break}&amp;{!Line_Break}&amp;&quot;-------------&quot;&amp;TEXT(DATE(YEAR(TODAY()),MONTH(TODAY()),DAY(TODAY())))&amp;&quot;-------------&quot;&amp;{!Line_Break}
+&amp;&apos;Heets&apos; &amp;{!Line_Break}&amp;
+&apos;문의 파악 : &apos; &amp;{!Q1_RB}&amp;{!Line_Break}&amp;
+&quot;[Inbound Call]&quot;&amp;{!Line_Break}</expression>
+    </formulas>
+    <interviewLabel>Case Heets {!$Flow.CurrentDateTime}</interviewLabel>
+    <label>Case Heets</label>
+    <processMetadataValues>
+        <name>BuilderType</name>
+        <value>
+            <stringValue>LightningFlowBuilder</stringValue>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
+        <name>CanvasMode</name>
+        <value>
+            <stringValue>AUTO_LAYOUT_CANVAS</stringValue>
+        </value>
+    </processMetadataValues>
+    <processMetadataValues>
+        <name>OriginBuilderType</name>
+        <value>
+            <stringValue>LightningFlowBuilder</stringValue>
+        </value>
+    </processMetadataValues>
+    <processType>Flow</processType>
+    <recordLookups>
+        <name>Get_Case</name>
+        <label>Get Case</label>
+        <locationX>710</locationX>
+        <locationY>158</locationY>
+        <assignNullValuesIfNoRecordsFound>false</assignNullValuesIfNoRecordsFound>
+        <connector>
+            <targetReference>Q1</targetReference>
+        </connector>
+        <filterLogic>and</filterLogic>
+        <filters>
+            <field>Id</field>
+            <operator>EqualTo</operator>
+            <value>
+                <elementReference>recordId</elementReference>
+            </value>
+        </filters>
+        <getFirstRecordOnly>true</getFirstRecordOnly>
+        <object>Case</object>
+        <storeOutputAutomatically>true</storeOutputAutomatically>
+    </recordLookups>
+    <recordUpdates>
+        <name>Update_InquiryResult</name>
+        <label>Update InquiryResult</label>
+        <locationX>710</locationX>
+        <locationY>1334</locationY>
+        <inputReference>Get_Case</inputReference>
+    </recordUpdates>
+    <screens>
+        <name>Q1</name>
+        <label>Q1</label>
+        <locationX>710</locationX>
+        <locationY>278</locationY>
+        <allowBack>true</allowBack>
+        <allowFinish>true</allowFinish>
+        <allowPause>true</allowPause>
+        <connector>
+            <targetReference>Set_Inquiry_Result</targetReference>
+        </connector>
+        <fields>
+            <name>Q1_RB</name>
+            <choiceReferences>A1</choiceReferences>
+            <choiceReferences>A2</choiceReferences>
+            <choiceReferences>A3</choiceReferences>
+            <choiceReferences>A4</choiceReferences>
+            <choiceReferences>A5</choiceReferences>
+            <dataType>String</dataType>
+            <fieldText>문의 파악</fieldText>
+            <fieldType>RadioButtons</fieldType>
+            <isRequired>true</isRequired>
+        </fields>
+        <showFooter>true</showFooter>
+        <showHeader>true</showHeader>
+    </screens>
+    <screens>
+        <name>Q1_D1_O1_1</name>
+        <label>DTI Q2</label>
+        <locationX>50</locationX>
+        <locationY>638</locationY>
+        <allowBack>true</allowBack>
+        <allowFinish>true</allowFinish>
+        <allowPause>true</allowPause>
+        <connector>
+            <targetReference>Q1_D1_O1_2</targetReference>
+        </connector>
+        <fields>
+            <name>Q1_1_RB0</name>
+            <choiceReferences>Y</choiceReferences>
+            <choiceReferences>N</choiceReferences>
+            <dataType>String</dataType>
+            <fieldText>Q. 현재 소지중인 갑에서 나온 불량인가요?</fieldText>
+            <fieldType>RadioButtons</fieldType>
+            <isRequired>false</isRequired>
+        </fields>
+        <fields>
+            <name>Q1_1_T2</name>
+            <dataType>String</dataType>
+            <fieldText>Q. 삽입이 어렵다면 잘 안 들어가는게 어느 지점 부터 일까요?</fieldText>
+            <fieldType>InputField</fieldType>
+            <isRequired>false</isRequired>
+        </fields>
+        <fields>
+            <name>Q1_1_RB1</name>
+            <choiceReferences>Y</choiceReferences>
+            <choiceReferences>N</choiceReferences>
+            <dataType>String</dataType>
+            <fieldText>Q. 청소를 하고 삽입해도 동일한가요?</fieldText>
+            <fieldType>RadioButtons</fieldType>
+            <isRequired>false</isRequired>
+        </fields>
+        <fields>
+            <name>Q1_1_RB2</name>
+            <choiceReferences>Y</choiceReferences>
+            <choiceReferences>N</choiceReferences>
+            <dataType>String</dataType>
+            <fieldText>Q. 예열을 한뒤 사용해 보셨나요?</fieldText>
+            <fieldType>RadioButtons</fieldType>
+            <isRequired>false</isRequired>
+        </fields>
+        <fields>
+            <name>Q1_1_PL1</name>
+            <choiceReferences>Q1_1_C7_0</choiceReferences>
+            <choiceReferences>Q1_1_C7_1</choiceReferences>
+            <choiceReferences>Q1_1_C7_2</choiceReferences>
+            <choiceReferences>Q1_1_C7_3</choiceReferences>
+            <choiceReferences>Q1_1_C7_4</choiceReferences>
+            <choiceReferences>Q1_1_C7_5</choiceReferences>
+            <choiceReferences>Q1_1_C7_6</choiceReferences>
+            <choiceReferences>Q1_1_C7_7</choiceReferences>
+            <choiceReferences>Q1_1_C7_8</choiceReferences>
+            <choiceReferences>Q1_1_C7_9</choiceReferences>
+            <choiceReferences>Q1_1_C7_10</choiceReferences>
+            <choiceReferences>Q1_1_C7_11</choiceReferences>
+            <choiceReferences>Q1_1_C7_12</choiceReferences>
+            <choiceReferences>Q1_1_C7_13</choiceReferences>
+            <choiceReferences>Q1_1_C7_14</choiceReferences>
+            <choiceReferences>Q1_1_C7_15</choiceReferences>
+            <choiceReferences>Q1_1_C7_16</choiceReferences>
+            <choiceReferences>Q1_1_C7_17</choiceReferences>
+            <choiceReferences>Q1_1_C7_18</choiceReferences>
+            <choiceReferences>Q1_1_C7_19</choiceReferences>
+            <choiceReferences>Q1_1_C7_20</choiceReferences>
+            <dataType>String</dataType>
+            <defaultSelectedChoiceReference>Q1_1_C7_0</defaultSelectedChoiceReference>
+            <fieldText>Q. 한갑중 몇개 정도의 불량이 발생 하였나요?</fieldText>
+            <fieldType>DropdownBox</fieldType>
+            <isRequired>true</isRequired>
+        </fields>
+        <fields>
+            <name>Q1_1_PL2</name>
+            <choiceReferences>Q1_1_C7_0</choiceReferences>
+            <choiceReferences>Q1_1_C1_1</choiceReferences>
+            <choiceReferences>Q1_1_C1_2</choiceReferences>
+            <choiceReferences>Q1_1_C1_3</choiceReferences>
+            <choiceReferences>Q1_1_C1_4</choiceReferences>
+            <choiceReferences>Q1_1_C1_5</choiceReferences>
+            <dataType>String</dataType>
+            <defaultSelectedChoiceReference>Q1_1_C7_0</defaultSelectedChoiceReference>
+            <fieldText>Q. 사용하는 기기 버전?</fieldText>
+            <fieldType>DropdownBox</fieldType>
+            <isRequired>true</isRequired>
+        </fields>
+        <fields>
+            <name>Q1_1_RB3</name>
+            <choiceReferences>Y</choiceReferences>
+            <choiceReferences>N</choiceReferences>
+            <dataType>String</dataType>
+            <fieldText>Q. 이전 다른 기기를 사용해 보신적도 있으신가요?</fieldText>
+            <fieldType>RadioButtons</fieldType>
+            <isRequired>false</isRequired>
+        </fields>
+        <showFooter>true</showFooter>
+        <showHeader>true</showHeader>
+    </screens>
+    <screens>
+        <name>Q1_D1_O1_2</name>
+        <label>DTI Q3</label>
+        <locationX>50</locationX>
+        <locationY>758</locationY>
+        <allowBack>true</allowBack>
+        <allowFinish>true</allowFinish>
+        <allowPause>true</allowPause>
+        <connector>
+            <targetReference>Q1_D1_O1_3</targetReference>
+        </connector>
+        <fields>
+            <name>Q1_2_T1</name>
+            <dataType>String</dataType>
+            <defaultValue>
+                <stringValue>불량 -      / 미사용 -   </stringValue>
+            </defaultValue>
+            <fieldText>Q. 소지하고 있는 히츠의 개피 수</fieldText>
+            <fieldType>InputField</fieldType>
+            <isRequired>false</isRequired>
+        </fields>
+        <fields>
+            <name>Q1_2_RB1</name>
+            <choiceReferences>Same</choiceReferences>
+            <choiceReferences>NoTry</choiceReferences>
+            <dataType>String</dataType>
+            <fieldText>Q. 미 사용 히츠를 홀더캡을 분리하여 삽입을 해봤을 시 동일 한가요?</fieldText>
+            <fieldType>RadioButtons</fieldType>
+            <isRequired>false</isRequired>
+        </fields>
+        <fields>
+            <name>Q1_2_RB2</name>
+            <choiceReferences>Y</choiceReferences>
+            <choiceReferences>N</choiceReferences>
+            <dataType>String</dataType>
+            <fieldText>Q. 현재 소지중인 갑에서 나온 불량인가요?</fieldText>
+            <fieldType>RadioButtons</fieldType>
+            <isRequired>false</isRequired>
+        </fields>
+        <fields>
+            <name>Q1_2_RB3</name>
+            <choiceReferences>Y</choiceReferences>
+            <choiceReferences>N</choiceReferences>
+            <dataType>String</dataType>
+            <fieldText>Q. 교환여부</fieldText>
+            <fieldType>RadioButtons</fieldType>
+            <isRequired>false</isRequired>
+        </fields>
+        <fields>
+            <name>Q1_2_T2</name>
+            <dataType>String</dataType>
+            <fieldText>Q. 주소지</fieldText>
+            <fieldType>InputField</fieldType>
+            <isRequired>false</isRequired>
+            <visibilityRule>
+                <conditionLogic>and</conditionLogic>
+                <conditions>
+                    <leftValueReference>Q1_2_RB3</leftValueReference>
+                    <operator>EqualTo</operator>
+                    <rightValue>
+                        <elementReference>Y</elementReference>
+                    </rightValue>
+                </conditions>
+            </visibilityRule>
+        </fields>
+        <fields>
+            <name>Q1_2_T3</name>
+            <dataType>String</dataType>
+            <fieldText>Q. 팩번호</fieldText>
+            <fieldType>InputField</fieldType>
+            <isRequired>false</isRequired>
+        </fields>
+        <showFooter>true</showFooter>
+        <showHeader>true</showHeader>
+    </screens>
+    <screens>
+        <name>Q1_D1_O1_3</name>
+        <label>DTI Q4</label>
+        <locationX>50</locationX>
+        <locationY>878</locationY>
+        <allowBack>true</allowBack>
+        <allowFinish>true</allowFinish>
+        <allowPause>true</allowPause>
+        <connector>
+            <targetReference>Q1_A1</targetReference>
+        </connector>
+        <fields>
+            <name>Q1_3_DT1</name>
+            <fieldText>&lt;p&gt;&lt;span style=&quot;font-size: 16px; font-family: &amp;quot;맑은 고딕&amp;quot;; color: black;&quot;&gt;- 청소 여부 확인&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;font-size: 16px; font-family: &amp;quot;맑은 고딕&amp;quot;; color: black;&quot;&gt;- 홀더캡에 이물질 확인 및 예열 후 삽입시 동일 증상 발생 여부 확인&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;font-size: 16px; font-family: &amp;quot;맑은 고딕&amp;quot;; color: black;&quot;&gt;- 소지중인 히츠를 홀더 캡 분리하여 삽입 시도&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;font-size: 16px; font-family: &amp;quot;맑은 고딕&amp;quot;; color: black;&quot;&gt;- 아래 질문 진행&lt;/span&gt;&lt;/p&gt;</fieldText>
+            <fieldType>DisplayText</fieldType>
+        </fields>
+        <fields>
+            <name>Q1_3_N1</name>
+            <dataType>Number</dataType>
+            <fieldText>1. 이 경험이 한 갑에서 몇 개피 발생하였습니까?</fieldText>
+            <fieldType>InputField</fieldType>
+            <isRequired>true</isRequired>
+            <scale>0</scale>
+        </fields>
+        <fields>
+            <name>Q1_3_PL1</name>
+            <choiceReferences>Q1_1_C7_0</choiceReferences>
+            <choiceReferences>Q1_1_C2_1</choiceReferences>
+            <choiceReferences>Q1_1_C2_2</choiceReferences>
+            <choiceReferences>Q1_1_C2_3</choiceReferences>
+            <choiceReferences>Q1_1_C2_4</choiceReferences>
+            <choiceReferences>Q1_1_C2_5</choiceReferences>
+            <dataType>String</dataType>
+            <defaultSelectedChoiceReference>Q1_1_C7_0</defaultSelectedChoiceReference>
+            <fieldText>2. 어려움이 발생하였을 때 사용하였던 IQOS 종류는 무엇입니까? (선택)</fieldText>
+            <fieldType>DropdownBox</fieldType>
+            <isRequired>true</isRequired>
+        </fields>
+        <fields>
+            <name>Q1_3_PL2</name>
+            <choiceReferences>Q1_1_C7_0</choiceReferences>
+            <choiceReferences>Q1_1_C3_1</choiceReferences>
+            <choiceReferences>Q1_1_C3_2</choiceReferences>
+            <choiceReferences>Q1_1_C3_3</choiceReferences>
+            <dataType>String</dataType>
+            <defaultSelectedChoiceReference>Q1_1_C7_0</defaultSelectedChoiceReference>
+            <fieldText>3. 고객님께서 느끼신 HEETS 삽입의 어려움은 무엇이었나요? (선택)</fieldText>
+            <fieldType>DropdownBox</fieldType>
+            <isRequired>true</isRequired>
+        </fields>
+        <fields>
+            <name>Q1_3_PL3</name>
+            <choiceReferences>Q1_1_C7_0</choiceReferences>
+            <choiceReferences>Q1_1_C4_1</choiceReferences>
+            <choiceReferences>Q1_1_C4_2</choiceReferences>
+            <choiceReferences>Q1_1_C4_3</choiceReferences>
+            <dataType>String</dataType>
+            <defaultSelectedChoiceReference>Q1_1_C7_0</defaultSelectedChoiceReference>
+            <fieldText>4. 빡빡하게 삽입된다면, 그 느낌을 경험한 지점이 대략 HEETS가 어느 정도 삽입되었을 때 입니까? (선택)</fieldText>
+            <fieldType>DropdownBox</fieldType>
+            <isRequired>true</isRequired>
+            <visibilityRule>
+                <conditionLogic>and</conditionLogic>
+                <conditions>
+                    <leftValueReference>Q1_3_PL2</leftValueReference>
+                    <operator>EqualTo</operator>
+                    <rightValue>
+                        <elementReference>Q1_1_C3_3</elementReference>
+                    </rightValue>
+                </conditions>
+            </visibilityRule>
+        </fields>
+        <fields>
+            <name>Q1_3_PL4</name>
+            <choiceReferences>Q1_1_C7_0</choiceReferences>
+            <choiceReferences>Q1_1_C5_1</choiceReferences>
+            <choiceReferences>Q1_1_C5_2</choiceReferences>
+            <choiceReferences>Q1_1_C5_3</choiceReferences>
+            <dataType>String</dataType>
+            <defaultSelectedChoiceReference>Q1_1_C7_0</defaultSelectedChoiceReference>
+            <fieldText>5. 고객님께서는 HEETS를 어떻게 삽입하십니까? (선택)</fieldText>
+            <fieldType>DropdownBox</fieldType>
+            <isRequired>true</isRequired>
+            <visibilityRule>
+                <conditionLogic>and</conditionLogic>
+                <conditions>
+                    <leftValueReference>Q1_3_PL2</leftValueReference>
+                    <operator>EqualTo</operator>
+                    <rightValue>
+                        <elementReference>Q1_1_C3_3</elementReference>
+                    </rightValue>
+                </conditions>
+            </visibilityRule>
+        </fields>
+        <fields>
+            <name>Q1_3_T1</name>
+            <dataType>String</dataType>
+            <fieldText>추가 입력</fieldText>
+            <fieldType>InputField</fieldType>
+            <isRequired>false</isRequired>
+            <visibilityRule>
+                <conditionLogic>and</conditionLogic>
+                <conditions>
+                    <leftValueReference>Q1_3_PL4</leftValueReference>
+                    <operator>EqualTo</operator>
+                    <rightValue>
+                        <elementReference>Q1_1_C5_3</elementReference>
+                    </rightValue>
+                </conditions>
+            </visibilityRule>
+        </fields>
+        <fields>
+            <name>Q1_3_PL5</name>
+            <choiceReferences>Q1_1_C7_0</choiceReferences>
+            <choiceReferences>Same</choiceReferences>
+            <choiceReferences>Q1_1_C6_1</choiceReferences>
+            <dataType>String</dataType>
+            <defaultSelectedChoiceReference>Q1_1_C7_0</defaultSelectedChoiceReference>
+            <fieldText>6. 고객이 추가 확인에 동의 하는 경우 진행:    IQOS로부터 Holder cap을 분리하여서 삽입을 시도했을 때에도 느끼는 어려움은 동일한가요? 혹은, 더 쉽게 삽입이 되나요?</fieldText>
+            <fieldType>DropdownBox</fieldType>
+            <isRequired>true</isRequired>
+            <visibilityRule>
+                <conditionLogic>and</conditionLogic>
+                <conditions>
+                    <leftValueReference>Q1_3_PL2</leftValueReference>
+                    <operator>EqualTo</operator>
+                    <rightValue>
+                        <elementReference>Q1_1_C3_3</elementReference>
+                    </rightValue>
+                </conditions>
+            </visibilityRule>
+        </fields>
+        <showFooter>true</showFooter>
+        <showHeader>true</showHeader>
+    </screens>
+    <screens>
+        <name>Q1_D1_O2_1</name>
+        <label>LNA Q2</label>
+        <locationX>314</locationX>
+        <locationY>638</locationY>
+        <allowBack>true</allowBack>
+        <allowFinish>true</allowFinish>
+        <allowPause>true</allowPause>
+        <connector>
+            <targetReference>Q1_D1_O2_2</targetReference>
+        </connector>
+        <fields>
+            <name>Q2_1_PL1</name>
+            <choiceReferences>Q1_1_C7_0</choiceReferences>
+            <choiceReferences>Q1_1_C7_1</choiceReferences>
+            <choiceReferences>Q1_1_C7_2</choiceReferences>
+            <choiceReferences>Q1_1_C7_3</choiceReferences>
+            <choiceReferences>Q1_1_C7_4</choiceReferences>
+            <choiceReferences>Q1_1_C7_5</choiceReferences>
+            <choiceReferences>Q1_1_C7_6</choiceReferences>
+            <choiceReferences>Q1_1_C7_7</choiceReferences>
+            <choiceReferences>Q1_1_C7_8</choiceReferences>
+            <choiceReferences>Q1_1_C7_9</choiceReferences>
+            <choiceReferences>Q1_1_C7_10</choiceReferences>
+            <choiceReferences>Q1_1_C7_11</choiceReferences>
+            <choiceReferences>Q1_1_C7_12</choiceReferences>
+            <choiceReferences>Q1_1_C7_13</choiceReferences>
+            <choiceReferences>Q1_1_C7_14</choiceReferences>
+            <choiceReferences>Q1_1_C7_15</choiceReferences>
+            <choiceReferences>Q1_1_C7_16</choiceReferences>
+            <choiceReferences>Q1_1_C7_17</choiceReferences>
+            <choiceReferences>Q1_1_C7_18</choiceReferences>
+            <choiceReferences>Q1_1_C7_19</choiceReferences>
+            <choiceReferences>Q1_1_C7_20</choiceReferences>
+            <dataType>String</dataType>
+            <defaultSelectedChoiceReference>Q1_1_C7_0</defaultSelectedChoiceReference>
+            <fieldText>Q. 한갑중 몇개 정도의 불량이 발생 하였나요?</fieldText>
+            <fieldType>DropdownBox</fieldType>
+            <isRequired>true</isRequired>
+        </fields>
+        <fields>
+            <name>Q2_1_PL2</name>
+            <choiceReferences>Q1_1_C7_0</choiceReferences>
+            <choiceReferences>Q1_1_C1_1</choiceReferences>
+            <choiceReferences>Q1_1_C1_2</choiceReferences>
+            <choiceReferences>Q1_1_C1_3</choiceReferences>
+            <choiceReferences>Q1_1_C1_4</choiceReferences>
+            <choiceReferences>Q1_1_C1_5</choiceReferences>
+            <dataType>String</dataType>
+            <defaultSelectedChoiceReference>Q1_1_C7_0</defaultSelectedChoiceReference>
+            <fieldText>Q. 사용하는 기기 버전?</fieldText>
+            <fieldType>DropdownBox</fieldType>
+            <isRequired>true</isRequired>
+        </fields>
+        <fields>
+            <name>Q2_1_RB1</name>
+            <choiceReferences>Y</choiceReferences>
+            <choiceReferences>N</choiceReferences>
+            <dataType>String</dataType>
+            <fieldText>Q. 은색선보다 더 깊게 삽입된 것은 아닌가요?</fieldText>
+            <fieldType>RadioButtons</fieldType>
+            <isRequired>false</isRequired>
+        </fields>
+        <fields>
+            <name>Q2_1_RB2</name>
+            <choiceReferences>Y</choiceReferences>
+            <choiceReferences>N</choiceReferences>
+            <dataType>String</dataType>
+            <fieldText>Q. 지금 소지하고 있는 갑에서만 문제가 발생하였습니까?</fieldText>
+            <fieldType>RadioButtons</fieldType>
+            <isRequired>false</isRequired>
+        </fields>
+        <fields>
+            <name>Q2_1_RB3</name>
+            <choiceReferences>Y</choiceReferences>
+            <choiceReferences>N</choiceReferences>
+            <dataType>String</dataType>
+            <fieldText>Q. 다른 종류의 히츠를 사용해 본 적이 있나요?</fieldText>
+            <fieldType>RadioButtons</fieldType>
+            <isRequired>false</isRequired>
+        </fields>
+        <showFooter>true</showFooter>
+        <showHeader>true</showHeader>
+    </screens>
+    <screens>
+        <name>Q1_D1_O2_2</name>
+        <label>LNA Q3</label>
+        <locationX>314</locationX>
+        <locationY>758</locationY>
+        <allowBack>true</allowBack>
+        <allowFinish>true</allowFinish>
+        <allowPause>true</allowPause>
+        <connector>
+            <targetReference>Q1_D1_O2_3</targetReference>
+        </connector>
+        <fields>
+            <name>Q2_2_RB1</name>
+            <choiceReferences>Y</choiceReferences>
+            <choiceReferences>N</choiceReferences>
+            <dataType>String</dataType>
+            <fieldText>Q. 다른 종류의 히츠 사용시 동일문제가 있었나요?</fieldText>
+            <fieldType>RadioButtons</fieldType>
+            <isRequired>false</isRequired>
+        </fields>
+        <fields>
+            <name>Q2_2_RB2</name>
+            <choiceReferences>Same_1</choiceReferences>
+            <choiceReferences>improvement_1</choiceReferences>
+            <dataType>String</dataType>
+            <fieldText>Q. 청소 후 흡증 시에도 동일한가요?</fieldText>
+            <fieldType>RadioButtons</fieldType>
+            <isRequired>false</isRequired>
+        </fields>
+        <fields>
+            <name>Q2_2_T1</name>
+            <dataType>String</dataType>
+            <defaultValue>
+                <stringValue>불량 -      / 미사용 -   </stringValue>
+            </defaultValue>
+            <fieldText>Q. 소지하고 있는 히츠의 개피 수</fieldText>
+            <fieldType>InputField</fieldType>
+            <isRequired>false</isRequired>
+        </fields>
+        <fields>
+            <name>Q2_2_RB3</name>
+            <choiceReferences>Y</choiceReferences>
+            <choiceReferences>N</choiceReferences>
+            <dataType>String</dataType>
+            <fieldText>Q. 교환여부</fieldText>
+            <fieldType>RadioButtons</fieldType>
+            <isRequired>false</isRequired>
+        </fields>
+        <fields>
+            <name>Q2_2_T2</name>
+            <dataType>String</dataType>
+            <fieldText>Q. 주소지</fieldText>
+            <fieldType>InputField</fieldType>
+            <isRequired>false</isRequired>
+            <visibilityRule>
+                <conditionLogic>and</conditionLogic>
+                <conditions>
+                    <leftValueReference>Q2_2_RB3</leftValueReference>
+                    <operator>EqualTo</operator>
+                    <rightValue>
+                        <elementReference>Y</elementReference>
+                    </rightValue>
+                </conditions>
+            </visibilityRule>
+        </fields>
+        <fields>
+            <name>Q2_2_T3</name>
+            <dataType>String</dataType>
+            <fieldText>Q. 팩번호</fieldText>
+            <fieldType>InputField</fieldType>
+            <isRequired>false</isRequired>
+        </fields>
+        <showFooter>true</showFooter>
+        <showHeader>true</showHeader>
+    </screens>
+    <screens>
+        <name>Q1_D1_O2_3</name>
+        <label>LNA Q4</label>
+        <locationX>314</locationX>
+        <locationY>878</locationY>
+        <allowBack>true</allowBack>
+        <allowFinish>true</allowFinish>
+        <allowPause>true</allowPause>
+        <connector>
+            <targetReference>Q1_A2</targetReference>
+        </connector>
+        <fields>
+            <name>Q2_3_DT1</name>
+            <fieldText>&lt;p&gt;&lt;span style=&quot;color: black; font-family: &amp;quot;맑은 고딕&amp;quot;; font-size: 16px;&quot;&gt;- 청소 여부 확인&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;color: black; font-family: &amp;quot;맑은 고딕&amp;quot;; font-size: 16px;&quot;&gt;- 홀더캡에 이물질 확인 및 예열 후 삽입시 동일 증상 발생 여부 확인&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;color: black; font-family: &amp;quot;맑은 고딕&amp;quot;; font-size: 16px;&quot;&gt;- 소지중인 히츠를 홀더 캡 분리하여 삽입 시도&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;color: black; font-family: &amp;quot;맑은 고딕&amp;quot;; font-size: 16px;&quot;&gt;- 아래 질문 진행&lt;/span&gt;&lt;/p&gt;</fieldText>
+            <fieldType>DisplayText</fieldType>
+        </fields>
+        <fields>
+            <name>Q2_3_PL1</name>
+            <choiceReferences>Q1_1_C7_0</choiceReferences>
+            <choiceReferences>Q2_2_C1_1</choiceReferences>
+            <choiceReferences>Q2_2_C1_2</choiceReferences>
+            <choiceReferences>Q2_2_C1_3</choiceReferences>
+            <choiceReferences>Q2_2_C1_4</choiceReferences>
+            <choiceReferences>Q2_2_C1_5</choiceReferences>
+            <dataType>String</dataType>
+            <defaultSelectedChoiceReference>Q1_1_C7_0</defaultSelectedChoiceReference>
+            <fieldText>1. Q: 어떤 기기를 사용하십니까? (작년 11월 부터 2월까지의 LNA Complaints 가장 큰 비중 37% 가 Duo 유저에 의해 접수되었습니다 – Stick &amp; Holder Cap Dia. gap으로 인한 LNA occurrence를 증명하기 위해 사용될 예정입니다.)</fieldText>
+            <fieldType>DropdownBox</fieldType>
+            <isRequired>true</isRequired>
+        </fields>
+        <fields>
+            <name>Q2_3_PL2</name>
+            <choiceReferences>Q1_1_C7_0</choiceReferences>
+            <choiceReferences>Q2_2_C1_1</choiceReferences>
+            <choiceReferences>Q2_2_C1_2</choiceReferences>
+            <choiceReferences>Q2_2_C1_3</choiceReferences>
+            <choiceReferences>Q2_2_C1_4</choiceReferences>
+            <dataType>String</dataType>
+            <defaultSelectedChoiceReference>Q1_1_C7_0</defaultSelectedChoiceReference>
+            <fieldText>1-1. 5번 선택시, 2개 이상 기기들간의 증상이 더 많이 발견되는 기기가 있습니까?</fieldText>
+            <fieldType>DropdownBox</fieldType>
+            <isRequired>true</isRequired>
+            <visibilityRule>
+                <conditionLogic>and</conditionLogic>
+                <conditions>
+                    <leftValueReference>Q2_3_PL1</leftValueReference>
+                    <operator>EqualTo</operator>
+                    <rightValue>
+                        <elementReference>Q2_2_C1_5</elementReference>
+                    </rightValue>
+                </conditions>
+            </visibilityRule>
+        </fields>
+        <fields>
+            <name>Q2_3_PL3</name>
+            <choiceReferences>Q1_1_C7_0</choiceReferences>
+            <choiceReferences>Q2_3_C1_1</choiceReferences>
+            <choiceReferences>Q2_3_C1_2</choiceReferences>
+            <choiceReferences>Q2_3_C1_3</choiceReferences>
+            <dataType>String</dataType>
+            <defaultSelectedChoiceReference>Q1_1_C7_0</defaultSelectedChoiceReference>
+            <fieldText>2. Q: 삽입시의 어떤 느낌이 들었습니까?</fieldText>
+            <fieldType>DropdownBox</fieldType>
+            <isRequired>true</isRequired>
+        </fields>
+        <fields>
+            <name>Q2_3_PL4</name>
+            <choiceReferences>Q1_1_C7_0</choiceReferences>
+            <choiceReferences>Q2_4_C1_1</choiceReferences>
+            <choiceReferences>Q2_4_C1_2</choiceReferences>
+            <choiceReferences>Q2_4_C1_3</choiceReferences>
+            <dataType>String</dataType>
+            <defaultSelectedChoiceReference>Q1_1_C7_0</defaultSelectedChoiceReference>
+            <fieldText>3. Q: 흡증 시 다음중 가장 비슷한 느낌이 뭐였나요?</fieldText>
+            <fieldType>DropdownBox</fieldType>
+            <isRequired>true</isRequired>
+        </fields>
+        <fields>
+            <name>Q2_3_PL5</name>
+            <choiceReferences>Q1_1_C7_0</choiceReferences>
+            <choiceReferences>Q2_5_C1_1</choiceReferences>
+            <choiceReferences>Q2_5_C1_2</choiceReferences>
+            <choiceReferences>Q2_5_C1_3</choiceReferences>
+            <dataType>String</dataType>
+            <defaultSelectedChoiceReference>Q1_1_C7_0</defaultSelectedChoiceReference>
+            <fieldText>4. Q: 흡증이 부족하다는 느낌은 몇 모금째에 발생합니까?</fieldText>
+            <fieldType>DropdownBox</fieldType>
+            <isRequired>true</isRequired>
+        </fields>
+        <fields>
+            <name>Q2_3_T1</name>
+            <dataType>String</dataType>
+            <fieldText>5. Q: 홀더캡의 색상을 얘기해주실 수 있나요?</fieldText>
+            <fieldType>InputField</fieldType>
+            <isRequired>true</isRequired>
+        </fields>
+        <showFooter>true</showFooter>
+        <showHeader>true</showHeader>
+    </screens>
+    <screens>
+        <name>Q1_D1_O3_1</name>
+        <label>맛 부족 Q2</label>
+        <locationX>578</locationX>
+        <locationY>638</locationY>
+        <allowBack>true</allowBack>
+        <allowFinish>true</allowFinish>
+        <allowPause>true</allowPause>
+        <connector>
+            <targetReference>Q1_D1_O3_2</targetReference>
+        </connector>
+        <fields>
+            <name>Q3_1_T1</name>
+            <dataType>String</dataType>
+            <fieldText>Q. 문제가 발생한 히츠의 종류는 무엇인가요?</fieldText>
+            <fieldType>InputField</fieldType>
+            <isRequired>false</isRequired>
+        </fields>
+        <fields>
+            <name>Q3_1_T2</name>
+            <dataType>String</dataType>
+            <fieldText>Q. 맛이 다르다는 점에 대해 구체적으로 말씀해 주세요.</fieldText>
+            <fieldType>InputField</fieldType>
+            <isRequired>false</isRequired>
+        </fields>
+        <fields>
+            <name>Q3_1_T7</name>
+            <dataType>String</dataType>
+            <fieldText>Q. 지금 소지중인 팩에서 나온 히츠 인지?</fieldText>
+            <fieldType>InputField</fieldType>
+            <isRequired>false</isRequired>
+        </fields>
+        <fields>
+            <name>Q3_1_T3</name>
+            <dataType>String</dataType>
+            <fieldText>Q. 팩번호 취합</fieldText>
+            <fieldType>InputField</fieldType>
+            <isRequired>false</isRequired>
+        </fields>
+        <fields>
+            <name>Q3_1_PL1</name>
+            <choiceReferences>Q1_1_C7_0</choiceReferences>
+            <choiceReferences>Q1_1_C1_1</choiceReferences>
+            <choiceReferences>Q1_1_C1_2</choiceReferences>
+            <choiceReferences>Q1_1_C1_3</choiceReferences>
+            <choiceReferences>Q1_1_C1_4</choiceReferences>
+            <choiceReferences>Q1_1_C1_5</choiceReferences>
+            <dataType>String</dataType>
+            <defaultSelectedChoiceReference>Q1_1_C7_0</defaultSelectedChoiceReference>
+            <fieldText>Q. 사용하는 기기 버전?</fieldText>
+            <fieldType>DropdownBox</fieldType>
+            <isRequired>true</isRequired>
+        </fields>
+        <fields>
+            <name>Q3_1_T5</name>
+            <dataType>String</dataType>
+            <fieldText>Q. 히츠 보관은 보통 어디에 하시나요?</fieldText>
+            <fieldType>InputField</fieldType>
+            <isRequired>false</isRequired>
+        </fields>
+        <fields>
+            <name>Q3_1_T6</name>
+            <dataType>String</dataType>
+            <fieldText>Q. 몇 모금 정도에 다르다는 느낌이 드는지?</fieldText>
+            <fieldType>InputField</fieldType>
+            <isRequired>false</isRequired>
+        </fields>
+        <showFooter>true</showFooter>
+        <showHeader>true</showHeader>
+    </screens>
+    <screens>
+        <name>Q1_D1_O3_2</name>
+        <label>맛부족 Q3</label>
+        <locationX>578</locationX>
+        <locationY>758</locationY>
+        <allowBack>true</allowBack>
+        <allowFinish>true</allowFinish>
+        <allowPause>true</allowPause>
+        <connector>
+            <targetReference>Q1_A3</targetReference>
+        </connector>
+        <fields>
+            <name>Q3_2_RB1</name>
+            <choiceReferences>Y</choiceReferences>
+            <choiceReferences>N</choiceReferences>
+            <dataType>String</dataType>
+            <fieldText>Q. 지금 소지중인 팩에서 나온 히츠 인지?</fieldText>
+            <fieldType>RadioButtons</fieldType>
+            <isRequired>false</isRequired>
+        </fields>
+        <fields>
+            <name>Q3_2_T1</name>
+            <dataType>String</dataType>
+            <fieldText>Q. 대략적인 구매 시기를 말씀해 주세요.</fieldText>
+            <fieldType>InputField</fieldType>
+            <isRequired>false</isRequired>
+        </fields>
+        <fields>
+            <name>Q3_2_RB2</name>
+            <choiceReferences>Y</choiceReferences>
+            <choiceReferences>N</choiceReferences>
+            <dataType>String</dataType>
+            <fieldText>Q. 다른 종류의 히츠 사용시 동일문제가 있었나요?</fieldText>
+            <fieldType>RadioButtons</fieldType>
+            <isRequired>false</isRequired>
+        </fields>
+        <fields>
+            <name>Q3_2_RB3</name>
+            <choiceReferences>Y</choiceReferences>
+            <choiceReferences>N</choiceReferences>
+            <dataType>String</dataType>
+            <fieldText>Q. 이물질 확인유무</fieldText>
+            <fieldType>RadioButtons</fieldType>
+            <isRequired>false</isRequired>
+        </fields>
+        <fields>
+            <name>Q3_2_RB4</name>
+            <choiceReferences>Y</choiceReferences>
+            <choiceReferences>N</choiceReferences>
+            <dataType>String</dataType>
+            <fieldText>Q. 홀더 청소 이후에도 동일한 증상이 있나요?</fieldText>
+            <fieldType>RadioButtons</fieldType>
+            <isRequired>false</isRequired>
+        </fields>
+        <fields>
+            <name>Q3_2_T2</name>
+            <dataType>String</dataType>
+            <defaultValue>
+                <stringValue>불량 -      / 미사용 -   </stringValue>
+            </defaultValue>
+            <fieldText>Q. 소지하고 있는 히츠의 개피 수</fieldText>
+            <fieldType>InputField</fieldType>
+            <isRequired>false</isRequired>
+        </fields>
+        <fields>
+            <name>Q3_2_RB5</name>
+            <choiceReferences>Y</choiceReferences>
+            <choiceReferences>N</choiceReferences>
+            <dataType>String</dataType>
+            <fieldText>Q. 교환여부</fieldText>
+            <fieldType>RadioButtons</fieldType>
+            <isRequired>false</isRequired>
+        </fields>
+        <fields>
+            <name>Q3_2_T3</name>
+            <dataType>String</dataType>
+            <fieldText>Q. 주소지</fieldText>
+            <fieldType>InputField</fieldType>
+            <isRequired>false</isRequired>
+            <visibilityRule>
+                <conditionLogic>and</conditionLogic>
+                <conditions>
+                    <leftValueReference>Q3_2_RB5</leftValueReference>
+                    <operator>EqualTo</operator>
+                    <rightValue>
+                        <elementReference>Y</elementReference>
+                    </rightValue>
+                </conditions>
+            </visibilityRule>
+        </fields>
+        <showFooter>true</showFooter>
+        <showHeader>true</showHeader>
+    </screens>
+    <screens>
+        <name>Q1_D1_O4_1</name>
+        <label>벌레 Q2</label>
+        <locationX>842</locationX>
+        <locationY>638</locationY>
+        <allowBack>true</allowBack>
+        <allowFinish>true</allowFinish>
+        <allowPause>true</allowPause>
+        <connector>
+            <targetReference>Q1_D1_O4_2</targetReference>
+        </connector>
+        <fields>
+            <name>Q4_1_T1</name>
+            <dataType>String</dataType>
+            <fieldText>Q. 어떤 종류의 히츠에서 벌레가 발견되었나요?</fieldText>
+            <fieldType>InputField</fieldType>
+            <isRequired>false</isRequired>
+        </fields>
+        <fields>
+            <name>Q4_1_T2</name>
+            <defaultValue>
+                <stringValue>A. 크기 - / 색상 - / 벌레의 수 - / 구멍이 있는지, 있다면 몇 개 - / 몇 개의 팩, 스틱에서 발견되었는지 -
+</stringValue>
+            </defaultValue>
+            <fieldText>Q. 발생한 문제에 대해 자세히 말씀해 주시겠습니까?</fieldText>
+            <fieldType>LargeTextArea</fieldType>
+            <isRequired>false</isRequired>
+        </fields>
+        <fields>
+            <name>Q4_1_T3</name>
+            <dataType>String</dataType>
+            <fieldText>Q. 팩번호 취합</fieldText>
+            <fieldType>InputField</fieldType>
+            <isRequired>false</isRequired>
+        </fields>
+        <fields>
+            <name>Q4_1_PL1</name>
+            <choiceReferences>Q1_1_C7_0</choiceReferences>
+            <choiceReferences>Q1_1_C1_1</choiceReferences>
+            <choiceReferences>Q1_1_C1_2</choiceReferences>
+            <choiceReferences>Q1_1_C1_3</choiceReferences>
+            <choiceReferences>Q1_1_C1_4</choiceReferences>
+            <choiceReferences>Q1_1_C1_5</choiceReferences>
+            <dataType>String</dataType>
+            <defaultSelectedChoiceReference>Q1_1_C7_0</defaultSelectedChoiceReference>
+            <fieldText>Q. 사용하는 기기 버전?</fieldText>
+            <fieldType>DropdownBox</fieldType>
+            <isRequired>true</isRequired>
+        </fields>
+        <fields>
+            <name>Q4_1_T5</name>
+            <dataType>String</dataType>
+            <fieldText>Q. 사진을 촬영하여 보내주실 수 있을까요?</fieldText>
+            <fieldType>InputField</fieldType>
+            <isRequired>false</isRequired>
+        </fields>
+        <fields>
+            <name>Q4_1_T6</name>
+            <dataType>String</dataType>
+            <fieldText>Q. 해당 히츠 갑을 구매하신 시기는 언제쯤인가요?</fieldText>
+            <fieldType>InputField</fieldType>
+            <isRequired>false</isRequired>
+        </fields>
+        <fields>
+            <name>Q4_1_T7</name>
+            <dataType>String</dataType>
+            <fieldText>Q. 해당 히츠를 얼마에 구매하셨나요?</fieldText>
+            <fieldType>InputField</fieldType>
+            <isRequired>false</isRequired>
+        </fields>
+        <showFooter>true</showFooter>
+        <showHeader>true</showHeader>
+    </screens>
+    <screens>
+        <name>Q1_D1_O4_2</name>
+        <label>벌레 Q3</label>
+        <locationX>842</locationX>
+        <locationY>758</locationY>
+        <allowBack>true</allowBack>
+        <allowFinish>true</allowFinish>
+        <allowPause>true</allowPause>
+        <connector>
+            <targetReference>Q1_A4</targetReference>
+        </connector>
+        <fields>
+            <name>Q4_2_T1</name>
+            <dataType>String</dataType>
+            <fieldText>Q. 해당 히츠를 구매하신 곳은 어디인가요?</fieldText>
+            <fieldType>InputField</fieldType>
+            <isRequired>false</isRequired>
+        </fields>
+        <fields>
+            <name>Q4_2_T2</name>
+            <dataType>String</dataType>
+            <fieldText>Q. 해당 히츠를 언제 개봉하셨나요?</fieldText>
+            <fieldType>InputField</fieldType>
+            <isRequired>false</isRequired>
+        </fields>
+        <fields>
+            <name>Q4_2_T3</name>
+            <dataType>String</dataType>
+            <fieldText>Q. 해당 히츠를 보관하신 환경은 어떻게 되나요? (장소, 개봉여부)</fieldText>
+            <fieldType>InputField</fieldType>
+            <isRequired>false</isRequired>
+        </fields>
+        <fields>
+            <name>Q4_2_RB1</name>
+            <choiceReferences>Y</choiceReferences>
+            <choiceReferences>N</choiceReferences>
+            <dataType>String</dataType>
+            <fieldText>Q. 발견된 벌레가 살아있는 상태로 발견이 되었나요?</fieldText>
+            <fieldType>RadioButtons</fieldType>
+            <isRequired>false</isRequired>
+        </fields>
+        <fields>
+            <name>Q4_2_RB2</name>
+            <choiceReferences>Y</choiceReferences>
+            <choiceReferences>N</choiceReferences>
+            <dataType>String</dataType>
+            <fieldText>Q. 팩을 열어둔 상태로 장시간 방치가 되었었나요?</fieldText>
+            <fieldType>RadioButtons</fieldType>
+            <isRequired>false</isRequired>
+        </fields>
+        <fields>
+            <name>Q4_2_T4</name>
+            <dataType>String</dataType>
+            <defaultValue>
+                <stringValue>불량 -      / 미사용 -   </stringValue>
+            </defaultValue>
+            <fieldText>Q. 해당 갑에 남아있는 히츠의 개피 수는 어떻게 되나요?</fieldText>
+            <fieldType>InputField</fieldType>
+            <isRequired>false</isRequired>
+        </fields>
+        <fields>
+            <name>Q4_2_RB3</name>
+            <choiceReferences>Y</choiceReferences>
+            <choiceReferences>N</choiceReferences>
+            <dataType>String</dataType>
+            <fieldText>Q. 교환여부</fieldText>
+            <fieldType>RadioButtons</fieldType>
+            <isRequired>false</isRequired>
+        </fields>
+        <fields>
+            <name>Q4_2_T5</name>
+            <dataType>String</dataType>
+            <fieldText>Q. 주소지</fieldText>
+            <fieldType>InputField</fieldType>
+            <isRequired>false</isRequired>
+            <visibilityRule>
+                <conditionLogic>and</conditionLogic>
+                <conditions>
+                    <leftValueReference>Q4_2_RB3</leftValueReference>
+                    <operator>EqualTo</operator>
+                    <rightValue>
+                        <elementReference>Y</elementReference>
+                    </rightValue>
+                </conditions>
+            </visibilityRule>
+        </fields>
+        <showFooter>true</showFooter>
+        <showHeader>true</showHeader>
+    </screens>
+    <screens>
+        <name>Q1_D1_O5_1</name>
+        <label>곰팡이 Q2</label>
+        <locationX>1106</locationX>
+        <locationY>638</locationY>
+        <allowBack>true</allowBack>
+        <allowFinish>true</allowFinish>
+        <allowPause>true</allowPause>
+        <connector>
+            <targetReference>Q1_D1_O5_2</targetReference>
+        </connector>
+        <fields>
+            <name>Q5_1_T1</name>
+            <dataType>String</dataType>
+            <fieldText>Q. 어떤 종류의 히츠에서 곰팡이가 발견되었나요?</fieldText>
+            <fieldType>InputField</fieldType>
+            <isRequired>false</isRequired>
+        </fields>
+        <fields>
+            <name>Q5_1_T2</name>
+            <fieldText>Q. 발생한 문제에 대해 자세히 말씀해 주시겠습니까?</fieldText>
+            <fieldType>LargeTextArea</fieldType>
+            <isRequired>false</isRequired>
+        </fields>
+        <fields>
+            <name>Q5_1_T3</name>
+            <dataType>String</dataType>
+            <fieldText>Q. 곰팡이가 발견된 히츠갑 안의 다른 히츠를 사용하셨나요?</fieldText>
+            <fieldType>InputField</fieldType>
+            <isRequired>false</isRequired>
+        </fields>
+        <fields>
+            <name>Q5_1_T4</name>
+            <dataType>String</dataType>
+            <fieldText>Q. 해당 히츠 갑을 구매하신 시기는 언제쯤인가요?</fieldText>
+            <fieldType>InputField</fieldType>
+            <isRequired>false</isRequired>
+        </fields>
+        <fields>
+            <name>Q5_1_T5</name>
+            <dataType>String</dataType>
+            <fieldText>Q. 해당 히츠를 얼마에 구매하셨나요?</fieldText>
+            <fieldType>InputField</fieldType>
+            <isRequired>false</isRequired>
+        </fields>
+        <fields>
+            <name>Q5_1_T6</name>
+            <dataType>String</dataType>
+            <fieldText>Q. 해당 히츠를 구매하신 곳은 어디인가요?</fieldText>
+            <fieldType>InputField</fieldType>
+            <isRequired>false</isRequired>
+        </fields>
+        <showFooter>true</showFooter>
+        <showHeader>true</showHeader>
+    </screens>
+    <screens>
+        <name>Q1_D1_O5_2</name>
+        <label>곰팡이 Q3</label>
+        <locationX>1106</locationX>
+        <locationY>758</locationY>
+        <allowBack>true</allowBack>
+        <allowFinish>true</allowFinish>
+        <allowPause>true</allowPause>
+        <connector>
+            <targetReference>Q1_A5</targetReference>
+        </connector>
+        <fields>
+            <name>Q5_2_T1</name>
+            <dataType>String</dataType>
+            <fieldText>Q. 해당 히츠를 언제 개봉하셨나요?</fieldText>
+            <fieldType>InputField</fieldType>
+            <isRequired>false</isRequired>
+        </fields>
+        <fields>
+            <name>Q5_2_T2</name>
+            <dataType>String</dataType>
+            <fieldText>Q. 해당 히츠를 보관하신 환경은 어떻게 되나요? (장소, 개봉여부)</fieldText>
+            <fieldType>InputField</fieldType>
+            <isRequired>false</isRequired>
+        </fields>
+        <fields>
+            <name>Q5_2_T3</name>
+            <dataType>String</dataType>
+            <fieldText>Q. 사진을 촬영하여 보내주실 수 있을까요?</fieldText>
+            <fieldType>InputField</fieldType>
+            <isRequired>false</isRequired>
+        </fields>
+        <fields>
+            <name>Q5_2_T4</name>
+            <dataType>String</dataType>
+            <defaultValue>
+                <stringValue>불량 -      / 미사용 -   </stringValue>
+            </defaultValue>
+            <fieldText>Q. 해당 갑에 남아있는 히츠의 개피 수는 어떻게 되나요?</fieldText>
+            <fieldType>InputField</fieldType>
+            <isRequired>false</isRequired>
+        </fields>
+        <fields>
+            <name>Q5_2_RB1</name>
+            <choiceReferences>Y</choiceReferences>
+            <choiceReferences>N</choiceReferences>
+            <dataType>String</dataType>
+            <fieldText>Q. 교환여부</fieldText>
+            <fieldType>RadioButtons</fieldType>
+            <isRequired>false</isRequired>
+        </fields>
+        <fields>
+            <name>Q5_2_T5</name>
+            <dataType>String</dataType>
+            <fieldText>Q. 주소지</fieldText>
+            <fieldType>InputField</fieldType>
+            <isRequired>false</isRequired>
+            <visibilityRule>
+                <conditionLogic>and</conditionLogic>
+                <conditions>
+                    <leftValueReference>Q5_2_RB1</leftValueReference>
+                    <operator>EqualTo</operator>
+                    <rightValue>
+                        <elementReference>Y</elementReference>
+                    </rightValue>
+                </conditions>
+            </visibilityRule>
+        </fields>
+        <showFooter>true</showFooter>
+        <showHeader>true</showHeader>
+    </screens>
+    <start>
+        <locationX>584</locationX>
+        <locationY>0</locationY>
+        <connector>
+            <targetReference>Get_Case</targetReference>
+        </connector>
+    </start>
+    <status>Active</status>
+    <variables>
+        <name>InquiryResult</name>
+        <dataType>String</dataType>
+        <isCollection>false</isCollection>
+        <isInput>false</isInput>
+        <isOutput>false</isOutput>
+    </variables>
+    <variables>
+        <name>recordId</name>
+        <dataType>String</dataType>
+        <isCollection>false</isCollection>
+        <isInput>true</isInput>
+        <isOutput>false</isOutput>
+    </variables>
+</Flow>

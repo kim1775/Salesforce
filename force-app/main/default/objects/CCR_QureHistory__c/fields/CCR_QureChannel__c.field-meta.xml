@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>CCR_QureChannel__c</fullName>
+    <description>Used by: CCR. 
+Description: It&apos;s to store information using which channel Qure process has been performed (ecommerce, service center, call center).</description>
+    <externalId>false</externalId>
+    <label>Qure Channel</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>E-Commerce</fullName>
+                <default>false</default>
+                <label>E-Commerce</label>
+            </value>
+            <value>
+                <fullName>Service Center</fullName>
+                <default>false</default>
+                <label>Service Center</label>
+            </value>
+            <value>
+                <fullName>Call Center</fullName>
+                <default>false</default>
+                <label>Call Center</label>
+            </value>
+            <value>
+                <fullName>Flagship Store</fullName>
+                <default>false</default>
+                <label>Flagship Store</label>
+            </value>
+            <value>
+                <fullName>Retailer</fullName>
+                <default>false</default>
+                <label>Retailer</label>
+            </value>
+            <value>
+                <fullName>Retailer Light</fullName>
+                <default>false</default>
+                <label>Retailer Light</label>
+            </value>
+            <value>
+                <fullName>Shift</fullName>
+                <default>false</default>
+                <label>Shift</label>
+            </value>
+            <value>
+                <fullName>Shift Light</fullName>
+                <default>false</default>
+                <label>Shift Light</label>
+            </value>
+            <value>
+                <fullName>Mobile App</fullName>
+                <default>false</default>
+                <label>Mobile App</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

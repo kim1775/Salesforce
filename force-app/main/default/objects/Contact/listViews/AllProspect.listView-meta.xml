@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>AllProspect</fullName>
+    <columns>FULL_NAME</columns>
+    <columns>CONTACT.PHONE1</columns>
+    <columns>CONTACT.EMAIL</columns>
+    <columns>KDCE_fm_ConsumerType__c</columns>
+    <columns>KDCE_LASLAU__c</columns>
+    <columns>KDCE_ExternalId__c</columns>
+    <columns>KDCE_RegistrationChannel__c</columns>
+    <columns>KDCE_RegistrationDate__c</columns>
+    <columns>CONTACT.CREATED_DATE</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>CONTACT.RECORDTYPE</field>
+        <operation>equals</operation>
+        <value>Contact.Contact_Prospect</value>
+    </filters>
+    <label>All Prospect</label>
+</ListView>

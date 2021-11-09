@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>IsSend__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>[KDCE] Coupon 발송 여부</description>
+    <externalId>false</externalId>
+    <label>SMS Send YN</label>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Button_Type__c</fullName>
+    <description>버튼 타입 
+배송조회 : DS, 봇키워드 : BK, 메시지 전달 : MD, 웹링크 : WL, 앱링크 : AL</description>
+    <externalId>false</externalId>
+    <inlineHelpText>배송조회 : DS, BK : 봇키워드, MD : 메시지 전달 : MD, 웹링크 : WL, 앱링크 : AL</inlineHelpText>
+    <label>Button Type</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>DS</fullName>
+                <default>false</default>
+                <label>배송조회</label>
+            </value>
+            <value>
+                <fullName>BK</fullName>
+                <default>false</default>
+                <label>봇키워드</label>
+            </value>
+            <value>
+                <fullName>MD</fullName>
+                <default>false</default>
+                <label>메시지 전달</label>
+            </value>
+            <value>
+                <fullName>WL</fullName>
+                <default>false</default>
+                <label>웹링크</label>
+            </value>
+            <value>
+                <fullName>AL</fullName>
+                <default>false</default>
+                <label>앱링크</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

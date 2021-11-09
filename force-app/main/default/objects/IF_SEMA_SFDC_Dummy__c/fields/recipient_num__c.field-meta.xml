@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>recipient_num__c</fullName>
+    <description>recipient_num 수신자 번호</description>
+    <externalId>false</externalId>
+    <label>recipient_num</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Phone</type>
+</CustomField>

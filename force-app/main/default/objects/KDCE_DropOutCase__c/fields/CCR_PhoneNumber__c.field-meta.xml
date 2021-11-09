@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>CCR_PhoneNumber__c</fullName>
+    <description>CCR uses for Phone number of the Contact reported in Adverse Event</description>
+    <externalId>false</externalId>
+    <label>Phone Number</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Phone</type>
+</CustomField>

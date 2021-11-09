@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>CCR_SubMarket__c</fullName>
+    <description>Submarket (e.g. dufry, testmarket, free zone,…)</description>
+    <externalId>false</externalId>
+    <label>Sub Market</label>
+    <length>3</length>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

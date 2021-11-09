@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>CCR_Programstage__c</fullName>
+    <description>Picklist field which is using the global picklist program stage to update the value from case</description>
+    <externalId>false</externalId>
+    <label>Program stage</label>
+    <required>false</required>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetName>CCR_Programstage</valueSetName>
+    </valueSet>
+</CustomField>

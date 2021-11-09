@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>KDCE_OB_RejectReason__c</fullName>
+    <externalId>false</externalId>
+    <label>OB Reject Reason</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <controllingField>CCR_SubType__c</controllingField>
+        <restricted>true</restricted>
+        <valueSetName>KDCE_OB_RejectReason</valueSetName>
+        <valueSettings>
+            <controllingFieldValue>Up / Cross Sell &amp; Trade In</controllingFieldValue>
+            <controllingFieldValue>Remote Coach</controllingFieldValue>
+            <controllingFieldValue>Lead Generation</controllingFieldValue>
+            <controllingFieldValue>Rental +1</controllingFieldValue>
+            <controllingFieldValue>M1</controllingFieldValue>
+            <controllingFieldValue>M11</controllingFieldValue>
+            <controllingFieldValue>E-commerce</controllingFieldValue>
+            <controllingFieldValue>E-commerce_FD</controllingFieldValue>
+            <controllingFieldValue>Conversion</controllingFieldValue>
+            <controllingFieldValue>기타</controllingFieldValue>
+            <valueName>단순거부</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Up / Cross Sell &amp; Trade In</controllingFieldValue>
+            <controllingFieldValue>Remote Coach</controllingFieldValue>
+            <controllingFieldValue>Lead Generation</controllingFieldValue>
+            <controllingFieldValue>M1</controllingFieldValue>
+            <controllingFieldValue>M11</controllingFieldValue>
+            <controllingFieldValue>E-commerce</controllingFieldValue>
+            <controllingFieldValue>E-commerce_FD</controllingFieldValue>
+            <controllingFieldValue>기타</controllingFieldValue>
+            <valueName>단선</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Up / Cross Sell &amp; Trade In</controllingFieldValue>
+            <controllingFieldValue>Remote Coach</controllingFieldValue>
+            <controllingFieldValue>M1</controllingFieldValue>
+            <controllingFieldValue>M11</controllingFieldValue>
+            <controllingFieldValue>E-commerce</controllingFieldValue>
+            <controllingFieldValue>E-commerce_FD</controllingFieldValue>
+            <controllingFieldValue>Conversion</controllingFieldValue>
+            <controllingFieldValue>기타</controllingFieldValue>
+            <valueName>안내거부</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Up / Cross Sell &amp; Trade In</controllingFieldValue>
+            <controllingFieldValue>Remote Coach</controllingFieldValue>
+            <controllingFieldValue>M1</controllingFieldValue>
+            <controllingFieldValue>M11</controllingFieldValue>
+            <controllingFieldValue>E-commerce</controllingFieldValue>
+            <controllingFieldValue>E-commerce_FD</controllingFieldValue>
+            <controllingFieldValue>기타</controllingFieldValue>
+            <valueName>미사용</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Up / Cross Sell &amp; Trade In</controllingFieldValue>
+            <controllingFieldValue>Remote Coach</controllingFieldValue>
+            <controllingFieldValue>M1</controllingFieldValue>
+            <controllingFieldValue>M11</controllingFieldValue>
+            <controllingFieldValue>E-commerce</controllingFieldValue>
+            <controllingFieldValue>E-commerce_FD</controllingFieldValue>
+            <controllingFieldValue>기타</controllingFieldValue>
+            <valueName>기타</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Lead Generation</controllingFieldValue>
+            <controllingFieldValue>Rental +1</controllingFieldValue>
+            <valueName>기기구매</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Lead Generation</controllingFieldValue>
+            <valueName>오신청</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Lead Generation</controllingFieldValue>
+            <valueName>대여신청</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Lead Generation</controllingFieldValue>
+            <valueName>아이코스 사용중</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Lead Generation</controllingFieldValue>
+            <controllingFieldValue>Rental +1</controllingFieldValue>
+            <valueName>기기구매예정</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Lead Generation</controllingFieldValue>
+            <controllingFieldValue>Rental +1</controllingFieldValue>
+            <valueName>타사제품구매</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Rental +1</controllingFieldValue>
+            <valueName>기기불량</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Rental +13</controllingFieldValue>
+            <valueName>색상 변경</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Rental +13</controllingFieldValue>
+            <valueName>모델 변경</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Rental +13</controllingFieldValue>
+            <valueName>새상품을 갖고 싶어서</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Rental +13</controllingFieldValue>
+            <valueName>중고가격이 그다지 저렴하지 않아서</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Rental +13</controllingFieldValue>
+            <valueName>다른채널 구매</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Rental +13</controllingFieldValue>
+            <valueName>기기 불만족</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Rental +13</controllingFieldValue>
+            <valueName>히츠 불만족</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Rental +13</controllingFieldValue>
+            <valueName>이미 회수됨</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Conversion</controllingFieldValue>
+            <valueName>미사용(사유필수)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Conversion</controllingFieldValue>
+            <valueName>선종료</valueName>
+        </valueSettings>
+    </valueSet>
+</CustomField>

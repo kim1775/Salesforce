@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RecordType xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>CCR_ConsumerCareTask</fullName>
+    <active>true</active>
+    <compactLayoutAssignment>Task_Compact</compactLayoutAssignment>
+    <description>Tasks assigned to the Call Center Agent or the interactions with the consumer</description>
+    <label>Consumer Care Task</label>
+    <picklistValues>
+        <picklist>Gifticon__c</picklist>
+        <values>
+            <fullName>CU 모바일 상품권</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>GS 칼텍스 주유상품권</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>GS25 모바일 상품권</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>도서문화상품권</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>베스킨라빈스 교환권</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>스타벅스 교환권</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>신세계 상품권</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>올리브영</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>파리바게트</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Priority</picklist>
+        <values>
+            <fullName>High</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Normal</fullName>
+            <default>true</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Status</picklist>
+        <values>
+            <fullName>Completed</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Open</fullName>
+            <default>true</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Subject</picklist>
+        <values>
+            <fullName>Call</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>고객활동</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>보상판매</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Type</picklist>
+        <values>
+            <fullName>Call</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Meeting</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Other</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+</RecordType>

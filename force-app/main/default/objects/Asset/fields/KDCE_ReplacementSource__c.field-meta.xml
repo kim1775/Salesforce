@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>KDCE_ReplacementSource__c</fullName>
+    <description>[KDCE] Replacement Source</description>
+    <externalId>false</externalId>
+    <label>Replacement Source</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>QURE</fullName>
+                <default>false</default>
+                <label>QURE</label>
+            </value>
+            <value>
+                <fullName>KIT TO KIT</fullName>
+                <default>false</default>
+                <label>KIT TO KIT</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

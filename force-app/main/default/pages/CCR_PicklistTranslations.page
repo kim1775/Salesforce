@@ -1,0 +1,6 @@
+<!--
+ - Created by I2MAX on 2021-04-28.
+ -->
+<apex:page id="CCR_PicklistTranslations" language="en" applyHtmlTag="false" applyBodyTag="false" showHeader="false" controller="CCR_PicklistTranslationController">
+    {!picklistValue}
+</apex:page>

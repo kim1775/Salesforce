@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>KDCE_InvalidPurchaseDate</fullName>
+    <active>true</active>
+    <description>Purchase Date 입력시, Purchase Date는 오늘보다 작거나 같아야 한다.</description>
+    <errorConditionFormula>if (AND(ISCHANGED(PurchaseDate__c),
+!ISBLANK(PurchaseDate__c),PurchaseDate__c &gt; TODAY()), TRUE, FALSE)</errorConditionFormula>
+    <errorDisplayField>PurchaseDate__c</errorDisplayField>
+    <errorMessage>기기 구매일자는 오늘보다 이전이거나 같아야 합니다.</errorMessage>
+</ValidationRule>

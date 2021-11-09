@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>ContactInformationOptIn__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>Contact Information Opt-In</description>
+    <externalId>false</externalId>
+    <inlineHelpText>고객의 정보성 수신 동의</inlineHelpText>
+    <label>Contact Information Opt-In</label>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

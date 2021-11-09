@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>IsAvailable__c</fullName>
+    <externalId>false</externalId>
+    <formula>OR(
+	AND(RecordType.DeveloperName = &apos;Coupon_Paper&apos;, 
+		NOT(ISPICKVAL(Status__c, &apos;Use&apos;))
+	),
+	AND(RecordType.DeveloperName = &apos;Coupon_Tradein&apos;, 
+		NOT(ISPICKVAL(Status__c, &apos;Use&apos;))
+	),
+	AND(RecordType.DeveloperName = &apos;Coupon_MGM&apos;, 
+		NOT(ISPICKVAL(Status__c, &apos;Produce&apos;)), 
+		ru_UseCount__c &lt; 10
+	),
+	AND(ISPICKVAL(Status__c, &apos;Issue&apos;),
+		fm_UseCount__c = 0
+	), 
+	AND(RecordType.DeveloperName = &apos;Coupon_Accessory&apos;, 
+		fm_UseCount__c = 0
+	),
+	AND(RecordType.DeveloperName = &apos;Coupon_Hotel&apos;, 
+		fm_UseCount__c &lt; 2
+	)
+)</formula>
+    <label>Available YN</label>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>
